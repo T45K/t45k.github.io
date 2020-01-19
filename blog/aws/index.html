@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="Tasuku&#39;s website hosted by github.io">
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="AWSのインターンに参加した話"/>
+<meta name="twitter:description" content="8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．
+AWSとは AWSとは，Amazon Web Serviceの略です． AWSはAmazonのクラウド事業を担当している会社です． Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのクラウドを利用しています（クラウド事業ではシェア1位です）． 今，世界で最も勢いのあるIT会社の一つだと言えます．
+選考フロー HP上には技術試験 &#43; 面接と書いてあったのですが，なぜか面接が行われませんでした． 技術試験では実際にEC2インスタンスが与えられ，そこの上でAPIサーバを立てるという内容でした． 今までサーバ開発をしたことがなかったので，簡単にサーバが書けると噂のPHPを急いで勉強して何とか提出にこぎつけました． 問題的には明らかにDBを使わせようとしていましたが，そこまで手が回らなかったのでjsonファイルを読み書きするという手段をとりました． 結果的に通ったので良かったです．
+インターン 実際に存在するサービスを模倣してアーキテクチャを設計するという題目で，5日間グループワークを行いました． 仕事内容的には魅力的だったのですが，いかんせん僕にネットワークの知識がなさすぎて2日目くらいから早くも着いていけなくなりました． 東京まで来て何してるんだろうって結構辛い気持ちになりました． ただしっかり勉強した上で望めば本当に楽しいのだろうなと感じました．
+追記 このインターンは採用直結型だったので，インターン後そのまま本選考に応募しました． 技術試験，技術面接，最終面接を経て，12/24に無事不採用となりました．"/>
+
+    <meta property="og:title" content="AWSのインターンに参加した話" />
+<meta property="og:description" content="8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．
+AWSとは AWSとは，Amazon Web Serviceの略です． AWSはAmazonのクラウド事業を担当している会社です． Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのクラウドを利用しています（クラウド事業ではシェア1位です）． 今，世界で最も勢いのあるIT会社の一つだと言えます．
+選考フロー HP上には技術試験 &#43; 面接と書いてあったのですが，なぜか面接が行われませんでした． 技術試験では実際にEC2インスタンスが与えられ，そこの上でAPIサーバを立てるという内容でした． 今までサーバ開発をしたことがなかったので，簡単にサーバが書けると噂のPHPを急いで勉強して何とか提出にこぎつけました． 問題的には明らかにDBを使わせようとしていましたが，そこまで手が回らなかったのでjsonファイルを読み書きするという手段をとりました． 結果的に通ったので良かったです．
+インターン 実際に存在するサービスを模倣してアーキテクチャを設計するという題目で，5日間グループワークを行いました． 仕事内容的には魅力的だったのですが，いかんせん僕にネットワークの知識がなさすぎて2日目くらいから早くも着いていけなくなりました． 東京まで来て何してるんだろうって結構辛い気持ちになりました． ただしっかり勉強した上で望めば本当に楽しいのだろうなと感じました．
+追記 このインターンは採用直結型だったので，インターン後そのまま本選考に応募しました． 技術試験，技術面接，最終面接を経て，12/24に無事不採用となりました．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.example.com/blog/aws/" />
+<meta property="article:published_time" content="2019-08-20T18:07:41+09:00" />
+<meta property="article:modified_time" content="2019-08-20T18:07:41+09:00" />
+
+
+    
+      <base href="http://www.example.com/blog/aws/">
+    
+    <title>
+  AWSのインターンに参加した話 · T45K
+</title>
+
+    
+      <link rel="canonical" href="http://www.example.com/blog/aws/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="http://www.example.com/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="http://www.example.com/css/custom.css" />
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://www.example.com/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://www.example.com/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.62.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://www.example.com/">
+      T45K
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.example.com/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.example.com/blog/">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.example.com/kyopuro/">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>AWSのインターンに参加した話</h1>
+    </header>
+
+    <p>8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．</p>
+<h2 id="aws">AWSとは</h2>
+<p>AWSとは，Amazon Web Serviceの略です．
+AWSはAmazonのクラウド事業を担当している会社です．
+Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのクラウドを利用しています（クラウド事業ではシェア1位です）．
+今，世界で最も勢いのあるIT会社の一つだと言えます．</p>
+<h2 id="heading">選考フロー</h2>
+<p>HP上には技術試験 + 面接と書いてあったのですが，なぜか面接が行われませんでした．
+技術試験では実際にEC2インスタンスが与えられ，そこの上でAPIサーバを立てるという内容でした．
+今までサーバ開発をしたことがなかったので，簡単にサーバが書けると噂のPHPを急いで勉強して何とか提出にこぎつけました．
+問題的には明らかにDBを使わせようとしていましたが，そこまで手が回らなかったのでjsonファイルを読み書きするという手段をとりました．
+結果的に通ったので良かったです．</p>
+<h2 id="heading-1">インターン</h2>
+<p>実際に存在するサービスを模倣してアーキテクチャを設計するという題目で，5日間グループワークを行いました．
+仕事内容的には魅力的だったのですが，いかんせん僕にネットワークの知識がなさすぎて2日目くらいから早くも着いていけなくなりました．
+東京まで来て何してるんだろうって結構辛い気持ちになりました．
+ただしっかり勉強した上で望めば本当に楽しいのだろうなと感じました．</p>
+<h2 id="heading-2">追記</h2>
+<p>このインターンは採用直結型だったので，インターン後そのまま本選考に応募しました．
+技術試験，技術面接，最終面接を経て，12/24に無事不採用となりました．</p>
+
+  </article>
+</section>
+
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>圧倒的多幸感</p>
+    
+    
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

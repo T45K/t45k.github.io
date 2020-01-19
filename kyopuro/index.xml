@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kyopuros on T45K</title>
+    <link>http://www.example.com/kyopuro/</link>
+    <description>Recent content in Kyopuros on T45K</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 20 Jan 2020 00:27:48 +0900</lastBuildDate>
+    
+	<atom:link href="http://www.example.com/kyopuro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ABC152の解説</title>
+      <link>http://www.example.com/kyopuro/abc152/</link>
+      <pubDate>Mon, 20 Jan 2020 00:27:48 +0900</pubDate>
+      
+      <guid>http://www.example.com/kyopuro/abc152/</guid>
+      <description>A~E問題まで．
+A問題 if文で分岐するだけ
+B問題 辞書順なので，どれだけ長くても答えは必ず2数の小さい方の値で構成される． 2数の大きい方の値の回数だけ，小さい方の値を出力する．
+C問題 数字を順番に見て行った時に，今見ている数字が今まで見てきた中で最小の値以下であればカウントして，最小の値を更新．
+D問題 与えられた数の範囲内で，数字の先頭と末尾だけを見た際に同じ数を数え上げていく． 例えば334は34，398は38という感じ． あとは組み合わせの数同士(例えば34なら43と，38なら83と)を掛け合わせるだけ．
+E問題 modの逆元を知らないと厳しい問題．参考
+この手の問題はユークリッドの互除法でGCDを求めてからLCMを求めるパターンがよくあるが，今回はオーバーフローの可能性があるため，素因数分解してからmod付きLCMを求める． LCMがmod計算してあるので，単純に各値で割るのではなく，modの逆元を計算した上で各値をLCMにかける必要がある．
+ソースコード
+https://github.com/T45K/kyopuro/tree/master/ABC152</description>
+    </item>
+    
+  </channel>
+</rss>
