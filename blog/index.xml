@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on T45K</title>
-    <link>http://www.example.com/blog/</link>
+    <link>http://t45k.github.io/blog/</link>
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 05 Dec 2019 20:19:32 +0900</lastBuildDate>
     
-	<atom:link href="http://www.example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>APSEC2019に参加した話</title>
-      <link>http://www.example.com/blog/apsec/</link>
+      <link>http://t45k.github.io/blog/apsec/</link>
       <pubDate>Thu, 05 Dec 2019 20:19:32 +0900</pubDate>
       
-      <guid>http://www.example.com/blog/apsec/</guid>
+      <guid>http://t45k.github.io/blog/apsec/</guid>
       <description>マレーシアで開催された12/3~5に開催されたAPSECに参加してきました．
 APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要するにソフトウェア工学の国際会議です． 会議ランクについては詳しくは知らないのですがそこまで高くないと思います． 投稿前に先生が，「APSECは塩漬けのネタを投稿するのにちょうど良い」と語っていたのが印象的でした．
 マレーシアとは こんな国です．
@@ -32,10 +32,10 @@ APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要す�
     
     <item>
       <title>LINE DEVELOPER DAY2019に参加した話</title>
-      <link>http://www.example.com/blog/devday/</link>
+      <link>http://t45k.github.io/blog/devday/</link>
       <pubDate>Thu, 21 Nov 2019 20:16:05 +0900</pubDate>
       
-      <guid>http://www.example.com/blog/devday/</guid>
+      <guid>http://t45k.github.io/blog/devday/</guid>
       <description>11/20，21に開催されたLINE DEV DAYに参加してきました．
   DEV DAYとは LINEが開催している社内の技術などを公開するエンジニア向けのイベントです． 今年は二日に分けて開催し，エンジニアだけでなくデザインやプロダクト的な話も盛り込んだそうです．
 参加したきっかけ LINEのインターンに参加した時のメンターさんがLINE SDKのリードテックになられたらしく，DEV DAYでの登壇の際にインターン中に作ったプロダクトを紹介するかもみたいな話を小耳に挟んだのがきっかけです． また，LINEは学生向けに金銭的援助を行っており，インターン生は（交通費として）無条件で3万円もらえるというのも結構魅力的でした．
@@ -45,10 +45,10 @@ APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要す�
     
     <item>
       <title>インターン総括</title>
-      <link>http://www.example.com/blog/intern/</link>
+      <link>http://t45k.github.io/blog/intern/</link>
       <pubDate>Sat, 14 Sep 2019 18:26:04 +0900</pubDate>
       
-      <guid>http://www.example.com/blog/intern/</guid>
+      <guid>http://t45k.github.io/blog/intern/</guid>
       <description>2019年，M1の夏休みに行ってきたインターンの所感を書きます．
 参加したインターン  AWS LINE KYOTO 楽天  参加しなかったインターン  NTT DATA  参加できなかったインターン  NSSOL cookpad  インターン全体の所感   意識高い学生が多い
  学部の時は普段からゴリゴリ開発してるような友人はあまりいなかったため，意識の高い学生がこんなにもいることに驚きました 彼らと就活で戦うことを考えるとすでに辛い    結構B3，B4で参加してる人も多い
@@ -59,10 +59,10 @@ APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要す�
     
     <item>
       <title>楽天のインターンに参加した話</title>
-      <link>http://www.example.com/blog/rakuten/</link>
+      <link>http://t45k.github.io/blog/rakuten/</link>
       <pubDate>Fri, 13 Sep 2019 18:21:32 +0900</pubDate>
       
-      <guid>http://www.example.com/blog/rakuten/</guid>
+      <guid>http://t45k.github.io/blog/rakuten/</guid>
       <description>9/9~13の間，大阪で開催された楽天様のインターンに参加してきました． 写真はインターン中に頂いた無料朝食です．
 楽天とは 説明不要だと思います． 日本発のメガベンチャーで，ECの楽天市場などが有名です． 会社としては，外国人を積極的に採用しており，社内公用語が英語であることが特徴です．
 選考フロー 選考は面接だけでした． 面接の内容もそこまで突っ込んだ話はしなかったです． 面接官の社員さんと趣味が合い，ずっとバイクの話をしていました．
@@ -74,10 +74,10 @@ APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要す�
     
     <item>
       <title>LINE KYOTOのインターンに参加した話</title>
-      <link>http://www.example.com/blog/line/</link>
+      <link>http://t45k.github.io/blog/line/</link>
       <pubDate>Fri, 30 Aug 2019 18:13:39 +0900</pubDate>
       
-      <guid>http://www.example.com/blog/line/</guid>
+      <guid>http://t45k.github.io/blog/line/</guid>
       <description>8/26~30の間，京都で開催されたLINE KYOTOのインターンに参加してきました．
 LINE KYOTOとは LINEが何なのかは説明不要だと思うので割愛します． LINE KYOTOは開発部しか持っていない，純粋な開発拠点であることが特徴の一つです． また，京都という土地柄，外国人が多く所属しているのも特徴です（社員さんの半分以上が外国籍の方でした）．
 選考フロー 選考は技術試験と面接です． 技術試験はいわゆるプロコンみたいな問題で，普段から勉強しておくと多少有利かもしれません． 面接は，今まで自分がやってきたことを5枚程度のスライドにまとめて，その内容も踏まえて面接を行うというものでした． 僕はこれまで大規模な開発などを経験したことがなかったので，これまでやってきた研究について話しました． 結構倍率は高いようでしたが何とか通りました．
@@ -89,10 +89,10 @@ LINE KYOTOとは LINEが何なのかは説明不要だと思うので割愛し�
     
     <item>
       <title>AWSのインターンに参加した話</title>
-      <link>http://www.example.com/blog/aws/</link>
+      <link>http://t45k.github.io/blog/aws/</link>
       <pubDate>Tue, 20 Aug 2019 18:07:41 +0900</pubDate>
       
-      <guid>http://www.example.com/blog/aws/</guid>
+      <guid>http://t45k.github.io/blog/aws/</guid>
       <description>8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．
 AWSとは AWSとは，Amazon Web Serviceの略です． AWSはAmazonのクラウド事業を担当している会社です． Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのクラウドを利用しています（クラウド事業ではシェア1位です）． 今，世界で最も勢いのあるIT会社の一つだと言えます．
 選考フロー HP上には技術試験 + 面接と書いてあったのですが，なぜか面接が行われませんでした． 技術試験では実際にEC2インスタンスが与えられ，そこの上でAPIサーバを立てるという内容でした． 今までサーバ開発をしたことがなかったので，簡単にサーバが書けると噂のPHPを急いで勉強して何とか提出にこぎつけました． 問題的には明らかにDBを使わせようとしていましたが，そこまで手が回らなかったのでjsonファイルを読み書きするという手段をとりました． 結果的に通ったので良かったです．
@@ -102,10 +102,10 @@ AWSとは AWSとは，Amazon Web Serviceの略です． AWSはAmazonのクラウ
     
     <item>
       <title>cookpadのインターンに参加できなかった話</title>
-      <link>http://www.example.com/blog/cookpad/</link>
+      <link>http://t45k.github.io/blog/cookpad/</link>
       <pubDate>Thu, 01 Aug 2019 18:32:27 +0900</pubDate>
       
-      <guid>http://www.example.com/blog/cookpad/</guid>
+      <guid>http://t45k.github.io/blog/cookpad/</guid>
       <description>cookpadのインターンに参加できませんでした．
 cookpadとは 料理のレシピを提供するサービスで有名な会社です． あまり知られていないのですが（僕が知らなかっただけかもしれませんが），ITに力を入れており，技術力があるエンジニアが多く所属しています．
 選考フロー 技術試験 + 面接です．
@@ -116,10 +116,10 @@ cookpadとは 料理のレシピを提供するサービスで有名な会社で
     
     <item>
       <title>NSSOLのインターンに参加できなかった話</title>
-      <link>http://www.example.com/blog/nssol/</link>
+      <link>http://t45k.github.io/blog/nssol/</link>
       <pubDate>Thu, 01 Aug 2019 18:32:21 +0900</pubDate>
       
-      <guid>http://www.example.com/blog/nssol/</guid>
+      <guid>http://t45k.github.io/blog/nssol/</guid>
       <description>NSSOL様のインターンに参加できませんでした．
 NSSOLに行った研究室の先輩方は多く，結構興味を持っていました． 東京までの旅費や宿泊費を出してくれる上に，毎日飲み会があると聞いていたので参加できることを楽しみにしていました．
 NSSOLとは 日本製鐵のシステム部門が独立してできた会社です． 母体が大きな会社であり，NSSOLも国内のSIerの中ではそれなりに大きく有名な会社です．
@@ -129,10 +129,10 @@ SPIはテストセンターまで受けに行かなければならず面倒で�
     
     <item>
       <title>NTT DATAのインターンに参加しなかった話</title>
-      <link>http://www.example.com/blog/ntt/</link>
+      <link>http://t45k.github.io/blog/ntt/</link>
       <pubDate>Thu, 01 Aug 2019 18:32:15 +0900</pubDate>
       
-      <guid>http://www.example.com/blog/ntt/</guid>
+      <guid>http://t45k.github.io/blog/ntt/</guid>
       <description>NTT DATAのインターンに参加しませんでした．
 NTT DATAとは 国内情報系最大手のNTTのSI部門会社です． やはり最大手らしく，日本全国から有能な人材が集まることで有名です．
 選考フロー ES + SPI + 動画提出でした．
