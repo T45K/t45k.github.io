@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kyopuros on T45K</title>
-    <link>http://t45k.github.io/kyopuro/</link>
+    <link>https://t45k.github.io/kyopuro/</link>
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 20 Jan 2020 00:27:48 +0900</lastBuildDate>
     
-	<atom:link href="http://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ABC152の解説</title>
-      <link>http://t45k.github.io/kyopuro/abc152/</link>
+      <link>https://t45k.github.io/kyopuro/abc152/</link>
       <pubDate>Mon, 20 Jan 2020 00:27:48 +0900</pubDate>
       
-      <guid>http://t45k.github.io/kyopuro/abc152/</guid>
+      <guid>https://t45k.github.io/kyopuro/abc152/</guid>
       <description>A~E問題まで．
 A問題 if文で分岐するだけ
 B問題 辞書順なので，どれだけ長くても答えは必ず2数の小さい方の値で構成される． 2数の大きい方の値の回数だけ，小さい方の値を出力する．
