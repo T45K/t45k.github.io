@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://t45k.github.io/blog/</loc>
+    <lastmod>2020-01-21T18:11:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://t45k.github.io/</loc>
+    <lastmod>2020-01-21T18:11:41+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://t45k.github.io/blog/mbp/</loc>
+    <lastmod>2020-01-21T18:11:41+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://t45k.github.io/kyopuro/abc152/</loc>
     <lastmod>2020-01-20T00:27:48+09:00</lastmod>
   </url>
@@ -13,22 +28,12 @@
   </url>
   
   <url>
-    <loc>https://t45k.github.io/</loc>
-    <lastmod>2020-01-20T00:27:48+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://t45k.github.io/about/</loc>
     <lastmod>2020-01-14T22:32:06+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://t45k.github.io/blog/apsec/</loc>
-    <lastmod>2019-12-05T20:19:32+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://t45k.github.io/blog/</loc>
     <lastmod>2019-12-05T20:19:32+09:00</lastmod>
   </url>
   
