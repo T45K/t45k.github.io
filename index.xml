@@ -6,10 +6,23 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 01 Feb 2020 18:59:35 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 09 Feb 2020 22:40:15 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC154の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc154/</link>
+      <pubDate>Sun, 09 Feb 2020 22:40:15 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc154/</guid>
+      <description>A~Dまで
+A問題 Uで分岐
+B問題 入力の文字列の長さの回数&#39;x&#39;を出力
+C問題 連想配列を使って数字が出現したかを確認
+D問題 毎回期待値計算をすると遅いので，1000(&amp;gt;= pi)までの累積和を計算しておく． あとは連続したkの要素の期待値の合計をそれぞれ求めるだけ．</description>
+    </item>
     
     <item>
       <title>ICSE2020の面白そうな論文をピックアップしてみた</title>
