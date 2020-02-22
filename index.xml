@@ -6,10 +6,22 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 Feb 2020 22:17:59 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2020 01:54:16 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ワーシャルフロイド法メモ</title>
+      <link>https://t45k.github.io/kyopuro/warshallfloyd/</link>
+      <pubDate>Sun, 23 Feb 2020 01:54:16 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/warshallfloyd/</guid>
+      <description>ワーシャルフロイド法というアルゴリズムを知ったのでメモ．
+ワーシャルフロイド法とは グラフのある一点から任意の点への最短距離を求めるアルゴリズム． 計算量は点の個数nに対してO(n^3)． 似たようなアルゴリズムにダイクストラ法があるが，あちらはある2点の最短距離をO(n^2)で求めるアルゴリズムである． 計算量が重ためなので，使う場面はかなり限られるが，知っておくと便利だと思った．
+実装 このアルゴリズムは，動的計画法を用いて最短距離を計算するというアイデアに基づいており，実装がとても簡単． 二次元配列を用いた例がこちら．
+public static void main(final String[] args) { final int[][] graph = new int[n][n]; // 初めに無限大の値で各要素を初期化  for (int i = 0; i &amp;lt; graph.length; i++) { Arrays.fill(graph[i], Integer.MAX_VALUE / 2); // Integer.MAX_VALUEでないことに注意  graph[i][i] = 0; } // グラフの各辺を与えられた値に変更  // ここからワーシャルフロイド  for (int k = 0; k &amp;lt; graph.length; k++) { // 中継する点  for (int i = 0; i &amp;lt; graph.</description>
+    </item>
     
     <item>
       <title>ABC156の解説</title>
