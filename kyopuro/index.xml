@@ -6,10 +6,26 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 29 Feb 2020 22:37:36 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 22:53:59 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC157の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc157/</link>
+      <pubDate>Sun, 01 Mar 2020 22:53:59 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc157/</guid>
+      <description>なんとか四完．コード
+A問題 nに1足して2で割るだけ
+B問題 実装するだけだが実装量が多くなりがちな問題
+C問題 条件に合う数字を生成する方針をとるもWAになったので全探索する方向に変更． 桁数を満たす整数を昇順に条件を満たすか確認する． 余談だが，WAの原因はおそらく1桁の数字は0でも大丈夫なのを考慮していなかったため．
+D問題 Union-Find Treeで殴る問題． 友達関係を取得する時にUnion-Find Treeを構築します． 同時に，それぞれの人が何人友達がいるかを記録します．
+ブロック関係を取得する際に，それぞれの人に何人ブロックしている人がいるか記録します． この時，友達候補でない人を記録する必要はありません．
+最終的に，Union-Find Treeから自分，友達，ブロック関係を含めた自分と繋がっている人を得られるので，そこから友達の人数とブロックしている人数と自分自身の人数を引くことで答えが求まります．
+余談ですが，Setをfor文で回すと異様に遅いので，for文を使う場合はListを使った方が良いです．</description>
+    </item>
     
     <item>
       <title>最小全域木メモ</title>
