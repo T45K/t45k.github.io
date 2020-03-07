@@ -6,10 +6,24 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 01 Mar 2020 22:53:59 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2020 22:42:19 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC158の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc158/</link>
+      <pubDate>Sat, 07 Mar 2020 22:42:19 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc158/</guid>
+      <description>四完．コード
+A問題 連想配列にぶちこむ．
+B問題 n に対する (A + B) の商と余りを求めておき，ごちゃごちゃする．
+C問題 1から20,000くらいまでの整数が条件を満たすか全探索．
+D問題 現在文字列が正順なのか逆順なのかを記録しておくフラグを用意する． クエリが1ならフラグ反転，クエリが2の場合は，
+ 正順ならクエリ通りに文字追加 逆順ならクエリとは逆に文字追加  をやる． 最終的にフラグを参照してから正しい方向で出力．</description>
+    </item>
     
     <item>
       <title>ABC157の解説</title>

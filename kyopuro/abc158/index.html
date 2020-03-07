@@ -10,23 +10,36 @@
     
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Kyopuros"/>
-<meta name="twitter:description" content="Tasuku&#39;s website hosted by github.io"/>
+<meta name="twitter:title" content="ABC158の解説"/>
+<meta name="twitter:description" content="四完．コード
+A問題 連想配列にぶちこむ．
+B問題 n に対する (A &#43; B) の商と余りを求めておき，ごちゃごちゃする．
+C問題 1から20,000くらいまでの整数が条件を満たすか全探索．
+D問題 現在文字列が正順なのか逆順なのかを記録しておくフラグを用意する． クエリが1ならフラグ反転，クエリが2の場合は，
+ 正順ならクエリ通りに文字追加 逆順ならクエリとは逆に文字追加  をやる． 最終的にフラグを参照してから正しい方向で出力．"/>
 
-    <meta property="og:title" content="Kyopuros" />
-<meta property="og:description" content="Tasuku&#39;s website hosted by github.io" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/" />
-<meta property="og:updated_time" content="2020-03-07T22:42:19+09:00" />
+    <meta property="og:title" content="ABC158の解説" />
+<meta property="og:description" content="四完．コード
+A問題 連想配列にぶちこむ．
+B問題 n に対する (A &#43; B) の商と余りを求めておき，ごちゃごちゃする．
+C問題 1から20,000くらいまでの整数が条件を満たすか全探索．
+D問題 現在文字列が正順なのか逆順なのかを記録しておくフラグを用意する． クエリが1ならフラグ反転，クエリが2の場合は，
+ 正順ならクエリ通りに文字追加 逆順ならクエリとは逆に文字追加  をやる． 最終的にフラグを参照してから正しい方向で出力．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc158/" />
+<meta property="article:published_time" content="2020-03-07T22:42:19+09:00" />
+<meta property="article:modified_time" content="2020-03-07T22:42:19+09:00" />
 
 
     
-      <base href="https://t45k.github.io/kyopuro/">
+      <base href="https://t45k.github.io/kyopuro/abc158/">
     
-    <title>Kyopuros · T45K</title>
+    <title>
+  ABC158の解説 · T45K
+</title>
 
     
-      <link rel="canonical" href="https://t45k.github.io/kyopuro/">
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc158/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
@@ -54,7 +67,6 @@
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <link rel="alternate" type="application/rss+xml" href="https://t45k.github.io/kyopuro/index.xml" title="T45K" />
     <meta name="generator" content="Hugo 0.65.3" />
   </head>
 
@@ -97,63 +109,30 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">Kyopuros</h1>
-  <ul>
-    
-    <li>
-      <span class="date">March 7, 2020</span>
-      <a class="title" href="https://t45k.github.io/kyopuro/abc158/">ABC158の解説</a>
-    </li>
-    
-    <li>
-      <span class="date">March 1, 2020</span>
-      <a class="title" href="https://t45k.github.io/kyopuro/abc157/">ABC157の解説</a>
-    </li>
-    
-    <li>
-      <span class="date">February 29, 2020</span>
-      <a class="title" href="https://t45k.github.io/kyopuro/min_spanning_tree/">最小全域木メモ</a>
-    </li>
-    
-    <li>
-      <span class="date">February 23, 2020</span>
-      <a class="title" href="https://t45k.github.io/kyopuro/warshallfloyd/">ワーシャルフロイド法メモ</a>
-    </li>
-    
-    <li>
-      <span class="date">February 22, 2020</span>
-      <a class="title" href="https://t45k.github.io/kyopuro/abc156/">ABC156の解説</a>
-    </li>
-    
-    <li>
-      <span class="date">February 16, 2020</span>
-      <a class="title" href="https://t45k.github.io/kyopuro/abc155/">ABC155の解説</a>
-    </li>
-    
-    <li>
-      <span class="date">February 9, 2020</span>
-      <a class="title" href="https://t45k.github.io/kyopuro/abc154/">ABC154の解説</a>
-    </li>
-    
-    <li>
-      <span class="date">January 26, 2020</span>
-      <a class="title" href="https://t45k.github.io/kyopuro/abc153/">ABC153の解説</a>
-    </li>
-    
-    <li>
-      <span class="date">January 20, 2020</span>
-      <a class="title" href="https://t45k.github.io/kyopuro/abc152/">ABC152の解説</a>
-    </li>
-    
-  </ul>
-  
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ABC158の解説</h1>
+    </header>
 
+    <p>四完．<a href="https://github.com/t45k/kyopuro/master/tree/abc158">コード</a></p>
+<h2 id="a問題">A問題</h2>
+<p>連想配列にぶちこむ．</p>
+<h2 id="b問題">B問題</h2>
+<p>n に対する (A + B) の商と余りを求めておき，ごちゃごちゃする．</p>
+<h2 id="c問題">C問題</h2>
+<p>1から20,000くらいまでの整数が条件を満たすか全探索．</p>
+<h2 id="d問題">D問題</h2>
+<p>現在文字列が正順なのか逆順なのかを記録しておくフラグを用意する．
+クエリが<code>1</code>ならフラグ反転，クエリが<code>2</code>の場合は，</p>
+<ul>
+<li>正順ならクエリ通りに文字追加</li>
+<li>逆順ならクエリとは逆に文字追加</li>
+</ul>
+<p>をやる．
+最終的にフラグを参照してから正しい方向で出力．</p>
 
-
-
-
-
+  </article>
 </section>
 
 
