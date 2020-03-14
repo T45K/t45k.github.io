@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Tasuku NAKAGAWA">
+    <meta name="description" content="Tasuku&#39;s website hosted by github.io">
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="パナソニックプログラミングコンテスト2020の解説"/>
+<meta name="twitter:description" content="4完．コード
+A問題 実装するだけ． Javaの場合は問題文をコピペしてfinal int[] array = {1, 1, ...};と宣言すると早い．
+B問題 ここに一番時間を吸われた．
+問題例を見ると最終的に(h * w &#43; 1) / 2でいけそうに見えるが，hまたはwが1の時角は一切移動できなくなることに気付けるかがポイント．
+C問題 ここにも時間を吸われた．
+Math#sqrtを使うと解けそうな気がするが，精度の都合上間違いになることがある． 今回は式変換を行うと4ab &lt; a^2 &#43; b^2 &#43; c^2 &#43; 2ab - 2bc - 2caに持っていけるので，そこに代入するだけ． あるいはBigDecimalを使っても大丈夫らしい．
+D問題 偶然通った問題．
+左側から文字を決めていくが，使える文字は自身より左に存在している一番大きい文字 &#43; 1までしか使えないことに注意．"/>
+
+    <meta property="og:title" content="パナソニックプログラミングコンテスト2020の解説" />
+<meta property="og:description" content="4完．コード
+A問題 実装するだけ． Javaの場合は問題文をコピペしてfinal int[] array = {1, 1, ...};と宣言すると早い．
+B問題 ここに一番時間を吸われた．
+問題例を見ると最終的に(h * w &#43; 1) / 2でいけそうに見えるが，hまたはwが1の時角は一切移動できなくなることに気付けるかがポイント．
+C問題 ここにも時間を吸われた．
+Math#sqrtを使うと解けそうな気がするが，精度の都合上間違いになることがある． 今回は式変換を行うと4ab &lt; a^2 &#43; b^2 &#43; c^2 &#43; 2ab - 2bc - 2caに持っていけるので，そこに代入するだけ． あるいはBigDecimalを使っても大丈夫らしい．
+D問題 偶然通った問題．
+左側から文字を決めていくが，使える文字は自身より左に存在している一番大きい文字 &#43; 1までしか使えないことに注意．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/panasonic2020/" />
+<meta property="article:published_time" content="2020-03-14T22:56:44+09:00" />
+<meta property="article:modified_time" content="2020-03-14T22:56:44+09:00" />
+
+
+    
+      <base href="https://t45k.github.io/kyopuro/panasonic2020/">
+    
+    <title>
+  パナソニックプログラミングコンテスト2020の解説 · T45K
+</title>
+
+    
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/panasonic2020/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.65.3" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://t45k.github.io/">
+      T45K
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/blog/">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro/">kyopuro</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/">lab</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>パナソニックプログラミングコンテスト2020の解説</h1>
+    </header>
+
+    <p>4完．<a href="https://github.com/t45k/kyopuro/tree/master/pana20/">コード</a></p>
+<h2 id="a問題">A問題</h2>
+<p>実装するだけ．
+Javaの場合は問題文をコピペして<code>final int[] array = {1, 1, ...};</code>と宣言すると早い．</p>
+<h2 id="b問題">B問題</h2>
+<p>ここに一番時間を吸われた．<br>
+問題例を見ると最終的に<code>(h * w + 1) / 2</code>でいけそうに見えるが，hまたはwが1の時角は一切移動できなくなることに気付けるかがポイント．</p>
+<h2 id="c問題">C問題</h2>
+<p>ここにも時間を吸われた．<br>
+<code>Math#sqrt</code>を使うと解けそうな気がするが，精度の都合上間違いになることがある．
+今回は式変換を行うと<code>4ab &lt; a^2 + b^2 + c^2 + 2ab - 2bc - 2ca</code>に持っていけるので，そこに代入するだけ．
+あるいは<code>BigDecimal</code>を使っても大丈夫らしい．</p>
+<h2 id="d問題">D問題</h2>
+<p>偶然通った問題．<br>
+左側から文字を決めていくが，使える文字は自身より左に存在している一番大きい文字 + 1までしか使えないことに注意．</p>
+
+  </article>
+</section>
+
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>圧倒的多幸感</p>
+    
+    
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>
