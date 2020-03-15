@@ -12,28 +12,28 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="パナソニックプログラミングコンテスト2020の解説"/>
 <meta name="twitter:description" content="4完．コード
-A問題 実装するだけ． Javaの場合は問題文をコピペしてfinal int[] array = {1, 1, ...};と宣言すると早い．
-B問題 ここに一番時間を吸われた．
+A - Kth Term 実装するだけ． Javaの場合は問題文をコピペしてfinal int[] array = {1, 1, ...};と宣言すると早い．
+B - Bishop ここに一番時間を吸われた．
 問題例を見ると最終的に(h * w &#43; 1) / 2でいけそうに見えるが，hまたはwが1の時角は一切移動できなくなることに気付けるかがポイント．
-C問題 ここにも時間を吸われた．
+C - Sqrt Inequality ここにも時間を吸われた．
 Math#sqrtを使うと解けそうな気がするが，精度の都合上間違いになることがある． 今回は式変換を行うと4ab &lt; a^2 &#43; b^2 &#43; c^2 &#43; 2ab - 2bc - 2caに持っていけるので，そこに代入するだけ． あるいはBigDecimalを使っても大丈夫らしい．
-D問題 偶然通った問題．
+D - String Equivalence 偶然通った問題．
 左側から文字を決めていくが，使える文字は自身より左に存在している一番大きい文字 &#43; 1までしか使えないことに注意．
-E問題 全探索の問題．ここを参考にした．
+E - Three Substrings 全探索の問題．ここを参考にした．
 Editorialではa，b，cの順番を考慮せずにやる方法を紹介しているが，考えることが増えるので素直に全ての順列で場合分けした方が良さそう． 以降，(aの先頭) ≦ (bの先頭) ≦ (cの先頭)の場合を考える．
 まず，a中のどの箇所がbと被っているかを全探索して，配列か何かに記録する(O(n^2))．これをaとc，bとcに対してもやる． コードだとこんな感じ．
 private static boolean[] init(final int length, final String a, final String b) {// 配列の初期化  final boolean[] array = new boolean[length]; // lengthは十分大きい値  Arrays."/>
 
     <meta property="og:title" content="パナソニックプログラミングコンテスト2020の解説" />
 <meta property="og:description" content="4完．コード
-A問題 実装するだけ． Javaの場合は問題文をコピペしてfinal int[] array = {1, 1, ...};と宣言すると早い．
-B問題 ここに一番時間を吸われた．
+A - Kth Term 実装するだけ． Javaの場合は問題文をコピペしてfinal int[] array = {1, 1, ...};と宣言すると早い．
+B - Bishop ここに一番時間を吸われた．
 問題例を見ると最終的に(h * w &#43; 1) / 2でいけそうに見えるが，hまたはwが1の時角は一切移動できなくなることに気付けるかがポイント．
-C問題 ここにも時間を吸われた．
+C - Sqrt Inequality ここにも時間を吸われた．
 Math#sqrtを使うと解けそうな気がするが，精度の都合上間違いになることがある． 今回は式変換を行うと4ab &lt; a^2 &#43; b^2 &#43; c^2 &#43; 2ab - 2bc - 2caに持っていけるので，そこに代入するだけ． あるいはBigDecimalを使っても大丈夫らしい．
-D問題 偶然通った問題．
+D - String Equivalence 偶然通った問題．
 左側から文字を決めていくが，使える文字は自身より左に存在している一番大きい文字 &#43; 1までしか使えないことに注意．
-E問題 全探索の問題．ここを参考にした．
+E - Three Substrings 全探索の問題．ここを参考にした．
 Editorialではa，b，cの順番を考慮せずにやる方法を紹介しているが，考えることが増えるので素直に全ての順列で場合分けした方が良さそう． 以降，(aの先頭) ≦ (bの先頭) ≦ (cの先頭)の場合を考える．
 まず，a中のどの箇所がbと被っているかを全探索して，配列か何かに記録する(O(n^2))．これをaとc，bとcに対してもやる． コードだとこんな感じ．
 private static boolean[] init(final int length, final String a, final String b) {// 配列の初期化  final boolean[] array = new boolean[length]; // lengthは十分大きい値  Arrays." />
@@ -128,21 +128,21 @@ private static boolean[] init(final int length, final String a, final String b) 
     </header>
 
     <p>4完．<a href="https://github.com/t45k/kyopuro/tree/master/pana20/">コード</a></p>
-<h2 id="a問題">A問題</h2>
+<h2 id="a---kth-term">A - Kth Term</h2>
 <p>実装するだけ．
 Javaの場合は問題文をコピペして<code>final int[] array = {1, 1, ...};</code>と宣言すると早い．</p>
-<h2 id="b問題">B問題</h2>
+<h2 id="b---bishop">B - Bishop</h2>
 <p>ここに一番時間を吸われた．<br>
 問題例を見ると最終的に<code>(h * w + 1) / 2</code>でいけそうに見えるが，hまたはwが1の時角は一切移動できなくなることに気付けるかがポイント．</p>
-<h2 id="c問題">C問題</h2>
+<h2 id="c---sqrt-inequality">C - Sqrt Inequality</h2>
 <p>ここにも時間を吸われた．<br>
 <code>Math#sqrt</code>を使うと解けそうな気がするが，精度の都合上間違いになることがある．
 今回は式変換を行うと<code>4ab &lt; a^2 + b^2 + c^2 + 2ab - 2bc - 2ca</code>に持っていけるので，そこに代入するだけ．
 あるいは<code>BigDecimal</code>を使っても大丈夫らしい．</p>
-<h2 id="d問題">D問題</h2>
+<h2 id="d---string-equivalence">D - String Equivalence</h2>
 <p>偶然通った問題．<br>
 左側から文字を決めていくが，使える文字は自身より左に存在している一番大きい文字 + 1までしか使えないことに注意．</p>
-<h2 id="e問題">E問題</h2>
+<h2 id="e---three-substrings">E - Three Substrings</h2>
 <p>全探索の問題．<a href="https://www.hamayanhamayan.com/entry/2020/03/15/002311">ここ</a>を参考にした．<br>
 Editorialではa，b，cの順番を考慮せずにやる方法を紹介しているが，考えることが増えるので素直に全ての順列で場合分けした方が良さそう．
 以降，(aの先頭) ≦ (bの先頭) ≦ (cの先頭)の場合を考える．<br>
