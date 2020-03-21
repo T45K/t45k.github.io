@@ -6,10 +6,21 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 14 Mar 2020 22:56:44 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 23:37:35 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AGC043の解説</title>
+      <link>https://t45k.github.io/kyopuro/agc043/</link>
+      <pubDate>Sat, 21 Mar 2020 23:37:35 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/agc043/</guid>
+      <description>1完．コード
+A問題 全探索の計算量をいかに減らせるかがポイント．DPは思いつかんかった&amp;hellip;
+右か下にしか移動できない時，黒ゾーンに入ってから出るまでの経路を一回の操作で白にできる（公式参照）． なので，白から黒に入る経路のコストを1，それ以外を0とみなした最短経路問題に落とし込むことができる． ダイクストラ法を使うと計算量は頂点数Vと辺数Eに対してO(V * log(E))となる． 今回の頂点数VはV &amp;lt;= H * W = 10 ^ 4となる． また，一つの頂点に対して辺の数はたかだか2(右に移動するか下に移動するかの2通り)なので，十分間に合う．</description>
+    </item>
     
     <item>
       <title>パナソニックプログラミングコンテスト2020の解説</title>
