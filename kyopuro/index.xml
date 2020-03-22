@@ -6,10 +6,22 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 21 Mar 2020 23:37:35 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2020 22:48:22 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC159の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc159/</link>
+      <pubDate>Sun, 22 Mar 2020 22:48:22 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc159/</guid>
+      <description>奇跡的に5完．コード
+A - The Number of Even Pairs 和が正になるのはeven + evenかodd + oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．
+B - String Palindrome 書かれてることをするだけ． 回文系の問題は以下のようなメソッドを作っとくと便利かも．
+private static boolean isPalindrome(final int start, final int end, final String s) { for (int i = 0; ; i++) { if (start + i &amp;gt;= end - i) { return true; } if (s.charAt(start + i) != s.charAt(end - i)) { return false; } } } C - Maximum Volume Lの1/3の3乗</description>
+    </item>
     
     <item>
       <title>AGC043の解説</title>
