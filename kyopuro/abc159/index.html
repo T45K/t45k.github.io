@@ -138,7 +138,30 @@ private static boolean isPalindrome(final int start, final int end, final String
 <h2 id="e---dividing-chocolate">E - Dividing Chocolate</h2>
 <p><code>H &lt;= 10</code>が大きなヒント．<br>
 <code>H &lt;= 10</code>から，横方向に切る組み合わせは全探索を使える(<code>2 ^ 10 ≒ 10 ^ 3</code>)．
-横方向に切った結果から，Kを超えないように縦方向に切らないといけない回数を累積和で算出できる．</p>
+横方向に切った結果から，Kを超えないように縦方向に切らないといけない回数を貪欲に算出できる．</p>
+<h2 id="f----knapsack-for-all-segments">F -  Knapsack for All Segments</h2>
+<p>解説AC．なぜか解説通りに実装するとTLEになったため別の方針を採用(<a href="https://atcoder.jp/contests/abc159/submissions/11164623">https://atcoder.jp/contests/abc159/submissions/11164623</a>)．<br>
+<code>Ax1 + Ax2 + ... Axn = S</code>を満たす時，<code>s = 1, 2, ..., x1</code>，<code>e = xn, xn + 1, ..., N</code>とすると，sからeまでの文字列は全て条件を満たす．
+そこで，始点と終点を決めるためのDPを行う．<br>
+答えを表す変数<code>ans</code>，dp[N][S]を用意し，次の場合分けを考える．j = 0 .. S - 1 に対して，</p>
+<table>
+<thead>
+<tr>
+<th align="center">場合分け</th>
+<th align="center">操作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Ai を足さない</td>
+<td align="center">dp[N][j] = dp[N - 1][j]</td>
+</tr>
+<tr>
+<td align="center">Ai を足す</td>
+<td align="center">Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i<br>Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]<br>Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)</td>
+</tr>
+</tbody>
+</table>
 
   </article>
 </section>
