@@ -6,10 +6,32 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 28 Mar 2020 23:27:57 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2020 22:53:03 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC161の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc161/</link>
+      <pubDate>Sat, 04 Apr 2020 22:53:03 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc161/</guid>
+      <description>100-200-300-400-600の5完． 人生初のオンサイト600点問題AC． コード
+A - ABC Swap Z，X，Yを順に出力するだけ
+B - Popular Vote やるだけ．
+割り算の結果を比較するときは，a &amp;gt; b / cではなくa * c &amp;gt; bのように書いたほうが正確．
+C - Replacing Integer 方針立てるのに時間かかった問題．
+直感的には分かりづらいけど以下のように言い換えられる(chokudaiさんのツイート)．
+C問題、数学の問題といえばそうなんだけど、「無限に長いすごろくがあります。ゴールまでの距離がxです。Kマスずつ進めますが、ゴールを通り過ぎてしまう場合は折り返します。最もゴールに近づく時の残りマス数を答えなさい」みたいにすると、まぁ一応ちゃんとしたストーリーはつくよね。
+&amp;mdash; chokudai(高橋 直大)🌸🍆🍡 (@chokudai) April 4, 2020  というわけで，N % Kと(N - (N % K)) % Kの小さい方を求める．
+D - Lunlun Number 想定解が天才すぎる．愚直に解いた．
+i番目の数字に対して，i + 1番目の数字を次のように決める．各桁を下から順番に見ていく．もし見ている桁が9でなく，かつ次の桁の数字より1小さいか同じなら，その桁をインクリメントし，それ以降の桁をルンルン数かつ最小となるように調整(つまり，上の桁 - 1か0)した値がi + 1番目の桁になる．どの桁も条件に当てはまらなければ，一番大きい桁をインクリメントする．
+各桁を確認，操作する場合は，数字をいったんchar型配列にする．
+F - Division or Substraction E問題よりACが多いF問題．
+まずNに対して以下の数字は必ず条件を満たす
+ 2: 偶数は割っていくと，奇数は引いていくと最終的に1になるため N - 1: 引くと1になるため N: 割ると1になるため  それ以外に関しては関しては次のようになる． ちなみに&amp;quot;何回か引いた後にに，何回か割る&amp;quot;という操作は発生しない．</description>
+    </item>
     
     <item>
       <title>ABC160の解説</title>
