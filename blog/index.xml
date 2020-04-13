@@ -6,10 +6,46 @@
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 29 Mar 2020 00:16:31 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2020 17:38:19 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MacでIntelliJを使っているとクラッシュする問題と解決法</title>
+      <link>https://t45k.github.io/blog/fix_mac_fault/</link>
+      <pubDate>Mon, 13 Apr 2020 17:38:19 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/fix_mac_fault/</guid>
+      <description>MacBook Air 2020を買いました．詳しくはここ．
+普段はJavaやKotlinを書いているので迷いなくIntelliJ IDEAをインストールしたのですが，どうも挙動がおかしい．
+というのも，結構な頻度でIntelliJがクラッシュするし，場合によってはOSがクラッシュ強制的に再起動がかかります． ひどい時にはOSがクラッシュして再起動がかかり，それが開けた2分後に再びクラッシュしたこともあります．
+実はLINEのインターンで借りていたMacBook Pro 15inchでも似たような問題が起こっていたので，2度目の経験でした．
+インターンで借りていたパソコンは5日間で返すので我慢して使っていましたが，今回は長らく使っていく予定なので流石に直す必要がありました．
+修理も視野に入れながら解決法を探しました．
+解決法 結論からいうと原因は分かりませんでしたが()，OSを再インストールすることで解決しました．詳しくはこちら．
+原因が分からないので全ての人がこれで直るかは分かりませんが，OS再インスコでデータが消えることはないため真っ先に試す価値はあります．</description>
+    </item>
+    
+    <item>
+      <title>MacBook Airを購入した話</title>
+      <link>https://t45k.github.io/blog/macbook_air/</link>
+      <pubDate>Mon, 13 Apr 2020 17:21:02 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/macbook_air/</guid>
+      <description>念願のMacBook Airを購入しました! 構成は
+ CPU: 1.1GHzクアッド メモリ: 16GB SSD: 256GB  数ヶ月後に出ると噂のMacBook Proを待っている人もいるかもしれませんが，僕は以下のような理由でmbaを選びました．
+1 - もう待てなかったから ずっと新しいmacが欲しいと思っていたのでこれ以上待てませんでした
+2 - そこまでスペックを必要としていないかったから 研究室からmbpを借りていますし，研究などでマシンパワーが必要な時は研究室のワークステーションを使えば良いだけなので
+3 - Touch barが嫌いだから バタフライキーボードはともかく，Touch barは賛否両論ありますが，僕はあまり好きになれませんでした． たまに反応しなくなったりするし．
+4 - 安いから 税込み13万で買えました． mbpはこんなものじゃすまないと思います．
+理由としてはこんなところです． 付け加えるなら，自分の理想にとても近かったというのもあります． これは去年の12月のツイート
+はよmacbook air，13インチ，cpu4コア，RAM16GB，SSD256GB，ファンクションキー，シザーキーボードで10万くらいのやつ出てくれや
+&amp;mdash; task (@getupmax) December 8, 2019  使い心地 ある一点を除いたら最高です（その一点も結局解決しました）．
+主にmbpとの比較になるのですが，
+ 軽い 薄い 開けやすい(mbaは切り欠けが下まで貫通している)  みたいなところです．
+最後に こうなりました． </description>
+    </item>
     
     <item>
       <title>AtCoderで水色になりました</title>
