@@ -12,6 +12,21 @@
     
     
     <item>
+      <title>ABC162の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc162/</link>
+      <pubDate>Mon, 13 Apr 2020 16:57:30 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc162/</guid>
+      <description>祝参加者1万人越え．無念の4完．コード
+A - Lucky 7 やるだけ．文字列で読み込んでString#containsを使うと早い．
+B - FizzBuzz Sum これもやるだけ．LongStreamできれいに書ける．
+LongStream.rangeClosed(1, scanner.nextInt()) .filter(i -&amp;gt; i % 3 != 0 &amp;amp;&amp;amp; i % 5 != 0) .sum(); C - Sum of gcd of Tuples (Easy) 三重ループを回すだけ．
+D - RGB Triplets N &amp;lt;= 4,000なので二重ループで回すことを考える． ある座標以降のそれぞれの色が何個あるかを記録する． これは後ろから累積和をとることで可能． こうすることで，例えばiが赤色，jが緑色のとき，j+1以降の青色の個数をO(1)で得られる． また，k-j ≠ j-iの条件を満たすために，k-j = j-iとなるkに対して(j+1以降の数) - (k以降の数) + (k+1以降の数)と計算すれば良い(累積和の性質から)．
+E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的にダメだと思っていて放置していたやつ
+． 解答が詳しいのでそちらを参照． 繰り返し二乗法などを使うと速くなる．</description>
+    </item>
+    
+    <item>
       <title>ABC161の解説</title>
       <link>https://t45k.github.io/kyopuro/abc161/</link>
       <pubDate>Sat, 04 Apr 2020 22:53:03 +0900</pubDate>
@@ -300,7 +315,7 @@ C - Fennec vs Monster 体力が高い順にモンスターに必殺技を使い�
 D - Caracal vs Monster 等比数列の和
 E - Crested Ibis vs Monster DP
 ソースコード
-https://github.com/T45K/kyopuro/tree/master/ABC153</description>
+https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC153</description>
     </item>
     
     <item>
@@ -335,7 +350,7 @@ D - Handstand 2 与えられた数の範囲内で，数字の先頭と末尾だ�
 E - Flatten modの逆元を知らないと厳しい問題．参考
 この手の問題はユークリッドの互除法でGCDを求めてからLCMを求めるパターンがよくあるが，今回はオーバーフローの可能性があるため，素因数分解してからmod付きLCMを求める． LCMがmod計算してあるので，単純に各値で割るのではなく，modの逆元を計算した上で各値をLCMにかける必要がある．
 ソースコード
-https://github.com/T45K/kyopuro/tree/master/ABC152</description>
+https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC152</description>
     </item>
     
     <item>
