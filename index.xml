@@ -12,6 +12,23 @@
     
     
     <item>
+      <title>ABC163の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc163/</link>
+      <pubDate>Tue, 21 Apr 2020 16:22:58 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc163/</guid>
+      <description>3完． unratedで良かった&amp;hellip; コード
+A - Circle Pond やるだけ．
+円周は2 * r * 円周率． Javaだと円周率はjava.lang.Math.PIが使える．
+B - Homework 全ての宿題をやるにはΣ Ai日かかるので，それをMと比較する．
+C - management 問題文が若干ややこしい． やることは特定の数字が何回出てくるかを数えるだけ． はじめに配列array[N + 1]を用意して，各Aiに対してarray[Ai]++する．
+D - Sum of Large Numbers 時間内に解けなかった． 組み合わせの問題だと思ってライブラリを引っ張ってきたけど使わなかった&amp;hellip;
+各数字が10^100以上と十分大きいので，足し合わせる個数が違うとき同じ値になることはない． あるiに対してfront_sumを0からi-1までの和，back_sumをn-i+1からnまでの和とすると， i個選択する時の組み合わせによって得られる和はi * 10^100 + front_sumからi * 10^100 + back_sumまでの間に収まる． つまり，back_sum - front_sum + 1通りになる． front_sumとback_sumは累積和で取れるので，iをKからNまで動かして足し合わせれば良い．
+E - Active Infants 原始的なDP（ほんまか？）．
+活発度が高い順に左か右に移動させる． 活発度を降順にソートした時，dp[i][j]を，(i+j)番目の園児を移動させた結果左側にi人，右側にj人の時の嬉しさという風に考える． そうすると，dp[i][j]は左側にi-1人，右側にj人いるときに(i+j)番目の園児を左側に移動させるか左側にi人，右側にj-1人いるときに(i+j)番目の園児を右側に移動させるの嬉しさが大きい方になる．</description>
+    </item>
+    
+    <item>
       <title>MacでIntelliJを使っているとクラッシュする問題と解決法</title>
       <link>https://t45k.github.io/blog/fix_mac_fault/</link>
       <pubDate>Mon, 13 Apr 2020 17:38:19 +0900</pubDate>
