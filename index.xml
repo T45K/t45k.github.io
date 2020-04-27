@@ -12,6 +12,21 @@
     
     
     <item>
+      <title>ABC164の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc164/</link>
+      <pubDate>Mon, 27 Apr 2020 23:38:04 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc164/</guid>
+      <description>4完．コード
+A - Sheep and Wolves if文で分岐するだけ
+B - Battle 割った余りを求めるのがスマートだけで，先攻後攻の概念があるので愚直に互いに引いていった方が安全．
+C - gacha JavaだとSetに打ち込めば良い． Stream#distinctからのStream#countで多少スマートに書ける．
+D - Multiple of 2019 各桁に対して，i桁目の数字がDiとしてSi = (10 ^ i * Di + Si-1) % 2019を計算すると，Siが同じ値の桁間の数字は2019の倍数になる．
+E - Two Currencies むずかしかった．
+(頂点番号, 所持金)を一つの頂点としてダイクストラする．</description>
+    </item>
+    
+    <item>
       <title>K-Shoot MANIAが正しく動かなくなった原因とその対策</title>
       <link>https://t45k.github.io/blog/k-shoot_mania/</link>
       <pubDate>Sat, 25 Apr 2020 17:05:30 +0900</pubDate>
