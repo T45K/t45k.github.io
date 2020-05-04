@@ -6,10 +6,43 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Apr 2020 23:38:04 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 22:58:09 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC166の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc166/</link>
+      <pubDate>Mon, 04 May 2020 22:58:09 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc166/</guid>
+      <description>二日連続ABCの二日目． ABCEの4完． コード
+A - A?C 分岐するだけ．
+B - Trick or Treat 数え上げるだけ
+C - Peaks 結構誤読してた人が多かった問題
+． 問題文から，i番目の展望台が地震を含めて繋がっている展望台の中で一番高ければ良いことが分かる． つまり，繋がっている展望台のどれか一つでも自身より高いものが良い展望台となる． なので，各A,Bに対して大きい方だけ残していくという戦略を取れば，残ったものが良い展望台である．
+D - I hate Factorization 解けませんでした
+問題文を誤読しないように． 任意のXについて成り立っているのではなく，テストケースとして与えられるXについて成り立つ． およそ200くらいが上限となるらしいので，それについて全探索するだけ．
+E - This Message Will Self-Destruct in 5s 条件は添字i,jに対してi - j = Ai + Ajであり，これを式変形するとi - Ai = j + Ajとなる． つまり，(添字と身長の差)と(添字と身長の和)が同じ値になるペアが条件を満たす． なので各Aに対して添字との差と和をあらかじめ計算しておけば解ける</description>
+    </item>
+    
+    <item>
+      <title>ABC165の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc165/</link>
+      <pubDate>Mon, 04 May 2020 22:58:03 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc165/</guid>
+      <description>二日連続ABCの一日目． 3完． コード
+A - We Love Golf きちんと数学して解くこともできるが，制約が小さいので全探索しても間に合う． AからBまでの閉区間内にKの倍数があるか確認する．
+B - 1% これもきちんと数学して解けるけど全探索で解ける系． 入力例から分かるように，10^18が与えられても出力は3760になるので，1~3760までの区間を探索するだけで良い．
+C - Many Requirements 解けませんでした
+これも全探索するだけ問題． 考えられる数列を全列挙して特典の最大値を探す．
+全列挙に必要な計算量が10^10だと思っていたので試さなかったが，実際にはボールとしきりの要領で組み合わせを考えると計算量は*O(N * C(N+M-1,N))*なので，全列挙しても十分間に合う．
+D - Floor Function 数学．editorialが分かりやすいです．
+E - Rotation Matching 同じ組み合わせを避けていく問題．
+例えば，組み合わせ(1,N)は(1,2)と同じ組み合わせになる． したがって，(組み合わせの方の大きい方)-(小さい方)を組み合わせの距離と定義すると，距離N-iと距離iは同じ組み合わせである． これを念頭に入れてN-1からN-mまでの組み合わせを考えていく． (1,N)(2,N-1)&amp;hellip;と作っていくと距離N-1,N-3&amp;hellip;と1飛ばしに組み合わせを作れる． 途中で折り返しをうまく調整して距離N-2,N-4&amp;hellip;の組み合わせを作る．</description>
+    </item>
     
     <item>
       <title>ABC164の解説</title>
