@@ -4,10 +4,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
 
     <meta name="author" content="Tasuku NAKAGAWA">
-    <meta name="description" content="Tasuku&#39;s website hosted by github.io">
-    
+    <meta name="description" content="11/20，21に開催されたLINE DEV DAYに参加してきました．
+  DEV DAYとは LINEが開催している社内の技術などを公開するエンジニア向けのイベントです． 今年は二日に分けて開催し，エンジニアだけでなくデザインやプロダクト的な話も盛り込んだそうです．
+参加したきっかけ LINEのインターンに参加した時のメンターさんがLINE SDKのリードテックになられたらしく，DEV DAYでの登壇の際にインターン中に作ったプロダクトを紹介するかもみたいな話を小耳に挟んだのがきっかけです． また，LINEは学生向けに金銭的援助を行っており，インターン生は（交通費として）無条件で3万円もらえるというのも結構魅力的でした．
+感想 20日は違う会社の採用面接に参加していたため，21日だけ参加しました． 思ったより規模が大きく，たくさんの人が参加していたのが印象的でした． 感想ですが，実は当日頭痛が酷く，話を聞く余裕がなかったというのが正直なところです． 例のメンターさんの発表で，唐突にライブコーディングが始まったのだけはっきり覚えています． また，国際学会前というのもあり，慌ただしく帰ることになってしまいました．
+今年はゆっくり聞く時間がなかったので，来年機会があればもう少し余裕を持って参加したいなと感じました．">
+    <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="LINE DEVELOPER DAY2019に参加した話"/>
@@ -40,14 +45,14 @@
       <link rel="canonical" href="https://t45k.github.io/blog/devday/">
     
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
       
       
-      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -56,8 +61,6 @@
 
     
       <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
-    
-
     
 
     
@@ -77,6 +80,7 @@
     <a class="navigation-title" href="https://t45k.github.io/">
       T45K
     </a>
+    
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
     <ul class="navigation-list">
@@ -87,11 +91,11 @@
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/blog/">blog</a>
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/kyopuro/">kyopuro</a>
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
           </li>
         
           <li class="navigation-item">
@@ -101,6 +105,7 @@
       
       
     </ul>
+    
   </section>
 </nav>
 
@@ -135,21 +140,43 @@
   </article>
 </section>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
 
       </div>
 
-      <footer class="footer">
-  <section class="container">
-    
-      <p>圧倒的多幸感</p>
-    
-    
-    
-    
-  </section>
-</footer>
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
 
     </main>
+
+    
+
+    
 
     
 

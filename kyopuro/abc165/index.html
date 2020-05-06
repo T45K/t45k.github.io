@@ -4,10 +4,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
 
     <meta name="author" content="Tasuku NAKAGAWA">
-    <meta name="description" content="Tasuku&#39;s website hosted by github.io">
-    
+    <meta name="description" content="二日連続ABCの一日目． 3完． コード
+A - We Love Golf きちんと数学して解くこともできるが，制約が小さいので全探索しても間に合う． AからBまでの閉区間内にKの倍数があるか確認する．
+B - 1% これもきちんと数学して解けるけど全探索で解ける系． 入力例から分かるように，10^18が与えられても出力は3760になるので，1~3760までの区間を探索するだけで良い．
+C - Many Requirements 解けませんでした
+これも全探索するだけ問題． 考えられる数列を全列挙して特典の最大値を探す．
+全列挙に必要な計算量が10^10だと思っていたので試さなかったが，実際にはボールとしきりの要領で組み合わせを考えると計算量は*O(N * C(N&#43;M-1,N))*なので，全列挙しても十分間に合う．
+D - Floor Function 数学．editorialが分かりやすいです．
+E - Rotation Matching 同じ組み合わせを避けていく問題．
+例えば，組み合わせ(1,N)は(1,2)と同じ組み合わせになる． したがって，(組み合わせの方の大きい方)-(小さい方)を組み合わせの距離と定義すると，距離N-iと距離iは同じ組み合わせである． これを念頭に入れてN-1からN-mまでの組み合わせを考えていく． (1,N)(2,N-1)&hellip;と作っていくと距離N-1,N-3&hellip;と1飛ばしに組み合わせを作れる． 途中で折り返しをうまく調整して距離N-2,N-4&hellip;の組み合わせを作る．">
+    <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="ABC165の解説"/>
@@ -48,14 +57,14 @@ E - Rotation Matching 同じ組み合わせを避けていく問題．
       <link rel="canonical" href="https://t45k.github.io/kyopuro/abc165/">
     
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
       
       
-      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -64,8 +73,6 @@ E - Rotation Matching 同じ組み合わせを避けていく問題．
 
     
       <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
-    
-
     
 
     
@@ -85,6 +92,7 @@ E - Rotation Matching 同じ組み合わせを避けていく問題．
     <a class="navigation-title" href="https://t45k.github.io/">
       T45K
     </a>
+    
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
     <ul class="navigation-list">
@@ -95,11 +103,11 @@ E - Rotation Matching 同じ組み合わせを避けていく問題．
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/blog/">blog</a>
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/kyopuro/">kyopuro</a>
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
           </li>
         
           <li class="navigation-item">
@@ -109,6 +117,7 @@ E - Rotation Matching 同じ組み合わせを避けていく問題．
       
       
     </ul>
+    
   </section>
 </nav>
 
@@ -148,21 +157,43 @@ AからBまでの閉区間内にKの倍数があるか確認する．</p>
   </article>
 </section>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
 
       </div>
 
-      <footer class="footer">
-  <section class="container">
-    
-      <p>圧倒的多幸感</p>
-    
-    
-    
-    
-  </section>
-</footer>
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
 
     </main>
+
+    
+
+    
 
     
 

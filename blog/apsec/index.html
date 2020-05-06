@@ -4,10 +4,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
 
     <meta name="author" content="Tasuku NAKAGAWA">
-    <meta name="description" content="Tasuku&#39;s website hosted by github.io">
-    
+    <meta name="description" content="マレーシアで開催された12/3~5に開催されたAPSECに参加してきました．
+APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要するにソフトウェア工学の国際会議です． 会議ランクについては詳しくは知らないのですがそこまで高くないと思います． 投稿前に先生が，「APSECは塩漬けのネタを投稿するのにちょうど良い」と語っていたのが印象的でした．
+マレーシアとは こんな国です．
+マレーシア
+&#43; 物価が安い
+&#43; 時差が1時間
+&#43; 英語が通じる
+&#43;- 暑い
+- 酒を飲める場所がかなり限られる
+- 用を足した後に紙を使わない文化
+&mdash; task (@getupmax) December 6, 2019  感想 投稿前はあまり気乗りしなかったし，正直通るとも思ってませんでしたが，結果的には国際学会で発表できて良かったなと感じました． 質疑対応がかなりグダッてしまったので英語力（特にリスニング）を鍛えるのが重要だと思いました．">
+    <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="APSEC2019に参加した話"/>
@@ -52,14 +63,14 @@ APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要す�
       <link rel="canonical" href="https://t45k.github.io/blog/apsec/">
     
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
       
       
-      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -68,8 +79,6 @@ APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要す�
 
     
       <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
-    
-
     
 
     
@@ -89,6 +98,7 @@ APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要す�
     <a class="navigation-title" href="https://t45k.github.io/">
       T45K
     </a>
+    
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
     <ul class="navigation-list">
@@ -99,11 +109,11 @@ APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要す�
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/blog/">blog</a>
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/kyopuro/">kyopuro</a>
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
           </li>
         
           <li class="navigation-item">
@@ -113,6 +123,7 @@ APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要す�
       
       
     </ul>
+    
   </section>
 </nav>
 
@@ -142,21 +153,43 @@ APSECとは Asia-Pacific Software Engineering Conferenceの略です． 要す�
   </article>
 </section>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
 
       </div>
 
-      <footer class="footer">
-  <section class="container">
-    
-      <p>圧倒的多幸感</p>
-    
-    
-    
-    
-  </section>
-</footer>
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
 
     </main>
+
+    
+
+    
 
     
 
