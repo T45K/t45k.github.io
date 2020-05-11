@@ -6,10 +6,47 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 04 May 2020 22:58:09 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2020 11:43:31 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC167の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc167/</link>
+      <pubDate>Mon, 11 May 2020 11:43:31 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc167/</guid>
+      <description>&lt;p&gt;4完．
+&lt;a href=&#34;https://github.com/t45k/tree/master/AtCoder/ABC/ABC167&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---registration&#34;&gt;A - Registration&lt;/h2&gt;
+&lt;p&gt;文字列Sと文字列Tの最後の文字を消した文字列が同等か確認する．
+javaだと &lt;code&gt;S.equals(T.substring(0, S.length))&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;b---easy-linear-programming&#34;&gt;B - Easy Linear Programming&lt;/h2&gt;
+&lt;p&gt;A,B,Cの順番になるべく多くカードを取ると最大値になるので&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;KがA以下なら1のカードをK枚取って和はK&lt;/li&gt;
+&lt;li&gt;Kが(A+B)以下なら，1のカードをA枚，0のカードを取れるだけ取って和はA&lt;/li&gt;
+&lt;li&gt;それ以外なら1をA枚，0をB枚，-1を(K-(A+B))枚取って和は2A+B+K&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;c---skill-up&#34;&gt;C - Skill Up&lt;/h2&gt;
+&lt;p&gt;bit全探索するだけ問題．&lt;br&gt;
+N&amp;lt;=12なので，全て試しても2^12≒4000通りなので十分間に合う．&lt;/p&gt;
+&lt;h2 id=&#34;d---teleporter&#34;&gt;D - Teleporter&lt;/h2&gt;
+&lt;p&gt;ABC030_Dとほぼ同じ問題．&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;knのとき&#34;&gt;K&amp;lt;=Nのとき&lt;/h3&gt;
+&lt;p&gt;K回のテレポートを愚直に計算しても間に合う．&lt;/p&gt;
+&lt;h3 id=&#34;knの時&#34;&gt;K&amp;gt;Nの時&lt;/h3&gt;
+&lt;p&gt;鳩の巣原理的に考えると，必ずどこかでループが発生することになる．
+なので，1ループで訪れる町の数でmodを取る．&lt;/p&gt;
+&lt;h2 id=&#34;e---colorful-blocks&#34;&gt;E - Colorful Blocks&lt;/h2&gt;
+&lt;p&gt;時間内に解けなかった．&lt;br&gt;
+全て隣り合わない組み合わせは m*(m-1)^(n-1)になる．
+1組隣り合う場合，その隣り同士は同じ色なので ↑/(m-1)
+↑に組み合わせをかける．一つ右とペアになると考えれば n-1C1 通り
+2組以降も同じように考える．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC166の解説</title>
@@ -180,7 +217,7 @@ i個選択する時の組み合わせによって得られる和は&lt;code&gt;i
 &lt;p&gt;というわけで，&lt;code&gt;N % K&lt;/code&gt;と&lt;code&gt;(N - (N % K)) % K&lt;/code&gt;の小さい方を求める．&lt;/p&gt;
 &lt;h2 id=&#34;d---lunlun-number&#34;&gt;D - Lunlun Number&lt;/h2&gt;
 &lt;p&gt;想定解が天才すぎる．愚直に解いた．&lt;br&gt;
-i番目の数字に対して，i + 1番目の数字を次のように決める．各桁を下から順番に見ていく．もし見ている桁が9でなく，かつ次の桁の数字より1小さいか同じなら，その桁をインクリメントし，それ以降の桁をルンルン数かつ最小となるように調整(つまり，&amp;lsquo;上の桁 - 1&#39;か&amp;rsquo;0&amp;rsquo;)した値がi + 1番目の数になる．どの桁も条件に当てはまらなければ，一番大きい桁をインクリメントする．&lt;br&gt;
+i番目の数字に対して，i + 1番目の数字を次のように決める．各桁を下から順番に見ていく．もし見ている桁が9でなく，かつ次の桁の数字より1小さいか同じなら，その桁をインクリメントし，それ以降の桁をルンルン数かつ最小となるように調整(つまり，&amp;lsquo;上の桁 - 1&amp;rsquo;か&#39;0&amp;rsquo;)した値がi + 1番目の数になる．どの桁も条件に当てはまらなければ，一番大きい桁をインクリメントする．&lt;br&gt;
 各桁を確認，操作する場合は，数字をいったんchar型配列にするとやりやすいかも．&lt;/p&gt;
 &lt;h2 id=&#34;e---yutori&#34;&gt;E - Yutori&lt;/h2&gt;
 &lt;p&gt;解説AC．&lt;br&gt;
@@ -720,7 +757,7 @@ Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数�
 &lt;h2 id=&#34;a---remaining-balls&#34;&gt;A - Remaining Balls&lt;/h2&gt;
 &lt;p&gt;Uで分岐&lt;/p&gt;
 &lt;h2 id=&#34;b---i-miss-you&#34;&gt;B - I miss you&amp;hellip;&lt;/h2&gt;
-&lt;p&gt;入力の文字列の長さの回数&amp;rsquo;x&#39;を出力&lt;/p&gt;
+&lt;p&gt;入力の文字列の長さの回数&amp;rsquo;x&amp;rsquo;を出力&lt;/p&gt;
 &lt;h2 id=&#34;c---distinct-or-not&#34;&gt;C - Distinct or Not&lt;/h2&gt;
 &lt;p&gt;連想配列を使って数字が出現したかを確認&lt;/p&gt;
 &lt;h2 id=&#34;d---dice-in-line&#34;&gt;D - Dice in Line&lt;/h2&gt;
