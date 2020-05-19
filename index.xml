@@ -12,6 +12,69 @@
     
     
     <item>
+      <title>ABC168の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc168/</link>
+      <pubDate>Tue, 19 May 2020 19:54:50 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc168/</guid>
+      <description>&lt;p&gt;速解き回だったけど速解き失敗．
+4完．
+&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC168&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a----therefore&#34;&gt;A - ∴ (Therefore)&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;switch&lt;/code&gt;文を使う問題．
+コードが長くなりがち．
+Kotlinだと気持ちよく書ける．&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;fun main() {
+    Scanner(System.`in`)
+        .run {
+            when (this.nextInt() % 10) {
+                3 -&amp;gt; &amp;#34;bon&amp;#34;
+                0, 1, 6, 8 -&amp;gt; &amp;#34;pon&amp;#34;
+                else -&amp;gt; &amp;#34;hon&amp;#34;
+            }.apply(::println)
+        }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;b----triple-dots&#34;&gt;B - &amp;hellip; (Triple Dots)&lt;/h2&gt;
+&lt;p&gt;やるだけ．
+Sの長さがKを上回っているとき，&lt;code&gt;S.substring(0, K.length)&lt;/code&gt;．&lt;/p&gt;
+&lt;h2 id=&#34;c----colon&#34;&gt;C - : (Colon)&lt;/h2&gt;
+&lt;p&gt;数学．&lt;br&gt;
+極座標か余弦定理を使うと簡単に解ける．
+意外と二つの針の間の角度を求めるのが曲者．&lt;/p&gt;
+&lt;h2 id=&#34;d----double-dots&#34;&gt;D - .. (Double Dots)&lt;/h2&gt;
+&lt;p&gt;嫌な気持ちになります．&lt;br&gt;
+問題の条件から何となく根付き木のような構造が思い浮かぶので，幅探するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;e----bullet&#34;&gt;E - ∙ (Bullet)&lt;/h2&gt;
+&lt;p&gt;解説AC&lt;br&gt;
+解く手順としては&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;仲の悪いイワシを組み合わせないようにする方法&lt;/li&gt;
+&lt;li&gt;最終的な組み合わせを数え上げる方法
+の2つを考える．&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;1-仲の悪いイワシを組み合わせないようにする方法&#34;&gt;1. 仲の悪いイワシを組み合わせないようにする方法&lt;/h3&gt;
+&lt;p&gt;Ai * Aj + Bi * Bj = 0という条件から，美味しさと香り高さがどちらも0のイワシは全てのイワシと仲が悪い．
+それ以外のイワシについて考えると，仲が悪くなるにはAi = a, Bi =bの時，Aj = k&lt;em&gt;b, Bj = -k&lt;/em&gt;aとなる必要がある(kは0以外の整数)．
+なのでイワシを2種類のグループに分ける．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;美味しさ，香り高さの符号が一致する&lt;/li&gt;
+&lt;li&gt;美味しさ，香り高さの符号が一致しない&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;そうすると，それぞれのグループを美味しさと香り高さを互いに素にした値のペアをキー，出現回数をバリューとしたマップにすると，それぞれのキーに対して仲の悪いイワシの数が分かる．
+例えば，グループ1のキーを(美味しさの絶対値をGCDで割った値，香り高さの絶対値をGCDで割った値)，グループ2のキーを(香り高さの絶対値をGCDで割った値，美味しさの絶対値をGCDで割った値)にしておくと，グループ1とグループ2の共通するキーが仲の悪い組み合わせになる．&lt;/p&gt;
+&lt;h3 id=&#34;2-最終的な組み合わせを数え上げる方法&#34;&gt;2. 最終的な組み合わせを数え上げる方法&lt;/h3&gt;
+&lt;p&gt;まず，全てのイワシが仲が悪くないとき，組み合わせの総数は，どのイワシも選ばない組み合わせを除いて2^N-1になる．
+これを踏まえると，先ほどのグループ1，2の各キーに対して，&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;仲の悪い組み合わがある場合，それぞれのバリューp,qに対して 2^p + 2^q - 1&lt;br&gt;
+これはグループ1，2両方のイワシを同時に加えることはできないので別々に計算する．グループ1だけから選ぶ場合は2^p通り，グループ2からだけ選ぶ場合は2^q通りになる．最後に，グループ1，2両方とも選ばない場合が重複しているので1引く．&lt;/li&gt;
+&lt;li&gt;仲の悪い組み合わせがない場合，そのバリューpに対して 2^p&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;を掛けていき，最終的に1引いた値（どのイワシも選ばない組み合わせ）が答えになる．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ABC167の解説</title>
       <link>https://t45k.github.io/kyopuro/abc167/</link>
       <pubDate>Mon, 11 May 2020 11:43:31 +0900</pubDate>
