@@ -329,7 +329,7 @@ i個選択する時の組み合わせによって得られる和は&lt;code&gt;i
 &lt;p&gt;というわけで，&lt;code&gt;N % K&lt;/code&gt;と&lt;code&gt;(N - (N % K)) % K&lt;/code&gt;の小さい方を求める．&lt;/p&gt;
 &lt;h2 id=&#34;d---lunlun-number&#34;&gt;D - Lunlun Number&lt;/h2&gt;
 &lt;p&gt;想定解が天才すぎる．愚直に解いた．&lt;br&gt;
-i番目の数字に対して，i + 1番目の数字を次のように決める．各桁を下から順番に見ていく．もし見ている桁が9でなく，かつ次の桁の数字より1小さいか同じなら，その桁をインクリメントし，それ以降の桁をルンルン数かつ最小となるように調整(つまり，&amp;lsquo;上の桁 - 1&#39;か&amp;rsquo;0&amp;rsquo;)した値がi + 1番目の数になる．どの桁も条件に当てはまらなければ，一番大きい桁をインクリメントする．&lt;br&gt;
+i番目の数字に対して，i + 1番目の数字を次のように決める．各桁を下から順番に見ていく．もし見ている桁が9でなく，かつ次の桁の数字より1小さいか同じなら，その桁をインクリメントし，それ以降の桁をルンルン数かつ最小となるように調整(つまり，&amp;lsquo;上の桁 - 1&amp;rsquo;か&#39;0&amp;rsquo;)した値がi + 1番目の数になる．どの桁も条件に当てはまらなければ，一番大きい桁をインクリメントする．&lt;br&gt;
 各桁を確認，操作する場合は，数字をいったんchar型配列にするとやりやすいかも．&lt;/p&gt;
 &lt;h2 id=&#34;e---yutori&#34;&gt;E - Yutori&lt;/h2&gt;
 &lt;p&gt;解説AC．&lt;br&gt;
@@ -869,7 +869,7 @@ Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数�
 &lt;h2 id=&#34;a---remaining-balls&#34;&gt;A - Remaining Balls&lt;/h2&gt;
 &lt;p&gt;Uで分岐&lt;/p&gt;
 &lt;h2 id=&#34;b---i-miss-you&#34;&gt;B - I miss you&amp;hellip;&lt;/h2&gt;
-&lt;p&gt;入力の文字列の長さの回数&amp;rsquo;x&#39;を出力&lt;/p&gt;
+&lt;p&gt;入力の文字列の長さの回数&amp;rsquo;x&amp;rsquo;を出力&lt;/p&gt;
 &lt;h2 id=&#34;c---distinct-or-not&#34;&gt;C - Distinct or Not&lt;/h2&gt;
 &lt;p&gt;連想配列を使って数字が出現したかを確認&lt;/p&gt;
 &lt;h2 id=&#34;d---dice-in-line&#34;&gt;D - Dice in Line&lt;/h2&gt;
