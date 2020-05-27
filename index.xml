@@ -12,6 +12,55 @@
     
     
     <item>
+      <title>AGC044の解説</title>
+      <link>https://t45k.github.io/kyopuro/agc044/</link>
+      <pubDate>Wed, 27 May 2020 23:41:26 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/agc044/</guid>
+      <description>&lt;p&gt;太陽でしたがNoSubなのでレートは変わらなかったです(NoSubというシステムをよく理解していなかったので，入力するのではないかとドキドキしてました)．
+A，Bの解説．
+&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/AGC/AGC044&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---pay-to-win&#34;&gt;A - Pay to Win&lt;/h2&gt;
+&lt;p&gt;400点問題だと高を括って望んだら痛い目にあった．&lt;br&gt;
+簡単に説明するとNから2，3，5で割っていくだけ．
+メモ化(b|d)fs．
+メモは値をキー，コストをバリューとしたMapで持つ．
+bfsで解く場合は，キューから取り出した値Kに対して&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;2で割れるか試す
+&lt;ul&gt;
+&lt;li&gt;割れる場合: &lt;code&gt;現在のコスト+min(a,d*K/2)&lt;/code&gt;（2で割るか，同じ値だけ1を引くかのコストが小さい方）がメモ[K/2]を更新できなければ何もしない．更新できれば，K/2をキューに追加する．&lt;/li&gt;
+&lt;li&gt;破れない場合: K+1とK-1は2で割れるので，割れる場合と同じ処理をする．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3で割れるか試す
+&lt;ul&gt;
+&lt;li&gt;割れる場合: &lt;code&gt;現在のコスト+min(b,d*2*K/3)&lt;/code&gt;がメモ[K/3]を更新できなければ何もしない．更新できれば，K/3をキューに追加する．&lt;/li&gt;
+&lt;li&gt;破れない場合: K-K%3とK+3-K%3はKで割り切れるので，割れる場合と同じ処理をする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;5で割れるか試す．略&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;をやるだけ．&lt;/p&gt;
+&lt;h2 id=&#34;b---joker&#34;&gt;B - Joker&lt;/h2&gt;
+&lt;p&gt;計算量の見積もりが難しい問題．&lt;br&gt;
+N&amp;lt;=500に対して，与えられる座標の数はN^2なので，座標が与えられる度に(d|b)fsすると間に合わないように見える．
+しかし，実は間に合う．
+1回の(b|d)fsでいくつかの座標の端からの距離が減る
+では全ての走査で行われる操作は合計でO(n^3)で収まる
+例えばN=6の時，最初の各座標の端からの距離は以下のようになる&lt;br&gt;
+0 0 0 0 0 0&lt;br&gt;
+0 1 1 1 1 0&lt;br&gt;
+0 1 2 2 1 0&lt;br&gt;
+0 1 2 2 1 0&lt;br&gt;
+0 1 1 1 1 0&lt;br&gt;
+0 0 0 0 0 0&lt;br&gt;
+全てを走査しきる（= 各座標の端からの距離が0になる）のは 4*4 + 2*2(四角形を狭めていくイメージ)回の操作が必要となる．
+合計するとだいたい (N^3)/6 らしいので条件下で間に合う．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ABC168の解説</title>
       <link>https://t45k.github.io/kyopuro/abc168/</link>
       <pubDate>Tue, 19 May 2020 19:54:50 +0900</pubDate>
@@ -439,7 +488,7 @@ mbpはこんなものじゃすまないと思います．&lt;/p&gt;
 &lt;p&gt;というわけで，&lt;code&gt;N % K&lt;/code&gt;と&lt;code&gt;(N - (N % K)) % K&lt;/code&gt;の小さい方を求める．&lt;/p&gt;
 &lt;h2 id=&#34;d---lunlun-number&#34;&gt;D - Lunlun Number&lt;/h2&gt;
 &lt;p&gt;想定解が天才すぎる．愚直に解いた．&lt;br&gt;
-i番目の数字に対して，i + 1番目の数字を次のように決める．各桁を下から順番に見ていく．もし見ている桁が9でなく，かつ次の桁の数字より1小さいか同じなら，その桁をインクリメントし，それ以降の桁をルンルン数かつ最小となるように調整(つまり，&amp;lsquo;上の桁 - 1&amp;rsquo;か&#39;0&amp;rsquo;)した値がi + 1番目の数になる．どの桁も条件に当てはまらなければ，一番大きい桁をインクリメントする．&lt;br&gt;
+i番目の数字に対して，i + 1番目の数字を次のように決める．各桁を下から順番に見ていく．もし見ている桁が9でなく，かつ次の桁の数字より1小さいか同じなら，その桁をインクリメントし，それ以降の桁をルンルン数かつ最小となるように調整(つまり，&amp;lsquo;上の桁 - 1&#39;か&amp;rsquo;0&amp;rsquo;)した値がi + 1番目の数になる．どの桁も条件に当てはまらなければ，一番大きい桁をインクリメントする．&lt;br&gt;
 各桁を確認，操作する場合は，数字をいったんchar型配列にするとやりやすいかも．&lt;/p&gt;
 &lt;h2 id=&#34;e---yutori&#34;&gt;E - Yutori&lt;/h2&gt;
 &lt;p&gt;解説AC．&lt;br&gt;
@@ -1042,7 +1091,7 @@ Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数�
 &lt;h2 id=&#34;a---remaining-balls&#34;&gt;A - Remaining Balls&lt;/h2&gt;
 &lt;p&gt;Uで分岐&lt;/p&gt;
 &lt;h2 id=&#34;b---i-miss-you&#34;&gt;B - I miss you&amp;hellip;&lt;/h2&gt;
-&lt;p&gt;入力の文字列の長さの回数&amp;rsquo;x&amp;rsquo;を出力&lt;/p&gt;
+&lt;p&gt;入力の文字列の長さの回数&amp;rsquo;x&#39;を出力&lt;/p&gt;
 &lt;h2 id=&#34;c---distinct-or-not&#34;&gt;C - Distinct or Not&lt;/h2&gt;
 &lt;p&gt;連想配列を使って数字が出現したかを確認&lt;/p&gt;
 &lt;h2 id=&#34;d---dice-in-line&#34;&gt;D - Dice in Line&lt;/h2&gt;
@@ -1174,9 +1223,9 @@ mbpと比べるとマシンパワーが段違いであり，作業にかかる�
 普段RealForceや青軸のゲーミングキーボード等のしっかりと押し込むタイプのキーボードを使っているので違和感が凄い．&lt;/p&gt;
 &lt;p&gt;多分ボタンの押し方にコツが必要なのだと感じた．
 バタフライキーボードは指先で押すと指先を痛めやすい（インターンでmbpを借りていたときはマジで一日の終わりは指先が痛かった）ので，指の腹で押すのが大事だと思う．
-今でも&amp;rsquo;return&amp;rsquo;を押す右小指が痛くなってきた．
+今でも&amp;rsquo;return&#39;を押す右小指が痛くなってきた．
 普段からmbpを使っている友達曰く，なぞるように押すのが良いらしいので慣れるしかないかなぁって気持ち．&lt;/p&gt;
-&lt;p&gt;また，バタフライキーボードは薄さにわりに押す際に力が必要なので，小指などで押す&amp;rsquo;A&amp;rsquo;や&amp;rsquo;P&amp;rsquo;などが押せてないことが頻発した．&lt;/p&gt;
+&lt;p&gt;また，バタフライキーボードは薄さにわりに押す際に力が必要なので，小指などで押す&amp;rsquo;A&#39;や&amp;rsquo;P&#39;などが押せてないことが頻発した．&lt;/p&gt;
 &lt;p&gt;エスケープが使いづらいのも地味に辛い．&lt;/p&gt;
 &lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;研究室ではRealForceに接続して使うのでバタフライキーボードはまだマシだと思う．&lt;/p&gt;
