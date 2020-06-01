@@ -6,10 +6,61 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 31 May 2020 15:57:56 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 13:25:09 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC169の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc169/</link>
+      <pubDate>Mon, 01 Jun 2020 13:25:09 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc169/</guid>
+      <description>&lt;p&gt;久々のABC水パフォ．
+&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC169&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---multiplication-1&#34;&gt;A - Multiplication 1&lt;/h2&gt;
+&lt;p&gt;読み込んで掛け算して出力するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;b---multiplication-2&#34;&gt;B - Multiplication 2&lt;/h2&gt;
+&lt;p&gt;与えられた数字の中に0があれば確定で0．
+それ以外の場合，それぞれ掛けて10^18を越えるかを確認すれば良い．
+Javaだと&lt;code&gt;BigInteger&lt;/code&gt;が使える．
+比較は&lt;code&gt;BigInteger#compareTo&lt;/code&gt;で，0より大きければ1が返るっぽい．&lt;/p&gt;
+&lt;h2 id=&#34;c---multiplication-3&#34;&gt;C - Multiplication 3&lt;/h2&gt;
+&lt;p&gt;罠．&lt;br&gt;
+Javaだと&lt;code&gt;BigDecimal&lt;/code&gt;が使える．
+解説通りにやるとするなら，一旦文字列で読み込んで，小数点を消した上で整数に変換すると良さそう．&lt;/p&gt;
+&lt;h2 id=&#34;d---div-game&#34;&gt;D - Div Game&lt;/h2&gt;
+&lt;p&gt;まずは素因数分解する．
+問題の条件から素数pに対して，p^1，p^2，p^3，&amp;hellip;，p^kと割っていくのが最適となる．
+したがって，各素数の出現回数からkを求めれば良い．
+p^kまで作るには，出現回数は&lt;code&gt;1+2+3+...k=k(k+1)/2&lt;/code&gt;個必要となる．
+これは，kを1から全部列挙して探せば良い．
+出現回数の最大値は，N&amp;lt;=10^12≒2^40から高々40回程度なので，全列挙しても十分間に合う．&lt;/p&gt;
+&lt;h2 id=&#34;e---count-median&#34;&gt;E - Count Median&lt;/h2&gt;
+&lt;p&gt;たまたま解けた．&lt;br&gt;
+とても単純化してみる．&lt;/p&gt;
+&lt;h3 id=&#34;nが奇数の時&#34;&gt;Nが奇数の時&lt;/h3&gt;
+&lt;p&gt;N=3で，以下のような時を考える．&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;|---|  |---|  |---|
+a   b  c   d  e   f
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;この時，明らかに中央値はc~dの整数値になる．&lt;br&gt;
+このことから，何となく中央値は(0-indexedで)前からN/2番目の開始位置と後ろからN/2番目の終了位置の間の整数値であると考えられる．&lt;/p&gt;
+&lt;h3 id=&#34;nが偶数の時&#34;&gt;Nが偶数の時&lt;/h3&gt;
+&lt;p&gt;N=4で，以下のような時を考える．&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;|---|  |---|  |---|  |---|
+a   b  c   d  e   f  g   h
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;この時，中央値は((c~dの値)+(e~fの値))/2となる．
+また，片方を1動かせば，中央値は1/2変化するので，中央値は1/2刻みとなる．
+中央値候補の最小値は(c+e)/2，最大値は(d+f)/2となるので，その間の1/2刻みの値が中央値になると考えられる．&lt;/p&gt;
+&lt;p&gt;一般性は，あります！&lt;/p&gt;
+&lt;h2 id=&#34;f---knapsack-for-all-subsets&#34;&gt;F - Knapsack for All Subsets&lt;/h2&gt;
+&lt;p&gt;解説AC．&lt;br&gt;
+最初に，dp[N][S]を用意する．
+各1&amp;lt;=i&amp;lt;=Nに対して，iを加えるか加えないかの2通りがあるので，iの遷移の度に，dp[i][j]はi-1の各jの値*2となる
+そしてAiを加えるかの判定をする．ここは普通のDP&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NOMURA プログラミングコンテスト2020の解説</title>
