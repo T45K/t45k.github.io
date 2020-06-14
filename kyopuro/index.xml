@@ -6,10 +6,41 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 01 Jun 2020 13:25:09 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 18:55:26 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>東京海上日動プログラミングコンテスト2020の解説</title>
+      <link>https://t45k.github.io/kyopuro/tokiomarine2020/</link>
+      <pubDate>Sun, 14 Jun 2020 18:55:26 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/tokiomarine2020/</guid>
+      <description>&lt;p&gt;3完．
+&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/other/tokiomarine2020&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---nickname&#34;&gt;A - Nickname&lt;/h2&gt;
+&lt;p&gt;与えられた文字列の先頭3文字を抜き出すだけ．&lt;/p&gt;
+&lt;h2 id=&#34;b---tag&#34;&gt;B - Tag&lt;/h2&gt;
+&lt;p&gt;非鬼が鬼より右側にいる場合，BはAに捕まらいためには右側に逃げるのが最適となる．
+鬼と非鬼がT秒移動した時にいる箇所は，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;鬼: &lt;code&gt;A + V*T&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;非鬼: &lt;code&gt;B + W*T&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;となる．
+鬼の座標が非鬼の座標以上に右側にいる(=より座標が大きい)と捕まるので，それを判定するだけ&lt;/p&gt;
+&lt;h2 id=&#34;c---lamps&#34;&gt;C - Lamps&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://imoz.jp/algorithms/imos_method.html&#34;&gt;いもす法&lt;/a&gt;をすると1回の操作はO(N)で達成できるので，K回やるとO(NK)となる(いもす法のやり方: Aiの値がdの時，座標&lt;code&gt;i-d&lt;/code&gt;に+1，座標&lt;code&gt;i+d+1&lt;/code&gt;に-1を加え，最後に累積和する)．
+O(NK)なので，最大で4*10^10程度の計算量となってしまいそうだが，ここで問題文から以下のことが言える．&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;全ての電球の明るさが&lt;code&gt;N&lt;/code&gt;となった場合，それ以降の操作で明るさは増えないため，そこで操作を打ち切って良い&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;操作回数が最大になるのはN=10^5，K=10^5，全ての電球の明るさの初期値が0の時なので，これを試してみると時間に十分間に合う．&lt;/p&gt;
+&lt;p&gt;あとはやるだけ．&lt;/p&gt;
+&lt;p&gt;解答を見ると，操作回数はO(log N)で抑えられるらしい．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC169の解説</title>
