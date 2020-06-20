@@ -6,10 +6,48 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Jun 2020 18:55:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 11:52:18 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC170の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc170/</link>
+      <pubDate>Sat, 20 Jun 2020 11:52:18 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc170/</guid>
+      <description>&lt;p&gt;無念の3完．
+&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC170&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---five-variables&#34;&gt;A - 	Five Variables&lt;/h2&gt;
+&lt;p&gt;やるだけ．
+Listを作って&lt;code&gt;List#indexOf&lt;/code&gt;で探すと楽．&lt;/p&gt;
+&lt;h2 id=&#34;b---crane-and-turtle&#34;&gt;B - Crane and Turtle&lt;/h2&gt;
+&lt;p&gt;ツルカメ算．
+ループを回す．&lt;/p&gt;
+&lt;h2 id=&#34;c---forbidden-list&#34;&gt;C - Forbidden List&lt;/h2&gt;
+&lt;p&gt;解答が燃えた問題．&lt;br&gt;
+Xが100以下なので，答えは101以下になる．
+したがって，0から101までの，数列に含まれていない数字に対してXとの差を計算するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;d---not-divisible&#34;&gt;D - Not Divisible&lt;/h2&gt;
+&lt;p&gt;解けなかった．&lt;br&gt;
+エラトステネスの篩のイメージ．
+数列A中の最大値をAmaxとすると，数列Aを昇順に見て&lt;code&gt;sqrt(Amax)&lt;/code&gt;までの数字の倍数を全て消す作業をする．
+最後に残った数字の中でダブりがないものが答え．&lt;/p&gt;
+&lt;h2 id=&#34;e---smart-infants&#34;&gt;E - Smart Infants&lt;/h2&gt;
+&lt;p&gt;データ構造で殴る問題．
+Javaの標準ライブラリにMultiSetはないので少し考える必要がある．
+今回は各幼稚園の園児のレートをTreeSetで，全ての幼稚園の最小値をセグ木で持つと，転園は以下の操作で行われる．
+また，各園児が現在所属している幼稚園の情報を持つとする．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cjの園児が所属している幼稚園(TreeSet)からCjを消す．&lt;/li&gt;
+&lt;li&gt;その幼稚園に関してセグ木の値を更新する．もし幼稚園に園児がいないなら&lt;code&gt;Integer.MAX_VALUE&lt;/code&gt;とする．&lt;/li&gt;
+&lt;li&gt;幼稚園DjにCjを加える．&lt;/li&gt;
+&lt;li&gt;幼稚園Djに関してセグ木の値を更新する．&lt;/li&gt;
+&lt;li&gt;セグ木の全ての範囲に対してクエリを投げる．これが平等さになる．&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>東京海上日動プログラミングコンテスト2020の解説</title>
