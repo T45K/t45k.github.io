@@ -6,10 +6,52 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 30 Jun 2020 22:33:15 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 10:38:47 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC172の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc172/</link>
+      <pubDate>Wed, 01 Jul 2020 10:38:47 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc172/</guid>
+      <description>&lt;p&gt;C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回．
+4完．&lt;br&gt;
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC172&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---calc&#34;&gt;A - Calc&lt;/h2&gt;
+&lt;p&gt;計算するだけ&lt;/p&gt;
+&lt;h2 id=&#34;b---minor-change&#34;&gt;B - Minor Change&lt;/h2&gt;
+&lt;p&gt;問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．&lt;/p&gt;
+&lt;h2 id=&#34;c---tsundoku&#34;&gt;C - Tsundoku&lt;/h2&gt;
+&lt;p&gt;貪欲だと解けない問題．&lt;br&gt;
+A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる．
+ここで，&lt;strong&gt;本は上から見ていく&lt;/strong&gt;というルールから，累積和をとっても問題ないことに気付ける．
+累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;d---sum-of-divisors&#34;&gt;D - Sum of Divisors&lt;/h2&gt;
+&lt;p&gt;最近流行のエラトステネス的問題．&lt;br&gt;
+全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．&lt;br&gt;
+実装としては，以下のようにする．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;長さNの配列を2つ用意する．
+配列Aは1で，配列Bはその添字で初期化する．
+配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う．&lt;/li&gt;
+&lt;li&gt;2 &amp;lt;= i &amp;lt;= √Nとして，配列を順番に見ていく．
+&lt;ul&gt;
+&lt;li&gt;Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;Ak *= k + 1
+Bk /= i ^ k
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;と更新する&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Biが1の時，iは素数なので何もしない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する．&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC171の解説</title>
