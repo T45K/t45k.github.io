@@ -6,10 +6,63 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 20 Jun 2020 11:52:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2020 22:33:15 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC171の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc171/</link>
+      <pubDate>Tue, 30 Jun 2020 22:33:15 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc171/</guid>
+      <description>&lt;p&gt;難易度が暴落した回．&lt;br&gt;
+5完．&lt;br&gt;
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC171&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---αlphabet&#34;&gt;A - αlphabet&lt;/h2&gt;
+&lt;p&gt;やるだけ．
+Javaなら&lt;code&gt;Character#isUpperCase&lt;/code&gt;とかが使える．&lt;/p&gt;
+&lt;h2 id=&#34;b---mix-juice&#34;&gt;B - Mix Juice&lt;/h2&gt;
+&lt;p&gt;ソートして前からK個選ぶ．&lt;/p&gt;
+&lt;h2 id=&#34;c---one-quadrillion-and-one-dalmatians&#34;&gt;C - One Quadrillion and One Dalmatians&lt;/h2&gt;
+&lt;p&gt;与えられた数字を26進数に変換する問題．&lt;br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Nをデクリメントし&lt;/li&gt;
+&lt;li&gt;Nを26で割ったあまりを求め(これを使う)&lt;/li&gt;
+&lt;li&gt;N /= 26 をする&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;を繰り返す．&lt;/p&gt;
+&lt;h2 id=&#34;d---replacing&#34;&gt;D - Replacing&lt;/h2&gt;
+&lt;p&gt;C問題よりわかりやすい．&lt;br&gt;
+最初に全ての和Sと，それぞれの数字が何回出てくるかを記録しておく．
+各クエリ毎に以下の操作をすれば良い．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;与えられたCに対して，SからC*(Cの出現回数)を引く&lt;/li&gt;
+&lt;li&gt;与えられたDに対して，SにD*(Cの出現回数)を加える&lt;/li&gt;
+&lt;li&gt;Dの出現回数にCの出現回数を加える&lt;/li&gt;
+&lt;li&gt;Cの出現回数を0にする&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;e---red-scarf&#34;&gt;E - Red Scarf&lt;/h2&gt;
+&lt;p&gt;まさかの茶diff．Nが偶数という制約があるのを知らんかった&amp;hellip;&lt;br&gt;
+すぬけ君iのスカーフに書かれた整数をbiとすると&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 =      b2 ^ b3 ^ ... ^ bn
+a2 = b1 ^      b3 ^ ... ^ bn
+a3 = b1 ^ b2 ^      ... ^ bn
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;であることが分かる．
+また，排他的論理和の性質から&lt;code&gt;x ^ x = 0&lt;/code&gt;なので，以下が成り立つ．&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 ^ a2 ^ a3 ^ ... ^ an
+= (b1 ^ b1 ^ ... ^ b1(= n-1回の排他的論理和)) ^ (b2 ^ b2 ^ ...) ^ ...
+= b1 ^ b2 ^ ... ^bn
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;つまり&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 ^ (a1 ^ a2 ^ ... ^ an)
+= b1 ^ (b2 ^ b2) ^ (b3 ^ b3) ^ ...
+= b1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;が成り立つ．&lt;br&gt;
+つまり，biを求めるためには，全てのaの排他的論理和とaiの排他的論理和を求めれば良い．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC170の解説</title>
