@@ -6,10 +6,39 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Jul 2020 17:52:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 18:19:23 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>エイシングプログラミングコンテスト2020の解説</title>
+      <link>https://t45k.github.io/kyopuro/aising2020/</link>
+      <pubDate>Mon, 13 Jul 2020 18:19:23 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/aising2020/</guid>
+      <description>&lt;p&gt;4完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/other/aising2020&#34;&gt;コード&lt;/a&gt;
+実装が重かった印象．&lt;/p&gt;
+&lt;h2 id=&#34;a---number-of-multiples&#34;&gt;A - Number of Multiples&lt;/h2&gt;
+&lt;p&gt;for文で回すだけ&lt;/p&gt;
+&lt;h2 id=&#34;b---an-odd-problem&#34;&gt;B - An Odd Problem&lt;/h2&gt;
+&lt;p&gt;for文で回すだけ&lt;/p&gt;
+&lt;h2 id=&#34;c---xyz-triplets&#34;&gt;C - XYZ Triplets&lt;/h2&gt;
+&lt;p&gt;ゴリ押し全探索&lt;br&gt;
+N&amp;lt;=10^4から，x,y,zそれぞれの最大値は10^2になることが分かる．
+なので，x，yを1から10^2まで全探索しても計算量は全体で10^8に抑えられる．&lt;br&gt;
+計算方法だが，xとyが決まればあとはzの二次方程式となるため，解の公式を使えば条件を満たすzが存在するかがO(1)で分かる．&lt;/p&gt;
+&lt;h2 id=&#34;d---anything-goes-to-zero&#34;&gt;D - Anything Goes to Zero&lt;/h2&gt;
+&lt;p&gt;意外と難しかったらしい問題&lt;br&gt;
+条件から，各Xiを最初に割るのは，popcount(X)±1となる．
+また桁iが0の時，&lt;code&gt;Xi = X + 2^i&lt;/code&gt;，1の時，&lt;code&gt;Xi = X - 2^1&lt;/code&gt;となることから，
+Xの値と各2^iの値を最初に求めておけば，最初の余を求めるところ以降は愚直にやっても間に合う．
+Xの値と各2^iの値は非常に大きくなる可能性があるので，何らかの値で割った余りを利用したい．
+ここで，&lt;code&gt;条件から，各Xiを最初に割るのは，popcount(X)±1となる&lt;/code&gt;ので，popcount(X)±1で割った余りを記録して，
+桁iの値で使い分ければ良い.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC173の解説</title>
@@ -18,7 +47,7 @@
       
       <guid>https://t45k.github.io/kyopuro/abc173/</guid>
       <description>&lt;p&gt;4完．
-&lt;a href=&#34;https://github.com/T45K/kyopuro/AtCoder/ABC/ABC173&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC173&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---payment&#34;&gt;A - Payment&lt;/h2&gt;
 &lt;p&gt;愚直にforループを回しても良いが，Nが最大10,000なのを踏まえて，
 &lt;code&gt;10,000 - N&lt;/code&gt;をしてお釣りを1000で割った余りを求めると早い．&lt;/p&gt;
