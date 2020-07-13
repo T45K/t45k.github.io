@@ -6,10 +6,39 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Jul 2020 11:05:57 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 17:52:00 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC173の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc173/</link>
+      <pubDate>Mon, 13 Jul 2020 17:52:00 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc173/</guid>
+      <description>&lt;p&gt;4完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/AtCoder/ABC/ABC173&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---payment&#34;&gt;A - Payment&lt;/h2&gt;
+&lt;p&gt;愚直にforループを回しても良いが，Nが最大10,000なのを踏まえて，
+&lt;code&gt;10,000 - N&lt;/code&gt;をしてお釣りを1000で割った余りを求めると早い．&lt;/p&gt;
+&lt;h2 id=&#34;b---judge-status-summary&#34;&gt;B - Judge Status Summary&lt;/h2&gt;
+&lt;p&gt;switch文で数え上げるだけ．&lt;/p&gt;
+&lt;h2 id=&#34;c---h-and-v&#34;&gt;C - H and V&lt;/h2&gt;
+&lt;p&gt;典型的なbit全探索の問題．
+縦，横でbit全探索して，該当行を赤く塗った後に盤上の黒いマスの個数を数える．&lt;/p&gt;
+&lt;h2 id=&#34;d---chat-in-a-circle&#34;&gt;D - Chat in a Circle&lt;/h2&gt;
+&lt;p&gt;なぜ解けたかよくわからなかった．
+直感的には，Aiをソートした後に&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A1 A2を列に加える&lt;/li&gt;
+&lt;li&gt;A3，A4を交互に列に加える．A1 A3 A2 A4となる&lt;/li&gt;
+&lt;li&gt;A5，A6，A7，A8を交互に列に加える．A1 A5 A3 A6 A2 A7 A4 A8となる&lt;/li&gt;
+&lt;li&gt;これを繰り返す．&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;みたいな．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>「コズミック 世紀末探偵神話」読了</title>
