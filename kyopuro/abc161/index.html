@@ -4,24 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Language" content="ja">
 
     <meta name="author" content="Tasuku NAKAGAWA">
-    <meta name="description" content="100-200-300-400-600の5完． 人生初のオンサイト600点問題AC． コード
-A - ABC Swap Z，X，Yを順に出力するだけ
-B - Popular Vote やるだけ．
-割り算の結果を比較するときは，a &gt; b / cではなくa * c &gt; bのように書いたほうが正確．
-C - Replacing Integer 方針立てるのに時間かかった問題．
-直感的には分かりづらいけど以下のように言い換えられる(chokudaiさんのツイート)．
-C問題、数学の問題といえばそうなんだけど、「無限に長いすごろくがあります。ゴールまでの距離がxです。Kマスずつ進めますが、ゴールを通り過ぎてしまう場合は折り返します。最もゴールに近づく時の残りマス数を答えなさい」みたいにすると、まぁ一応ちゃんとしたストーリーはつくよね。
-&mdash; chokudai(高橋 直大)🌸🍆🍡 (@chokudai) April 4, 2020 というわけで，N % Kと(N - (N % K)) % Kの小さい方を求める．
-D - Lunlun Number 想定解が天才すぎる．愚直に解いた．
-i番目の数字に対して，i &#43; 1番目の数字を次のように決める．各桁を下から順番に見ていく．もし見ている桁が9でなく，かつ次の桁の数字より1小さいか同じなら，その桁をインクリメントし，それ以降の桁をルンルン数かつ最小となるように調整(つまり，&lsquo;上の桁 - 1&rsquo;か&#39;0&rsquo;)した値がi &#43; 1番目の数になる．どの桁も条件に当てはまらなければ，一番大きい桁をインクリメントする．
-各桁を確認，操作する場合は，数字をいったんchar型配列にするとやりやすいかも．
-E - Yutori 解説AC．
-前から貪欲と後ろから貪欲の結果を比較するだけ．解説に登場する配列L，Rを求めなくても，二分探索しても十分間に合う．
-F - Division or Substraction E問題よりACが多いF問題．">
-    <meta name="keywords" content="">
+    <meta name="description" content="Tasuku&#39;s website hosted by github.io">
+    
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="ABC161の解説"/>
@@ -32,7 +18,7 @@ B - Popular Vote やるだけ．
 C - Replacing Integer 方針立てるのに時間かかった問題．
 直感的には分かりづらいけど以下のように言い換えられる(chokudaiさんのツイート)．
 C問題、数学の問題といえばそうなんだけど、「無限に長いすごろくがあります。ゴールまでの距離がxです。Kマスずつ進めますが、ゴールを通り過ぎてしまう場合は折り返します。最もゴールに近づく時の残りマス数を答えなさい」みたいにすると、まぁ一応ちゃんとしたストーリーはつくよね。
-&mdash; chokudai(高橋 直大)🌸🍆🍡 (@chokudai) April 4, 2020 というわけで，N % Kと(N - (N % K)) % Kの小さい方を求める．
+&mdash; chokudai(高橋 直大)🌸🍆🍡 (@chokudai) April 4, 2020  というわけで，N % Kと(N - (N % K)) % Kの小さい方を求める．
 D - Lunlun Number 想定解が天才すぎる．愚直に解いた．
 i番目の数字に対して，i &#43; 1番目の数字を次のように決める．各桁を下から順番に見ていく．もし見ている桁が9でなく，かつ次の桁の数字より1小さいか同じなら，その桁をインクリメントし，それ以降の桁をルンルン数かつ最小となるように調整(つまり，&lsquo;上の桁 - 1&rsquo;か&#39;0&rsquo;)した値がi &#43; 1番目の数になる．どの桁も条件に当てはまらなければ，一番大きい桁をインクリメントする．
 各桁を確認，操作する場合は，数字をいったんchar型配列にするとやりやすいかも．
@@ -48,7 +34,7 @@ B - Popular Vote やるだけ．
 C - Replacing Integer 方針立てるのに時間かかった問題．
 直感的には分かりづらいけど以下のように言い換えられる(chokudaiさんのツイート)．
 C問題、数学の問題といえばそうなんだけど、「無限に長いすごろくがあります。ゴールまでの距離がxです。Kマスずつ進めますが、ゴールを通り過ぎてしまう場合は折り返します。最もゴールに近づく時の残りマス数を答えなさい」みたいにすると、まぁ一応ちゃんとしたストーリーはつくよね。
-&mdash; chokudai(高橋 直大)🌸🍆🍡 (@chokudai) April 4, 2020 というわけで，N % Kと(N - (N % K)) % Kの小さい方を求める．
+&mdash; chokudai(高橋 直大)🌸🍆🍡 (@chokudai) April 4, 2020  というわけで，N % Kと(N - (N % K)) % Kの小さい方を求める．
 D - Lunlun Number 想定解が天才すぎる．愚直に解いた．
 i番目の数字に対して，i &#43; 1番目の数字を次のように決める．各桁を下から順番に見ていく．もし見ている桁が9でなく，かつ次の桁の数字より1小さいか同じなら，その桁をインクリメントし，それ以降の桁をルンルン数かつ最小となるように調整(つまり，&lsquo;上の桁 - 1&rsquo;か&#39;0&rsquo;)した値がi &#43; 1番目の数になる．どの桁も条件に当てはまらなければ，一番大きい桁をインクリメントする．
 各桁を確認，操作する場合は，数字をいったんchar型配列にするとやりやすいかも．
@@ -72,14 +58,14 @@ F - Division or Substraction E問題よりACが多いF問題．" />
       <link rel="canonical" href="https://t45k.github.io/kyopuro/abc161/">
     
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
       
       
-      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -92,10 +78,12 @@ F - Division or Substraction E問題よりACが多いF問題．" />
 
     
 
+    
+
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.70.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
   </head>
 
   
@@ -107,7 +95,6 @@ F - Division or Substraction E問題よりACが多いF問題．" />
     <a class="navigation-title" href="https://t45k.github.io/">
       T45K
     </a>
-    
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
     <ul class="navigation-list">
@@ -132,7 +119,6 @@ F - Division or Substraction E問題よりACが多いF問題．" />
       
       
     </ul>
-    
   </section>
 </nav>
 
@@ -186,43 +172,21 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
   </article>
 </section>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'], ['\\(', '\\)']
-        ],
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-      }
-    };
-  </script>
 
       </div>
 
-      
-  <footer class="footer">
-    <section class="container">
-      
-        <p>圧倒的多幸感</p>
-      
-      
-      
-      
-    </section>
-  </footer>
+      <footer class="footer">
+  <section class="container">
+    
+      <p>圧倒的多幸感</p>
+    
+    
+    
+    
+  </section>
+</footer>
 
     </main>
-
-    
-
-    
 
     
 
