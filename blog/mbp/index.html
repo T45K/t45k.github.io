@@ -4,10 +4,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="ja">
 
     <meta name="author" content="Tasuku NAKAGAWA">
-    <meta name="description" content="Tasuku&#39;s website hosted by github.io">
-    
+    <meta name="description" content="組織特有の，年末に予算を使い切る目的で，新しいmacbook proを貸してもらえることになった． モデルはMid2019の13インチモデル． 研究室内で大した業績を上げていない自分にしてはとても良いものを貸してもらえたと思う．
+以下，使ってみた感想
+良いとこ  速い  今まで2015年モデルのmacbook airを借りていた． mbpと比べるとマシンパワーが段違いであり，作業にかかる時間が大幅に短縮された．
+ 画面が綺麗  マジで全然違う． 4年でここまで変わるのかって感じ．
+良くないとこ  日本語入力がもっさりしてる  mbaでは起きていなかった現象． 英語入力から日本語入力に変更した直後が，なぜか入力してから画面に表示されるまで0.5秒くらいかかる． ググったら結構記事がヒットしたので，何かしらの解決法はあると思う．
+ キーボードがヤバイ  使う前からバタフライキーボードがやばいことは理解していたが，使ってみるとやっぱりやばかった． 普段RealForceや青軸のゲーミングキーボード等のしっかりと押し込むタイプのキーボードを使っているので違和感が凄い．
+多分ボタンの押し方にコツが必要なのだと感じた． バタフライキーボードは指先で押すと指先を痛めやすい（インターンでmbpを借りていたときはマジで一日の終わりは指先が痛かった）ので，指の腹で押すのが大事だと思う． 今でも&rsquo;return&rsquo;を押す右小指が痛くなってきた． 普段からmbpを使っている友達曰く，なぞるように押すのが良いらしいので慣れるしかないかなぁって気持ち．
+また，バタフライキーボードは薄さにわりに押す際に力が必要なので，小指などで押す&rsquo;A&rsquo;や&rsquo;P&rsquo;などが押せてないことが頻発した．
+エスケープが使いづらいのも地味に辛い．
+まとめ 研究室ではRealForceに接続して使うのでバタフライキーボードはまだマシだと思う．">
+    <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="研究室のパソコンがmacbook proになった話"/>
@@ -50,14 +60,14 @@
       <link rel="canonical" href="https://t45k.github.io/blog/mbp/">
     
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
     
       
       
-      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -66,8 +76,6 @@
 
     
       <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
-    
-
     
 
     
@@ -87,6 +95,7 @@
     <a class="navigation-title" href="https://t45k.github.io/">
       T45K
     </a>
+    
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
     <ul class="navigation-list">
@@ -111,6 +120,7 @@
       
       
     </ul>
+    
   </section>
 </nav>
 
@@ -162,21 +172,43 @@ mbpと比べるとマシンパワーが段違いであり，作業にかかる�
   </article>
 </section>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
 
       </div>
 
-      <footer class="footer">
-  <section class="container">
-    
-      <p>圧倒的多幸感</p>
-    
-    
-    
-    
-  </section>
-</footer>
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>圧倒的多幸感</p>
+      
+      
+      
+      
+    </section>
+  </footer>
 
     </main>
+
+    
+
+    
 
     
 
