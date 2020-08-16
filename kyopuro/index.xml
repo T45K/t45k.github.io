@@ -6,10 +6,66 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 Aug 2020 13:48:43 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2020 19:58:10 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC175の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc175/</link>
+      <pubDate>Sun, 16 Aug 2020 19:58:10 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc175/</guid>
+      <description>&lt;p&gt;オンタイム参加せず．
+バチャやると3完だったので参加しなくてよかった&amp;hellip;&lt;br&gt;
+&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC175&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---rainy-season&#34;&gt;A - Rainy Season&lt;/h2&gt;
+&lt;p&gt;高々3文字なので全ての場合を列挙した方が良さそう．&lt;/p&gt;
+&lt;h2 id=&#34;b---making-triangle&#34;&gt;B - Making Triangle&lt;/h2&gt;
+&lt;p&gt;高々&lt;code&gt;N &amp;lt;= 100&lt;/code&gt;なので3重ループでOK．&lt;/p&gt;
+&lt;h2 id=&#34;c---walking-takahashi&#34;&gt;C - Walking Takahashi&lt;/h2&gt;
+&lt;p&gt;個人的に結構難しかった問題．&lt;br&gt;
+Xは最初から絶対値として扱って良い．
+&lt;code&gt;X &amp;gt;= K * D&lt;/code&gt;の場合は&lt;code&gt;X - K * D&lt;/code&gt;が最適となる．&lt;br&gt;
+そうでない場合．まず　&lt;code&gt;K2 = X / D&lt;/code&gt;とすると&lt;code&gt;0 &amp;lt; X - K2 * D &amp;lt; D&lt;/code&gt;を満たすK2が得られる．
+ここからK2の偶奇がKと一致する場合そのKを，一致しない場合はK2+1が答えとなる．&lt;br&gt;
+&lt;code&gt;K * D&lt;/code&gt;が64bitに収まらないに注意．&lt;/p&gt;
+&lt;h2 id=&#34;d---moving-piece&#34;&gt;D - Moving Piece&lt;/h2&gt;
+&lt;p&gt;場合分けが面倒くさくて実装量が多くなる問題&lt;br&gt;．
+まず初めにマスのグループ分けを行う．
+というのも始める場所によっては行けないマスが存在することもあるからである（例えば&lt;code&gt;2 1 4 3&lt;/code&gt;だと1からスタートすると1 -&amp;gt; 2 -&amp;gt; 1を繰り返す）．
+グループ分けは愚直にシミュレーションしても良いし，UnionFindTreeを用いてもできる．&lt;br&gt;
+分けたグループそれぞれに対して，スコアを計算する．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kがグループのサイズ以下の場合&lt;br&gt;
+グループに含まれる各値をスタート地点にして，シミュレーションする．
+シミュレーションの途中のスコアも全て記録しておき，最大値を取得する&lt;/li&gt;
+&lt;li&gt;Kがグループのサイズを超過する場合
+&lt;ul&gt;
+&lt;li&gt;グループの各数値iに対するCiの総和が
+0より大きい場合&lt;br&gt;
+なるべく多くループした方が良い．
+&lt;code&gt;div = K / グループサイズ&lt;/code&gt;，&lt;code&gt;mod = K % グループサイズ&lt;/code&gt;とする．
+&lt;ul&gt;
+&lt;li&gt;modが0でない時&lt;br&gt;
+余り回移動するシミュレーションを行い，その最大値を&lt;code&gt;総和 * div&lt;/code&gt;に足す．&lt;/li&gt;
+&lt;li&gt;modが0の時&lt;br&gt;
+ループを1回少なく行い，そこから最適な移動を行う場合を考える（Cに負の数が含まれる場合，総和 &amp;lt; 最適なシミュレーションになる）ので，グループサイズ回移動するシミュレーションを行い，その最大値を&lt;code&gt;総和 * (div - 1)&lt;/code&gt;に足す．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;0より小さい場合
+ループしない方が良いので，グループサイズ回移動するシミュレーションを行う．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最終的に各グループに対して上の計算で出た値の最大値が答え．&lt;/p&gt;
+&lt;h2 id=&#34;e---picking-goods&#34;&gt;E - Picking Goods&lt;/h2&gt;
+&lt;p&gt;Dより簡単．DP．&lt;br&gt;
+同じ行でいくつ宝箱を取得してかを表す要素を追加する．
+&lt;code&gt;dp[R][C][3]&lt;/code&gt;．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC174の解説</title>
