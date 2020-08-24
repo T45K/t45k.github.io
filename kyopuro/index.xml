@@ -6,10 +6,43 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 Aug 2020 19:58:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 17:05:57 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC176の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc176/</link>
+      <pubDate>Mon, 24 Aug 2020 17:05:57 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc176/</guid>
+      <description>&lt;p&gt;気持ち良く5完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC176&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---takoyaki&#34;&gt;A - Takoyaki&lt;/h2&gt;
+&lt;p&gt;日本語をきちんと噛み砕かないと解けない問題．
+答え自体は&lt;code&gt;(X + N - 1) / N * T&lt;/code&gt;するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;b---multiple-of-9&#34;&gt;B - Multiple of 9&lt;/h2&gt;
+&lt;p&gt;各桁の合計を9で割るだけ&lt;/p&gt;
+&lt;h2 id=&#34;c---step&#34;&gt;C - Step&lt;/h2&gt;
+&lt;p&gt;前から順番に見ていき，今見ている人の身長が前の人以上になるように踏み台を使うのが最適．&lt;br&gt;
+なので，人iが見てきた中で最大の身長より小さければ，その差を足し合わせ，
+それより大きければ身長の最大値を更新すれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;d---wizard-in-maze&#34;&gt;D - Wizard in Maze&lt;/h2&gt;
+&lt;p&gt;意外と解ける人が少なかった問題&lt;br&gt;．
+移動をコスト0，ワープをコスト1としてダイクストラすれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;e---bomber&#34;&gt;E - Bomber&lt;/h2&gt;
+&lt;p&gt;これが緑diffなの意外．&lt;br&gt;
+最初に各列，行ごとの爆破対象の個数を数えていく．
+次に，列，行ごとで爆破対象が最大のもののみをフィルターする．
+最後に残った列，行を組み合わせた際に爆破対象が最大となるものを選ぶ．
+この時，選んだ列，行の交差点に爆破対象がない場合合計個数は&lt;code&gt;列の値 + 行の値&lt;/code&gt;，
+そうでない場合は&lt;code&gt;列の値 + 行の値 - 1&lt;/code&gt;になる．
+なので，交差点に爆破対象がないように選びたい．
+爆破対象の数は高々M個なので，交差点がMを超過するとき，必ず爆破対象が存在しない交差点がする．
+逆にM以下の場合は，全ての交差点を確認しても制限時間に間に合う．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC175の解説</title>
