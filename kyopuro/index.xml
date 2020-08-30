@@ -6,10 +6,43 @@
     <description>Recent content in Kyopuros on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 24 Aug 2020 17:05:57 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 16:35:35 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC177の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc177/</link>
+      <pubDate>Sun, 30 Aug 2020 16:35:35 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc177/</guid>
+      <description>&lt;p&gt;5完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC177&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---dont-be-late&#34;&gt;A - Don&amp;rsquo;t be late&lt;/h2&gt;
+&lt;p&gt;規定の時間歩き切った際の距離が待ち合わせ場所までの距離以上であれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;b---substring&#34;&gt;B - Substring&lt;/h2&gt;
+&lt;p&gt;制約が緩いのでSの0以上&lt;code&gt;|S|-|T|&lt;/code&gt;以下文字を先頭とした部分文字列とTを比較すれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;c---sum-of-product-of-pairs&#34;&gt;C - Sum of product of pairs&lt;/h2&gt;
+&lt;p&gt;愚直にやると時間に間に合わない．&lt;br&gt;
+答えは&lt;code&gt;A1 * (A2 + A3 + ... An) + A2 * (A3 + ... + An) + ... + Ai * (Ai+1 + ... + An) + ...&lt;/code&gt;なので，
+A2からAnまでの累積和を取ってから掛け算を行えば良い．&lt;/p&gt;
+&lt;h2 id=&#34;d---friends&#34;&gt;D - Friends&lt;/h2&gt;
+&lt;p&gt;Union-Findで殴る．&lt;br&gt;
+問題文から，Union-Findを使うと友達グループは簡単に求まる．
+&lt;strong&gt;全ての人について「同じグループの中に友達がいない」という状況&lt;/strong&gt;を達成するためには，
+一番大きい友達グループと同じサイズのグループに分割すれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;e---coprime&#34;&gt;E - Coprime&lt;/h2&gt;
+&lt;p&gt;まず全てのAiに対してGCDをとって，与えられた数字列が&lt;strong&gt;not coprime&lt;/strong&gt;か否かを判定する．
+not coprime出ない場合，次に&lt;strong&gt;pairwise coprime&lt;/strong&gt;かどうかを判定する．
+ここで，&lt;strong&gt;「全ての組が互いに素である」とは，与えられた数字列の数字を素因数分解した際に，素数が約数となるのは高々1回まで&lt;/strong&gt;と同意である．
+Ai&amp;lt;=10^6から，素数の最大値は1000以下，あるいは1000以下の素数で割り切った後に残る数字（1以外）となる．
+なので，先に1000以下の素数をエラトステネスの篩などで用意しておき，
+各Aiに対して各素数で割れるかどうかを判定する．
+割れる場合，その素数を記録する．
+すでに記録した素数で割り切れた場合，互いに素でない数字の組が存在することになる．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC176の解説</title>
