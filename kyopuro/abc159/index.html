@@ -65,7 +65,7 @@ private static boolean isPalindrome(final int start, final int end, final String
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.72.0" />
+    <meta name="generator" content="Hugo 0.78.1" />
   </head>
 
   
@@ -151,18 +151,18 @@ private static boolean isPalindrome(final int start, final int end, final String
 <table>
 <thead>
 <tr>
-<th align="center">場合分け</th>
-<th align="center">操作</th>
+<th style="text-align:center">場合分け</th>
+<th style="text-align:center">操作</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">Ai を足さない</td>
-<td align="center">dp[N][j] = dp[N - 1][j]</td>
+<td style="text-align:center">Ai を足さない</td>
+<td style="text-align:center">dp[N][j] = dp[N - 1][j]</td>
 </tr>
 <tr>
-<td align="center">Ai を足す</td>
-<td align="center">Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i<br>Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]<br>Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)</td>
+<td style="text-align:center">Ai を足す</td>
+<td style="text-align:center">Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i<br>Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]<br>Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)</td>
 </tr>
 </tbody>
 </table>
