@@ -83,7 +83,7 @@ E - Almost Everywhere Zero 桁DP
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.78.1" />
+    <meta name="generator" content="Hugo 0.70.0" />
   </head>
 
   
@@ -152,18 +152,18 @@ E - Almost Everywhere Zero 桁DP
 <table>
 <thead>
 <tr>
-<th style="text-align:left">桁i-1での状態</th>
-<th style="text-align:left">桁iでの状態</th>
+<th align="left">桁i-1での状態</th>
+<th align="left">桁iでの状態</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">確定している</td>
-<td style="text-align:left">0を選択する: <code>dp[i][k] += dp[i - 1][k]</code><br>0以外を選択する: <code>dp[i][k] += dp[i - 1][k - 1] * 9</code></td>
+<td align="left">確定している</td>
+<td align="left">0を選択する: <code>dp[i][k] += dp[i - 1][k]</code><br>0以外を選択する: <code>dp[i][k] += dp[i - 1][k - 1] * 9</code></td>
 </tr>
 <tr>
-<td style="text-align:left">確定していない</td>
-<td style="text-align:left">桁iが0の時: Nより小さくすることはできないので何もしない<br>桁iが0でない時: <strong>1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる</strong>ので，桁i-1までに0以外の数字が出現した回数をjとすると<code>dp[i][j + 1] += (桁iの数字 - 1)</code></td>
+<td align="left">確定していない</td>
+<td align="left">桁iが0の時: Nより小さくすることはできないので何もしない<br>桁iが0でない時: <strong>1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる</strong>ので，桁i-1までに0以外の数字が出現した回数をjとすると<code>dp[i][j + 1] += (桁iの数字 - 1)</code></td>
 </tr>
 </tbody>
 </table>

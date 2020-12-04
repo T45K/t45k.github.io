@@ -6,10 +6,34 @@
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Nov 2020 16:19:02 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 05 Dec 2020 00:12:03 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>APSEC2020に参加した話</title>
+      <link>https://t45k.github.io/blog/apsec_2020/</link>
+      <pubDate>Sat, 05 Dec 2020 00:12:03 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/apsec_2020/</guid>
+      <description>&lt;p&gt;12/2~4にオンラインで開催されたAPSECに参加してきました．&lt;/p&gt;
+&lt;h2 id=&#34;apsecとは&#34;&gt;APSECとは&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;../apsec_2019&#34;&gt;APSEC2019に参加した話&lt;/a&gt;参照．&lt;/p&gt;
+&lt;p&gt;M2の4月終わりから研究し始めた，重複コードの修正支援ボットの論文をERA（Early Research Achievement）に投げました（&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?DOWNLOAD=536&#34;&gt;論文&lt;/a&gt;）．&lt;br&gt;
+Acceptance rateはTechnical Researchが36.9%（45/122），ERAが46.2%（12/26）らしかったです．&lt;br&gt;
+ERAのacc. rateが高いのでレベルは推して知るべしという感じです．&lt;/p&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;p&gt;コロナの影響で，APSECに限らず国際会議は軒並みオンラインになってしまいました．&lt;br&gt;
+国際会議は，成果発表の他に観光という側面もあるので，そういった意味ではモチベーションはあまり高くなかったです．&lt;br&gt;
+一方，オンラインのおかげ喋る内容を覚えずに済むという利点もありました．&lt;br&gt;
+発表ですが，チェアの方すら質問しないという謎の現象が発生したおかげで，良くも悪くも英語での質疑応答がなかったです．&lt;/p&gt;
+&lt;p&gt;オンライン会議の悪い側面として，聴衆が参加しにくいというのが挙げられるかなと感じました．&lt;br&gt;
+現地開催の場合，現地にいるのであまり興味がないトラックに参加したり，その結果質疑が盛り上がったりすることがあると思います．&lt;br&gt;
+一方，オンラインの場合は自分と関係ない発表を聞く必要がないので，あまり盛り上がらないと感じました（僕も自分のトラック以外一切参加しませんでした）．&lt;/p&gt;
+&lt;p&gt;コロナが一刻も早く収束して，元のように会議ができればと思います．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>「九十九十九」読了</title>
@@ -594,11 +618,11 @@ mbpと比べるとマシンパワーが段違いであり，作業にかかる�
     
     <item>
       <title>APSEC2019に参加した話</title>
-      <link>https://t45k.github.io/blog/apsec/</link>
+      <link>https://t45k.github.io/blog/apsec_2019/</link>
       <pubDate>Thu, 05 Dec 2019 20:19:32 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/apsec/</guid>
-      <description>&lt;p&gt;マレーシアで開催された12/3~5に開催されたAPSECに参加してきました．&lt;/p&gt;
+      <guid>https://t45k.github.io/blog/apsec_2019/</guid>
+      <description>&lt;p&gt;12/3~5にマレーシアで開催されたAPSECに参加してきました．&lt;/p&gt;
 &lt;h2 id=&#34;apsecとは&#34;&gt;APSECとは&lt;/h2&gt;
 &lt;p&gt;Asia-Pacific Software Engineering Conferenceの略です．
 要するにソフトウェア工学の国際会議です．
