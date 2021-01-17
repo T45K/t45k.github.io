@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://t45k.github.io/blog/apsec_2020/</loc>
-    <lastmod>2020-12-05T00:12:03+09:00</lastmod>
+    <loc>https://t45k.github.io/blog/</loc>
+    <lastmod>2021-01-17T17:38:48+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://t45k.github.io/blog/</loc>
+    <loc>https://t45k.github.io/blog/ipsj_journal/</loc>
+    <lastmod>2021-01-17T17:38:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://t45k.github.io/blog/apsec_2020/</loc>
     <lastmod>2020-12-05T00:12:03+09:00</lastmod>
   </url>
   
