@@ -12,6 +12,45 @@
     
     
     <item>
+      <title>ABC192の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc192/</link>
+      <pubDate>Sun, 21 Feb 2021 17:56:33 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc192/</guid>
+      <description>&lt;p&gt;研究も一段落付いたので競プロに復帰します．&lt;/p&gt;
+&lt;p&gt;今回はABCDの4完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC192&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---star&#34;&gt;A - Star&lt;/h2&gt;
+&lt;p&gt;Xは高々10^5なのでごり押しでもできますが，
+100からXを100で割った余りを引くと&lt;code&gt;O(1)&lt;/code&gt;で求まります．&lt;/p&gt;
+&lt;h2 id=&#34;b---unreadable-string&#34;&gt;B - uNrEaDaBlE sTrInG&lt;/h2&gt;
+&lt;p&gt;for文で回すだけ．
+大文字，小文字判定はJavaだと&lt;code&gt;Character#isUpper(Lower)Case&lt;/code&gt;を使うと一発．&lt;/p&gt;
+&lt;h2 id=&#34;c---kaprekar-number&#34;&gt;C - Kaprekar Number&lt;/h2&gt;
+&lt;p&gt;一見難しそうに見えますが，&lt;code&gt;N&amp;lt;=10^9&lt;/code&gt;からNをソート対象の要素は高々9個なので，
+K=10^5から毎回&lt;code&gt;f(x)&lt;/code&gt;を計算しても十分間に合います．
+ということで&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;xをchar型配列に変換する&lt;/li&gt;
+&lt;li&gt;g1がxを降順にソートして得られる値，g2が昇順ソートで得られる値になる&lt;/li&gt;
+&lt;li&gt;x = f(x)
+をK回繰り返せばOK&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;d---base-n&#34;&gt;D - Base n&lt;/h2&gt;
+&lt;p&gt;E問題より解いた人が少なかったD問題．&lt;/p&gt;
+&lt;p&gt;まずXが一文字の時，何進数であってもXのn進数表記の値は変わらないため，
+&lt;code&gt;X &amp;lt;= M&lt;/code&gt;なら1，そうでなければ0を出力する．&lt;/p&gt;
+&lt;p&gt;次にXが二文字以上の時は，伝家の宝刀二分探索をする．
+dから10^18+1の範囲から初め，
+XをN進数表記にしたときにMを超過しない最大のNを求める．
+ちなみにXのN進数表記を計算するときは&lt;code&gt;BigInteger&lt;/code&gt;を使うことをオススメします
+（オーバーフローを考慮したうえでlongを使うと1WAになった）．&lt;/p&gt;
+&lt;h2 id=&#34;e---train&#34;&gt;E - Train&lt;/h2&gt;
+&lt;p&gt;出発できる時刻を考慮したうえでDijkstraをするだけ．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>情報処理学会論文誌に論文が採録された話</title>
       <link>https://t45k.github.io/blog/ipsj_journal/</link>
       <pubDate>Sun, 17 Jan 2021 17:38:48 +0900</pubDate>
