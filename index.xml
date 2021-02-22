@@ -12,6 +12,40 @@
     
     
     <item>
+      <title>ARC113の解説</title>
+      <link>https://t45k.github.io/kyopuro/arc113/</link>
+      <pubDate>Mon, 22 Feb 2021 15:03:58 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/arc113/</guid>
+      <description>&lt;p&gt;ABCの3完で緑パフォ．&lt;a href=&#34;https://github.com/T45k/kyopuro/tree/master/AtCoder/ARC/ARC113&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---abc&#34;&gt;A - A&lt;em&gt;B&lt;/em&gt;C&lt;/h2&gt;
+&lt;p&gt;実は一番時間がかかった問題．
+Aを固定した時に，BとCの組み合わせは&lt;code&gt;O(K)&lt;/code&gt;で求まる
+（BがNの時，Cは&lt;code&gt;1~K/N&lt;/code&gt;の値を取りうるので，組み合わせの個数は&lt;code&gt;K/N&lt;/code&gt;になる）．
+よって，Aを1からKまで動かしつつ，&lt;code&gt;B*C&amp;lt;=K/A&lt;/code&gt;を満たすB*Cの組み合わせを求めることになる．
+Aを動かしてもK/Aが変わらないときは，B，Cの組み合わせの個数も変わらない．
+なので，B，Cの組み合わせの個数をメモしておく．&lt;/p&gt;
+&lt;p&gt;個人的には計算量の見積もりが厳しい．
+入力を考えるのは簡単なので，とりあえず実装してみて一番時間がかかりそうな入力（2*10^5）を突っ込んで時間計ってみるのが良さそう．&lt;/p&gt;
+&lt;h2 id=&#34;b---abc&#34;&gt;B - A^B^C&lt;/h2&gt;
+&lt;p&gt;A^B^Cの1の位は10で割った余りなので，(A%10)^B^Cと答えは同じ．
+次にA%10の累乗の1の位がループする回数を求める．
+例えば，2の場合，2の累乗の1の位は&lt;code&gt;2 -&amp;gt; 4 -&amp;gt; 8 -&amp;gt; 6 -&amp;gt;  2&lt;/code&gt;と4回毎にループすることが分かる．
+これから，ループする回数をNとすると，B^CをNで割った余りを求めれば良い．
+繰り返し二乗法を使えば&lt;code&gt;O(log(C))&lt;/code&gt;で&lt;code&gt;B^C % N&lt;/code&gt;を求められるので十分間に合う．&lt;/p&gt;
+&lt;h2 id=&#34;c---string-invasion&#34;&gt;C - String Invasion&lt;/h2&gt;
+&lt;p&gt;あるアルファベット&lt;code&gt;α&lt;/code&gt;が二回連続で並んでいるときに，その後ろにあるアルファベットを全て&lt;code&gt;α&lt;/code&gt;に置換できると考えると楽．
+このとき，αの後ろにある全てのアルファベットの内，αではないアルファベットの個数回操作を行える．
+この操作はなるべく後ろからしていくのが最適なので，以下の手順で解けばよい．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;後ろからアルファベットを見ていく．この時，アルファベットの種類毎の個数を記録する．&lt;/li&gt;
+&lt;li&gt;二回連続しているアルファベット&lt;code&gt;α&lt;/code&gt;があれば，これまで記録してきた&lt;code&gt;α&lt;/code&gt;ではないアルファベットの個数回操作を行える．&lt;/li&gt;
+&lt;li&gt;操作を行うと，今見ている以降の全てのアルファベットが&lt;code&gt;α&lt;/code&gt;になるので，そのように個数を記録し直す．&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>鶏白湯ラーメンの作り方</title>
       <link>https://t45k.github.io/blog/toripaitan/</link>
       <pubDate>Mon, 22 Feb 2021 14:28:05 +0900</pubDate>
