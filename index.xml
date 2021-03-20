@@ -12,6 +12,55 @@
     
     
     <item>
+      <title>ABC196の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc196/</link>
+      <pubDate>Sat, 20 Mar 2021 23:48:43 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc196/</guid>
+      <description>&lt;p&gt;惜しくも4完．
+E問題で一ヵ所凡ミスがあって1WAだった．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC196&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---difference-max&#34;&gt;A - Difference Max&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;x-y&lt;/code&gt;が最大になるのは&lt;code&gt;x&lt;/code&gt;が最大かつ&lt;code&gt;y&lt;/code&gt;が最小の時．
+&lt;code&gt;x&lt;/code&gt;の最大値は&lt;code&gt;b&lt;/code&gt;であり，&lt;code&gt;y&lt;/code&gt;の最小値は&lt;code&gt;c&lt;/code&gt;なので，答えは&lt;code&gt;b-c&lt;/code&gt;．&lt;/p&gt;
+&lt;h2 id=&#34;b---round-down&#34;&gt;B - Round Down&lt;/h2&gt;
+&lt;p&gt;100桁の小数が与えられるので，Xを数値として読み込むのは厳しい．
+一旦文字列として読み込み，それの整数部を計算する．
+文字列中に&lt;code&gt;.&lt;/code&gt;が存在しないならその文字列をそのまま，
+存在するなら&lt;code&gt;.&lt;/code&gt;で分割し，前半の文字列を出力すれ良い．&lt;/p&gt;
+&lt;h2 id=&#34;c---doubled&#34;&gt;C - Doubled&lt;/h2&gt;
+&lt;p&gt;一見難しそうに見えるが，全探索すれば良い．
+12桁の整数全ては調べられないが，条件は&lt;code&gt;前半と後半が等しい&lt;/code&gt;なので，
+下6桁まで(&lt;code&gt;1~999,999&lt;/code&gt;)だけを確認すれば良い．
+&lt;code&gt;1~999,999&lt;/code&gt;までの数値を2回繰り返した整数がNよりも小さいかを判定する．&lt;/p&gt;
+&lt;h2 id=&#34;d---hanjo&#34;&gt;D - Hanjo&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;HW &amp;lt;= 16&lt;/code&gt;という条件から，全探索をしてみる．
+1畳の畳の置き方の問題なので，半畳の方は考えなくて良い（余った箇所に詰めれる）．
+部屋を1メートル毎に分割し&lt;code&gt;(i,j)&lt;/code&gt;と表現するとすると，
+各&lt;code&gt;(i,j)&lt;/code&gt;に対して，&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;（置けるけど）畳を置かない&lt;/li&gt;
+&lt;li&gt;畳を縦に置く&lt;/li&gt;
+&lt;li&gt;畳を横に置く&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;の3通りの選び方があるので，再帰関数等を使って，
+深さ優先探索で全てを試せば良い．&lt;/p&gt;
+&lt;h2 id=&#34;e---filters&#34;&gt;E - Filters&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;N&amp;lt;=2*10^5&lt;/code&gt;，&lt;code&gt;Q&amp;lt;=2*10^5&lt;/code&gt;から全ての&lt;code&gt;xi&lt;/code&gt;に対して各関数を当てると間に合わないので，
+1つの関数を全&lt;code&gt;X&lt;/code&gt;に&lt;code&gt;log(Q)&lt;/code&gt;に当てることを考える．
+そうすると，先に&lt;code&gt;X&lt;/code&gt;をソートしておいて，
+関数を当てる箇所を二分探索で探せば良いことが何となく分かる．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ti=1&lt;/code&gt;のとき，&lt;code&gt;ai&lt;/code&gt;の値は最後に加算しても問題ない．
+&lt;code&gt;sum&lt;/code&gt;などの変数に加算しておき，最後に計算する．&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ti=2(max)&lt;/code&gt;のとき，&amp;ldquo;ソート済み&lt;code&gt;X&lt;/code&gt;の&lt;code&gt;ai&lt;/code&gt;以下の値が全て&lt;code&gt;ai&lt;/code&gt;になる&amp;quot;と考える．
+二分探索で&lt;code&gt;ai&lt;/code&gt;以下の値の場所を求めて，その場所から左側の値は全て&lt;code&gt;ai&lt;/code&gt;になることを記録しておく．&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ti=3(min)&lt;/code&gt;のときも同様．&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ARC113の解説</title>
       <link>https://t45k.github.io/kyopuro/arc113/</link>
       <pubDate>Mon, 22 Feb 2021 15:03:58 +0900</pubDate>
