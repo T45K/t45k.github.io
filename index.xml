@@ -6,10 +6,38 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 May 2020 18:26:46 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 25 Mar 2021 11:07:17 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>作ったもの</title>
+      <link>https://t45k.github.io/product/</link>
+      <pubDate>Thu, 25 Mar 2021 11:07:17 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/product/</guid>
+      <description>&lt;h2 id=&#34;githubcontributionbothttpsgithubcomt45kghcbotforlambda&#34;&gt;&lt;a href=&#34;https://github.com/T45K/GHCBotForLambda&#34;&gt;GitHubContributionBot&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;GitHubのコントリビューション（草の生え具合）についてTwitterで報告してくれるボット．
+0時になると&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;その日のコントリビューション数&lt;/li&gt;
+&lt;li&gt;その日までの連続コントリビューション日数（Streak）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を呟いてくれる．&lt;/p&gt;
+&lt;p&gt;技術的には定時にGitHubのトップページのHTMLをパースしてるだけ．&lt;/p&gt;
+&lt;h2 id=&#34;clionehttpsgithubcomt45kclione&#34;&gt;&lt;a href=&#34;https://github.com/T45K/CLIONE&#34;&gt;CLIONE&lt;/a&gt;&lt;/h2&gt;
+&lt;img src=&#34;https://t45k.github.io/img/logo.png&#34; width=&#34;20%&#34;&gt;
+&lt;p&gt;類似コードの修正漏れを教えてくれるボット．
+GitHub Appsを用いて設計されていて，PRの作成ごとに勝手に通知を飛ばしてくれる．&lt;/p&gt;
+&lt;p&gt;論文は&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=675&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;nilhttpsgithubcomkusumotolabnil&#34;&gt;&lt;a href=&#34;https://github.com/kusumotolab/NIL&#34;&gt;NIL&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;類似コード検出ツール．&lt;/p&gt;
+&lt;p&gt;既存のツールでは検出が難しかった「コピペされた後に大量の変更が行われた類似コード」を検出できるように設計されている．
+また，N-gramと転置索引を組み合わせることで高速な検出が可能となっている．&lt;/p&gt;
+&lt;p&gt;論文は&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=669&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>大阪大学大学院情報科学研究科修士課程を修了した話</title>
