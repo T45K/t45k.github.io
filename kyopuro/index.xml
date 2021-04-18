@@ -6,10 +6,28 @@
     <description>Recent content in Kyopuroes on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 18 Apr 2021 17:47:27 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 18 Apr 2021 18:05:46 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaでN個の入力を良い感じにリストにする方法</title>
+      <link>https://t45k.github.io/kyopuro/stream/</link>
+      <pubDate>Sun, 18 Apr 2021 18:05:46 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/stream/</guid>
+      <description>&lt;p&gt;これが多分ベスト&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;Stream.generate(scanner::nextInt)
+  .limit(N)
+  .collect(Collectors.toList());
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;配列にしたいときは&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;Stream.generate(scanner::nextInt)
+  .limit(N)
+  .mapToInt(Integer::intValue)
+  .toArray();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>ABC198の解説</title>
