@@ -6,10 +6,48 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 18 Apr 2021 18:05:46 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 02 May 2021 17:02:14 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第二回日本最強プログラマー学生選手権の解説</title>
+      <link>https://t45k.github.io/kyopuro/jsc2021/</link>
+      <pubDate>Sun, 02 May 2021 17:02:14 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/jsc2021/</guid>
+      <description>&lt;p&gt;5完393位でパフォーマンス爆盛りした回。
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/other/jsc2021&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---competition&#34;&gt;A - Competition&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;X,Y,Z&amp;lt;=10^3&lt;/code&gt;から、整数iに対して&lt;code&gt;Y/X &amp;gt; i/Z&lt;/code&gt;を満たす最大の値を探す。
+&lt;code&gt;X=1,Y=1000,Z=1000&lt;/code&gt;の時&lt;code&gt;i=999999&lt;/code&gt;で最大になるので、そこから降順に探す。&lt;/p&gt;
+&lt;h2 id=&#34;b---xor-of-sequences&#34;&gt;B - Xor of Sequences&lt;/h2&gt;
+&lt;p&gt;やるだけ。
+Set等で管理する。&lt;/p&gt;
+&lt;h2 id=&#34;c---max-gcd-2&#34;&gt;C - Max GCD 2&lt;/h2&gt;
+&lt;p&gt;2からBの間で、AからBの間に2つの倍数を持つ最大の整数を求めれば良い。
+ある整数をiとすると、A以上の最小のiの倍数は&lt;code&gt;(A + i - 1) / i * i&lt;/code&gt;、
+B以下の最大のiの倍数は&lt;code&gt;B/i*i&lt;/code&gt;で求まるので、この二つの値が異なる最大のiを求める。&lt;/p&gt;
+&lt;h2 id=&#34;d---nowhere-p&#34;&gt;D - Nowhere P&lt;/h2&gt;
+&lt;p&gt;まず&lt;code&gt;A_1&lt;/code&gt;は1からP-1の&lt;code&gt;P-1&lt;/code&gt;通り選べる。
+次に&lt;code&gt;A_2&lt;/code&gt;については1からP-1で、&lt;code&gt;P-A_1&lt;/code&gt;でない&lt;code&gt;P-2&lt;/code&gt;通りが選べる。
+&lt;code&gt;A_3&lt;/code&gt;以降についても、&lt;code&gt;P-sum%P&lt;/code&gt;以外の&lt;code&gt;P-2&lt;/code&gt;通りが選べるので、答えは&lt;code&gt;(P-1)*(P-2)^(N-1)&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;e---level-k-palindrome&#34;&gt;E - Level K Palindrome&lt;/h2&gt;
+&lt;p&gt;基本的には、回文で対応する文字に対して、一番出現する文字に書き換えていく。&lt;/p&gt;
+&lt;p&gt;まずはレベルを満たす最小の文字列に分解していく。
+基本的には文字列を半分にするのを繰り返していく。
+この時、各折り返し点が異なっている場合は書き換える。&lt;/p&gt;
+&lt;p&gt;次に、それぞれの文字列を同一にしていく。
+これは、各文字列の同じ位置に存在する文字のうち、マジョリティに書き換える。&lt;/p&gt;
+&lt;p&gt;最後に各文字列が回文だった場合、そうならない様に書き換える。
+これは、一つ前のマジョリティに書き換える処理を行う際に2番目に多い文字を記録しておき、
+（中間点以外の）どこか一箇所をそれに書き換えれば良い。&lt;/p&gt;
+&lt;h2 id=&#34;f---max-matrix&#34;&gt;F - Max Matrix&lt;/h2&gt;
+&lt;p&gt;解説AC&lt;/p&gt;
+&lt;p&gt;出現した値をインデックス、出現回数をバリューとしたセグ木を構築するとうまくいく。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>JavaでN個の入力を良い感じにリストにする方法</title>
