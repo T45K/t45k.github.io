@@ -12,6 +12,44 @@
     
     
     <item>
+      <title>ABC200の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc200/</link>
+      <pubDate>Sun, 16 May 2021 11:57:55 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc200/</guid>
+      <description>&lt;p&gt;祝200回．
+4完．&lt;/p&gt;
+&lt;h2 id=&#34;a---century&#34;&gt;A - Century&lt;/h2&gt;
+&lt;p&gt;やるだけ．
+X00年はX世紀であることに注意．&lt;/p&gt;
+&lt;h2 id=&#34;b---200th-abc-200&#34;&gt;B - 200th ABC-200&lt;/h2&gt;
+&lt;p&gt;やるだけ．十分間に合う．&lt;/p&gt;
+&lt;h2 id=&#34;c---ringos-favorite-numbers-2&#34;&gt;C - Ringo&amp;rsquo;s Favorite Numbers 2&lt;/h2&gt;
+&lt;p&gt;Ai-Aj=200ということはAi≡Aj(mod 200)であることなので，
+各Aを，200で割ったあまりでグルーピングして組み合わせを計算すればよい．&lt;/p&gt;
+&lt;h2 id=&#34;d---happy-birthday-2&#34;&gt;D - Happy Birthday! 2&lt;/h2&gt;
+&lt;p&gt;解説が賢い．&lt;/p&gt;
+&lt;p&gt;先頭8個のAを見ると，2^8-1&amp;gt;200から鳩の巣原理から必ずmod200が被る和の組み合わせが存在する．
+bit全探索するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;e---patisserie-abc-2&#34;&gt;E - Patisserie ABC 2&lt;/h2&gt;
+&lt;p&gt;きれいさ，おいしさ，人気度をそれぞれa,b,cとする．&lt;/p&gt;
+&lt;p&gt;a+b+cの小さい順に何通りあるかを確認していく(&lt;code&gt;3 &amp;lt;= sum &amp;lt;= 3*N&lt;/code&gt;)．
+b,cが1以上N以下でないといけないことから，aの範囲は &lt;code&gt;max(1,sum-2n) &amp;lt;= a &amp;lt;= min(n,sum-2)&lt;/code&gt;．
+このとき，bの範囲は &lt;code&gt;max(1,sum-a-n) &amp;lt;= b &amp;lt;= min(n,sum-a-1)&lt;/code&gt;．
+a,bが決まればcは一意に定まる．
+このことから，a+b+cの和がsumの時，
+&lt;code&gt;Σ(a=max(1,sum-2n)~min(n,sum-2))(min(n,sum-a-1)-max(1,sum-a-n)+1)&lt;/code&gt; 通りの選び方がある．
+これをO(1)で求める．&lt;/p&gt;
+&lt;p&gt;まず，bの値をaで場合分けする（min，maxを固定する）と&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;a &amp;gt;= sum-n-1&lt;/code&gt; の時，&lt;code&gt;b = sum-a-1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;a &amp;lt;= sum-n-1&lt;/code&gt; の時，&lt;code&gt;b = 2n+a-s+1&lt;/code&gt; となる
+そこで，aの最小値と最大値から累積和の公式を用いてsumの時の選び方を求められる&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ZONeエナジー プログラミングコンテスト “HELLO SPACE” の解説</title>
       <link>https://t45k.github.io/kyopuro/zone2021/</link>
       <pubDate>Sat, 15 May 2021 20:51:42 +0900</pubDate>
