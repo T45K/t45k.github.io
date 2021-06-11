@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kyopuros on T45K</title>
+    <title>Kyopuroes on T45K</title>
     <link>https://t45k.github.io/kyopuro/</link>
-    <description>Recent content in Kyopuros on T45K</description>
+    <description>Recent content in Kyopuroes on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 16 May 2021 11:57:55 +0900</lastBuildDate>
@@ -1173,18 +1173,18 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;場合分け&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;操作&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;場合分け&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;操作&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Ai を足さない&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;dp[N][j] = dp[N - 1][j]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ai を足さない&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;dp[N][j] = dp[N - 1][j]&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Ai を足す&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i&lt;br&gt;Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]&lt;br&gt;Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ai を足す&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i&lt;br&gt;Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]&lt;br&gt;Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1363,8 +1363,7 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 &lt;/ul&gt;
 &lt;p&gt;に対して&lt;code&gt;ac[i + j] == true&lt;/code&gt;となれば，その配置は矛盾がないことになる．
 図だとこんな感じ&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/kyopuro/pana2020_e.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/kyopuro/pana2020_e.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;iの探索範囲は0からaの長さ，jの探索範囲はbの長さかiからaの終端までの長さの長い方になる．&lt;br&gt;
@@ -1632,18 +1631,18 @@ Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数�
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;桁i-1での状態&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;桁iでの状態&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;桁i-1での状態&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;桁iでの状態&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;確定している&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k]&lt;/code&gt;&lt;br&gt;0以外を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k - 1] * 9&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;確定している&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k]&lt;/code&gt;&lt;br&gt;0以外を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k - 1] * 9&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;確定していない&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;桁iが0の時: Nより小さくすることはできないので何もしない&lt;br&gt;桁iが0でない時: &lt;strong&gt;1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる&lt;/strong&gt;ので，桁i-1までに0以外の数字が出現した回数をjとすると&lt;code&gt;dp[i][j + 1] += (桁iの数字 - 1)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;確定していない&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;桁iが0の時: Nより小さくすることはできないので何もしない&lt;br&gt;桁iが0でない時: &lt;strong&gt;1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる&lt;/strong&gt;ので，桁i-1までに0以外の数字が出現した回数をjとすると&lt;code&gt;dp[i][j + 1] += (桁iの数字 - 1)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

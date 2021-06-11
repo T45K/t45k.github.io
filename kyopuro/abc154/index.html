@@ -44,9 +44,10 @@ E - Almost Everywhere Zero 桁DP
    桁i-1での状態 桁iでの状態     確定している 0を選択する: dp[i][k] &#43;= dp[i - 1][k]
 0以外を選択する: dp[i][k] &#43;= dp[i - 1][k - 1] * 9   確定していない 桁iが0の時: Nより小さくすることはできないので何もしない" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/abc154/" />
-<meta property="article:published_time" content="2020-02-09T22:40:15+09:00" />
-<meta property="article:modified_time" content="2020-02-09T22:40:15+09:00" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc154/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-02-09T22:40:15&#43;09:00" />
+<meta property="article:modified_time" content="2020-02-09T22:40:15&#43;09:00" />
+
 
 
     
@@ -83,7 +84,7 @@ E - Almost Everywhere Zero 桁DP
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.70.0" />
+    <meta name="generator" content="Hugo 0.83.1" />
   </head>
 
   
@@ -156,18 +157,18 @@ E - Almost Everywhere Zero 桁DP
 <table>
 <thead>
 <tr>
-<th align="left">桁i-1での状態</th>
-<th align="left">桁iでの状態</th>
+<th style="text-align:left">桁i-1での状態</th>
+<th style="text-align:left">桁iでの状態</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="left">確定している</td>
-<td align="left">0を選択する: <code>dp[i][k] += dp[i - 1][k]</code><br>0以外を選択する: <code>dp[i][k] += dp[i - 1][k - 1] * 9</code></td>
+<td style="text-align:left">確定している</td>
+<td style="text-align:left">0を選択する: <code>dp[i][k] += dp[i - 1][k]</code><br>0以外を選択する: <code>dp[i][k] += dp[i - 1][k - 1] * 9</code></td>
 </tr>
 <tr>
-<td align="left">確定していない</td>
-<td align="left">桁iが0の時: Nより小さくすることはできないので何もしない<br>桁iが0でない時: <strong>1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる</strong>ので，桁i-1までに0以外の数字が出現した回数をjとすると<code>dp[i][j + 1] += (桁iの数字 - 1)</code></td>
+<td style="text-align:left">確定していない</td>
+<td style="text-align:left">桁iが0の時: Nより小さくすることはできないので何もしない<br>桁iが0でない時: <strong>1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる</strong>ので，桁i-1までに0以外の数字が出現した回数をjとすると<code>dp[i][j + 1] += (桁iの数字 - 1)</code></td>
 </tr>
 </tbody>
 </table>

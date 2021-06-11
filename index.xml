@@ -6,10 +6,60 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 25 Mar 2021 11:07:17 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Jun 2021 22:35:53 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Keychron K3を購入した話</title>
+      <link>https://t45k.github.io/blog/keychron/</link>
+      <pubDate>Fri, 11 Jun 2021 22:35:53 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/keychron/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.keychron.com/products/keychron-k3-wireless-mechanical-keyboard&#34;&gt;Keychron K3&lt;/a&gt;を購入しました．&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/keychron_box.JPG&#34; alt=&#34;keychron_box&#34;&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/keychron.JPG&#34; alt=&#34;keychron_box&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;経緯&#34;&gt;経緯&lt;/h2&gt;
+&lt;p&gt;研究室ではRealforceを使っていたのですが，会社からはキーボードが支給されないと聞いたので，仕事用のキーボードを購入する必要が発生しました．
+家では青軸のメカニカルキーボードを使っているので，その経験を踏まえて以下の要件を満たすキーボードを探しました．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;会社はフリーアドレスなので持ち運びに困らない．具体的には以下の通り．
+&lt;ul&gt;
+&lt;li&gt;軽い&lt;/li&gt;
+&lt;li&gt;薄い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;十分にコンパクト．個人的にはmagic keyboardと同じ配列がベスト&lt;/li&gt;
+&lt;li&gt;もちろんUS配列&lt;/li&gt;
+&lt;li&gt;Fn必須&lt;/li&gt;
+&lt;li&gt;赤か茶軸のメカニカル，あるいは静電容量無接点&lt;/li&gt;
+&lt;li&gt;できればmac対応&lt;/li&gt;
+&lt;li&gt;新卒のお給料でも買える．1万円前後&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fnが必要なことからHHKB，携帯性からRealforceは簡単に除外できました．
+Nizも割と魅力的だったのですが，右下の配置が独特なことと高いことから除外しました．
+メカニカルキーボードで上記の要件を満たすキーボードはいくつか見つかったのですが，
+最終的に多機能かつ安価で評判も良い&lt;code&gt;Keychron K3&lt;/code&gt;にしました．&lt;/p&gt;
+&lt;h2 id=&#34;注文から到着まで&#34;&gt;注文から到着まで&lt;/h2&gt;
+&lt;p&gt;注文は公式サイトからできます．
+英語での住所&amp;amp;電話番号入力が必要なので事前に調べておくと良いと思います．&lt;/p&gt;
+&lt;p&gt;値段は本体74\$ + 配送料20\$の計94\$でした．
+paypalで支払いしたところ2021年6月現在で10,802円でした．&lt;/p&gt;
+&lt;p&gt;6月5日（土）の23時過ぎに注文して到着したのが10日（木）の夜でした．
+日曜を挟んでいたのを考えると割と早く届きました．&lt;/p&gt;
+&lt;h2 id=&#34;使用感&#34;&gt;使用感&lt;/h2&gt;
+&lt;p&gt;ファーストインプレッション&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;感想&lt;br&gt;- サイズ感: 最高&lt;br&gt;- 打鍵感: 茶軸やけどロープロのせいで反発が弱め。同時押しになったり2回押しがうまくいかんかったりする&lt;br&gt;- キートップ: 柔らかめ、爪が食い込む感覚&lt;br&gt;- 傾斜: 低め、違和感ある&lt;br&gt;- レスポンス: 若干もっさりしてる&lt;br&gt;&lt;br&gt;総評: サイズ感は最高やけどそれ以外は慣れが必要かなぁ&lt;/p&gt;&amp;mdash; task@FSE (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1402946711660621826?ref_src=twsrc%5Etfw&#34;&gt;June 10, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;一日使ってみましたが，本当に慣れだと思います．
+仕事が終わった後に家のキーボードを触ると，逆に重くてびっくりしました．
+使っていくうちに好きになっていくと思います．
+個人的にはdeleteを推すときのペチペチ音が好きです．&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;良い買い物をしたと思います．
+現在は在宅なのですが，会社で使うのを楽しみにしています．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC200の解説</title>
@@ -675,16 +725,14 @@ ERAのacc. rateが高いのでレベルは推して知るべしという感じ�
 走行距離は500kmほどです．&lt;/p&gt;
 &lt;p&gt;まずはUFOラインを通って高知まで行きました．
 UFOラインは愛媛と高知を結ぶ山道です．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/ufo_line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ufo_line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 UFOラインは天空の道とも呼ばれるほど，道の標高が高いです（1,700mくらい）．
 なので，周りの山々を一望でき，とても景色を楽しめました．
 道自体は非常に狭いので，車で行く際には注意してください．&lt;/p&gt;
 &lt;p&gt;高知では，ひろめ市場でカツオのたたきをいただきました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/katsuo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/katsuo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 カツオのハランボ（お腹の部分．マグロで言うトロ）が脂が乗っておりとても美味しかったです．&lt;/p&gt;
@@ -707,12 +755,10 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
       <description>&lt;p&gt;四日目は指宿からフェリーを使って道後まで行きました．
 走行距離は500kmくらいでした．&lt;/p&gt;
 &lt;p&gt;まずはじめに宮崎県にある青島神社に行きました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine1.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine1.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine2.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine2.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 青島神社は島全体が神社になっています．
@@ -722,16 +768,14 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 バイクでフェリーに乗るのは初めてだったので，ワクワクしました．&lt;/p&gt;
 &lt;p&gt;愛媛に着いてからは道後温泉を目指しました．
 途中で海に近い駅として有名な下灘駅があったので立ち寄ってきました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/shimonada_station.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/shimonada_station.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 綺麗な夕焼けをバックにエモい写真を取りたかったのですが，曇っていたためうまく映えませんでした．
 また，この駅は海のすぐ隣にあると思っていたのですが，実は道路を一本挟んでいます．&lt;/p&gt;
 &lt;p&gt;夜は道後温泉の近くに止まりました．
 お風呂は道後温泉本館に行きました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/dougo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/dougo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 道後温泉本館はおそらく現存する最古の大衆浴場で，お風呂や扉の作りから古くからあるのが見て取れました．
@@ -760,23 +804,20 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 バイクで雨の中を移動したため，体がとても冷えた上に
 バイクを傾けたら滑りそうになったこともあって死ぬかと思いました．&lt;/p&gt;
 &lt;p&gt;熊本県では研究室の先生おすすめの天外天さんのラーメンを食べました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/tengaiten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/tengaiten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 かかっているニンニクパウダーの香りが良く，美味しかったです．&lt;/p&gt;
 &lt;p&gt;その後ひたすら南下し指宿温泉まで行きました．
 また，指宿温泉の近所の龍宮神社に行きました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/ryugu_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ryugu_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 龍宮神社はその名の通り，浦島太郎の物語の発祥となった神社です．&lt;/p&gt;
 &lt;p&gt;晩御飯は近所のイオンで買った鶏のたたきと芋焼酎にしました．
 イオンで普通に生食用の鶏肉が売ってたり，焼酎の品揃えが異様に良かったりしたところに鹿児島を感じました．
 イオンから桜島が見えました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/sakurajima.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/sakurajima.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;../tour_day1/&#34;&gt;一日目&lt;/a&gt;
@@ -796,22 +837,19 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
       <description>&lt;p&gt;2日目は広島県を経由して大分まで行きました．
 1日で500km以上移動したので結構疲れました．&lt;/p&gt;
 &lt;p&gt;厳島神社（修理中の姿）
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/itsukushima_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/itsukushima_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 大鳥居が見れなくて残念でした．&lt;/p&gt;
 &lt;p&gt;お昼ご飯の「あなごめし うえの」さんの穴子めし
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/anagomeshi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/anagomeshi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 今まで，穴子は鰻の下位互換と考えていましたが，ここの穴子めしは本当に美味しくて，
 その考えが覆されました．
 穴子が肉厚で弾力があり，それが炭火で焼かれていて香ばしかったです．&lt;/p&gt;
 &lt;p&gt;次に，山口にある錦帯橋に行きました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/kintai_bridge.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/kintai_bridge.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 本来予定にはなかったのですが，どうやら広島，山口ツーリングではそこに行くのが鉄板らしかったので．&lt;/p&gt;
@@ -820,12 +858,10 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 高速道路で道を間違えて次のICでUターンする経験もしました．
 晩御飯は近くの居酒屋で取りました．
 大分名物のとり天や豊後アジ，豊後サバを楽しみました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/toriten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/toriten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/saba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;../tour_day1/&#34;&gt;一日目&lt;/a&gt;
@@ -846,29 +882,24 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 1日で400km近くバイクで移動しましたが，高速がメインだったのでそこまで疲れませんでした．
 高速を降りてからヘルメットを確認してみると，移動中にぶつかったであろう小さい虫の死骸がたくさんへばりついていました&amp;hellip;&lt;/p&gt;
 &lt;p&gt;出雲大社
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/izumo_taisha.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/izumo_taisha.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;お昼ご飯の出雲そば．
 出雲そばはそばを3つの器に分けて提供するのが特徴的です．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/izumo_soba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/izumo_soba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;チェックインまで時間があったので松江城にも行きました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/matsue_castle.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/matsue_castle.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;宿に着いた途端に立ちゴケしてブレーキレバーを壊しました．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/brake_broken.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/brake_broken.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;夕飯は，松江のイオンで買った地酒とお寿司でした．
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/shimane_zizake.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/shimane_zizake.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;一日目
@@ -2019,18 +2050,18 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;場合分け&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;操作&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;場合分け&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;操作&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Ai を足さない&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;dp[N][j] = dp[N - 1][j]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ai を足さない&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;dp[N][j] = dp[N - 1][j]&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Ai を足す&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i&lt;br&gt;Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]&lt;br&gt;Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ai を足す&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i&lt;br&gt;Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]&lt;br&gt;Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2232,8 +2263,7 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 &lt;/ul&gt;
 &lt;p&gt;に対して&lt;code&gt;ac[i + j] == true&lt;/code&gt;となれば，その配置は矛盾がないことになる．
 図だとこんな感じ&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/kyopuro/pana2020_e.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/kyopuro/pana2020_e.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;iの探索範囲は0からaの長さ，jの探索範囲はbの長さかiからaの終端までの長さの長い方になる．&lt;br&gt;
@@ -2520,18 +2550,18 @@ Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数�
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;桁i-1での状態&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;桁iでの状態&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;桁i-1での状態&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;桁iでの状態&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;確定している&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k]&lt;/code&gt;&lt;br&gt;0以外を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k - 1] * 9&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;確定している&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k]&lt;/code&gt;&lt;br&gt;0以外を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k - 1] * 9&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;確定していない&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;桁iが0の時: Nより小さくすることはできないので何もしない&lt;br&gt;桁iが0でない時: &lt;strong&gt;1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる&lt;/strong&gt;ので，桁i-1までに0以外の数字が出現した回数をjとすると&lt;code&gt;dp[i][j + 1] += (桁iの数字 - 1)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;確定していない&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;桁iが0の時: Nより小さくすることはできないので何もしない&lt;br&gt;桁iが0でない時: &lt;strong&gt;1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる&lt;/strong&gt;ので，桁i-1までに0以外の数字が出現した回数をjとすると&lt;code&gt;dp[i][j + 1] += (桁iの数字 - 1)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -2761,8 +2791,7 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
       
       <guid>https://t45k.github.io/blog/devday/</guid>
       <description>&lt;p&gt;11/20，21に開催されたLINE DEV DAYに参加してきました．&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/devday.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/devday.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;dev-dayとは&#34;&gt;DEV DAYとは&lt;/h2&gt;
@@ -2839,8 +2868,7 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
       <pubDate>Fri, 13 Sep 2019 18:21:32 +0900</pubDate>
       
       <guid>https://t45k.github.io/blog/rakuten/</guid>
-      <description>&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_morning.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_morning.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;9/9~13の間，大阪で開催された楽天様のインターンに参加してきました．
@@ -2879,8 +2907,7 @@ AWSの時はまったく理解できなくて着いていけなくなった経�
       <pubDate>Fri, 30 Aug 2019 18:13:39 +0900</pubDate>
       
       <guid>https://t45k.github.io/blog/line/</guid>
-      <description>&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/blog/line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;8/26~30の間，京都で開催されたLINE KYOTOのインターンに参加してきました．&lt;/p&gt;

@@ -50,9 +50,10 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 まず，a中のどの箇所がbと被っているかを全探索して，配列か何かに記録する(O(n^2))．これをaとc，bとcに対してもやる． コードだとこんな感じ．
 private static boolean[] init(final int length, final String a, final String b) {// 配列の初期化  final boolean[] array = new boolean[length]; // lengthは十分大きい値  Arrays." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/panasonic2020/" />
-<meta property="article:published_time" content="2020-03-14T22:56:44+09:00" />
-<meta property="article:modified_time" content="2020-03-14T22:56:44+09:00" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/panasonic2020/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-03-14T22:56:44&#43;09:00" />
+<meta property="article:modified_time" content="2020-03-14T22:56:44&#43;09:00" />
+
 
 
     
@@ -89,7 +90,7 @@ private static boolean[] init(final int length, final String a, final String b) 
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.70.0" />
+    <meta name="generator" content="Hugo 0.83.1" />
   </head>
 
   
@@ -189,8 +190,7 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 </ul>
 <p>に対して<code>ac[i + j] == true</code>となれば，その配置は矛盾がないことになる．
 図だとこんな感じ</p>
-<figure>
-    <img src="https://t45k.github.io/img/kyopuro/pana2020_e.png" width="50%" height="50%"/> 
+<figure><img src="https://t45k.github.io/img/kyopuro/pana2020_e.png" width="50%" height="50%"/>
 </figure>
 
 <p>iの探索範囲は0からaの長さ，jの探索範囲はbの長さかiからaの終端までの長さの長い方になる．<br>
