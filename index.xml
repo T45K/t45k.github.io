@@ -6,10 +6,98 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 04 Jul 2021 23:45:41 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jul 2021 14:18:29 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC210の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc210/</link>
+      <pubDate>Sun, 18 Jul 2021 14:18:29 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc210/</guid>
+      <description>&lt;p&gt;四完青パフォ。
+今回は D 速解きがそこそこ上手くいった一方で、E に歯が立たなかったので精進したい。
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC210&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---cabbages&#34;&gt;A - Cabbages&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;A &amp;gt; N&lt;/code&gt;になりうるのがポイント&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A が N よりも小さい場合、A 個を X 円で買って、(N-A)個を Y 円で買う&lt;/li&gt;
+&lt;li&gt;A が N 以上の場合、N 個を X 円で買う&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と場合分けする。&lt;/p&gt;
+&lt;h2 id=&#34;b---bouzu-mekuri&#34;&gt;B - Bouzu Mekuri&lt;/h2&gt;
+&lt;p&gt;愚直にシミュレーションする。
+文字列を先頭から見ていき、初めに坊主を引いた方が負け。&lt;br&gt;
+&lt;code&gt;Stream#findFirst&lt;/code&gt;を使うとすっきり書ける。&lt;/p&gt;
+&lt;h2 id=&#34;c---colorful-candies&#34;&gt;C - Colorful Candies&lt;/h2&gt;
+&lt;p&gt;範囲内の飴ちゃんの種類を最大にする問題&lt;br&gt;
+範囲をスライドさせていく。
+具体的には、&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;まずは先頭 K 個の飴の色と出現回数を辞書等を使って数えておく。この時の種類数を&lt;code&gt;X&lt;/code&gt;とする。&lt;/li&gt;
+&lt;li&gt;K+1 個目の飴の出現回数を 1 増やし、1 個目の飴を出現回数を 1 減らす。
+この時、K+1 個目の飴が初登場なら&lt;code&gt;X&lt;/code&gt;を 1 増やし、1 個目の飴の出現回数が 0 になったら&lt;code&gt;X&lt;/code&gt;を 1 減らす。&lt;/li&gt;
+&lt;li&gt;上の操作を、範囲をずらしながら繰り返す&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;X&lt;/code&gt;の最大値が答え&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;d---national-railway&#34;&gt;D - National Railway&lt;/h2&gt;
+&lt;p&gt;意外と難しかったらしい。&lt;br&gt;
+まずは簡単のために 1 行しかない場合を考える。&lt;/p&gt;
+&lt;p&gt;dp[i]の値は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;左隣から直接線路を作る&lt;/li&gt;
+&lt;li&gt;左隣で最小の費用を考慮して線路を作る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の最小値になる。
+後者に関しては、左隣での費用は&amp;quot;どこかから左隣まで&amp;quot;線路を作った時の値になっているので、
+左隣の地価を引いて今見ている土地の地価と C を足せば良い。
+つまり&lt;code&gt;左隣での値 - A[i-1] + A[i+1] + C&lt;/code&gt;になる。&lt;/p&gt;
+&lt;p&gt;これを&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;左上から右下に行く場合&lt;/li&gt;
+&lt;li&gt;右上から左下に行く場合&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;の 2 通りについてシミュレーションすれば良い。&lt;/p&gt;
+&lt;h2 id=&#34;e---ring-mst&#34;&gt;E - Ring MST&lt;/h2&gt;
+&lt;p&gt;解説 AC。ユーザ解説が分かりやすいのでおすすめ。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.hamayanhamayan.com/entry/2021/07/17/233253&#34;&gt;https://blog.hamayanhamayan.com/entry/2021/07/17/233253&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC209の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc209/</link>
+      <pubDate>Sat, 10 Jul 2021 23:14:52 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc209/</guid>
+      <description>&lt;p&gt;四完速解きで青パフォ．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC209&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---counting&#34;&gt;A - Counting&lt;/h2&gt;
+&lt;p&gt;基本的には&lt;code&gt;B-A-1&lt;/code&gt;だが，&lt;code&gt;A&amp;gt;B&lt;/code&gt;の時に限り0となる.
+&lt;code&gt;max(B-A-1, 0)&lt;/code&gt;とすれば多少は楽．&lt;/p&gt;
+&lt;h2 id=&#34;b---can-you-buy-them-all&#34;&gt;B - Can you buy them all?&lt;/h2&gt;
+&lt;p&gt;偶数番目の商品だけ-1して総和を計算するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;c---not-equal&#34;&gt;C - Not Equal&lt;/h2&gt;
+&lt;p&gt;まず，整数列を昇順にソートしても求めたい値は変わらない．&lt;br&gt;
+1番目の値は全ての値から選ぶことができる．
+2番目の値は1番目に選んだ値以外の値を選ぶので，&lt;code&gt;C2 - 1&lt;/code&gt;通りから選べる．
+このとき，昇順にソートしているので選ぶ値の上限を考える必要がない．
+このように考えると，i番目の値は&lt;code&gt;Ci - (i-1)&lt;/code&gt;から選ぶことができる．
+このとき，&lt;code&gt;(i-1) &amp;gt;= Ci&lt;/code&gt;となると値を選べなくなるので答えは0になる．&lt;br&gt;
+そうでない場合，答えは全ての選べる値を掛け合わせた値になる．&lt;/p&gt;
+&lt;h2 id=&#34;d---collision&#34;&gt;D - Collision&lt;/h2&gt;
+&lt;p&gt;問題文から，与えられたグラフが木構造であることが分かる．&lt;br&gt;
+木構造の場合，ある節点(a,b)の距離の偶奇は，頂点を一つ定めたときの&lt;code&gt;(頂点からaまでの距離)-(頂点からbまでの距離)&lt;/code&gt;となる．&lt;br&gt;
+これは，例えば(a,b)の最小共通祖先をc，頂点（適当な節点）をd，二つの節点の距離を&lt;code&gt;dis(x,y)&lt;/code&gt;と表す時，&lt;code&gt;(頂点からaまでの距離)-(頂点からbまでの距離)&lt;/code&gt;の偶奇は&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;(dis(d,a) - dis(d,b)) % 2 
+= (dis(d,c) + dis(c,a) + dis(d,c) + dis(c,b)) % 2
+= (dis(d,c) * 2 + dis(c,a) + dis(c,b)) % 2
+= (dis(c,a) + dis(c,b)) % 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;でa，b間の距離の偶奇と一致するからである．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC208の解説</title>
