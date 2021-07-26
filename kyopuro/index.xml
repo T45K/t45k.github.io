@@ -1,17 +1,781 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kyopuros on T45K</title>
+    <title>Kyopuroes on T45K</title>
     <link>https://t45k.github.io/kyopuro/</link>
-    <description>Recent content in Kyopuros on T45K</description>
+    <description>Recent content in Kyopuroes on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
+<<<<<<< HEAD
     <lastBuildDate>Sun, 14 Jun 2020 18:55:26 +0900</lastBuildDate>
+=======
+    <lastBuildDate>Sun, 18 Jul 2021 14:18:29 +0900</lastBuildDate>
+>>>>>>> 109b6ec98f41a823a7dd78f70dd255dc2c9e3242
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
+=======
+      <title>ABC210の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc210/</link>
+      <pubDate>Sun, 18 Jul 2021 14:18:29 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc210/</guid>
+      <description>&lt;p&gt;四完青パフォ。
+今回は D 速解きがそこそこ上手くいった一方で、E に歯が立たなかったので精進したい。
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC210&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---cabbages&#34;&gt;A - Cabbages&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;A &amp;gt; N&lt;/code&gt;になりうるのがポイント&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A が N よりも小さい場合、A 個を X 円で買って、(N-A)個を Y 円で買う&lt;/li&gt;
+&lt;li&gt;A が N 以上の場合、N 個を X 円で買う&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;と場合分けする。&lt;/p&gt;
+&lt;h2 id=&#34;b---bouzu-mekuri&#34;&gt;B - Bouzu Mekuri&lt;/h2&gt;
+&lt;p&gt;愚直にシミュレーションする。
+文字列を先頭から見ていき、初めに坊主を引いた方が負け。&lt;br&gt;
+&lt;code&gt;Stream#findFirst&lt;/code&gt;を使うとすっきり書ける。&lt;/p&gt;
+&lt;h2 id=&#34;c---colorful-candies&#34;&gt;C - Colorful Candies&lt;/h2&gt;
+&lt;p&gt;範囲内の飴ちゃんの種類を最大にする問題&lt;br&gt;
+範囲をスライドさせていく。
+具体的には、&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;まずは先頭 K 個の飴の色と出現回数を辞書等を使って数えておく。この時の種類数を&lt;code&gt;X&lt;/code&gt;とする。&lt;/li&gt;
+&lt;li&gt;K+1 個目の飴の出現回数を 1 増やし、1 個目の飴を出現回数を 1 減らす。
+この時、K+1 個目の飴が初登場なら&lt;code&gt;X&lt;/code&gt;を 1 増やし、1 個目の飴の出現回数が 0 になったら&lt;code&gt;X&lt;/code&gt;を 1 減らす。&lt;/li&gt;
+&lt;li&gt;上の操作を、範囲をずらしながら繰り返す&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;X&lt;/code&gt;の最大値が答え&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;d---national-railway&#34;&gt;D - National Railway&lt;/h2&gt;
+&lt;p&gt;意外と難しかったらしい。&lt;br&gt;
+まずは簡単のために 1 行しかない場合を考える。&lt;/p&gt;
+&lt;p&gt;dp[i]の値は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;左隣から直接線路を作る&lt;/li&gt;
+&lt;li&gt;左隣で最小の費用を考慮して線路を作る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の最小値になる。
+後者に関しては、左隣での費用は&amp;quot;どこかから左隣まで&amp;quot;線路を作った時の値になっているので、
+左隣の地価を引いて今見ている土地の地価と C を足せば良い。
+つまり&lt;code&gt;左隣での値 - A[i-1] + A[i+1] + C&lt;/code&gt;になる。&lt;/p&gt;
+&lt;p&gt;これを&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;左上から右下に行く場合&lt;/li&gt;
+&lt;li&gt;右上から左下に行く場合&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;の 2 通りについてシミュレーションすれば良い。&lt;/p&gt;
+&lt;h2 id=&#34;e---ring-mst&#34;&gt;E - Ring MST&lt;/h2&gt;
+&lt;p&gt;解説 AC。ユーザ解説が分かりやすいのでおすすめ。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.hamayanhamayan.com/entry/2021/07/17/233253&#34;&gt;https://blog.hamayanhamayan.com/entry/2021/07/17/233253&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC209の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc209/</link>
+      <pubDate>Sat, 10 Jul 2021 23:14:52 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc209/</guid>
+      <description>&lt;p&gt;四完速解きで青パフォ．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC209&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---counting&#34;&gt;A - Counting&lt;/h2&gt;
+&lt;p&gt;基本的には&lt;code&gt;B-A-1&lt;/code&gt;だが，&lt;code&gt;A&amp;gt;B&lt;/code&gt;の時に限り0となる.
+&lt;code&gt;max(B-A-1, 0)&lt;/code&gt;とすれば多少は楽．&lt;/p&gt;
+&lt;h2 id=&#34;b---can-you-buy-them-all&#34;&gt;B - Can you buy them all?&lt;/h2&gt;
+&lt;p&gt;偶数番目の商品だけ-1して総和を計算するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;c---not-equal&#34;&gt;C - Not Equal&lt;/h2&gt;
+&lt;p&gt;まず，整数列を昇順にソートしても求めたい値は変わらない．&lt;br&gt;
+1番目の値は全ての値から選ぶことができる．
+2番目の値は1番目に選んだ値以外の値を選ぶので，&lt;code&gt;C2 - 1&lt;/code&gt;通りから選べる．
+このとき，昇順にソートしているので選ぶ値の上限を考える必要がない．
+このように考えると，i番目の値は&lt;code&gt;Ci - (i-1)&lt;/code&gt;から選ぶことができる．
+このとき，&lt;code&gt;(i-1) &amp;gt;= Ci&lt;/code&gt;となると値を選べなくなるので答えは0になる．&lt;br&gt;
+そうでない場合，答えは全ての選べる値を掛け合わせた値になる．&lt;/p&gt;
+&lt;h2 id=&#34;d---collision&#34;&gt;D - Collision&lt;/h2&gt;
+&lt;p&gt;問題文から，与えられたグラフが木構造であることが分かる．&lt;br&gt;
+木構造の場合，ある節点(a,b)の距離の偶奇は，頂点を一つ定めたときの&lt;code&gt;(頂点からaまでの距離)-(頂点からbまでの距離)&lt;/code&gt;となる．&lt;br&gt;
+これは，例えば(a,b)の最小共通祖先をc，頂点（適当な節点）をd，二つの節点の距離を&lt;code&gt;dis(x,y)&lt;/code&gt;と表す時，&lt;code&gt;(頂点からaまでの距離)-(頂点からbまでの距離)&lt;/code&gt;の偶奇は&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;(dis(d,a) - dis(d,b)) % 2 
+= (dis(d,c) + dis(c,a) + dis(d,c) + dis(c,b)) % 2
+= (dis(d,c) * 2 + dis(c,a) + dis(c,b)) % 2
+= (dis(c,a) + dis(c,b)) % 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;でa，b間の距離の偶奇と一致するからである．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC208の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc208/</link>
+      <pubDate>Sun, 04 Jul 2021 23:45:41 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc208/</guid>
+      <description>&lt;p&gt;5完．初の黄パフォ．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC208&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---rolling-dice&#34;&gt;A - Rolling Dice&lt;/h2&gt;
+&lt;p&gt;Bの平均値について考えればよい．
+平均が1以上6以下なら達成可能．&lt;/p&gt;
+&lt;h2 id=&#34;b---factorial-yen-coin&#34;&gt;B - Factorial Yen Coin&lt;/h2&gt;
+&lt;p&gt;大きい硬貨から貪欲に計算していく&lt;/p&gt;
+&lt;h2 id=&#34;c---fair-candy-distribution&#34;&gt;C - Fair Candy Distribution&lt;/h2&gt;
+&lt;p&gt;初めに国民番号で国民をソートしておく．
+国民番号の上位&lt;code&gt;K%N&lt;/code&gt;人は余計に1個多くもらえる．&lt;/p&gt;
+&lt;h2 id=&#34;d---shortest-path-queries-2&#34;&gt;D - Shortest Path Queries 2&lt;/h2&gt;
+&lt;p&gt;ワーシャルフロイドを応用する．ワーシャルフロイドについては&lt;a href=&#34;../warshallfloyd/&#34;&gt;こちら&lt;/a&gt;を参照．
+ワーシャルフロイドの中継点を&lt;code&gt;k&lt;/code&gt;とすると，&lt;code&gt;Math.min(graph[i][j], graph[i][k] + graph[k][j])&lt;/code&gt;はiスタートjゴールでk以下の箇所を経由した際の最短距離となるので，問題に適当．&lt;/p&gt;
+&lt;h2 id=&#34;e---digit-products&#34;&gt;E - Digit Products&lt;/h2&gt;
+&lt;p&gt;たまたま解けた問題．桁DP．&lt;br&gt;
+桁DPとは，ある値&lt;code&gt;N&lt;/code&gt;が与えられたときに各桁に対する遷移を以下のように行うDPを指す．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一つ前で見ている桁の時点で，数字が&lt;code&gt;N&lt;/code&gt;以下であることが確定している場合，&lt;code&gt;0~9&lt;/code&gt;に遷移する&lt;/li&gt;
+&lt;li&gt;数字が&lt;code&gt;N&lt;/code&gt;以下であることが確定していない場合，&lt;code&gt;0~(今見ている桁の数-1)&lt;/code&gt;への遷移（つまり，状態1に遷移する）と今見てる桁への遷移（状態2）への遷移を行う&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;今回は，各桁の積が&lt;code&gt;K&lt;/code&gt;以下になれば良いのだが，このとき積は十分に疎になるので連想配列などで持てば良い．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC200の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc200/</link>
+      <pubDate>Sun, 16 May 2021 11:57:55 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc200/</guid>
+      <description>&lt;p&gt;祝200回．
+4完．&lt;/p&gt;
+&lt;h2 id=&#34;a---century&#34;&gt;A - Century&lt;/h2&gt;
+&lt;p&gt;やるだけ．
+X00年はX世紀であることに注意．&lt;/p&gt;
+&lt;h2 id=&#34;b---200th-abc-200&#34;&gt;B - 200th ABC-200&lt;/h2&gt;
+&lt;p&gt;やるだけ．十分間に合う．&lt;/p&gt;
+&lt;h2 id=&#34;c---ringos-favorite-numbers-2&#34;&gt;C - Ringo&amp;rsquo;s Favorite Numbers 2&lt;/h2&gt;
+&lt;p&gt;Ai-Aj=200ということはAi≡Aj(mod 200)であることなので，
+各Aを，200で割ったあまりでグルーピングして組み合わせを計算すればよい．&lt;/p&gt;
+&lt;h2 id=&#34;d---happy-birthday-2&#34;&gt;D - Happy Birthday! 2&lt;/h2&gt;
+&lt;p&gt;解説が賢い．&lt;/p&gt;
+&lt;p&gt;先頭8個のAを見ると，2^8-1&amp;gt;200から鳩の巣原理から必ずmod200が被る和の組み合わせが存在する．
+bit全探索するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;e---patisserie-abc-2&#34;&gt;E - Patisserie ABC 2&lt;/h2&gt;
+&lt;p&gt;きれいさ，おいしさ，人気度をそれぞれa,b,cとする．&lt;/p&gt;
+&lt;p&gt;a+b+cの小さい順に何通りあるかを確認していく(&lt;code&gt;3 &amp;lt;= sum &amp;lt;= 3*N&lt;/code&gt;)．
+b,cが1以上N以下でないといけないことから，aの範囲は &lt;code&gt;max(1,sum-2n) &amp;lt;= a &amp;lt;= min(n,sum-2)&lt;/code&gt;．
+このとき，bの範囲は &lt;code&gt;max(1,sum-a-n) &amp;lt;= b &amp;lt;= min(n,sum-a-1)&lt;/code&gt;．
+a,bが決まればcは一意に定まる．
+このことから，a+b+cの和がsumの時，
+&lt;code&gt;Σ(a=max(1,sum-2n)~min(n,sum-2))(min(n,sum-a-1)-max(1,sum-a-n)+1)&lt;/code&gt; 通りの選び方がある．
+これをO(1)で求める．&lt;/p&gt;
+&lt;p&gt;まず，bの値をaで場合分けする（min，maxを固定する）と&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;a &amp;gt;= sum-n-1&lt;/code&gt; の時，&lt;code&gt;b = sum-a-1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;a &amp;lt;= sum-n-1&lt;/code&gt; の時，&lt;code&gt;b = 2n+a-s+1&lt;/code&gt; となる
+そこで，aの最小値と最大値から累積和の公式を用いてsumの時の選び方を求められる&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ZONeエナジー プログラミングコンテスト “HELLO SPACE” の解説</title>
+      <link>https://t45k.github.io/kyopuro/zone2021/</link>
+      <pubDate>Sat, 15 May 2021 20:51:42 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/zone2021/</guid>
+      <description>&lt;p&gt;奇跡的に5完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/other/zone2021&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---ufo襲来&#34;&gt;A - UFO襲来&lt;/h2&gt;
+&lt;p&gt;やるだけ&lt;/p&gt;
+&lt;h2 id=&#34;b---友好の印&#34;&gt;B - 友好の印&lt;/h2&gt;
+&lt;p&gt;UFOとタワーの頂上を通る直線のy切片を求める．&lt;/p&gt;
+&lt;h2 id=&#34;c---mad-team&#34;&gt;C - MAD TEAM&lt;/h2&gt;
+&lt;p&gt;通したけど嘘解法っぽい．
+想定解法は二分探索．&lt;/p&gt;
+&lt;p&gt;3人選ばないといけないのに対してN=3,000から二重ループまでしか回せない．
+各要素が大きい人を選ぶほど良い結果を期待できる．
+つまり，各要素でソートして，上三つだけ残しておく．
+そして，ある二人を選んだ後に各要素のトップを加えてみて総合力を計算すれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;d---宇宙人からのメッセージ&#34;&gt;D - 宇宙人からのメッセージ&lt;/h2&gt;
+&lt;p&gt;両端キューなどに対して文字を突っ込んでいく．
+このときに重複を排除する．&lt;/p&gt;
+&lt;h2 id=&#34;e---潜入&#34;&gt;E - 潜入&lt;/h2&gt;
+&lt;p&gt;ダイクストラをする．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>第二回日本最強プログラマー学生選手権の解説</title>
+      <link>https://t45k.github.io/kyopuro/jsc2021/</link>
+      <pubDate>Sun, 02 May 2021 17:02:14 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/jsc2021/</guid>
+      <description>&lt;p&gt;5完393位でパフォーマンス爆盛りした回。
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/other/jsc2021&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---competition&#34;&gt;A - Competition&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;X,Y,Z&amp;lt;=10^3&lt;/code&gt;から、整数iに対して&lt;code&gt;Y/X &amp;gt; i/Z&lt;/code&gt;を満たす最大の値を探す。
+&lt;code&gt;X=1,Y=1000,Z=1000&lt;/code&gt;の時&lt;code&gt;i=999999&lt;/code&gt;で最大になるので、そこから降順に探す。&lt;/p&gt;
+&lt;h2 id=&#34;b---xor-of-sequences&#34;&gt;B - Xor of Sequences&lt;/h2&gt;
+&lt;p&gt;やるだけ。
+Set等で管理する。&lt;/p&gt;
+&lt;h2 id=&#34;c---max-gcd-2&#34;&gt;C - Max GCD 2&lt;/h2&gt;
+&lt;p&gt;2からBの間で、AからBの間に2つの倍数を持つ最大の整数を求めれば良い。
+ある整数をiとすると、A以上の最小のiの倍数は&lt;code&gt;(A + i - 1) / i * i&lt;/code&gt;、
+B以下の最大のiの倍数は&lt;code&gt;B/i*i&lt;/code&gt;で求まるので、この二つの値が異なる最大のiを求める。&lt;/p&gt;
+&lt;h2 id=&#34;d---nowhere-p&#34;&gt;D - Nowhere P&lt;/h2&gt;
+&lt;p&gt;まず&lt;code&gt;A_1&lt;/code&gt;は1からP-1の&lt;code&gt;P-1&lt;/code&gt;通り選べる。
+次に&lt;code&gt;A_2&lt;/code&gt;については1からP-1で、&lt;code&gt;P-A_1&lt;/code&gt;でない&lt;code&gt;P-2&lt;/code&gt;通りが選べる。
+&lt;code&gt;A_3&lt;/code&gt;以降についても、&lt;code&gt;P-sum%P&lt;/code&gt;以外の&lt;code&gt;P-2&lt;/code&gt;通りが選べるので、答えは&lt;code&gt;(P-1)*(P-2)^(N-1)&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;e---level-k-palindrome&#34;&gt;E - Level K Palindrome&lt;/h2&gt;
+&lt;p&gt;基本的には、回文で対応する文字に対して、一番出現する文字に書き換えていく。&lt;/p&gt;
+&lt;p&gt;まずはレベルを満たす最小の文字列に分解していく。
+基本的には文字列を半分にするのを繰り返していく。
+この時、各折り返し点が異なっている場合は書き換える。&lt;/p&gt;
+&lt;p&gt;次に、それぞれの文字列を同一にしていく。
+これは、各文字列の同じ位置に存在する文字のうち、マジョリティに書き換える。&lt;/p&gt;
+&lt;p&gt;最後に各文字列が回文だった場合、そうならない様に書き換える。
+これは、一つ前のマジョリティに書き換える処理を行う際に2番目に多い文字を記録しておき、
+（中間点以外の）どこか一箇所をそれに書き換えれば良い。&lt;/p&gt;
+&lt;h2 id=&#34;f---max-matrix&#34;&gt;F - Max Matrix&lt;/h2&gt;
+&lt;p&gt;解説AC&lt;/p&gt;
+&lt;p&gt;出現した値をインデックス、出現回数をバリューとしたセグ木を構築するとうまくいく。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JavaでN個の入力を良い感じにリストにする方法</title>
+      <link>https://t45k.github.io/kyopuro/stream/</link>
+      <pubDate>Sun, 18 Apr 2021 18:05:46 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/stream/</guid>
+      <description>&lt;p&gt;これが多分ベスト&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;Stream.generate(scanner::nextInt)
+  .limit(N)
+  .collect(Collectors.toList());
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;配列にしたいときは&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;Stream.generate(scanner::nextInt)
+  .limit(N)
+  .mapToInt(Integer::intValue)
+  .toArray();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>ABC198の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc198/</link>
+      <pubDate>Sun, 18 Apr 2021 17:47:27 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc198/</guid>
+      <description>&lt;p&gt;ABCEの4完。
+その後Dを通した。
+惜しかった。
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC198&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---div&#34;&gt;A - Div&lt;/h2&gt;
+&lt;p&gt;A君1個B君N-1個~A君N-1個B君1個までのN-1通り&lt;/p&gt;
+&lt;h2 id=&#34;b---palindrome-with-leading-zeros&#34;&gt;B - Palindrome with leading zeros&lt;/h2&gt;
+&lt;p&gt;意外と面倒臭い&lt;br&gt;
+後ろの0を全て削ってから回文確認をする&lt;/p&gt;
+&lt;h2 id=&#34;c---compass-walking&#34;&gt;C - Compass Walking&lt;/h2&gt;
+&lt;p&gt;点(X,Y)までの距離がRの倍数だったらそのまま割る。
+そうでなければ、直前まで直線に向かい、そこから2歩使って到着するのが最善。&lt;br&gt;
+点(X,Y)がR未満の時答えが2になることに注意。&lt;/p&gt;
+&lt;h2 id=&#34;d---send-more-money&#34;&gt;D - Send More Money&lt;/h2&gt;
+&lt;p&gt;覆面算の条件から、使えるアルファベットは10種類以内になる（逆に、アルファベットが11種類以上の時、鳩の巣原理から数字が被ってしまう）。
+あとは0~9までの順列をアルファベットに対応させて検証すれば良い。&lt;/p&gt;
+&lt;h2 id=&#34;e---unique-color&#34;&gt;E - Unique Color&lt;/h2&gt;
+&lt;p&gt;木を深さ優先探索する。
+今までに出現した色を記録する配列を&lt;code&gt;boolean[10^5+1]&lt;/code&gt;とすると、以下のようなdfsで答えが求まる。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;頂点&lt;code&gt;x&lt;/code&gt;に到達した時、&lt;code&gt;x&lt;/code&gt;の色に対応する配列の値が&lt;code&gt;false&lt;/code&gt;だった場合、
+&lt;code&gt;x&lt;/code&gt;と頂点1からのパスに&lt;code&gt;x&lt;/code&gt;の色が存在しないので、&lt;code&gt;x&lt;/code&gt;はよい頂点になる。&lt;/li&gt;
+&lt;li&gt;逆に配列が&lt;code&gt;true&lt;/code&gt;だった場合、よい頂点ではない。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt;の色に対応する配列の値を&lt;code&gt;true&lt;/code&gt;にする。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt;の子に対して再帰的に上の手順を当てる。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt;から登っていく（再帰関数を抜ける）時、&lt;code&gt;x&lt;/code&gt;がよい頂点だったら、配列の値を&lt;code&gt;false&lt;/code&gt;にしておく。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC196の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc196/</link>
+      <pubDate>Sat, 20 Mar 2021 23:48:43 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc196/</guid>
+      <description>&lt;p&gt;惜しくも4完．
+E問題で一ヵ所凡ミスがあって1WAだった．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC196&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---difference-max&#34;&gt;A - Difference Max&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;x-y&lt;/code&gt;が最大になるのは&lt;code&gt;x&lt;/code&gt;が最大かつ&lt;code&gt;y&lt;/code&gt;が最小の時．
+&lt;code&gt;x&lt;/code&gt;の最大値は&lt;code&gt;b&lt;/code&gt;であり，&lt;code&gt;y&lt;/code&gt;の最小値は&lt;code&gt;c&lt;/code&gt;なので，答えは&lt;code&gt;b-c&lt;/code&gt;．&lt;/p&gt;
+&lt;h2 id=&#34;b---round-down&#34;&gt;B - Round Down&lt;/h2&gt;
+&lt;p&gt;100桁の小数が与えられるので，Xを数値として読み込むのは厳しい．
+一旦文字列として読み込み，それの整数部を計算する．
+文字列中に&lt;code&gt;.&lt;/code&gt;が存在しないならその文字列をそのまま，
+存在するなら&lt;code&gt;.&lt;/code&gt;で分割し，前半の文字列を出力すれ良い．&lt;/p&gt;
+&lt;h2 id=&#34;c---doubled&#34;&gt;C - Doubled&lt;/h2&gt;
+&lt;p&gt;一見難しそうに見えるが，全探索すれば良い．
+12桁の整数全ては調べられないが，条件は&lt;code&gt;前半と後半が等しい&lt;/code&gt;なので，
+下6桁まで(&lt;code&gt;1~999,999&lt;/code&gt;)だけを確認すれば良い．
+&lt;code&gt;1~999,999&lt;/code&gt;までの数値を2回繰り返した整数がNよりも小さいかを判定する．&lt;/p&gt;
+&lt;h2 id=&#34;d---hanjo&#34;&gt;D - Hanjo&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;HW &amp;lt;= 16&lt;/code&gt;という条件から，全探索をしてみる．
+1畳の畳の置き方の問題なので，半畳の方は考えなくて良い（余った箇所に詰めれる）．
+部屋を1メートル毎に分割し&lt;code&gt;(i,j)&lt;/code&gt;と表現するとすると，
+各&lt;code&gt;(i,j)&lt;/code&gt;に対して，&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;（置けるけど）畳を置かない&lt;/li&gt;
+&lt;li&gt;畳を縦に置く&lt;/li&gt;
+&lt;li&gt;畳を横に置く&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;の3通りの選び方があるので，再帰関数等を使って，
+深さ優先探索で全てを試せば良い．&lt;/p&gt;
+&lt;h2 id=&#34;e---filters&#34;&gt;E - Filters&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;N&amp;lt;=2*10^5&lt;/code&gt;，&lt;code&gt;Q&amp;lt;=2*10^5&lt;/code&gt;から全ての&lt;code&gt;xi&lt;/code&gt;に対して各関数を当てると間に合わないので，
+1つの関数を全&lt;code&gt;X&lt;/code&gt;に&lt;code&gt;log(Q)&lt;/code&gt;に当てることを考える．
+そうすると，先に&lt;code&gt;X&lt;/code&gt;をソートしておいて，
+関数を当てる箇所を二分探索で探せば良いことが何となく分かる．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ti=1&lt;/code&gt;のとき，&lt;code&gt;ai&lt;/code&gt;の値は最後に加算しても問題ない．
+&lt;code&gt;sum&lt;/code&gt;などの変数に加算しておき，最後に計算する．&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ti=2(max)&lt;/code&gt;のとき，&amp;ldquo;ソート済み&lt;code&gt;X&lt;/code&gt;の&lt;code&gt;ai&lt;/code&gt;以下の値が全て&lt;code&gt;ai&lt;/code&gt;になる&amp;quot;と考える．
+二分探索で&lt;code&gt;ai&lt;/code&gt;以下の値の場所を求めて，その場所から左側の値は全て&lt;code&gt;ai&lt;/code&gt;になることを記録しておく．&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ti=3(min)&lt;/code&gt;のときも同様．&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ARC113の解説</title>
+      <link>https://t45k.github.io/kyopuro/arc113/</link>
+      <pubDate>Mon, 22 Feb 2021 15:03:58 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/arc113/</guid>
+      <description>&lt;p&gt;ABCの3完で緑パフォ．&lt;a href=&#34;https://github.com/T45k/kyopuro/tree/master/AtCoder/ARC/ARC113&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---abc&#34;&gt;A - A&lt;em&gt;B&lt;/em&gt;C&lt;/h2&gt;
+&lt;p&gt;実は一番時間がかかった問題．
+Aを固定した時に，BとCの組み合わせは&lt;code&gt;O(K)&lt;/code&gt;で求まる
+（BがNの時，Cは&lt;code&gt;1~K/N&lt;/code&gt;の値を取りうるので，組み合わせの個数は&lt;code&gt;K/N&lt;/code&gt;になる）．
+よって，Aを1からKまで動かしつつ，&lt;code&gt;B*C&amp;lt;=K/A&lt;/code&gt;を満たすB*Cの組み合わせを求めることになる．
+Aを動かしてもK/Aが変わらないときは，B，Cの組み合わせの個数も変わらない．
+なので，B，Cの組み合わせの個数をメモしておく．&lt;/p&gt;
+&lt;p&gt;個人的には計算量の見積もりが厳しい．
+入力を考えるのは簡単なので，とりあえず実装してみて一番時間がかかりそうな入力（2*10^5）を突っ込んで時間計ってみるのが良さそう．&lt;/p&gt;
+&lt;h2 id=&#34;b---abc&#34;&gt;B - A^B^C&lt;/h2&gt;
+&lt;p&gt;A^B^Cの1の位は10で割った余りなので，(A%10)^B^Cと答えは同じ．
+次にA%10の累乗の1の位がループする回数を求める．
+例えば，2の場合，2の累乗の1の位は&lt;code&gt;2 -&amp;gt; 4 -&amp;gt; 8 -&amp;gt; 6 -&amp;gt;  2&lt;/code&gt;と4回毎にループすることが分かる．
+これから，ループする回数をNとすると，B^CをNで割った余りを求めれば良い．
+繰り返し二乗法を使えば&lt;code&gt;O(log(C))&lt;/code&gt;で&lt;code&gt;B^C % N&lt;/code&gt;を求められるので十分間に合う．&lt;/p&gt;
+&lt;h2 id=&#34;c---string-invasion&#34;&gt;C - String Invasion&lt;/h2&gt;
+&lt;p&gt;あるアルファベット&lt;code&gt;α&lt;/code&gt;が二回連続で並んでいるときに，その後ろにあるアルファベットを全て&lt;code&gt;α&lt;/code&gt;に置換できると考えると楽．
+このとき，αの後ろにある全てのアルファベットの内，αではないアルファベットの個数回操作を行える．
+この操作はなるべく後ろからしていくのが最適なので，以下の手順で解けばよい．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;後ろからアルファベットを見ていく．この時，アルファベットの種類毎の個数を記録する．&lt;/li&gt;
+&lt;li&gt;二回連続しているアルファベット&lt;code&gt;α&lt;/code&gt;があれば，これまで記録してきた&lt;code&gt;α&lt;/code&gt;ではないアルファベットの個数回操作を行える．&lt;/li&gt;
+&lt;li&gt;操作を行うと，今見ている以降の全てのアルファベットが&lt;code&gt;α&lt;/code&gt;になるので，そのように個数を記録し直す．&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC192の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc192/</link>
+      <pubDate>Sun, 21 Feb 2021 17:56:33 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc192/</guid>
+      <description>&lt;p&gt;研究も一段落付いたので競プロに復帰します．&lt;/p&gt;
+&lt;p&gt;今回はABCDの4完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC192&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---star&#34;&gt;A - Star&lt;/h2&gt;
+&lt;p&gt;Xは高々10^5なのでごり押しでもできますが，
+100からXを100で割った余りを引くと&lt;code&gt;O(1)&lt;/code&gt;で求まります．&lt;/p&gt;
+&lt;h2 id=&#34;b---unreadable-string&#34;&gt;B - uNrEaDaBlE sTrInG&lt;/h2&gt;
+&lt;p&gt;for文で回すだけ．
+大文字，小文字判定はJavaだと&lt;code&gt;Character#isUpper(Lower)Case&lt;/code&gt;を使うと一発．&lt;/p&gt;
+&lt;h2 id=&#34;c---kaprekar-number&#34;&gt;C - Kaprekar Number&lt;/h2&gt;
+&lt;p&gt;一見難しそうに見えますが，&lt;code&gt;N&amp;lt;=10^9&lt;/code&gt;からNをソート対象の要素は高々9個なので，
+K=10^5から毎回&lt;code&gt;f(x)&lt;/code&gt;を計算しても十分間に合います．
+ということで&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;xをchar型配列に変換する&lt;/li&gt;
+&lt;li&gt;g1がxを降順にソートして得られる値，g2が昇順ソートで得られる値になる&lt;/li&gt;
+&lt;li&gt;x = f(x)
+をK回繰り返せばOK&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;d---base-n&#34;&gt;D - Base n&lt;/h2&gt;
+&lt;p&gt;E問題より解いた人が少なかったD問題．&lt;/p&gt;
+&lt;p&gt;まずXが一文字の時，何進数であってもXのn進数表記の値は変わらないため，
+&lt;code&gt;X &amp;lt;= M&lt;/code&gt;なら1，そうでなければ0を出力する．&lt;/p&gt;
+&lt;p&gt;次にXが二文字以上の時は，伝家の宝刀二分探索をする．
+dから10^18+1の範囲から初め，
+XをN進数表記にしたときにMを超過しない最大のNを求める．
+ちなみにXのN進数表記を計算するときは&lt;code&gt;BigInteger&lt;/code&gt;を使うことをオススメします
+（オーバーフローを考慮したうえでlongを使うと1WAになった）．&lt;/p&gt;
+&lt;h2 id=&#34;e---train&#34;&gt;E - Train&lt;/h2&gt;
+&lt;p&gt;出発できる時刻を考慮したうえでDijkstraをするだけ．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC177の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc177/</link>
+      <pubDate>Sun, 30 Aug 2020 16:35:35 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc177/</guid>
+      <description>&lt;p&gt;5完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC177&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---dont-be-late&#34;&gt;A - Don&amp;rsquo;t be late&lt;/h2&gt;
+&lt;p&gt;規定の時間歩き切った際の距離が待ち合わせ場所までの距離以上であれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;b---substring&#34;&gt;B - Substring&lt;/h2&gt;
+&lt;p&gt;制約が緩いのでSの0以上&lt;code&gt;|S|-|T|&lt;/code&gt;以下文字を先頭とした部分文字列とTを比較すれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;c---sum-of-product-of-pairs&#34;&gt;C - Sum of product of pairs&lt;/h2&gt;
+&lt;p&gt;愚直にやると時間に間に合わない．&lt;br&gt;
+答えは&lt;code&gt;A1 * (A2 + A3 + ... An) + A2 * (A3 + ... + An) + ... + Ai * (Ai+1 + ... + An) + ...&lt;/code&gt;なので，
+A2からAnまでの累積和を取ってから掛け算を行えば良い．&lt;/p&gt;
+&lt;h2 id=&#34;d---friends&#34;&gt;D - Friends&lt;/h2&gt;
+&lt;p&gt;Union-Findで殴る．&lt;br&gt;
+問題文から，Union-Findを使うと友達グループは簡単に求まる．
+&lt;strong&gt;全ての人について「同じグループの中に友達がいない」という状況&lt;/strong&gt;を達成するためには，
+一番大きい友達グループと同じサイズのグループに分割すれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;e---coprime&#34;&gt;E - Coprime&lt;/h2&gt;
+&lt;p&gt;まず全てのAiに対してGCDをとって，与えられた数字列が&lt;strong&gt;not coprime&lt;/strong&gt;か否かを判定する．
+not coprime出ない場合，次に&lt;strong&gt;pairwise coprime&lt;/strong&gt;かどうかを判定する．
+ここで，&lt;strong&gt;「全ての組が互いに素である」とは，与えられた数字列の数字を素因数分解した際に，素数が約数となるのは高々1回まで&lt;/strong&gt;と同意である．
+Ai&amp;lt;=10^6から，素数の最大値は1000以下，あるいは1000以下の素数で割り切った後に残る数字（1以外）となる．
+なので，先に1000以下の素数をエラトステネスの篩などで用意しておき，
+各Aiに対して各素数で割れるかどうかを判定する．
+割れる場合，その素数を記録する．
+すでに記録した素数で割り切れた場合，互いに素でない数字の組が存在することになる．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC176の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc176/</link>
+      <pubDate>Mon, 24 Aug 2020 17:05:57 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc176/</guid>
+      <description>&lt;p&gt;気持ち良く5完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC176&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---takoyaki&#34;&gt;A - Takoyaki&lt;/h2&gt;
+&lt;p&gt;日本語をきちんと噛み砕かないと解けない問題．
+答え自体は&lt;code&gt;(X + N - 1) / N * T&lt;/code&gt;するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;b---multiple-of-9&#34;&gt;B - Multiple of 9&lt;/h2&gt;
+&lt;p&gt;各桁の合計を9で割るだけ&lt;/p&gt;
+&lt;h2 id=&#34;c---step&#34;&gt;C - Step&lt;/h2&gt;
+&lt;p&gt;前から順番に見ていき，今見ている人の身長が前の人以上になるように踏み台を使うのが最適．&lt;br&gt;
+なので，人iが見てきた中で最大の身長より小さければ，その差を足し合わせ，
+それより大きければ身長の最大値を更新すれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;d---wizard-in-maze&#34;&gt;D - Wizard in Maze&lt;/h2&gt;
+&lt;p&gt;意外と解ける人が少なかった問題&lt;br&gt;．
+移動をコスト0，ワープをコスト1としてダイクストラすれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;e---bomber&#34;&gt;E - Bomber&lt;/h2&gt;
+&lt;p&gt;これが緑diffなの意外．&lt;br&gt;
+最初に各列，行ごとの爆破対象の個数を数えていく．
+次に，列，行ごとで爆破対象が最大のもののみをフィルターする．
+最後に残った列，行を組み合わせた際に爆破対象が最大となるものを選ぶ．
+この時，選んだ列，行の交差点に爆破対象がない場合合計個数は&lt;code&gt;列の値 + 行の値&lt;/code&gt;，
+そうでない場合は&lt;code&gt;列の値 + 行の値 - 1&lt;/code&gt;になる．
+なので，交差点に爆破対象がないように選びたい．
+爆破対象の数は高々M個なので，交差点がMを超過するとき，必ず爆破対象が存在しない交差点がする．
+逆にM以下の場合は，全ての交差点を確認しても制限時間に間に合う．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC175の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc175/</link>
+      <pubDate>Sun, 16 Aug 2020 19:58:10 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc175/</guid>
+      <description>&lt;p&gt;オンタイム参加せず．
+バチャやると3完だったので参加しなくてよかった&amp;hellip;&lt;br&gt;
+&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC175&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---rainy-season&#34;&gt;A - Rainy Season&lt;/h2&gt;
+&lt;p&gt;高々3文字なので全ての場合を列挙した方が良さそう．&lt;/p&gt;
+&lt;h2 id=&#34;b---making-triangle&#34;&gt;B - Making Triangle&lt;/h2&gt;
+&lt;p&gt;高々&lt;code&gt;N &amp;lt;= 100&lt;/code&gt;なので3重ループでOK．&lt;/p&gt;
+&lt;h2 id=&#34;c---walking-takahashi&#34;&gt;C - Walking Takahashi&lt;/h2&gt;
+&lt;p&gt;個人的に結構難しかった問題．&lt;br&gt;
+Xは最初から絶対値として扱って良い．
+&lt;code&gt;X &amp;gt;= K * D&lt;/code&gt;の場合は&lt;code&gt;X - K * D&lt;/code&gt;が最適となる．&lt;br&gt;
+そうでない場合．まず　&lt;code&gt;K2 = X / D&lt;/code&gt;とすると&lt;code&gt;0 &amp;lt; X - K2 * D &amp;lt; D&lt;/code&gt;を満たすK2が得られる．
+ここからK2の偶奇がKと一致する場合そのKを，一致しない場合はK2+1が答えとなる．&lt;br&gt;
+&lt;code&gt;K * D&lt;/code&gt;が64bitに収まらないに注意．&lt;/p&gt;
+&lt;h2 id=&#34;d---moving-piece&#34;&gt;D - Moving Piece&lt;/h2&gt;
+&lt;p&gt;場合分けが面倒くさくて実装量が多くなる問題&lt;br&gt;．
+まず初めにマスのグループ分けを行う．
+というのも始める場所によっては行けないマスが存在することもあるからである（例えば&lt;code&gt;2 1 4 3&lt;/code&gt;だと1からスタートすると1 -&amp;gt; 2 -&amp;gt; 1を繰り返す）．
+グループ分けは愚直にシミュレーションしても良いし，UnionFindTreeを用いてもできる．&lt;br&gt;
+分けたグループそれぞれに対して，スコアを計算する．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kがグループのサイズ以下の場合&lt;br&gt;
+グループに含まれる各値をスタート地点にして，シミュレーションする．
+シミュレーションの途中のスコアも全て記録しておき，最大値を取得する&lt;/li&gt;
+&lt;li&gt;Kがグループのサイズを超過する場合
+&lt;ul&gt;
+&lt;li&gt;グループの各数値iに対するCiの総和が
+0より大きい場合&lt;br&gt;
+なるべく多くループした方が良い．
+&lt;code&gt;div = K / グループサイズ&lt;/code&gt;，&lt;code&gt;mod = K % グループサイズ&lt;/code&gt;とする．
+&lt;ul&gt;
+&lt;li&gt;modが0でない時&lt;br&gt;
+余り回移動するシミュレーションを行い，その最大値を&lt;code&gt;総和 * div&lt;/code&gt;に足す．&lt;/li&gt;
+&lt;li&gt;modが0の時&lt;br&gt;
+ループを1回少なく行い，そこから最適な移動を行う場合を考える（Cに負の数が含まれる場合，総和 &amp;lt; 最適なシミュレーションになる）ので，グループサイズ回移動するシミュレーションを行い，その最大値を&lt;code&gt;総和 * (div - 1)&lt;/code&gt;に足す．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;0より小さい場合
+ループしない方が良いので，グループサイズ回移動するシミュレーションを行う．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最終的に各グループに対して上の計算で出た値の最大値が答え．&lt;/p&gt;
+&lt;h2 id=&#34;e---picking-goods&#34;&gt;E - Picking Goods&lt;/h2&gt;
+&lt;p&gt;Dより簡単．DP．&lt;br&gt;
+同じ行でいくつ宝箱を取得してかを表す要素を追加する．
+&lt;code&gt;dp[R][C][3]&lt;/code&gt;．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC174の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc174/</link>
+      <pubDate>Tue, 04 Aug 2020 13:48:43 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc174/</guid>
+      <description>&lt;p&gt;5完．
+Fが水diffだったのに解けなくて厳しい．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC174&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---air-conditioner&#34;&gt;A - Air Conditioner&lt;/h2&gt;
+&lt;p&gt;条件分岐するだけ&lt;/p&gt;
+&lt;h2 id=&#34;b---distance&#34;&gt;B - Distance&lt;/h2&gt;
+&lt;p&gt;与えられたN個の座標の原点からの距離を計算していくだけ．&lt;br&gt;
+また，こういう時，小数点の計算などは誤差が発生しやすいので，平方根をとる計算はせず，
+全て二乗で計算した方が良い．
+int型だとオーバーフローするので注意．&lt;/p&gt;
+&lt;h2 id=&#34;c---repsept&#34;&gt;C - Repsept&lt;/h2&gt;
+&lt;p&gt;証明が難しい問題．&lt;br&gt;
+C問題なので，時間いっぱい（10^7くらい）計算して答えが見つかれば答えを，見つかれなければ-1を出力する方針で解いた．
+計算じたいは，最初に&lt;code&gt;X = 7, i = 1&lt;/code&gt;として，XがKで割れればiを出力し，
+割れなければ&lt;code&gt;X &amp;lt;- (X * 10 + 7) % K, i &amp;lt;- i + 1&lt;/code&gt;と更新すれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;d---alter-altar&#34;&gt;D - Alter Altar&lt;/h2&gt;
+&lt;p&gt;なんとなく解けた問題．&lt;br&gt;
+答えは次のいずれかの小さい方&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;玉を赤か白に統一する&lt;/li&gt;
+&lt;li&gt;swapして左側に赤，右側に白を揃える&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下の方法だと，最左の白玉と最右の赤玉の間にある玉の赤と白の少ない方の個数が答えになる．&lt;/p&gt;
+&lt;h2 id=&#34;e---logs&#34;&gt;E - Logs&lt;/h2&gt;
+&lt;p&gt;なんとなく解けた問題．想定解はにぶたん．&lt;br&gt;
+まず&lt;code&gt;K &amp;lt;= 10^9&lt;/code&gt;という条件を無視すると，丸太iとその切断回数jに対して，
+i/jの天井関数の降順に並べるようにした
+優先度付きキューに丸太を入れて，K回先頭の割る回数を増やすという操作で解ける(以降，操作O)．
+なので，&lt;code&gt;K&lt;/code&gt;を10^5くらいにできれば，この操作で大丈夫である．
+&lt;code&gt;K&lt;/code&gt;を減らす方法として，はじめに丸太iの長さに応じて適切な切断回数を決めておき，
+その切断回数の総和を&lt;code&gt;K&lt;/code&gt;から引いた上で，操作Oに入ればよい．
+初期切断回数として，丸太の長さの総和に対する割合を利用できる．
+つまり，丸太の長さの総和Sに対して，丸太iの長さがLiの時，
+&lt;code&gt;K * (Li / S)&lt;/code&gt;を初期切断回数とすれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;f---range-set-query&#34;&gt;F - Range Set Query&lt;/h2&gt;
+&lt;p&gt;解説AC．クエリをソートするという発想．&lt;br&gt;
+クエリの右端を昇順に並べる．
+クエリの右端までの玉の各種類について，最右なものの位置を記録していく．
+最後に，クエリの左端より右側に位置している玉の数を数える（区間和なのでセグ木とかBIT）．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>エイシングプログラミングコンテスト2020の解説</title>
+      <link>https://t45k.github.io/kyopuro/aising2020/</link>
+      <pubDate>Mon, 13 Jul 2020 18:19:23 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/aising2020/</guid>
+      <description>&lt;p&gt;4完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/other/aising2020&#34;&gt;コード&lt;/a&gt;
+実装が重かった印象．&lt;/p&gt;
+&lt;h2 id=&#34;a---number-of-multiples&#34;&gt;A - Number of Multiples&lt;/h2&gt;
+&lt;p&gt;for文で回すだけ&lt;/p&gt;
+&lt;h2 id=&#34;b---an-odd-problem&#34;&gt;B - An Odd Problem&lt;/h2&gt;
+&lt;p&gt;for文で回すだけ&lt;/p&gt;
+&lt;h2 id=&#34;c---xyz-triplets&#34;&gt;C - XYZ Triplets&lt;/h2&gt;
+&lt;p&gt;ゴリ押し全探索&lt;br&gt;
+N&amp;lt;=10^4から，x,y,zそれぞれの最大値は10^2になることが分かる．
+なので，x，yを1から10^2まで全探索しても計算量は全体で10^8に抑えられる．&lt;br&gt;
+計算方法だが，xとyが決まればあとはzの二次方程式となるため，解の公式を使えば条件を満たすzが存在するかがO(1)で分かる．&lt;/p&gt;
+&lt;h2 id=&#34;d---anything-goes-to-zero&#34;&gt;D - Anything Goes to Zero&lt;/h2&gt;
+&lt;p&gt;意外と難しかったらしい問題&lt;br&gt;
+条件から，各Xiを最初に割るのは，popcount(X)±1となる．
+また桁iが0の時，&lt;code&gt;Xi = X + 2^i&lt;/code&gt;，1の時，&lt;code&gt;Xi = X - 2^1&lt;/code&gt;となることから，
+Xの値と各2^iの値を最初に求めておけば，最初の余を求めるところ以降は愚直にやっても間に合う．
+Xの値と各2^iの値は非常に大きくなる可能性があるので，何らかの値で割った余りを利用したい．
+ここで，&lt;code&gt;条件から，各Xiを最初に割るのは，popcount(X)±1となる&lt;/code&gt;ので，popcount(X)±1で割った余りを記録して，
+桁iの値で使い分ければ良い.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC173の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc173/</link>
+      <pubDate>Mon, 13 Jul 2020 17:52:00 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc173/</guid>
+      <description>&lt;p&gt;4完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC173&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---payment&#34;&gt;A - Payment&lt;/h2&gt;
+&lt;p&gt;愚直にforループを回しても良いが，Nが最大10,000なのを踏まえて，
+&lt;code&gt;10,000 - N&lt;/code&gt;をしてお釣りを1000で割った余りを求めると早い．&lt;/p&gt;
+&lt;h2 id=&#34;b---judge-status-summary&#34;&gt;B - Judge Status Summary&lt;/h2&gt;
+&lt;p&gt;switch文で数え上げるだけ．&lt;/p&gt;
+&lt;h2 id=&#34;c---h-and-v&#34;&gt;C - H and V&lt;/h2&gt;
+&lt;p&gt;典型的なbit全探索の問題．
+縦，横でbit全探索して，該当行を赤く塗った後に盤上の黒いマスの個数を数える．&lt;/p&gt;
+&lt;h2 id=&#34;d---chat-in-a-circle&#34;&gt;D - Chat in a Circle&lt;/h2&gt;
+&lt;p&gt;なぜ解けたかよくわからなかった．
+直感的には，Aiをソートした後に&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A1 A2を列に加える&lt;/li&gt;
+&lt;li&gt;A3，A4を交互に列に加える．A1 A3 A2 A4となる&lt;/li&gt;
+&lt;li&gt;A5，A6，A7，A8を交互に列に加える．A1 A5 A3 A6 A2 A7 A4 A8となる&lt;/li&gt;
+&lt;li&gt;これを繰り返す．&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;みたいな．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC172の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc172/</link>
+      <pubDate>Wed, 01 Jul 2020 10:38:47 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc172/</guid>
+      <description>&lt;p&gt;C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回．
+4完．&lt;br&gt;
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC172&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---calc&#34;&gt;A - Calc&lt;/h2&gt;
+&lt;p&gt;計算するだけ&lt;/p&gt;
+&lt;h2 id=&#34;b---minor-change&#34;&gt;B - Minor Change&lt;/h2&gt;
+&lt;p&gt;問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．&lt;/p&gt;
+&lt;h2 id=&#34;c---tsundoku&#34;&gt;C - Tsundoku&lt;/h2&gt;
+&lt;p&gt;貪欲だと解けない問題．&lt;br&gt;
+A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる．
+ここで，&lt;strong&gt;本は上から見ていく&lt;/strong&gt;というルールから，累積和をとっても問題ないことに気付ける．
+累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;d---sum-of-divisors&#34;&gt;D - Sum of Divisors&lt;/h2&gt;
+&lt;p&gt;最近流行のエラトステネス的問題．&lt;br&gt;
+全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．&lt;br&gt;
+実装としては，以下のようにする．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;長さNの配列を2つ用意する．
+配列Aは1で，配列Bはその添字で初期化する．
+配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う．&lt;/li&gt;
+&lt;li&gt;2 &amp;lt;= i &amp;lt;= √Nとして，配列を順番に見ていく．
+&lt;ul&gt;
+&lt;li&gt;Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;Ak *= k + 1
+Bk /= i ^ k
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;と更新する&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Biが1の時，iは素数なので何もしない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する．&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC171の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc171/</link>
+      <pubDate>Tue, 30 Jun 2020 22:33:15 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc171/</guid>
+      <description>&lt;p&gt;難易度が暴落した回．&lt;br&gt;
+5完．&lt;br&gt;
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC171&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---αlphabet&#34;&gt;A - αlphabet&lt;/h2&gt;
+&lt;p&gt;やるだけ．
+Javaなら&lt;code&gt;Character#isUpperCase&lt;/code&gt;とかが使える．&lt;/p&gt;
+&lt;h2 id=&#34;b---mix-juice&#34;&gt;B - Mix Juice&lt;/h2&gt;
+&lt;p&gt;ソートして前からK個選ぶ．&lt;/p&gt;
+&lt;h2 id=&#34;c---one-quadrillion-and-one-dalmatians&#34;&gt;C - One Quadrillion and One Dalmatians&lt;/h2&gt;
+&lt;p&gt;与えられた数字を26進数に変換する問題．&lt;br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Nをデクリメントし&lt;/li&gt;
+&lt;li&gt;Nを26で割ったあまりを求め(これを使う)&lt;/li&gt;
+&lt;li&gt;N /= 26 をする&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;を繰り返す．&lt;/p&gt;
+&lt;h2 id=&#34;d---replacing&#34;&gt;D - Replacing&lt;/h2&gt;
+&lt;p&gt;C問題よりわかりやすい．&lt;br&gt;
+最初に全ての和Sと，それぞれの数字が何回出てくるかを記録しておく．
+各クエリ毎に以下の操作をすれば良い．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;与えられたCに対して，SからC*(Cの出現回数)を引く&lt;/li&gt;
+&lt;li&gt;与えられたDに対して，SにD*(Cの出現回数)を加える&lt;/li&gt;
+&lt;li&gt;Dの出現回数にCの出現回数を加える&lt;/li&gt;
+&lt;li&gt;Cの出現回数を0にする&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;e---red-scarf&#34;&gt;E - Red Scarf&lt;/h2&gt;
+&lt;p&gt;まさかの茶diff．Nが偶数という制約があるのを知らんかった&amp;hellip;&lt;br&gt;
+すぬけ君iのスカーフに書かれた整数をbiとすると&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 =      b2 ^ b3 ^ ... ^ bn
+a2 = b1 ^      b3 ^ ... ^ bn
+a3 = b1 ^ b2 ^      ... ^ bn
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;であることが分かる．
+また，排他的論理和の性質から&lt;code&gt;x ^ x = 0&lt;/code&gt;なので，以下が成り立つ．&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 ^ a2 ^ a3 ^ ... ^ an
+= (b1 ^ b1 ^ ... ^ b1(= n-1回の排他的論理和)) ^ (b2 ^ b2 ^ ...) ^ ...
+= b1 ^ b2 ^ ... ^bn
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;つまり&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 ^ (a1 ^ a2 ^ ... ^ an)
+= b1 ^ (b2 ^ b2) ^ (b3 ^ b3) ^ ...
+= b1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;が成り立つ．&lt;br&gt;
+つまり，biを求めるためには，全てのaの排他的論理和とaiの排他的論理和を求めれば良い．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABC170の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc170/</link>
+      <pubDate>Sat, 20 Jun 2020 11:52:18 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc170/</guid>
+      <description>&lt;p&gt;無念の3完．
+&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC170&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---five-variables&#34;&gt;A - 	Five Variables&lt;/h2&gt;
+&lt;p&gt;やるだけ．
+Listを作って&lt;code&gt;List#indexOf&lt;/code&gt;で探すと楽．&lt;/p&gt;
+&lt;h2 id=&#34;b---crane-and-turtle&#34;&gt;B - Crane and Turtle&lt;/h2&gt;
+&lt;p&gt;ツルカメ算．
+ループを回す．&lt;/p&gt;
+&lt;h2 id=&#34;c---forbidden-list&#34;&gt;C - Forbidden List&lt;/h2&gt;
+&lt;p&gt;解答が燃えた問題．&lt;br&gt;
+Xが100以下なので，答えは101以下になる．
+したがって，0から101までの，数列に含まれていない数字に対してXとの差を計算するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;d---not-divisible&#34;&gt;D - Not Divisible&lt;/h2&gt;
+&lt;p&gt;解けなかった．&lt;br&gt;
+エラトステネスの篩のイメージ．
+数列A中の最大値をAmaxとすると，数列Aを昇順に見て&lt;code&gt;sqrt(Amax)&lt;/code&gt;までの数字の倍数を全て消す作業をする．
+最後に残った数字の中でダブりがないものが答え．&lt;/p&gt;
+&lt;h2 id=&#34;e---smart-infants&#34;&gt;E - Smart Infants&lt;/h2&gt;
+&lt;p&gt;データ構造で殴る問題．
+Javaの標準ライブラリにMultiSetはないので少し考える必要がある．
+今回は各幼稚園の園児のレートをTreeSetで，全ての幼稚園の最小値をセグ木で持つと，転園は以下の操作で行われる．
+また，各園児が現在所属している幼稚園の情報を持つとする．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cjの園児が所属している幼稚園(TreeSet)からCjを消す．&lt;/li&gt;
+&lt;li&gt;その幼稚園に関してセグ木の値を更新する．もし幼稚園に園児がいないなら&lt;code&gt;Integer.MAX_VALUE&lt;/code&gt;とする．&lt;/li&gt;
+&lt;li&gt;幼稚園DjにCjを加える．&lt;/li&gt;
+&lt;li&gt;幼稚園Djに関してセグ木の値を更新する．&lt;/li&gt;
+&lt;li&gt;セグ木の全ての範囲に対してクエリを投げる．これが平等さになる．&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+>>>>>>> 109b6ec98f41a823a7dd78f70dd255dc2c9e3242
       <title>東京海上日動プログラミングコンテスト2020の解説</title>
       <link>https://t45k.github.io/kyopuro/tokiomarine2020/</link>
       <pubDate>Sun, 14 Jun 2020 18:55:26 +0900</pubDate>
@@ -533,18 +1297,18 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;場合分け&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;操作&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;場合分け&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;操作&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Ai を足さない&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;dp[N][j] = dp[N - 1][j]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ai を足さない&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;dp[N][j] = dp[N - 1][j]&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Ai を足す&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i&lt;br&gt;Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]&lt;br&gt;Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ai を足す&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i&lt;br&gt;Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]&lt;br&gt;Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -723,8 +1487,7 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 &lt;/ul&gt;
 &lt;p&gt;に対して&lt;code&gt;ac[i + j] == true&lt;/code&gt;となれば，その配置は矛盾がないことになる．
 図だとこんな感じ&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://t45k.github.io/img/kyopuro/pana2020_e.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/kyopuro/pana2020_e.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;iの探索範囲は0からaの長さ，jの探索範囲はbの長さかiからaの終端までの長さの長い方になる．&lt;br&gt;
@@ -992,18 +1755,18 @@ Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数�
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;桁i-1での状態&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;桁iでの状態&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;桁i-1での状態&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;桁iでの状態&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;確定している&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k]&lt;/code&gt;&lt;br&gt;0以外を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k - 1] * 9&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;確定している&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;0を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k]&lt;/code&gt;&lt;br&gt;0以外を選択する: &lt;code&gt;dp[i][k] += dp[i - 1][k - 1] * 9&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;確定していない&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;桁iが0の時: Nより小さくすることはできないので何もしない&lt;br&gt;桁iが0でない時: &lt;strong&gt;1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる&lt;/strong&gt;ので，桁i-1までに0以外の数字が出現した回数をjとすると&lt;code&gt;dp[i][j + 1] += (桁iの数字 - 1)&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;確定していない&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;桁iが0の時: Nより小さくすることはできないので何もしない&lt;br&gt;桁iが0でない時: &lt;strong&gt;1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができる&lt;/strong&gt;ので，桁i-1までに0以外の数字が出現した回数をjとすると&lt;code&gt;dp[i][j + 1] += (桁iの数字 - 1)&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

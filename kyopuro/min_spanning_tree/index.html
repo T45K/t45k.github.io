@@ -35,9 +35,10 @@ ABC065-Dがこの問題に該当します．
 プリム法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります． ノード同士が連結であるかどうかは，Union-Find Treeを用いて確認します．
 // edges は Edge(int label1, int label2, long cost) のリスト edges.sort(Comparator.comparingLong(o -&gt; o.cost)); final UnionFindTree unionFindTree = new UnionFindTree(n); // 要素数nのUnion-Find Treeを構築 long sum = 0; for (final Edge edge : edges) { if (!unionFindTree.isSame(edge.label1, edge.label2)) { unionFindTree.unit(edge.label1, edge.label2); sum &#43;= edge.cost; } } 辺のソートに一番計算量を食われます．" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/min_spanning_tree/" />
-<meta property="article:published_time" content="2020-02-29T22:37:36+09:00" />
-<meta property="article:modified_time" content="2020-02-29T22:37:36+09:00" />
+<meta property="og:url" content="https://t45k.github.io/kyopuro/min_spanning_tree/" /><meta property="article:section" content="kyopuro" />
+<meta property="article:published_time" content="2020-02-29T22:37:36&#43;09:00" />
+<meta property="article:modified_time" content="2020-02-29T22:37:36&#43;09:00" />
+
 
 
     
@@ -74,7 +75,7 @@ ABC065-Dがこの問題に該当します．
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.70.0" />
+    <meta name="generator" content="Hugo 0.83.1" />
   </head>
 
   
@@ -105,7 +106,11 @@ ABC065-Dがこの問題に該当します．
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/">lab</a>
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://sdl.ist.osaka-u.ac.jp/~t-nakagw">lab</a>
           </li>
         
       
