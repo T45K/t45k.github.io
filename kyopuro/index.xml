@@ -6,18 +6,39 @@
     <description>Recent content in Kyopuroes on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-<<<<<<< HEAD
-    <lastBuildDate>Sun, 14 Jun 2020 18:55:26 +0900</lastBuildDate>
-=======
-    <lastBuildDate>Sun, 18 Jul 2021 14:18:29 +0900</lastBuildDate>
->>>>>>> 109b6ec98f41a823a7dd78f70dd255dc2c9e3242
+    <lastBuildDate>Mon, 26 Jul 2021 22:41:46 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
-=======
+      <title>ABC211の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc211/</link>
+      <pubDate>Mon, 26 Jul 2021 22:41:46 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc211/</guid>
+      <description>&lt;p&gt;4完速解き失敗でレートが微減．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC211&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---blood-pressure&#34;&gt;A - Blood Pressure&lt;/h2&gt;
+&lt;p&gt;けつあつそくてい．&lt;code&gt;double&lt;/code&gt;で計算する．&lt;/p&gt;
+&lt;h2 id=&#34;b---cycle-hit&#34;&gt;B - Cycle Hit&lt;/h2&gt;
+&lt;p&gt;セットを使うなり事前にソートするなりする．&lt;/p&gt;
+&lt;h2 id=&#34;c---chokudai&#34;&gt;C - chokudai&lt;/h2&gt;
+&lt;p&gt;一部で炎上していた問題．簡単なDP&lt;/p&gt;
+&lt;h2 id=&#34;d---number-of-shortest-paths&#34;&gt;D - Number of Shortest paths&lt;/h2&gt;
+&lt;p&gt;基本的にはダイクストラ．&lt;br&gt;
+距離とは別に経路数の情報を持っておき，ある節点に到達したとき，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;その節点での距離の最小値を更新した場合，経路数をその経路の値に置き換える&lt;/li&gt;
+&lt;li&gt;その節点での距離の最小値と同じ距離だった場合，経路数を足し合わせる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;という操作を行う&lt;/p&gt;
+&lt;h2 id=&#34;e---red-polyomino&#34;&gt;E - Red Polyomino&lt;/h2&gt;
+&lt;p&gt;解説AC．解きたかった．
+赤に塗った盤面を全て記録しておいても十分メモリに余裕がある．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ABC210の解説</title>
       <link>https://t45k.github.io/kyopuro/abc210/</link>
       <pubDate>Sun, 18 Jul 2021 14:18:29 +0900</pubDate>
@@ -775,7 +796,6 @@ Javaの標準ライブラリにMultiSetはないので少し考える必要が�
     </item>
     
     <item>
->>>>>>> 109b6ec98f41a823a7dd78f70dd255dc2c9e3242
       <title>東京海上日動プログラミングコンテスト2020の解説</title>
       <link>https://t45k.github.io/kyopuro/tokiomarine2020/</link>
       <pubDate>Sun, 14 Jun 2020 18:55:26 +0900</pubDate>
