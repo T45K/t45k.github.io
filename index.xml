@@ -6,10 +6,52 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 05 Aug 2021 17:05:34 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 15 Aug 2021 13:45:18 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC214の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc214/</link>
+      <pubDate>Sun, 15 Aug 2021 13:45:18 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc214/</guid>
+      <description>&lt;p&gt;ABCDの四完．久々にD問題解けた．&lt;br&gt;
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC214&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---new-generation-abc&#34;&gt;A - New Generation ABC&lt;/h2&gt;
+&lt;p&gt;if文で分岐する&lt;/p&gt;
+&lt;h2 id=&#34;b---how-many&#34;&gt;B - How many?&lt;/h2&gt;
+&lt;p&gt;for文で全探索&lt;/p&gt;
+&lt;h2 id=&#34;c---distribution&#34;&gt;C - Distribution&lt;/h2&gt;
+&lt;p&gt;意外と難しかったと感じた割には灰diffらしい．&lt;/p&gt;
+&lt;p&gt;まずは簡単のために，時計回りに並んでいない場合を考える．
+i番目のすぬけ君が初めて宝石をもらう時間を&lt;code&gt;time[i]&lt;/code&gt;とすると，
+i(&amp;gt;=2)番目のすぬけ君が初めて宝石をもらうのは
+&lt;code&gt;min(T_i, time[i-1]+S[i-1])&lt;/code&gt;となるので，
+前から順番に計算していけば良い．&lt;/p&gt;
+&lt;p&gt;実際には時計回りに並んでいるため，
+1番目のすぬけ君がN番目のすぬけ君から宝石をもらうのが最速である場合がある．
+これは&lt;code&gt;min(T_0, time[N]+S[N])&lt;/code&gt;となるので，先ほどの式と併せて
+&lt;code&gt;min(T_i%N, time[(i-1)%N + S[(i-1)%N]])&lt;/code&gt;と一般化できる．
+あとはこの式を2周ループすれば良い．&lt;/p&gt;
+&lt;h2 id=&#34;d---sum-of-maximum-weights&#34;&gt;D - Sum of Maximum Weights&lt;/h2&gt;
+&lt;p&gt;D問題にしては難しかった問題．&lt;/p&gt;
+&lt;p&gt;まず，以下のことが言える．&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;連結でない頂点u,vに対して辺(u,v)を考える時，
+その辺を最短パスに含む頂点の組の個数は
+(uの連結成分の個数)*(vの連結成分の個数)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;以上から，u，v連結でなく，辺(u,v)が「uの連結成分中の辺」「vの連結成分中の辺」の重みよりも大きい（つまり，辺(u,v)が重みの最大値）場合，
+辺(u,v)を繋ぐことで重みの最大値の合計値は
+&lt;code&gt;(辺(u,v)の重み)*(uの連結成分の個数)*(vの連結成分の個数)&lt;/code&gt;だけ増える．&lt;/p&gt;
+&lt;p&gt;よって，重みの小さい辺から順番に連結していくことで，答えを求めることができる．
+連結成分の個数はUnion Findなどで管理できる．&lt;/p&gt;
+&lt;h2 id=&#34;e---packing-under-range-regulations&#34;&gt;E - Packing Under Range Regulations&lt;/h2&gt;
+&lt;p&gt;解説AC．&lt;/p&gt;
+&lt;h2 id=&#34;f---substrings&#34;&gt;F - Substrings&lt;/h2&gt;
+&lt;p&gt;解説AC．解説が分かりやすい．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>「世界は密室でできている」読了</title>
@@ -136,7 +178,7 @@
 &lt;p&gt;問題文から，与えられたグラフが木構造であることが分かる．&lt;br&gt;
 木構造の場合，ある節点(a,b)の距離の偶奇は，頂点を一つ定めたときの&lt;code&gt;(頂点からaまでの距離)-(頂点からbまでの距離)&lt;/code&gt;となる．&lt;br&gt;
 これは，例えば(a,b)の最小共通祖先をc，頂点（適当な節点）をd，二つの節点の距離を&lt;code&gt;dis(x,y)&lt;/code&gt;と表す時，&lt;code&gt;(頂点からaまでの距離)-(頂点からbまでの距離)&lt;/code&gt;の偶奇は&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;(dis(d,a) - dis(d,b)) % 2 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;(dis(d,a) - dis(d,b)) % 2 
 = (dis(d,c) + dis(c,a) + dis(d,c) + dis(c,b)) % 2
 = (dis(d,c) * 2 + dis(c,a) + dis(c,b)) % 2
 = (dis(c,a) + dis(c,b)) % 2
@@ -333,11 +375,11 @@ B以下の最大のiの倍数は&lt;code&gt;B/i*i&lt;/code&gt;で求まるので
       
       <guid>https://t45k.github.io/kyopuro/stream/</guid>
       <description>&lt;p&gt;これが多分ベスト&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;Stream.generate(scanner::nextInt)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;Stream.generate(scanner::nextInt)
   .limit(N)
   .collect(Collectors.toList());
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;配列にしたいときは&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;Stream.generate(scanner::nextInt)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;Stream.generate(scanner::nextInt)
   .limit(N)
   .mapToInt(Integer::intValue)
   .toArray();
@@ -1390,7 +1432,7 @@ A，Bどちらの本も上限が10^5なので，全ての組み合わせを見�
 &lt;ul&gt;
 &lt;li&gt;Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;Ak *= k + 1
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;Ak *= k + 1
 Bk /= i ^ k
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;と更新する&lt;/p&gt;
 &lt;ul&gt;
@@ -1437,17 +1479,17 @@ Javaなら&lt;code&gt;Character#isUpperCase&lt;/code&gt;とかが使える．&lt
 &lt;h2 id=&#34;e---red-scarf&#34;&gt;E - Red Scarf&lt;/h2&gt;
 &lt;p&gt;まさかの茶diff．Nが偶数という制約があるのを知らんかった&amp;hellip;&lt;br&gt;
 すぬけ君iのスカーフに書かれた整数をbiとすると&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 =      b2 ^ b3 ^ ... ^ bn
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 =      b2 ^ b3 ^ ... ^ bn
 a2 = b1 ^      b3 ^ ... ^ bn
 a3 = b1 ^ b2 ^      ... ^ bn
 ...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;であることが分かる．
 また，排他的論理和の性質から&lt;code&gt;x ^ x = 0&lt;/code&gt;なので，以下が成り立つ．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 ^ a2 ^ a3 ^ ... ^ an
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 ^ a2 ^ a3 ^ ... ^ an
 = (b1 ^ b1 ^ ... ^ b1(= n-1回の排他的論理和)) ^ (b2 ^ b2 ^ ...) ^ ...
 = b1 ^ b2 ^ ... ^bn
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;つまり&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 ^ (a1 ^ a2 ^ ... ^ an)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;a1 ^ (a1 ^ a2 ^ ... ^ an)
 = b1 ^ (b2 ^ b2) ^ (b3 ^ b3) ^ ...
 = b1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;が成り立つ．&lt;br&gt;
@@ -1555,13 +1597,13 @@ p^kまで作るには，出現回数は&lt;code&gt;1+2+3+...k=k(k+1)/2&lt;/code&
 とても単純化してみる．&lt;/p&gt;
 &lt;h3 id=&#34;nが奇数の時&#34;&gt;Nが奇数の時&lt;/h3&gt;
 &lt;p&gt;N=3で，以下のような時を考える．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;|---|  |---|  |---|
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;|---|  |---|  |---|
 a   b  c   d  e   f
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;この時，明らかに中央値はc~dの整数値になる．&lt;br&gt;
 このことから，何となく中央値は(0-indexedで)前からN/2番目の開始位置と後ろからN/2番目の終了位置の間の整数値であると考えられる．&lt;/p&gt;
 &lt;h3 id=&#34;nが偶数の時&#34;&gt;Nが偶数の時&lt;/h3&gt;
 &lt;p&gt;N=4で，以下のような時を考える．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;|---|  |---|  |---|  |---|
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;|---|  |---|  |---|  |---|
 a   b  c   d  e   f  g   h
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;この時，中央値は((c~dの値)+(e~fの値))/2となる．
 また，片方を1動かせば，中央値は1/2変化するので，中央値は1/2刻みとなる．
@@ -1680,16 +1722,16 @@ N&amp;lt;=500に対して，与えられる座標の数はN^2なので，座標�
 &lt;p&gt;&lt;code&gt;switch&lt;/code&gt;文を使う問題．
 コードが長くなりがち．
 Kotlinだと気持ちよく書ける．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;fun main() {
-    Scanner(System.`in`)
-        .run {
-            when (this.nextInt() % 10) {
-                3 -&amp;gt; &amp;#34;bon&amp;#34;
-                0, 1, 6, 8 -&amp;gt; &amp;#34;pon&amp;#34;
-                else -&amp;gt; &amp;#34;hon&amp;#34;
-            }.apply(::println)
-        }
-}
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-mysql&#34; data-lang=&#34;mysql&#34;&gt;fun main() &lt;span style=&#34;&#34;&gt;{&lt;/span&gt;
+    Scanner(System.`&lt;span style=&#34;font-weight:bold&#34;&gt;in&lt;/span&gt;`)
+        .run &lt;span style=&#34;&#34;&gt;{&lt;/span&gt;
+            &lt;span style=&#34;font-weight:bold&#34;&gt;when&lt;/span&gt; (this.nextInt() % 10) &lt;span style=&#34;&#34;&gt;{&lt;/span&gt;
+                3 -&amp;gt; &lt;span style=&#34;font-style:italic&#34;&gt;&amp;#34;bon&amp;#34;&lt;/span&gt;
+                0, 1, 6, 8 -&amp;gt; &lt;span style=&#34;font-style:italic&#34;&gt;&amp;#34;pon&amp;#34;&lt;/span&gt;
+                &lt;span style=&#34;font-weight:bold&#34;&gt;else&lt;/span&gt; -&amp;gt; &lt;span style=&#34;font-style:italic&#34;&gt;&amp;#34;hon&amp;#34;&lt;/span&gt;
+            &lt;span style=&#34;&#34;&gt;}&lt;/span&gt;.apply(::println)
+        &lt;span style=&#34;&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;b----triple-dots&#34;&gt;B - &amp;hellip; (Triple Dots)&lt;/h2&gt;
 &lt;p&gt;やるだけ．
 Sの長さがKを上回っているとき，&lt;code&gt;S.substring(0, K.length)&lt;/code&gt;．&lt;/p&gt;
@@ -2056,7 +2098,7 @@ mbpはこんなものじゃすまないと思います．&lt;/p&gt;
 &lt;p&gt;やるだけ．文字列で読み込んで&lt;code&gt;String#contains&lt;/code&gt;を使うと早い．&lt;/p&gt;
 &lt;h2 id=&#34;b---fizzbuzz-sum&#34;&gt;B - FizzBuzz Sum&lt;/h2&gt;
 &lt;p&gt;これもやるだけ．&lt;code&gt;LongStream&lt;/code&gt;できれいに書ける．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;LongStream.rangeClosed(1, scanner.nextInt())
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;LongStream.rangeClosed(1, scanner.nextInt())
     .filter(i -&amp;gt; i % 3 != 0 &amp;amp;&amp;amp; i % 5 != 0)
     .sum();
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;c---sum-of-gcd-of-tuples-easy&#34;&gt;C - Sum of gcd of Tuples (Easy)&lt;/h2&gt;
@@ -2182,7 +2224,7 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
 &lt;h2 id=&#34;b---string-palindrome&#34;&gt;B - String Palindrome&lt;/h2&gt;
 &lt;p&gt;書かれてることをするだけ．
 回文系の問題は以下のようなメソッドを作っとくと便利かも．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt; isPalindrome(&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt; start, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt; end, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String s) {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt; isPalindrome(&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt; start, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt; end, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String s) {
     &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; i = 0; ; i++) {
         &lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt; (start + i &amp;gt;= end - i) {
             &lt;span style=&#34;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;;
@@ -2400,7 +2442,7 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 以降，(aの先頭) ≦ (bの先頭) ≦ (cの先頭)の場合を考える．&lt;br&gt;
 まず，a中のどの箇所がbと被っているかを全探索して，配列か何かに記録する(O(n^2))．これをaとc，bとcに対してもやる．
 コードだとこんな感じ．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt;[] init(&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt; length, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String a, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String b) {&lt;span style=&#34;font-style:italic&#34;&gt;// 配列の初期化
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt;[] init(&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt; length, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String a, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String b) {&lt;span style=&#34;font-style:italic&#34;&gt;// 配列の初期化
 &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt;[] array = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt;[length]; &lt;span style=&#34;font-style:italic&#34;&gt;// lengthは十分大きい値
 &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;    Arrays.fill(array, &lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;);
     &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; i = 0; i &amp;lt; a.length(); i++) {
@@ -2543,7 +2585,7 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
 今回はプリム法を紹介します．&lt;br&gt;
 プリム法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります．
 ノード同士が連結であるかどうかは，Union-Find Treeを用いて確認します．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-style:italic&#34;&gt;// edges は Edge(int label1, int label2, long cost) のリスト
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-style:italic&#34;&gt;// edges は Edge(int label1, int label2, long cost) のリスト
 &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;edges.sort(Comparator.comparingLong(o -&amp;gt; o.cost));
 &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; UnionFindTree unionFindTree = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt; UnionFindTree(n); &lt;span style=&#34;font-style:italic&#34;&gt;// 要素数nのUnion-Find Treeを構築
 &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;&#34;&gt;long&lt;/span&gt; sum = 0;
@@ -2572,7 +2614,7 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
 &lt;h2 id=&#34;実装&#34;&gt;実装&lt;/h2&gt;
 &lt;p&gt;このアルゴリズムは，動的計画法を用いて最短距離を計算するというアイデアに基づいており，実装がとても簡単．
 二次元配列を用いた例がこちら．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;&#34;&gt;void&lt;/span&gt; main(&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String[] args) {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;&#34;&gt;void&lt;/span&gt; main(&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String[] args) {
     &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt;[][] graph = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt;[n][n];
     &lt;span style=&#34;font-style:italic&#34;&gt;// 初めに無限大の値で各要素を初期化
 &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; i = 0; i &amp;lt; graph.length; i++) {
@@ -2663,7 +2705,7 @@ Lower Boundは指定した値&lt;strong&gt;以上&lt;/strong&gt;の要素が初�
 一方，Upper Boundは指定した値&lt;strong&gt;より大きい要素&lt;/strong&gt;が初めて出現する場所を取得する．&lt;br&gt;
 C++ではこれらが標準ライブラリとして提供されているが，Javaにはない．
 Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数に以下の &lt;code&gt;Comparator&lt;/code&gt; オブジェクトを渡すことで実現できる．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-style:italic&#34;&gt;// 例: List&amp;lt;Long&amp;gt; に対する Comparator
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-style:italic&#34;&gt;// 例: List&amp;lt;Long&amp;gt; に対する Comparator
 &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; Comparator&amp;lt;Long&amp;gt; lowerBoundComparator = (x, y) -&amp;gt; x &amp;gt;= y ? 1 : -1;
 &lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; Comparator&amp;lt;Long&amp;gt; upperBoundComparator = (x, y) -&amp;gt; x &amp;gt; y ? 1 : -1;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;ちなみに，これに限らずJavaの標準ライブラリの &lt;code&gt;binarySearch&lt;/code&gt; の結果として負の数が帰ってきた場合，bit反転( &lt;code&gt;~&lt;/code&gt; 演算子)を使うと良い感じになる．&lt;/p&gt;
