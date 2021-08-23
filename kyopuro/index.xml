@@ -6,10 +6,62 @@
     <description>Recent content in Kyopuroes on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 15 Aug 2021 13:45:18 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Aug 2021 20:59:23 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC215の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc215/</link>
+      <pubDate>Mon, 23 Aug 2021 20:59:23 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc215/</guid>
+      <description>&lt;p&gt;Dで沼って緑パフォ4完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC215&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---your-first-judge&#34;&gt;A - Your First Judge&lt;/h2&gt;
+&lt;p&gt;文字列判定&lt;/p&gt;
+&lt;h2 id=&#34;b---log2n&#34;&gt;B - log2(N)&lt;/h2&gt;
+&lt;p&gt;logを使うと誤差で通らなかったりする．
+&lt;code&gt;N&amp;lt;=10^18&lt;/code&gt;からkは高々60程度なので愚直に計算してよい&lt;/p&gt;
+&lt;h2 id=&#34;c---one-more-aab-aba-baa&#34;&gt;C - One More aab aba baa&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;|S|&amp;lt;=8&lt;/code&gt;から全てのパターンを列挙しても4*19^5程度なので，全て列挙してからソートすればよい．
+C++だとpermutationを使えば良いが，Javaだと自分で実装する必要がある．
+再帰を使うと楽．&lt;/p&gt;
+&lt;h2 id=&#34;d---coprime-2&#34;&gt;D - Coprime 2&lt;/h2&gt;
+&lt;p&gt;全然解法が思いつかなかった．
+想定解とは別解を紹介する．&lt;/p&gt;
+&lt;p&gt;問題の条件から，求めたい数は，各Aiが約数として持たない素数と，それらの合成数であることが分かる．
+そこであらかじめ2以上M以下の約数を全て列挙した上で，それらの倍数とAiが一致しないかを確認していく．
+素数の倍数を列挙するのはエラトステネスの篩と同じ計算量で行え，それらがAiと一致するかはAをSetで持つことで&lt;code&gt;O(1)&lt;/code&gt;でできる．&lt;/p&gt;
+&lt;p&gt;また，合成数を作る処理だが，合成数の数は高々M個なので計算量は&lt;code&gt;O(M)&lt;/code&gt;以下となる．&lt;/p&gt;
+&lt;h2 id=&#34;e---chain-contestant&#34;&gt;E - Chain Contestant&lt;/h2&gt;
+&lt;p&gt;解法は思いついたが時間内に実装できなかった問題．&lt;/p&gt;
+&lt;p&gt;SがAからJまでの10種類しかないことに着目すると，2^10をやっても何となくいけそうな気になってくる．
+以下のようなdpを組む．&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;dp[文字列のどこを見ているか][今までどの文字を通ってきたか][今どこの文字にいるか]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;ここで，&lt;code&gt;今までどの文字を通ってきたか&lt;/code&gt;はbitで表現できる．
+このようなdp[i][j][k]を組むと，更新式は以下の和となる．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;dp[i-1][j][k]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;jがi番目の文字を含んでおり，かつk==i．
+これは，i-1番目までのいずれかのコンテストに参加した時に，現在i番目の文字と同じコンテストに最後に参加したことを表している．
+このとき，そのままi番目の文字のコンテストを受けることができる．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;jがi番目の文字を含んでおらず，かつk!=i．
+これはi-1番目までのいずれかのコンテストに参加した時に，現在i番目の文字と同じコンテストに参加したことがなく，
+初めてi番目の文字のコンテストに参加することを表している．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;+1．これは，i-1番目までのコンテストのいずれにも参加しておらず，i番目のコンテストに初めて参加することを表す．&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC214の解説</title>
