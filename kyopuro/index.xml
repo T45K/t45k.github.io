@@ -6,10 +6,49 @@
     <description>Recent content in Kyopuroes on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 23 Aug 2021 20:59:23 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 04 Sep 2021 20:29:59 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC216の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc216/</link>
+      <pubDate>Sat, 04 Sep 2021 20:29:59 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc216/</guid>
+      <description>&lt;p&gt;カス4完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC216/&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---signed-difficulty&#34;&gt;A - Signed Difficulty&lt;/h2&gt;
+&lt;p&gt;やるだけ．&lt;/p&gt;
+&lt;p&gt;doubleやfloatでなく文字列型で入力を受け取ってピリオドで分割したほうが良い．&lt;/p&gt;
+&lt;h2 id=&#34;b---same-name&#34;&gt;B - Same Name&lt;/h2&gt;
+&lt;p&gt;姓と名を結合した文字列（間に空白を挟む）をSet等で管理し，最終的にSetの要素数とNを比較すれば良い
+（要素数がNと同じなら同姓同名は存在しない）．&lt;/p&gt;
+&lt;h2 id=&#34;c---many-balls&#34;&gt;C - Many Balls&lt;/h2&gt;
+&lt;p&gt;元のNに対して&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nが奇数なら1引いてから2で割る&lt;/li&gt;
+&lt;li&gt;Nが偶数なら2で割る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;という操作を行っていき，最後に行った操作を逆順に出力する&lt;/p&gt;
+&lt;h2 id=&#34;d---pair-of-balls&#34;&gt;D - Pair of Balls&lt;/h2&gt;
+&lt;p&gt;考え方としては，筒の先頭を順番に見ていき，重複するボールがあればそれを取り除き，改めてその筒を見る，という操作の繰り返しである．&lt;/p&gt;
+&lt;p&gt;「操作を行う対象の筒リスト」を用意し，1~Nを初めに挿入する．
+次に，リストの先頭から取り出した番号の筒に対して，以下の操作を行っていく&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;筒の先頭の数字が「すでに出現した数字」の集合に含まれている場合，筒の先頭と集合中のその数字を取り除き，「操作を行う対象の筒リスト」に今見ている筒の番号を入れる．&lt;/li&gt;
+&lt;li&gt;筒の先頭の数字が「すでに出現した数字」の集合に含まれていない場合，その数字を集合に入れる．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;e---amusement-park&#34;&gt;E - Amusement Park&lt;/h2&gt;
+&lt;p&gt;ある楽しさXに対して，&lt;code&gt;Σ(max(Ai-X,0)) = K&lt;/code&gt;となるようなXが存在するときに，各アトラクションを楽しさがXになるまで乗るのが最適．
+なので，そのXを二分探索を用いて探す．&lt;/p&gt;
+&lt;h2 id=&#34;f--max-sum-counting&#34;&gt;F- Max Sum Counting&lt;/h2&gt;
+&lt;p&gt;Aを昇順に並べたとき，Aiを含む(1,&amp;hellip;,i)の空でない部分集合は必ず最大値がAiになる．
+このことから，ソートした後の各iに対して，(1,&amp;hellip;,i)の空でない部分集合に対してBiの和を求めて，Ai以下のものの個数を足し合わせていけば良い．
+部分集合の和はナップザック問題に帰着し，Aiの最大値は5,000なので，それ以下の範囲で計算すれば良い．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC215の解説</title>
