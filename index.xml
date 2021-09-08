@@ -6,10 +6,56 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Sep 2021 20:29:59 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Sep 2021 18:47:29 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC217の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc217/</link>
+      <pubDate>Wed, 08 Sep 2021 18:47:29 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc217/</guid>
+      <description>&lt;p&gt;ぎりぎり5完．
+難しく考えてセグ木で殴りにいくことが多かった．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC217/&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---lexicographic-order&#34;&gt;A - Lexicographic Order&lt;/h2&gt;
+&lt;p&gt;Javaは&lt;code&gt;S.compareTo(T)&lt;/code&gt;するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;b---atcoder-quiz&#34;&gt;B - AtCoder Quiz&lt;/h2&gt;
+&lt;p&gt;初めに4つのコンテストをSet等で持っておいて，出てきたものを消す．&lt;/p&gt;
+&lt;h2 id=&#34;inverse-of-permutation&#34;&gt;Inverse of Permutation&lt;/h2&gt;
+&lt;p&gt;問題文の解読にちょっと時間がかかった．
+転置する．&lt;/p&gt;
+&lt;h2 id=&#34;d---cutting-woods&#34;&gt;D - Cutting Woods&lt;/h2&gt;
+&lt;p&gt;セグ木で殴った問題その1．
+Javaだと&lt;code&gt;TreeSet&lt;/code&gt;でOK（&lt;code&gt;lower&lt;/code&gt;と&lt;code&gt;ceiling&lt;/code&gt;が使えることを知らなかった）．
+別解を紹介する．&lt;/p&gt;
+&lt;p&gt;まずminを返すセグ木とmaxを返すセグ木を用意する．
+木材を切る度に，2つのセグ木のxiの位置をxiで更新する．
+こうすると，線xiを含む木材の長さは，&lt;code&gt;(出てきた数値のうち，xi以上の最小値)-(xi以下の最大値)&lt;/code&gt;と表すことができ，
+セグ木を使うことで&lt;code&gt;O(log N)&lt;/code&gt;で処理できる．
+木材の長さは&lt;code&gt;10^9&lt;/code&gt;を取りうるので，木材を切る位置で座標圧縮する．
+つまり，ci=1のクエリを先に全て集めて起き，それらのxiの値でリストを作り，
+それをもとにセグ木を構築する．&lt;/p&gt;
+&lt;h2 id=&#34;e---sorting-queries&#34;&gt;E - Sorting Queries&lt;/h2&gt;
+&lt;p&gt;セグ木で殴った問題その2．&lt;/p&gt;
+&lt;p&gt;これも初めに出てくるxを全て集めておきリストに入れる．
+このリストをセグ木に入れる．
+次にクエリを順番にみていき，以下の操作を行う．&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;操作1の時，Aの長さを表す変数&lt;code&gt;length&lt;/code&gt;を更新する．&lt;/li&gt;
+&lt;li&gt;操作3の時，Aのどの部分までがソート済みかを表す変数&lt;code&gt;sortedPoint&lt;/code&gt;に&lt;code&gt;length&lt;/code&gt;を代入する．&lt;/li&gt;
+&lt;li&gt;操作2の時，次に出力する数字が何個目か（&lt;code&gt;count&lt;/code&gt;）によって，操作を変える
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sortedPoint&lt;/code&gt;以下なら，ソート済みの部分を出力するため，&lt;code&gt;count&lt;/code&gt;から&lt;code&gt;sortedPoint&lt;/code&gt;の範囲で最小値を出力する
+（出力した数字は，次以降の操作で引っかからないように最大値で更新しておく）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sortedPoint&lt;/code&gt;を超過していれば，リストの&lt;code&gt;count&lt;/code&gt;番目の数字をそのまま出力する．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC216の解説</title>
