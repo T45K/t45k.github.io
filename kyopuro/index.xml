@@ -1777,13 +1777,13 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
       <guid>https://t45k.github.io/kyopuro/min_spanning_tree/</guid>
       <description>&lt;p&gt;最小全域木という概念を知ったのでメモ．&lt;/p&gt;
 &lt;h2 id=&#34;最小全域木とは&#34;&gt;最小全域木とは&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;無向グラフが与えられた時に，その部分グラフで任意の2頂点を連結にする様な木を全域木(Spanningu Tree)と言います．辺にコストがある場合に，使われる辺のコストの和を最小にする全域木を最小全域木(MST : Minimum Spanning Tree)と言います．&lt;/em&gt;（蟻本より）&lt;br&gt;
+&lt;p&gt;&lt;em&gt;無向グラフが与えられた時に，その部分グラフで任意の2頂点を連結にする様な木を全域木(Spanning Tree)と言います．辺にコストがある場合に，使われる辺のコストの和を最小にする全域木を最小全域木(MST : Minimum Spanning Tree)と言います．&lt;/em&gt;（蟻本より）&lt;br&gt;
 つまり，グラフが連結であることを保ったまま，コストの大きい辺を間引いてできたグラフを指します．連結であり，かつ辺のコストの和が最小なので，グラフは木となります．&lt;br&gt;
 &lt;a href=&#34;https://atcoder.jp/contests/abc065/tasks/arc076_b&#34;&gt;ABC065-D&lt;/a&gt;がこの問題に該当します．&lt;/p&gt;
 &lt;h2 id=&#34;解き方&#34;&gt;解き方&lt;/h2&gt;
 &lt;p&gt;有名なアルゴリズムとして，クラスカル法とプリム法があります．
-今回はプリム法を紹介します．&lt;br&gt;
-プリム法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります．
+今回はクラスカル法を紹介します．&lt;br&gt;
+クラスカル法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります．
 ノード同士が連結であるかどうかは，Union-Find Treeを用いて確認します．&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;font-style:italic&#34;&gt;// edges は Edge(int label1, int label2, long cost) のリスト
 &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;edges.sort(Comparator.comparingLong(o -&amp;gt; o.cost));
