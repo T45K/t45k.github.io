@@ -6,10 +6,54 @@
     <description>Recent content in Kyopuroes on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Sep 2021 18:47:29 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Sep 2021 16:37:09 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC218の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc218/</link>
+      <pubDate>Mon, 13 Sep 2021 16:37:09 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc218/</guid>
+      <description>&lt;p&gt;初の 6 完で久々に盛れた．
+&lt;a href=&#34;https://github.com/T45K/Kyopuro/tree/master/AtCoder/ABC/ABC218&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---weather-forecast&#34;&gt;A - Weather Forecast&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;String#charAt&lt;/code&gt;使う．&lt;/p&gt;
+&lt;h2 id=&#34;b---qwerty&#34;&gt;B - qwerty&lt;/h2&gt;
+&lt;p&gt;問題文内では辞書順という言葉を使っているが，単純に&lt;code&gt;(char)(&#39;a&#39; + P_i - 1)&lt;/code&gt;を出力するだけ．&lt;/p&gt;
+&lt;h2 id=&#34;c---shapes&#34;&gt;c - Shapes&lt;/h2&gt;
+&lt;p&gt;アルゴリズムは簡単だが実装が割としんどい問題．&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;#&lt;/code&gt;が存在する座標のリストを取得し，それらを左上詰めしたうえで比較する．
+例えば，入力例 1 の S&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;.....
+..#..
+.###.
+.....
+.....
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;は 0-indexed で&lt;code&gt;(1,2), (2,1), (2,2), (2,3)&lt;/code&gt;と表せられる．
+このとき，行の最小値は 1，列の最小値は 1 なので，
+左上詰めするとそれぞれの座標の行，列から 1 ずつ引いて
+&lt;code&gt;(0,1), (1,0), (1,1), (1,2)&lt;/code&gt;と表せられる．&lt;/p&gt;
+&lt;p&gt;これを S に対して 90° ずつ回転させたリストと T を比較する．&lt;/p&gt;
+&lt;h2 id=&#34;d---rectangles&#34;&gt;D - Rectangles&lt;/h2&gt;
+&lt;p&gt;条件から，求めたいのは，
+&lt;code&gt;あるx_iをx座標に持つ点の集合と，あるx_jをx座標に持つ点の集合の間で，y座標が一致する点の集合から2つ選ぶ時の組み合わせの数&lt;/code&gt;になる．
+これを実現するため，与えられた点を x 座標をキー，y 座標のリストを値に持つ Map に格納する．
+この時，リストは事前にソートしておく．
+あとは x 座標の各組合せに対して，一致する y 座標の数を数えておく．
+ソートしているので尺取法的に数え上げると，この操作はリストの長さに線形で可能なので十分に間に合う．&lt;/p&gt;
+&lt;h2 id=&#34;e---destruction&#34;&gt;E - Destruction&lt;/h2&gt;
+&lt;p&gt;最小全域木をやるだけ．
+C_i が負の辺は問答無用で加えてよい．&lt;/p&gt;
+&lt;h2 id=&#34;f---blocked-roads&#34;&gt;F - Blocked Roads&lt;/h2&gt;
+&lt;p&gt;初めに普通に最短経路を求める（幅優先探索で&lt;code&gt;O(N+M)&lt;/code&gt;で可能）．
+ここで，この最短経路の値を X とすると，最短経路に含まれない辺を通れないとしても，X で頂点 1 から頂点 N に移動できる．
+後は，最短経路に含まれる辺それぞれに対して，通れない場合の最短経路をシミュレーションすれば良い．
+最短経路に含まれる経路数は高々&lt;code&gt;N-1&lt;/code&gt;なので十分に間に合う．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC217の解説</title>
