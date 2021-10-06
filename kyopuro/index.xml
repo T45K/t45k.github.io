@@ -6,10 +6,49 @@
     <description>Recent content in Kyopuroes on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 06 Oct 2021 22:26:04 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 06 Oct 2021 22:54:53 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC220の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc220/</link>
+      <pubDate>Wed, 06 Oct 2021 22:54:53 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc220/</guid>
+      <description>&lt;p&gt;5 完．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC220/&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---find-multiple&#34;&gt;A - Find Multiple&lt;/h2&gt;
+&lt;p&gt;ゴリゴリに計算して答えを出しても良いが，この手の問題は全探索しても間に合う．&lt;/p&gt;
+&lt;h2 id=&#34;b---base-k&#34;&gt;B - Base K&lt;/h2&gt;
+&lt;p&gt;10 進法に直してから計算する&lt;/p&gt;
+&lt;h2 id=&#34;c---long-sequence&#34;&gt;C - Long Sequence&lt;/h2&gt;
+&lt;p&gt;A1 ～ AN までの 1 ループでの和を事前に計算しておき，X とその和の商と余りから k を求める．&lt;/p&gt;
+&lt;h2 id=&#34;d---fg-operation&#34;&gt;D - FG operation&lt;/h2&gt;
+&lt;p&gt;DP&lt;/p&gt;
+&lt;h2 id=&#34;e---distance-on-large-perfect-binary-tree&#34;&gt;E - Distance on Large Perfect Binary Tree&lt;/h2&gt;
+&lt;p&gt;ある頂点について，ペアの作るための頂点の選び方は以下の 3 通りになる&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自分の子孫から対となる頂点を選ぶ&lt;/li&gt;
+&lt;li&gt;自分の先祖から対となる頂点を選ぶ&lt;/li&gt;
+&lt;li&gt;自分の先祖を経由して，その先祖の自分側以外の子孫から対となる頂点を選ぶ&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;また，それぞれに関して，自分の深さを X とすると，以下の条件が設けられる&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自分の深さから N までが D 以上，つまり &lt;code&gt;N-X &amp;gt;= D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;1 から自分の深さまでが D 以上，つまり &lt;code&gt;X-1 &amp;gt;= D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;ある先祖の深さが Y の時，Y を経由しても D に収まる，つまり &lt;code&gt;(X-Y)+(N-Y) &amp;gt;= D&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;あとはそれぞれに関して計算すればよい．&lt;/p&gt;
+&lt;h2 id=&#34;f---distance-sums-2&#34;&gt;F - Distance Sums 2&lt;/h2&gt;
+&lt;p&gt;まず初めに頂点 1 を根として，頂点 1 からの距離の総和 S を求める．
+次に，頂点 1 に繋がっている頂点について考えると，
+その頂点に移動したとき，その頂点の子に 1 ずつだけ近付き，それ以外の 1 の子に 1 ずつだけ遠ざかるので，
+その頂点からの距離の総和は
+&lt;code&gt;S - (その頂点の子の数) + (その頂点以外の 1 の子の数)&lt;/code&gt;
+となる．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC219の解説</title>
