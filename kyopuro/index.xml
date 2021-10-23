@@ -6,10 +6,34 @@
     <description>Recent content in Kyopuroes on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 Oct 2021 18:07:27 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 23 Oct 2021 20:31:42 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC223の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc223/</link>
+      <pubDate>Sat, 23 Oct 2021 20:31:42 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc223/</guid>
+      <description>&lt;p&gt;ギリギリ 4 完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC223&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---exact-price&#34;&gt;A - Exact Price&lt;/h2&gt;
+&lt;p&gt;100 で割った余りが 0 になればよい．&lt;/p&gt;
+&lt;p&gt;入力例にあるように X=0 である場合に注意．&lt;/p&gt;
+&lt;h2 id=&#34;b---string-shifting&#34;&gt;B - String Shifting&lt;/h2&gt;
+&lt;p&gt;シフトした文字列を全通り用意しておき，ソートする．&lt;/p&gt;
+&lt;h2 id=&#34;c---doukasen&#34;&gt;C - Doukasen&lt;/h2&gt;
+&lt;p&gt;両端からシミュレーションするのは難しそうなので他の方法を考える．&lt;/p&gt;
+&lt;p&gt;少し考えると，左端と右端両端から同時に火をつけたそれらがぶつかった時，
+どちらも同じ時間燃えていたことになる．
+つまり，ぶつかる場所は，左端から火をつけて燃え切るのに必要な時間の半分になる．&lt;/p&gt;
+&lt;p&gt;あとは，全て燃える時間を計算して，その半分でどこまで燃えるかを計算すればよい．&lt;/p&gt;
+&lt;h2 id=&#34;d---restricted-permutation&#34;&gt;D - Restricted Permutation&lt;/h2&gt;
+&lt;p&gt;トポロジカルソートを，優先度付きキューを用いた幅優先探索でやるだけ．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC222の解説</title>
