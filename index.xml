@@ -6,10 +6,56 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 Oct 2021 19:54:12 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 23 Oct 2021 18:07:27 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC222の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc222/</link>
+      <pubDate>Sat, 23 Oct 2021 18:07:27 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc222/</guid>
+      <description>&lt;p&gt;四完．
+&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC222&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;a---four-digits&#34;&gt;A - Four Digits&lt;/h2&gt;
+&lt;p&gt;10 未満には 3 個，100 未満には 2 個，1000 未満には 3 個 0 を付けた文字列を出力する．&lt;/p&gt;
+&lt;h2 id=&#34;b---failing-grade&#34;&gt;B - Failing Grade&lt;/h2&gt;
+&lt;p&gt;やるだけ．&lt;/p&gt;
+&lt;h2 id=&#34;c---swiss-system-tournament&#34;&gt;C - Swiss-System Tournament&lt;/h2&gt;
+&lt;p&gt;問題文が長すぎて，飛ばして先に D から解いた問題．
+やることは&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;前から二人ペアでじゃんけんをする&lt;/li&gt;
+&lt;li&gt;勝ったらその人の勝ち数を増やす&lt;/li&gt;
+&lt;li&gt;勝ち数でソートする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;を繰り返すだけ．&lt;/p&gt;
+&lt;h2 id=&#34;d---between-two-arrays&#34;&gt;D - Between Two Arrays&lt;/h2&gt;
+&lt;p&gt;DP．&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;dp[前から何番目を見てるか][c_iの値]=何通りか&lt;/code&gt;という DP を組むと&lt;code&gt;dp[i][j]&lt;/code&gt;は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;i=1&lt;/code&gt;の時，&lt;code&gt;a_1 &amp;lt;= j &amp;lt;= b_1&lt;/code&gt;の範囲で 1，それ以外は 0&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;i&amp;gt;1&lt;/code&gt;の時，&lt;code&gt;dp[i-1][a_i]~dp[i-1][j]&lt;/code&gt;までの総和&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;になる．&lt;/p&gt;
+&lt;p&gt;総和の計算には累積和を使う．&lt;/p&gt;
+&lt;h2 id=&#34;e---red-and-blue-tree&#34;&gt;E - Red and Blue Tree&lt;/h2&gt;
+&lt;p&gt;場合分けが漏れていて解き損ねた問題．&lt;/p&gt;
+&lt;p&gt;基本的なやり方としては，&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;全ての辺に対して，全ての移動を行った後に何回通ったかを記録しておく&lt;/li&gt;
+&lt;li&gt;それぞれの辺を赤，青とした場合の R-B の値を DP を使って計算する．&lt;/li&gt;
+&lt;li&gt;R-B=K となる組み合わせの数を求める．&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ここで注意しないといけないのは以下の 2 点．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;まったく通らない辺がある場合がある．その場合，その辺の色は何色でも良いので，2 の辺の数乗をかける必要がある．&lt;/li&gt;
+&lt;li&gt;まったく移動しないパターンがある．&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>ドキドキ文芸部をプレイした話</title>
