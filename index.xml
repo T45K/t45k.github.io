@@ -2227,9 +2227,9 @@ N&amp;lt;=12なので，全て試しても2^12≒4000通りなので十分間に
       
       <guid>https://t45k.github.io/kyopuro_index/</guid>
       <description>&lt;p&gt;競プロの解説とか．
-Javaでやっているのでコード例はJavaになります．&lt;br&gt;
+Java でやっているのでコード例は Java になります．&lt;br&gt;
 リポジトリは&lt;a href=&#34;https://github.com/t45k/kyopuro&#34;&gt;こちら&lt;/a&gt;．&lt;br&gt;
-自作ライブラリのドキュメントは&lt;a href=&#34;../kyopuro/doc/util/package-summary.html&#34;&gt;こちら&lt;/a&gt;．&lt;/p&gt;
+自作ライブラリのドキュメントは&lt;a href=&#34;../kyopuro/doc/library/package-summary.html&#34;&gt;こちら&lt;/a&gt;．&lt;/p&gt;
 &lt;script src=&#34;https://code.jquery.com/jquery-2.1.3.min.js&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
     $(function(){
