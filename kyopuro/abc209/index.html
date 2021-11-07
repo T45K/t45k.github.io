@@ -45,8 +45,8 @@ D - Collision 問題文から，与えられたグラフが木構造であるこ
 (dis(d,a) - dis(d,b)) % 2 = (dis(d,c) &#43; dis(c,a) &#43; dis(d,c) &#43; dis(c,b)) % 2 = (dis(d,c) * 2 &#43; dis(c,a) &#43; dis(c,b)) % 2 = (dis(c,a) &#43; dis(c,b)) % 2 でa，b間の距離の偶奇と一致するからである．" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://t45k.github.io/kyopuro/abc209/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2021-07-10T23:14:52+09:00" />
-<meta property="article:modified_time" content="2021-07-10T23:14:52+09:00" />
+<meta property="article:published_time" content="2021-07-10T23:14:52&#43;09:00" />
+<meta property="article:modified_time" content="2021-07-10T23:14:52&#43;09:00" />
 
 
 
@@ -84,7 +84,7 @@ D - Collision 問題文から，与えられたグラフが木構造であるこ
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.83.1" />
   </head>
 
   
@@ -157,7 +157,7 @@ D - Collision 問題文から，与えられたグラフが木構造であるこ
 <p>問題文から，与えられたグラフが木構造であることが分かる．<br>
 木構造の場合，ある節点(a,b)の距離の偶奇は，頂点を一つ定めたときの<code>(頂点からaまでの距離)-(頂点からbまでの距離)</code>となる．<br>
 これは，例えば(a,b)の最小共通祖先をc，頂点（適当な節点）をd，二つの節点の距離を<code>dis(x,y)</code>と表す時，<code>(頂点からaまでの距離)-(頂点からbまでの距離)</code>の偶奇は</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">(dis(d,a) - dis(d,b)) % 2 
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">(dis(d,a) - dis(d,b)) % 2 
 = (dis(d,c) + dis(c,a) + dis(d,c) + dis(c,b)) % 2
 = (dis(d,c) * 2 + dis(c,a) + dis(c,b)) % 2
 = (dis(c,a) + dis(c,b)) % 2

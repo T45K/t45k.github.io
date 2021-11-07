@@ -27,8 +27,8 @@ B - Maritozzo これもやるだけ． S1~S3 を配列に入れて，T の各数
 final String s1 = scanner.next(); final String s2 = scanner.next(); final String s3 = scanner.next(); final String[] s = {s1, s2, s3}; final String t = scanner.next(); final String answer = IntStream.range(0, t.length()) .map(i -&gt; t.charAt(i) - &#39;1&#39;) .mapToObj(i -&gt; s[i]) .collect(Collectors.joining()); System.out.println(answer); C - Neo-lexicographic Ordering 初めにバブルソートをやろうとして TLE を食らった問題" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://t45k.github.io/kyopuro/abc219/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2021-10-06T22:26:04+09:00" />
-<meta property="article:modified_time" content="2021-10-06T22:26:04+09:00" />
+<meta property="article:published_time" content="2021-10-06T22:26:04&#43;09:00" />
+<meta property="article:modified_time" content="2021-10-06T22:26:04&#43;09:00" />
 
 
 
@@ -66,7 +66,7 @@ final String s1 = scanner.next(); final String s2 = scanner.next(); final String
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.83.1" />
   </head>
 
   
@@ -127,7 +127,7 @@ final String s1 = scanner.next(); final String s2 = scanner.next(); final String
 <h2 id="b---maritozzo">B - Maritozzo</h2>
 <p>これもやるだけ．
 S1~S3 を配列に入れて，T の各数字を int 型に変換してからそれぞれの S に map して一つの文字列に結合すると気持ち良く書ける．</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="font-weight:bold">final</span> String s1 = scanner.next();
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="font-weight:bold">final</span> String s1 = scanner.next();
 <span style="font-weight:bold">final</span> String s2 = scanner.next();
 <span style="font-weight:bold">final</span> String s3 = scanner.next();
 <span style="font-weight:bold">final</span> String[] s = {s1, s2, s3};

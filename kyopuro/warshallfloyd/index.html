@@ -27,8 +27,8 @@ public static void main(final String[] args) { final int[][] graph = new int[n][
 public static void main(final String[] args) { final int[][] graph = new int[n][n]; // 初めに無限大の値で各要素を初期化  for (int i = 0; i &lt; graph.length; i&#43;&#43;) { Arrays.fill(graph[i], Integer.MAX_VALUE / 2); // Integer.MAX_VALUEでないことに注意  graph[i][i] = 0; } // グラフの各辺を与えられた値に変更  // ここからワーシャルフロイド  for (int k = 0; k &lt; graph.length; k&#43;&#43;) { // 中継する点  for (int i = 0; i &lt; graph." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://t45k.github.io/kyopuro/warshallfloyd/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2020-02-23T01:54:16+09:00" />
-<meta property="article:modified_time" content="2020-02-23T01:54:16+09:00" />
+<meta property="article:published_time" content="2020-02-23T01:54:16&#43;09:00" />
+<meta property="article:modified_time" content="2020-02-23T01:54:16&#43;09:00" />
 
 
 
@@ -66,7 +66,7 @@ public static void main(final String[] args) { final int[][] graph = new int[n][
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.83.1" />
   </head>
 
   
@@ -129,7 +129,7 @@ public static void main(final String[] args) { final int[][] graph = new int[n][
 <h2 id="実装">実装</h2>
 <p>このアルゴリズムは，動的計画法を用いて最短距離を計算するというアイデアに基づいており，実装がとても簡単．
 二次元配列を用いた例がこちら．</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="font-weight:bold">public</span> <span style="font-weight:bold">static</span> <span style="">void</span> main(<span style="font-weight:bold">final</span> String[] args) {
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="font-weight:bold">public</span> <span style="font-weight:bold">static</span> <span style="">void</span> main(<span style="font-weight:bold">final</span> String[] args) {
     <span style="font-weight:bold">final</span> <span style="">int</span>[][] graph = <span style="font-weight:bold">new</span> <span style="">int</span>[n][n];
     <span style="font-style:italic">// 初めに無限大の値で各要素を初期化
 </span><span style="font-style:italic"></span>    <span style="font-weight:bold">for</span> (<span style="">int</span> i = 0; i &lt; graph.length; i++) {
