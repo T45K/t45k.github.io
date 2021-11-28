@@ -863,24 +863,29 @@ B以下の最大のiの倍数は&lt;code&gt;B/i*i&lt;/code&gt;で求まるので
       
       <guid>https://t45k.github.io/product/</guid>
       <description>&lt;h2 id=&#34;githubcontributionbothttpsgithubcomt45kghcbotforlambda&#34;&gt;&lt;a href=&#34;https://github.com/T45K/GHCBotForLambda&#34;&gt;GitHubContributionBot&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;GitHubのコントリビューション（草の生え具合）についてTwitterで報告してくれるボット．
-0時になると&lt;/p&gt;
+&lt;p&gt;GitHub のコントリビューション（草の生え具合）について Twitter で報告してくれるボット．
+0 時になると&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;その日のコントリビューション数&lt;/li&gt;
 &lt;li&gt;その日までの連続コントリビューション日数（Streak）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;を呟いてくれる．&lt;/p&gt;
-&lt;p&gt;技術的には定時にGitHubのトップページをスクレイピングしてるだけ．&lt;/p&gt;
+&lt;p&gt;技術的には定時に GitHub のトップページをスクレイピングしてるだけ．&lt;/p&gt;
+&lt;p&gt;何か&lt;a href=&#34;https://contributter.potato4d.me/&#34;&gt;似たようなサービス&lt;/a&gt;が出てきて草が生えた．
+サービスとして公開しておくべきだった 🤔&lt;/p&gt;
 &lt;h2 id=&#34;clionehttpsgithubcomt45kclione&#34;&gt;&lt;a href=&#34;https://github.com/T45K/CLIONE&#34;&gt;CLIONE&lt;/a&gt;&lt;/h2&gt;
 &lt;img src=&#34;https://t45k.github.io/img/logo.png&#34; width=&#34;20%&#34;&gt;
 &lt;p&gt;類似コードの修正漏れを教えてくれるボット．
-GitHub Appsを用いて設計されていて，PRの作成ごとに勝手に通知を飛ばしてくれる．&lt;/p&gt;
+GitHub Apps を用いて設計されていて，PR の作成ごとに勝手に通知を飛ばしてくれる．&lt;/p&gt;
 &lt;p&gt;論文は&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=675&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;nilhttpsgithubcomkusumotolabnil&#34;&gt;&lt;a href=&#34;https://github.com/kusumotolab/NIL&#34;&gt;NIL&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;類似コード検出ツール．&lt;/p&gt;
 &lt;p&gt;既存のツールでは検出が難しかった「コピペされた後に大量の変更が行われた類似コード」を検出できるように設計されている．
-また，N-gramと転置索引を組み合わせることで高速な検出が可能となっている．&lt;/p&gt;
+また，N-gram と転置索引を組み合わせることで高速な検出が可能となっている．&lt;/p&gt;
 &lt;p&gt;論文は&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=669&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;contributorhttpsgithubcomt45kcontributor&#34;&gt;&lt;a href=&#34;https://github.com/T45K/Contributor&#34;&gt;Contributor&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;CLIONE をスタンドアロンとして設計しなおしたツール．
+手軽に PR を投げたい時に便利．&lt;/p&gt;
 </description>
     </item>
     
