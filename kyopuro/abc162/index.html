@@ -36,8 +36,8 @@ E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的に
 ． 解答が詳しいのでそちらを参照． 繰り返し二乗法などを使うと速くなる．" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://t45k.github.io/kyopuro/abc162/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2020-04-13T16:57:30&#43;09:00" />
-<meta property="article:modified_time" content="2020-04-13T16:57:30&#43;09:00" />
+<meta property="article:published_time" content="2020-04-13T16:57:30+09:00" />
+<meta property="article:modified_time" content="2020-04-13T16:57:30+09:00" />
 
 
 
@@ -75,7 +75,7 @@ E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的に
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.83.1" />
+    <meta name="generator" content="Hugo 0.88.1" />
   </head>
 
   
@@ -134,7 +134,7 @@ E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的に
 <p>やるだけ．文字列で読み込んで<code>String#contains</code>を使うと早い．</p>
 <h2 id="b---fizzbuzz-sum">B - FizzBuzz Sum</h2>
 <p>これもやるだけ．<code>LongStream</code>できれいに書ける．</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">LongStream.rangeClosed(1, scanner.nextInt())
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">LongStream.rangeClosed(1, scanner.nextInt())
     .filter(i -&gt; i % 3 != 0 &amp;&amp; i % 5 != 0)
     .sum();
 </code></pre></div><h2 id="c---sum-of-gcd-of-tuples-easy">C - Sum of gcd of Tuples (Easy)</h2>

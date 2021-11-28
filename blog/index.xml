@@ -6,10 +6,50 @@
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 18 Oct 2021 19:54:12 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 28 Nov 2021 19:12:57 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>「オブジェクト指向でなぜつくるのか」読了</title>
+      <link>https://t45k.github.io/blog/how_objects_work/</link>
+      <pubDate>Sun, 28 Nov 2021 19:12:57 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/how_objects_work/</guid>
+      <description>&lt;p&gt;オブジェクト指向でなぜつくるのかを読みました．&lt;/p&gt;
+&lt;p&gt;久々に技術書を買った気がします．
+社会人になって自由に使えるお金が増えるのは良いなと思いました．&lt;/p&gt;
+&lt;p&gt;この本は，コードの書き方や新技術習得の指南というよりは，
+基本に立ち返った内容になっています．&lt;/p&gt;
+&lt;p&gt;オブジェクト指向の成り立ちから始まり，オブジェクト指向のメリット，オブジェクト指向により何が可能になったか，
+などについて説明しています．&lt;/p&gt;
+&lt;p&gt;あまり堅い内容ではないため，寝る前などに軽く読んだりといった，普通の読み物としても楽しめました．&lt;/p&gt;
+&lt;p&gt;個人的には，「オブジェクト指向は必ずしも現実世界を投影してるわけではない」という主張がしっくりきました．
+最終的には再利用，修正が容易でバグが発生しにくいプログラムを書くことが重要なのだなぁというごく当たり前のことを再認識する良い機会になりました．&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>「カーニバル・デイ 新人類の記念日」読了</title>
+      <link>https://t45k.github.io/blog/carnival_day/</link>
+      <pubDate>Sun, 24 Oct 2021 13:35:14 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/carnival_day/</guid>
+      <description>&lt;p&gt;2 ヶ月近くかけて，清涼院流水の「カーニバル・デイ」を読みました．&lt;/p&gt;
+&lt;p&gt;本作は JDC シリーズのカーニバル三部作の三作目で，何とこの巻だけで 1000 ページ超あります．
+一応 JDC シリーズの年表としては一番最後にあたる話で，とりあえず一区切り付いたかなぁという気持ちです．&lt;/p&gt;
+&lt;p&gt;感想としては，ミステリとしてはトリックの回収の仕方があまりにも酷くて憤りを感じました．
+コズミックが壁本（壁に叩きつけられてもおかしくない出来の本）として取り上げられることはありますが，個人的にはこの本が壁本に該当するのかなぁと感じました．結局のところ，トリックのインターフェースだけ公開されてて，実装は一切明らかになりませんでした．&lt;/p&gt;
+&lt;p&gt;一方，ファンタジーとして読むとそこそこ楽しめたかなという印象です．
+最後のオチのつけ方も，言葉遊びを重視する流水大説としてはアリだと思います．&lt;/p&gt;
+&lt;p&gt;本の内容よりも，やっと読み終えられたという安堵感の方が大きかったです（多分大学生くらいの時からずっと読みたいと思ってました）．
+ちなみに，ラストの Y.T は本文途中に出てくる死亡，行方不明者リストを見るとすぐに分かりました．
+このために，リストを用意してくれてたとも思えました．&lt;/p&gt;
+&lt;p&gt;今後ですが，彩文家事件はしばらく読まないと思います．
+次に読むとしたら，積んでる「人間失格」か最近買った「オブジェクト指向でなぜつくるのか」か，横溝正史あたりに入門しようかなぁと考えています．&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ドキドキ文芸部をプレイした話</title>
