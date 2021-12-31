@@ -6,10 +6,101 @@
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 28 Nov 2021 19:12:57 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 31 Dec 2021 19:46:45 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2021年の振り返り</title>
+      <link>https://t45k.github.io/blog/retrospective_2021/</link>
+      <pubDate>Fri, 31 Dec 2021 19:46:45 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/retrospective_2021/</guid>
+      <description>&lt;p&gt;2021 年を振り返っていく．&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;20 年間続いた学生生活をようやく終えて，社会人になった節目の年だった．&lt;/p&gt;
+&lt;p&gt;研究は良い感じに終えられて，社会人生活もぼちぼち良い感じにやっていると思う．&lt;/p&gt;
+&lt;p&gt;一方で，自分の時間をかなり適当に過ごしたのは反省点かなぁと．&lt;/p&gt;
+&lt;h2 id=&#34;研究&#34;&gt;研究&lt;/h2&gt;
+&lt;p&gt;実験自体はほぼ全て 2020 年で終わっていたので，後は修論を書くだけだった．&lt;/p&gt;
+&lt;p&gt;暇を持て余した結果，修論を英語で 100 ページ書くという謎のチャレンジをした．&lt;/p&gt;
+&lt;p&gt;最終的な戦績は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;論文誌*2&lt;/li&gt;
+&lt;li&gt;国際会議*3&lt;/li&gt;
+&lt;li&gt;受賞*1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;でかなり満足いく結果になった．&lt;/p&gt;
+&lt;p&gt;特に，暇を持て余して，M2 の 9 月くらいから趣味 100%で始めた研究テーマがかなりうまくいって，最終的にトップ会議に通ったのはとても嬉しかった．&lt;/p&gt;
+&lt;h2 id=&#34;仕事&#34;&gt;仕事&lt;/h2&gt;
+&lt;p&gt;配属がかなり恵まれて，楽しく仕事で来た．&lt;/p&gt;
+&lt;p&gt;チームのメンバーはベテランが多く，チーム自体の練度が高いという印象を受けた．&lt;/p&gt;
+&lt;p&gt;また，新卒の自分にも裁量権が十分にあり，提案が通ることも多かった．&lt;/p&gt;
+&lt;p&gt;ソースコードは過去の負債が割と残っているように感じたが，それはそれで返済する面白さがあるからヨシ．&lt;/p&gt;
+&lt;p&gt;働き方もかなり柔軟に選択でき，自分はずっと 8:00 出社の 16:30 退勤をさせてもらっていた．&lt;/p&gt;
+&lt;p&gt;課題としては，今まで個人で適当にプログラミングをしていた影響か&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;仕様通りに&lt;/li&gt;
+&lt;li&gt;バグなく&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;作ることの難しさを感じた．&lt;/p&gt;
+&lt;h2 id=&#34;趣味&#34;&gt;趣味&lt;/h2&gt;
+&lt;p&gt;全体的に，仕事の疲れを言い訳にだらっと過ごすことが多かった．&lt;/p&gt;
+&lt;h3 id=&#34;競プロ&#34;&gt;競プロ&lt;/h3&gt;
+&lt;p&gt;初冬くらいからやらなくなった．&lt;/p&gt;
+&lt;p&gt;理由としては&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;土曜の 9 時からという時間が悪い．
+その時間は酒を飲みたい．&lt;/li&gt;
+&lt;li&gt;これ以上実力（レート）が伸びるビジョンが見えない．&lt;/li&gt;
+&lt;li&gt;競プロをやってる仲間がいない．&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;くらい．&lt;/p&gt;
+&lt;p&gt;自分が解けるかどうかくらいの難易度の問題を解くのは好きなので，今後も水 diff の過去問とかは解くかもしれない．&lt;/p&gt;
+&lt;h3 id=&#34;バイク&#34;&gt;バイク&lt;/h3&gt;
+&lt;p&gt;今年はコロナの影響や，有休があまりなかったのもあって遠出はできなかった．&lt;/p&gt;
+&lt;p&gt;紅葉を見に行ったり，金沢に行ったりしたり．&lt;/p&gt;
+&lt;p&gt;来年は東日本を一周したいなぁとか考え中．&lt;/p&gt;
+&lt;h3 id=&#34;読書&#34;&gt;読書&lt;/h3&gt;
+&lt;p&gt;技術書かどうかに限らず，1 ヶ月に 1 冊は本を読んで，ブログにまとめるようにした．&lt;/p&gt;
+&lt;p&gt;久々に本を買って読むということをした．&lt;/p&gt;
+&lt;p&gt;やっぱり紙の本の方が好き．&lt;/p&gt;
+&lt;h3 id=&#34;oss-貢献&#34;&gt;OSS 貢献&lt;/h3&gt;
+&lt;p&gt;今年は Spring Framework とか Groovy とかに PR を投げた．&lt;/p&gt;
+&lt;p&gt;これは今後も継続していきたい．&lt;/p&gt;
+&lt;h3 id=&#34;ゲーム&#34;&gt;ゲーム&lt;/h3&gt;
+&lt;p&gt;主に Apex．&lt;/p&gt;
+&lt;p&gt;入社時のコミュニケーション手段として一役買ってくれた．&lt;/p&gt;
+&lt;p&gt;あんまり真剣にしてない．呼ばれたらやる感じ．&lt;/p&gt;
+&lt;p&gt;面白いのでゆるっと続けられたら．&lt;/p&gt;
+&lt;h3 id=&#34;音楽&#34;&gt;音楽&lt;/h3&gt;
+&lt;p&gt;YouTube に課金し始めたので，YouTube Music で音楽を聞く機会が増えた．&lt;/p&gt;
+&lt;p&gt;今まで興味があった or 好きなジャンルの曲を聞いてみて，気に入ったらそのアーティストの CD を買うみたいなことを繰り返してた．&lt;/p&gt;
+&lt;p&gt;多分今年一番ハマったアルバムがこれ．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://music.youtube.com/playlist?list=OLAK5uy_ke7skMleWoKyFtENpiH5RpYVQViGP8YjU&amp;amp;feature=share&#34;&gt;https://music.youtube.com/playlist?list=OLAK5uy_ke7skMleWoKyFtENpiH5RpYVQViGP8YjU&amp;amp;feature=share&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3 曲目の Ford Stream が良かった．
+アルレコの良さを再認識した．&lt;/p&gt;
+&lt;h3 id=&#34;youtube&#34;&gt;YouTube&lt;/h3&gt;
+&lt;p&gt;だらっと YouTube を見る時間が増えた．&lt;/p&gt;
+&lt;p&gt;個人的には半分無駄な時間の使い方感があるので直していきたいところ．&lt;/p&gt;
+&lt;p&gt;山田ハウスにハマってしまった．&lt;/p&gt;
+&lt;h3 id=&#34;飲酒&#34;&gt;飲酒&lt;/h3&gt;
+&lt;p&gt;コロナ禍が明けつつあって，外に飲みに行く機会が増えた．&lt;/p&gt;
+&lt;p&gt;家の近くが飲み屋街なので，一人で飲みに行き始めた．&lt;/p&gt;
+&lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;健康診断の結果血圧が高かったので（130 越え），対策を始めた．
+具体的には，ラーメンのスープを飲み干さないようにした．&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;同僚に付き合っていた結果，喫煙が習慣化しかけた．
+周りに喫煙者がいないと吸わないのと，その同僚も禁煙に移行しつつあるので，これ以上吸うことは多分ない．&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>「オブジェクト指向でなぜつくるのか」読了</title>
