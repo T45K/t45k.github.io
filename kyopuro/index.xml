@@ -6,10 +6,56 @@
     <description>Recent content in Kyopuroes on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 Oct 2021 20:31:42 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 20 Feb 2022 13:56:21 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/kyopuro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC239の解説</title>
+      <link>https://t45k.github.io/kyopuro/abc239/</link>
+      <pubDate>Sun, 20 Feb 2022 13:56:21 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/abc239/</guid>
+      <description>&lt;p&gt;3 ヶ月ぶりのコンテスト参加。ただし Unrated。
+6 完&lt;/p&gt;
+&lt;h2 id=&#34;a---horizon&#34;&gt;A - Horizon&lt;/h2&gt;
+&lt;p&gt;やるだけ&lt;/p&gt;
+&lt;h2 id=&#34;b---integer-division&#34;&gt;B - Integer Division&lt;/h2&gt;
+&lt;p&gt;X が負かつ 10 で割り切れないときだけ、X/10 に-1 を加える。&lt;/p&gt;
+&lt;h2 id=&#34;c---knight-fork&#34;&gt;C - Knight Fork&lt;/h2&gt;
+&lt;p&gt;「二つの点から距離 √5 である格子点が存在する」ということは、
+「それぞれの点から距離 √5 である格子点を列挙した時、重なる物が 1 つ以上ある」ということになる。&lt;/p&gt;
+&lt;p&gt;なので、それぞれの点の距離 √5 の格子点の集合に対して、共通集合が存在するかを確認すればよい。&lt;/p&gt;
+&lt;h2 id=&#34;d---prime-sum-game&#34;&gt;D - Prime Sum Game&lt;/h2&gt;
+&lt;p&gt;高橋君が選べる全ての数字に対して、足すことで素数になるような数字を青木君が選べればよい。&lt;/p&gt;
+&lt;p&gt;具体的には、以下のような処理を行う&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A~B の数字を順番に選んでいく。この数字を i とする&lt;/li&gt;
+&lt;li&gt;i に対して、C~D の数字を足していく。この和を j とする&lt;/li&gt;
+&lt;li&gt;j が素数の場合は、1.で選んだ数字の次の数字で 2.以降を試す。逆に、素数となる j が存在しなければ、その時点で高橋君の勝ちが確定する&lt;/li&gt;
+&lt;li&gt;全ての i に対して j が素数となるような数字を青木君が選べた場合、青木君の勝利&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;e---subtree-k-th-max&#34;&gt;E - Subtree K-th Max&lt;/h2&gt;
+&lt;p&gt;Ki は高々 20 なので、愚直に計算していけば良い。
+具体的には、各頂点に対して部分木に書かれた値の降順リスト（長さ最大 20）を用意し、以下の手順をボトムアップに繰り返す。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;今見ている頂点が葉の場合、リストに自身を加えて親の処理に移る&lt;/li&gt;
+&lt;li&gt;葉でない場合、自身の値と、自身と直接繋がっている子のリストを全て連結し、ソートする
+このとき、子のリストの長さは高々 20 であり、子の数は最大で 10^5 個なので、ソートは十分に間に合う&lt;/li&gt;
+&lt;li&gt;2.で得られたリストの上位 20 個の要素を自分のリストに挿入する&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;f---construct-highway&#34;&gt;F - Construct Highway&lt;/h2&gt;
+&lt;p&gt;まず初めに、最初から連結している頂点の集合を、Union-Find 等を利用して求める&lt;/p&gt;
+&lt;p&gt;次に、それぞれの頂点群に対して、辺を接続できる数、つまり、頂点 i に対して、現在生えている辺の数を Di から引いた数の和を求める&lt;/p&gt;
+&lt;p&gt;そして、頂点群の集合を辺を接続できる数降順にソートする&lt;/p&gt;
+&lt;p&gt;まずは空のリスト A を用意し、そこに先ほどソートした頂点群の一つを挿入する&lt;/p&gt;
+&lt;p&gt;次に順番に頂点群の集合から頂点群を A に挿入していく&lt;/p&gt;
+&lt;p&gt;挿入する際は、A の頂点群の内接続できる辺が余っている頂点と、新しく加わる頂点群の内、接続可能な頂点を接続していく&lt;/p&gt;
+&lt;p&gt;この操作の途中で A 内に接続できる頂点が残っていない、あるいは新しく加えたい頂点群の中に接続可能な頂点がない場合は建設方法が存在しない&lt;/p&gt;
+&lt;p&gt;同様に、全ての頂点群を A に挿入した後に、接続可能な頂点が残っていれば、建設方法が存在しない&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ABC223の解説</title>
