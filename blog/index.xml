@@ -6,10 +6,29 @@
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 10 Jan 2022 11:35:22 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 26 Feb 2022 11:53:22 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>「Java言語で学ぶデザインパターン入門」読了</title>
+      <link>https://t45k.github.io/blog/design_pattern/</link>
+      <pubDate>Sat, 26 Feb 2022 11:53:22 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/design_pattern/</guid>
+      <description>&lt;p&gt;「Java 言語で学ぶデザインパターン入門」を読み終えました。
+今回は内容を Kotlin で実装してみるということをやっていました。
+&lt;a href=&#34;https://github.com/t45k/designPatternlearning&#34;&gt;リポジトリ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;この本自体は割と前からある本なのですが、今回第 3 版が出て内容が新しくなったと聞き、思い切って購入しました。
+4,290 円でした。
+技術書は高い。&lt;/p&gt;
+&lt;p&gt;学生時代は研究室に古い版の本があり、何度か読んだのですが、読むだけでは全然理解できないままでいました。&lt;/p&gt;
+&lt;p&gt;やってみた感想ですが、自分が委譲の強力さを全然理解していなかったことを痛感しました。
+普段は知らないまま使っていたパターン（Spring bean のプロキシなど）を理解する良い機会になりました。&lt;/p&gt;
+&lt;p&gt;一方、やはり Java だと冗長になる部分が多く、Kotlin で再実装すると、コード例よりもすっきり書ける場面が多かったです。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>「叙述トリック短編集」読了</title>
