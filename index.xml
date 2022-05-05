@@ -1079,6 +1079,9 @@ GitHub Apps を用いて設計されていて，PR の作成ごとに勝手に�
 &lt;h2 id=&#34;contributorhttpsgithubcomt45kcontributor&#34;&gt;&lt;a href=&#34;https://github.com/T45K/Contributor&#34;&gt;Contributor&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;CLIONE をスタンドアロンとして設計しなおしたツール．
 手軽に PR を投げたい時に便利．&lt;/p&gt;
+&lt;h2 id=&#34;bitbucket-server-code-insights-pluginhttpsgithubcomt45kbitbucket-server-code-insights-plugin&#34;&gt;&lt;a href=&#34;https://github.com/T45K/Bitbucket-Server-Code-Insights-plugin&#34;&gt;BitBucket-Server-Code-Insights-plugin&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;BitBucket Server で、PR の diff 上にコメントのようなものを表示できる機能、Code Insights を利用するための Jenkins プラグイン。
+Checkstyle や SpotBugs といった静的解析ツールや、SonarQube と行ったシステムの実行結果を PR の diff 上に表示できる。&lt;/p&gt;
 </description>
     </item>
     
