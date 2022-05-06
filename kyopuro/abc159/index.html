@@ -20,6 +20,9 @@ A - The Number of Even Pairs 和が正になるのはeven &#43; evenかodd &#43;
 B - String Palindrome 書かれてることをするだけ． 回文系の問題は以下のようなメソッドを作っとくと便利かも．
 private static boolean isPalindrome(final int start, final int end, final String s) { for (int i = 0; ; i&#43;&#43;) { if (start &#43; i &gt;= end - i) { return true; } if (s.charAt(start &#43; i) != s.charAt(end - i)) { return false; } } } C - Maximum Volume Lの1/3の3乗"/>
 
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
     <meta property="og:title" content="ABC159の解説" />
 <meta property="og:description" content="奇跡的に5完．コード
 A - The Number of Even Pairs 和が正になるのはeven &#43; evenかodd &#43; oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．

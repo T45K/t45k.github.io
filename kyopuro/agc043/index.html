@@ -22,6 +22,9 @@ A - Range Flip Find Route 全探索の計算量をいかに減らせるかがポ
 B - 123 Triangle 誰がこんな解法思いつくんでしょうね&hellip;(解説AC)
 答えは0，1，2のいずれかになるので，初めに答えの偶奇を判定する． 各aは先に1引いといても問題ない． 偶奇判定なので，abs(a - b)ではなくa xor bで良い． そうすると，   x n,1  = (  C 0 n-1  ⁢  x 1,1  ^  C 1 n-1  ⁢  x 1,2  ^ &hellip; ^  C n-1 n-1  ⁢  x 1,n  ) % 2  となる． そのため，各組み合わせを計算すれば良い．"/>
 
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
     <meta property="og:title" content="AGC043の解説" />
 <meta property="og:description" content="1完．コード
 A - Range Flip Find Route 全探索の計算量をいかに減らせるかがポイント．DPは思いつかんかった&hellip;

@@ -28,6 +28,9 @@ D - Hanjo HW &lt;= 16という条件から，全探索をしてみる． 1畳の
 E - Filters N&lt;=2*10^5，Q&lt;=2*10^5から全てのxiに対して各関数を当てると間に合わないので， 1つの関数を全Xにlog(Q)に当てることを考える． そうすると，先にXをソートしておいて， 関数を当てる箇所を二分探索で探せば良いことが何となく分かる．
  ti=1のとき，aiの値は最後に加算しても問題ない． sumなどの変数に加算しておき，最後に計算する． ti=2(max)のとき，&ldquo;ソート済みXのai以下の値が全てaiになる&quot;と考える． 二分探索でai以下の値の場所を求めて，その場所から左側の値は全てaiになることを記録しておく． ti=3(min)のときも同様．  "/>
 
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
     <meta property="og:title" content="ABC196の解説" />
 <meta property="og:description" content="惜しくも4完． E問題で一ヵ所凡ミスがあって1WAだった． コード
 A - Difference Max x-yが最大になるのはxが最大かつyが最小の時． xの最大値はbであり，yの最小値はcなので，答えはb-c．

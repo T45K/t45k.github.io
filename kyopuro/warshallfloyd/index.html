@@ -20,6 +20,9 @@ public static void main(final String[] args) { final int[][] graph = new int[n][
 実装 このアルゴリズムは，動的計画法を用いて最短距離を計算するというアイデアに基づいており，実装がとても簡単． 二次元配列を用いた例がこちら．
 public static void main(final String[] args) { final int[][] graph = new int[n][n]; // 初めに無限大の値で各要素を初期化  for (int i = 0; i &lt; graph.length; i&#43;&#43;) { Arrays.fill(graph[i], Integer.MAX_VALUE / 2); // Integer.MAX_VALUEでないことに注意  graph[i][i] = 0; } // グラフの各辺を与えられた値に変更  // ここからワーシャルフロイド  for (int k = 0; k &lt; graph.length; k&#43;&#43;) { // 中継する点  for (int i = 0; i &lt; graph."/>
 
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
     <meta property="og:title" content="ワーシャルフロイド法メモ" />
 <meta property="og:description" content="ワーシャルフロイド法というアルゴリズムを知ったのでメモ．
 ワーシャルフロイド法とは グラフのある一点から任意の点への最短距離を求めるアルゴリズム． 計算量は点の個数nに対してO(n^3)． 似たようなアルゴリズムにダイクストラ法があるが，あちらはある2点の最短距離をO(n^2)で求めるアルゴリズムである． 計算量が重ためなので，使う場面はかなり限られるが，知っておくと便利だと思った．
