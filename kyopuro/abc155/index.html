@@ -42,9 +42,6 @@ D - Pairs E問題より難しいD問題． 以下の要素が重なりあって�
 要約すると，isOk() を満たす範囲の下界を求める操作だと言える．
 Lower Bound / Upper Bound Editorialでは条件を満たす積を求めるのにしゃくとり法を用いていたが，個人的には二分探索を使った方が直感的だと感じた． 計算量もそこまで気にする必要はない． 今回は数字の重複があるため，普通に二分探索すると正しい答えが求まらない場合がある． そのため，Lower BoundやUpper Boundを用いる必要がある．"/>
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
-
     <meta property="og:title" content="ABC155の解説" />
 <meta property="og:description" content="無念の三冠．
 A - Poor 重複を調べる問題．
@@ -102,7 +99,7 @@ Lower Bound / Upper Bound Editorialでは条件を満たす積を求めるのに
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   
@@ -194,10 +191,10 @@ Lower Boundは指定した値<strong>以上</strong>の要素が初めて出現�
 一方，Upper Boundは指定した値<strong>より大きい要素</strong>が初めて出現する場所を取得する．<br>
 C++ではこれらが標準ライブラリとして提供されているが，Javaにはない．
 Javaでは，<code>Collections#binarySearch</code> の第三引数に以下の <code>Comparator</code> オブジェクトを渡すことで実現できる．</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="font-style:italic">// 例: List&lt;Long&gt; に対する Comparator
-</span><span style="font-style:italic"></span><span style="font-weight:bold">private</span> <span style="font-weight:bold">static</span> <span style="font-weight:bold">final</span> Comparator&lt;Long&gt; lowerBoundComparator = (x, y) -&gt; x &gt;= y ? 1 : -1;
-<span style="font-weight:bold">private</span> <span style="font-weight:bold">static</span> <span style="font-weight:bold">final</span> Comparator&lt;Long&gt; upperBoundComparator = (x, y) -&gt; x &gt; y ? 1 : -1;
-</code></pre></div><p>ちなみに，これに限らずJavaの標準ライブラリの <code>binarySearch</code> の結果として負の数が帰ってきた場合，bit反転( <code>~</code> 演算子)を使うと良い感じになる．</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="font-style:italic">// 例: List&lt;Long&gt; に対する Comparator
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="font-weight:bold">private</span> <span style="font-weight:bold">static</span> <span style="font-weight:bold">final</span> Comparator&lt;Long&gt; lowerBoundComparator = (x, y) -&gt; x &gt;= y ? 1 : -1;
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">private</span> <span style="font-weight:bold">static</span> <span style="font-weight:bold">final</span> Comparator&lt;Long&gt; upperBoundComparator = (x, y) -&gt; x &gt; y ? 1 : -1;
+</span></span></code></pre></div><p>ちなみに，これに限らずJavaの標準ライブラリの <code>binarySearch</code> の結果として負の数が帰ってきた場合，bit反転( <code>~</code> 演算子)を使うと良い感じになる．</p>
 <h3 id="負の数の大小比較">負の数の大小比較</h3>
 <p>今回は負の数の大小を比較したり，負の数の席を求めたりする場面がある．
 負の数の大小比較や掛け算は直感と反する場合が多く，考察段階では考えることが増えてしまうことが多い．

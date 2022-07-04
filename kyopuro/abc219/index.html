@@ -20,9 +20,6 @@ A - AtCoder Quiz 2 やるだけ．誤読して WA を出した
 B - Maritozzo これもやるだけ． S1~S3 を配列に入れて，T の各数字を int 型に変換してからそれぞれの S に map して一つの文字列に結合すると気持ち良く書ける．
 final String s1 = scanner.next(); final String s2 = scanner.next(); final String s3 = scanner.next(); final String[] s = {s1, s2, s3}; final String t = scanner.next(); final String answer = IntStream.range(0, t.length()) .map(i -&gt; t.charAt(i) - &#39;1&#39;) .mapToObj(i -&gt; s[i]) .collect(Collectors.joining()); System.out.println(answer); C - Neo-lexicographic Ordering 初めにバブルソートをやろうとして TLE を食らった問題"/>
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
-
     <meta property="og:title" content="ABC219の解説" />
 <meta property="og:description" content="5 完 600 位で青パフォ． コード
 A - AtCoder Quiz 2 やるだけ．誤読して WA を出した
@@ -69,7 +66,7 @@ final String s1 = scanner.next(); final String s2 = scanner.next(); final String
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   
@@ -130,17 +127,17 @@ final String s1 = scanner.next(); final String s2 = scanner.next(); final String
 <h2 id="b---maritozzo">B - Maritozzo</h2>
 <p>これもやるだけ．
 S1~S3 を配列に入れて，T の各数字を int 型に変換してからそれぞれの S に map して一つの文字列に結合すると気持ち良く書ける．</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="font-weight:bold">final</span> String s1 = scanner.next();
-<span style="font-weight:bold">final</span> String s2 = scanner.next();
-<span style="font-weight:bold">final</span> String s3 = scanner.next();
-<span style="font-weight:bold">final</span> String[] s = {s1, s2, s3};
-<span style="font-weight:bold">final</span> String t = scanner.next();
-<span style="font-weight:bold">final</span> String answer = IntStream.range(0, t.length())
-    .map(i -&gt; t.charAt(i) - <span style="font-style:italic">&#39;1&#39;</span>)
-    .mapToObj(i -&gt; s[i])
-    .collect(Collectors.joining());
-System.out.println(answer);
-</code></pre></div><h2 id="c---neo-lexicographic-ordering">C - Neo-lexicographic Ordering</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="font-weight:bold">final</span> String s1 = scanner.next();
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">final</span> String s2 = scanner.next();
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">final</span> String s3 = scanner.next();
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">final</span> String[] s = {s1, s2, s3};
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">final</span> String t = scanner.next();
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">final</span> String answer = IntStream.range(0, t.length())
+</span></span><span style="display:flex;"><span>    .map(i -&gt; t.charAt(i) - <span style="font-style:italic">&#39;1&#39;</span>)
+</span></span><span style="display:flex;"><span>    .mapToObj(i -&gt; s[i])
+</span></span><span style="display:flex;"><span>    .collect(Collectors.joining());
+</span></span><span style="display:flex;"><span>System.out.println(answer);
+</span></span></code></pre></div><h2 id="c---neo-lexicographic-ordering">C - Neo-lexicographic Ordering</h2>
 <p>初めにバブルソートをやろうとして TLE を食らった問題</p>
 <p>自作の Comparator を用意しても解けるが，以下のようにやるとやりやすい</p>
 <ol>

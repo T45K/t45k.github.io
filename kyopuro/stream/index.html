@@ -18,9 +18,6 @@ Stream.generate(scanner::nextInt) .limit(N) .mapToInt(Integer::intValue) .toArra
 Stream.generate(scanner::nextInt) .limit(N) .collect(Collectors.toList()); 配列にしたいときは
 Stream.generate(scanner::nextInt) .limit(N) .mapToInt(Integer::intValue) .toArray(); "/>
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
-
     <meta property="og:title" content="JavaでN個の入力を良い感じにリストにする方法" />
 <meta property="og:description" content="これが多分ベスト
 Stream.generate(scanner::nextInt) .limit(N) .collect(Collectors.toList()); 配列にしたいときは
@@ -66,7 +63,7 @@ Stream.generate(scanner::nextInt) .limit(N) .mapToInt(Integer::intValue) .toArra
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   
@@ -121,15 +118,15 @@ Stream.generate(scanner::nextInt) .limit(N) .mapToInt(Integer::intValue) .toArra
     </header>
 
     <p>これが多分ベスト</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Stream.generate(scanner::nextInt)
-  .limit(N)
-  .collect(Collectors.toList());
-</code></pre></div><p>配列にしたいときは</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Stream.generate(scanner::nextInt)
-  .limit(N)
-  .mapToInt(Integer::intValue)
-  .toArray();
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Stream.generate(scanner::nextInt)
+</span></span><span style="display:flex;"><span>  .limit(N)
+</span></span><span style="display:flex;"><span>  .collect(Collectors.toList());
+</span></span></code></pre></div><p>配列にしたいときは</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Stream.generate(scanner::nextInt)
+</span></span><span style="display:flex;"><span>  .limit(N)
+</span></span><span style="display:flex;"><span>  .mapToInt(Integer::intValue)
+</span></span><span style="display:flex;"><span>  .toArray();
+</span></span></code></pre></div>
   </article>
 </section>
 

@@ -26,9 +26,6 @@ D - RGB Triplets N &lt;= 4,000なので二重ループで回すことを考え�
 E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的にダメだと思っていて放置していたやつ
 ． 解答が詳しいのでそちらを参照． 繰り返し二乗法などを使うと速くなる．"/>
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
-
     <meta property="og:title" content="ABC162の解説" />
 <meta property="og:description" content="祝参加者1万人越え．無念の4完．コード
 A - Lucky 7 やるだけ．文字列で読み込んでString#containsを使うと早い．
@@ -78,7 +75,7 @@ E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的に
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   
@@ -137,10 +134,10 @@ E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的に
 <p>やるだけ．文字列で読み込んで<code>String#contains</code>を使うと早い．</p>
 <h2 id="b---fizzbuzz-sum">B - FizzBuzz Sum</h2>
 <p>これもやるだけ．<code>LongStream</code>できれいに書ける．</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">LongStream.rangeClosed(1, scanner.nextInt())
-    .filter(i -&gt; i % 3 != 0 &amp;&amp; i % 5 != 0)
-    .sum();
-</code></pre></div><h2 id="c---sum-of-gcd-of-tuples-easy">C - Sum of gcd of Tuples (Easy)</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>LongStream.rangeClosed(1, scanner.nextInt())
+</span></span><span style="display:flex;"><span>    .filter(i -&gt; i % 3 != 0 &amp;&amp; i % 5 != 0)
+</span></span><span style="display:flex;"><span>    .sum();
+</span></span></code></pre></div><h2 id="c---sum-of-gcd-of-tuples-easy">C - Sum of gcd of Tuples (Easy)</h2>
 <p>三重ループを回すだけ．</p>
 <h2 id="d---rgb-triplets">D - RGB Triplets</h2>
 <p><code>N &lt;= 4,000</code>なので二重ループで回すことを考える．

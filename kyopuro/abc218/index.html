@@ -28,9 +28,6 @@ c - Shapes アルゴリズムは簡単だが実装が割としんどい問題．
 これを S に対して 90° ずつ回転させたリストと T を比較する．
 D - Rectangles 条件から，求めたいのは， あるx_iをx座標に持つ点の集合と，あるx_jをx座標に持つ点の集合の間で，y座標が一致する点の集合から2つ選ぶ時の組み合わせの数になる． これを実現するため，与えられた点を x 座標をキー，y 座標のリストを値に持つ Map に格納する． この時，リストは事前にソートしておく． あとは x 座標の各組合せに対して，一致する y 座標の数を数えておく． ソートしているので尺取法的に数え上げると，この操作はリストの長さに線形で可能なので十分に間に合う．"/>
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
-
     <meta property="og:title" content="ABC218の解説" />
 <meta property="og:description" content="初の 6 完で久々に盛れた． コード
 A - Weather Forecast String#charAt使う．
@@ -81,7 +78,7 @@ D - Rectangles 条件から，求めたいのは， あるx_iをx座標に持つ
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   
@@ -145,12 +142,12 @@ D - Rectangles 条件から，求めたいのは， あるx_iをx座標に持つ
 <p>アルゴリズムは簡単だが実装が割としんどい問題．</p>
 <p><code>#</code>が存在する座標のリストを取得し，それらを左上詰めしたうえで比較する．
 例えば，入力例 1 の S</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">.....
-..#..
-.###.
-.....
-.....
-</code></pre></div><p>は 0-indexed で<code>(1,2), (2,1), (2,2), (2,3)</code>と表せられる．
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>.....
+</span></span><span style="display:flex;"><span>..#..
+</span></span><span style="display:flex;"><span>.###.
+</span></span><span style="display:flex;"><span>.....
+</span></span><span style="display:flex;"><span>.....
+</span></span></code></pre></div><p>は 0-indexed で<code>(1,2), (2,1), (2,2), (2,3)</code>と表せられる．
 このとき，行の最小値は 1，列の最小値は 1 なので，
 左上詰めするとそれぞれの座標の行，列から 1 ずつ引いて
 <code>(0,1), (1,0), (1,1), (1,2)</code>と表せられる．</p>

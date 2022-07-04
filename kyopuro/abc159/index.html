@@ -20,9 +20,6 @@ A - The Number of Even Pairs 和が正になるのはeven &#43; evenかodd &#43;
 B - String Palindrome 書かれてることをするだけ． 回文系の問題は以下のようなメソッドを作っとくと便利かも．
 private static boolean isPalindrome(final int start, final int end, final String s) { for (int i = 0; ; i&#43;&#43;) { if (start &#43; i &gt;= end - i) { return true; } if (s.charAt(start &#43; i) != s.charAt(end - i)) { return false; } } } C - Maximum Volume Lの1/3の3乗"/>
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
-
     <meta property="og:title" content="ABC159の解説" />
 <meta property="og:description" content="奇跡的に5完．コード
 A - The Number of Even Pairs 和が正になるのはeven &#43; evenかodd &#43; oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．
@@ -69,7 +66,7 @@ private static boolean isPalindrome(final int start, final int end, final String
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   
@@ -129,17 +126,17 @@ private static boolean isPalindrome(final int start, final int end, final String
 <h2 id="b---string-palindrome">B - String Palindrome</h2>
 <p>書かれてることをするだけ．
 回文系の問題は以下のようなメソッドを作っとくと便利かも．</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="font-weight:bold">private</span> <span style="font-weight:bold">static</span> <span style="">boolean</span> isPalindrome(<span style="font-weight:bold">final</span> <span style="">int</span> start, <span style="font-weight:bold">final</span> <span style="">int</span> end, <span style="font-weight:bold">final</span> String s) {
-    <span style="font-weight:bold">for</span> (<span style="">int</span> i = 0; ; i++) {
-        <span style="font-weight:bold">if</span> (start + i &gt;= end - i) {
-            <span style="font-weight:bold">return</span> <span style="font-weight:bold">true</span>;
-        }
-        <span style="font-weight:bold">if</span> (s.charAt(start + i) != s.charAt(end - i)) {
-            <span style="font-weight:bold">return</span> <span style="font-weight:bold">false</span>;
-        }
-    }
-}
-</code></pre></div><h2 id="c---maximum-volume">C - Maximum Volume</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="font-weight:bold">private</span> <span style="font-weight:bold">static</span> <span style="">boolean</span> isPalindrome(<span style="font-weight:bold">final</span> <span style="">int</span> start, <span style="font-weight:bold">final</span> <span style="">int</span> end, <span style="font-weight:bold">final</span> String s) {
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">for</span> (<span style="">int</span> i = 0; ; i++) {
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">if</span> (start + i &gt;= end - i) {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">return</span> <span style="font-weight:bold">true</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="font-weight:bold">if</span> (s.charAt(start + i) != s.charAt(end - i)) {
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">return</span> <span style="font-weight:bold">false</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="c---maximum-volume">C - Maximum Volume</h2>
 <p>Lの1/3の3乗</p>
 <h2 id="d---banned-k">D - Banned K</h2>
 <p>考えた方としては，初めに何も取り除かないときの組み合わせの総数を求めておいて，それを使って取り除いた数字の組み合わせを計算し直すという感じ．<br>

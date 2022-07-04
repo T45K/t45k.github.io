@@ -15,7 +15,7 @@ D - Cutting Woods セグ木で殴った問題その1． JavaだとTreeSetでOK�
 まずminを返すセグ木とmaxを返すセグ木を用意する． 木材を切る度に，2つのセグ木のxiの位置をxiで更新する． こうすると，線xiを含む木材の長さは，(出てきた数値のうち，xi以上の最小値)-(xi以下の最大値)と表すことができ， セグ木を使うことでO(log N)で処理できる． 木材の長さは10^9を取りうるので，木材を切る位置で座標圧縮する． つまり，ci=1のクエリを先に全て集めて起き，それらのxiの値でリストを作り， それをもとにセグ木を構築する．
 E - Sorting Queries セグ木で殴った問題その2．
 これも初めに出てくるxを全て集めておきリストに入れる． このリストをセグ木に入れる． 次にクエリを順番にみていき，以下の操作を行う．
- 操作1の時，Aの長さを表す変数lengthを更新する． 操作3の時，Aのどの部分までがソート済みかを表す変数sortedPointにlengthを代入する． 操作2の時，次に出力する数字が何個目か（count）によって，操作を変える  sortedPoint以下なら，ソート済みの部分を出力するため，countからsortedPointの範囲で最小値を出力する （出力した数字は，次以降の操作で引っかからないように最大値で更新しておく） sortedPointを超過していれば，リストのcount番目の数字をそのまま出力する．    ">
+操作1の時，Aの長さを表す変数lengthを更新する． 操作3の時，Aのどの部分までがソート済みかを表す変数sortedPointにlengthを代入する． 操作2の時，次に出力する数字が何個目か（count）によって，操作を変える sortedPoint以下なら，ソート済みの部分を出力するため，countからsortedPointの範囲で最小値を出力する （出力した数字は，次以降の操作で引っかからないように最大値で更新しておく） sortedPointを超過していれば，リストのcount番目の数字をそのまま出力する． ">
     <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
@@ -28,10 +28,7 @@ D - Cutting Woods セグ木で殴った問題その1． JavaだとTreeSetでOK�
 まずminを返すセグ木とmaxを返すセグ木を用意する． 木材を切る度に，2つのセグ木のxiの位置をxiで更新する． こうすると，線xiを含む木材の長さは，(出てきた数値のうち，xi以上の最小値)-(xi以下の最大値)と表すことができ， セグ木を使うことでO(log N)で処理できる． 木材の長さは10^9を取りうるので，木材を切る位置で座標圧縮する． つまり，ci=1のクエリを先に全て集めて起き，それらのxiの値でリストを作り， それをもとにセグ木を構築する．
 E - Sorting Queries セグ木で殴った問題その2．
 これも初めに出てくるxを全て集めておきリストに入れる． このリストをセグ木に入れる． 次にクエリを順番にみていき，以下の操作を行う．
- 操作1の時，Aの長さを表す変数lengthを更新する． 操作3の時，Aのどの部分までがソート済みかを表す変数sortedPointにlengthを代入する． 操作2の時，次に出力する数字が何個目か（count）によって，操作を変える  sortedPoint以下なら，ソート済みの部分を出力するため，countからsortedPointの範囲で最小値を出力する （出力した数字は，次以降の操作で引っかからないように最大値で更新しておく） sortedPointを超過していれば，リストのcount番目の数字をそのまま出力する．    "/>
-
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+操作1の時，Aの長さを表す変数lengthを更新する． 操作3の時，Aのどの部分までがソート済みかを表す変数sortedPointにlengthを代入する． 操作2の時，次に出力する数字が何個目か（count）によって，操作を変える sortedPoint以下なら，ソート済みの部分を出力するため，countからsortedPointの範囲で最小値を出力する （出力した数字は，次以降の操作で引っかからないように最大値で更新しておく） sortedPointを超過していれば，リストのcount番目の数字をそのまま出力する． "/>
 
     <meta property="og:title" content="ABC217の解説" />
 <meta property="og:description" content="ぎりぎり5完． 難しく考えてセグ木で殴りにいくことが多かった． コード
@@ -42,7 +39,7 @@ D - Cutting Woods セグ木で殴った問題その1． JavaだとTreeSetでOK�
 まずminを返すセグ木とmaxを返すセグ木を用意する． 木材を切る度に，2つのセグ木のxiの位置をxiで更新する． こうすると，線xiを含む木材の長さは，(出てきた数値のうち，xi以上の最小値)-(xi以下の最大値)と表すことができ， セグ木を使うことでO(log N)で処理できる． 木材の長さは10^9を取りうるので，木材を切る位置で座標圧縮する． つまり，ci=1のクエリを先に全て集めて起き，それらのxiの値でリストを作り， それをもとにセグ木を構築する．
 E - Sorting Queries セグ木で殴った問題その2．
 これも初めに出てくるxを全て集めておきリストに入れる． このリストをセグ木に入れる． 次にクエリを順番にみていき，以下の操作を行う．
- 操作1の時，Aの長さを表す変数lengthを更新する． 操作3の時，Aのどの部分までがソート済みかを表す変数sortedPointにlengthを代入する． 操作2の時，次に出力する数字が何個目か（count）によって，操作を変える  sortedPoint以下なら，ソート済みの部分を出力するため，countからsortedPointの範囲で最小値を出力する （出力した数字は，次以降の操作で引っかからないように最大値で更新しておく） sortedPointを超過していれば，リストのcount番目の数字をそのまま出力する．    " />
+操作1の時，Aの長さを表す変数lengthを更新する． 操作3の時，Aのどの部分までがソート済みかを表す変数sortedPointにlengthを代入する． 操作2の時，次に出力する数字が何個目か（count）によって，操作を変える sortedPoint以下なら，ソート済みの部分を出力するため，countからsortedPointの範囲で最小値を出力する （出力した数字は，次以降の操作で引っかからないように最大値で更新しておく） sortedPointを超過していれば，リストのcount番目の数字をそのまま出力する． " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://t45k.github.io/kyopuro/abc217/" /><meta property="article:section" content="kyopuro" />
 <meta property="article:published_time" content="2021-09-08T18:47:29+09:00" />
@@ -84,7 +81,7 @@ E - Sorting Queries セグ木で殴った問題その2．
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   

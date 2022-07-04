@@ -42,9 +42,6 @@ Nが偶数の時 N=4で，以下のような時を考える．
 一般性は，あります！
 F - Knapsack for All Subsets 解説AC．"/>
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
-
     <meta property="og:title" content="ABC169の解説" />
 <meta property="og:description" content="久々のABC水パフォ． コード
 A - Multiplication 1 読み込んで掛け算して出力するだけ．
@@ -102,7 +99,7 @@ F - Knapsack for All Subsets 解説AC．" />
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.88.1" />
+    <meta name="generator" content="Hugo 0.101.0" />
   </head>
 
   
@@ -181,15 +178,15 @@ p^kまで作るには，出現回数は<code>1+2+3+...k=k(k+1)/2</code>個必要
 とても単純化してみる．</p>
 <h3 id="nが奇数の時">Nが奇数の時</h3>
 <p>N=3で，以下のような時を考える．</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">|---|  |---|  |---|
-a   b  c   d  e   f
-</code></pre></div><p>この時，明らかに中央値はc~dの整数値になる．<br>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>|---|  |---|  |---|
+</span></span><span style="display:flex;"><span>a   b  c   d  e   f
+</span></span></code></pre></div><p>この時，明らかに中央値はc~dの整数値になる．<br>
 このことから，何となく中央値は(0-indexedで)前からN/2番目の開始位置と後ろからN/2番目の終了位置の間の整数値であると考えられる．</p>
 <h3 id="nが偶数の時">Nが偶数の時</h3>
 <p>N=4で，以下のような時を考える．</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">|---|  |---|  |---|  |---|
-a   b  c   d  e   f  g   h
-</code></pre></div><p>この時，中央値は((c~dの値)+(e~fの値))/2となる．
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>|---|  |---|  |---|  |---|
+</span></span><span style="display:flex;"><span>a   b  c   d  e   f  g   h
+</span></span></code></pre></div><p>この時，中央値は((c~dの値)+(e~fの値))/2となる．
 また，片方を1動かせば，中央値は1/2変化するので，中央値は1/2刻みとなる．
 中央値候補の最小値は(c+e)/2，最大値は(d+f)/2となるので，その間の1/2刻みの値が中央値になると考えられる．</p>
 <p>一般性は，あります！</p>

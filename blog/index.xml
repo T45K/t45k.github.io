@@ -6,10 +6,38 @@
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Jun 2022 15:48:22 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 Jul 2022 22:38:27 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>競プロでKotlinを使わない理由</title>
+      <link>https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/</link>
+      <pubDate>Mon, 04 Jul 2022 22:38:27 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/</guid>
+      <description>&lt;p&gt;仕事や趣味でソースコードを書く時は Kotlin を使っているが、競プロでは Java を使っている。&lt;/p&gt;
+&lt;p&gt;ちょくちょく Kotlin に移行することを考えるのだが、その度に色々な理由で断念するので、その理由を書き出してみる。&lt;/p&gt;
+&lt;h2 id=&#34;ビット演算子がない&#34;&gt;ビット演算子がない&lt;/h2&gt;
+&lt;p&gt;多分これが一番大きい。&lt;/p&gt;
+&lt;p&gt;競プロではビット演算をする場面がたびたびある（ビット全探索とか）。&lt;/p&gt;
+&lt;p&gt;Java では&lt;code&gt;&amp;lt;&amp;lt;&lt;/code&gt;や&lt;code&gt;|&lt;/code&gt;などが使えるが、Kotlin では&lt;code&gt;lhs&lt;/code&gt;や&lt;code&gt;or&lt;/code&gt;などの中置関数を使う必要があり、可読性が大きく下がる。&lt;/p&gt;
+&lt;h2 id=&#34;配列宣言が面倒臭い&#34;&gt;配列宣言が面倒臭い&lt;/h2&gt;
+&lt;p&gt;競プロの性質上、配列に対してプリミティブな操作を行う場面が多くあるため、配列宣言はなるべく簡潔に済ませたい。&lt;/p&gt;
+&lt;p&gt;Java では&lt;code&gt;int[]&lt;/code&gt;のように宣言できるが、Kotlin では&lt;code&gt;Array&amp;lt;Int&amp;gt;&lt;/code&gt;のように宣言する必要がある。&lt;/p&gt;
+&lt;p&gt;また、一次元配列では特に問題ないのだが、多次元配列（競プロでは三次元配列を書く場面が多々ある）になると Kotlin の記法は特に面倒になる。&lt;/p&gt;
+&lt;h2 id=&#34;null-チェックが厳しい&#34;&gt;null チェックが厳しい&lt;/h2&gt;
+&lt;p&gt;仕事で使う分にはありがたいが、競プロのような使い捨てるコードに対しては意義が薄れる感じがする。&lt;/p&gt;
+&lt;p&gt;とくに、Map のキーの存在が確定している場合でも何らかのエスケープが発生する。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;!!&lt;/code&gt;演算子で無理やり非 null 型に変換することもできるが、個人の信条からあまり使いたくない（&lt;code&gt;!!&lt;/code&gt;演算子の利用に慣れたくない）。&lt;/p&gt;
+&lt;h2 id=&#34;トラディショナル-for-が使えない&#34;&gt;トラディショナル for が使えない&lt;/h2&gt;
+&lt;p&gt;Kotlin の for 文はイミュータブルな変数を使った記法なので、トリッキーでアドホックな for 文を書きにくいという欠点がある。
+例えば、添字の&lt;code&gt;i&lt;/code&gt;を条件によって更新したりしなかったりする場合など。&lt;/p&gt;
+&lt;h2 id=&#34;暗黙の型変換がない&#34;&gt;暗黙の型変換がない&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;int&lt;/code&gt;と&lt;code&gt;long&lt;/code&gt;で足し算したり、&lt;code&gt;char&lt;/code&gt;同士の引き算の結果を&lt;code&gt;int&lt;/code&gt;にしたりするのが面倒臭い。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>シン・ウルトラマンを見た</title>
