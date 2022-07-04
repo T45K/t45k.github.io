@@ -32,6 +32,9 @@ D - Collision 問題文から，与えられたグラフが木構造であるこ
 これは，例えば(a,b)の最小共通祖先をc，頂点（適当な節点）をd，二つの節点の距離をdis(x,y)と表す時，(頂点からaまでの距離)-(頂点からbまでの距離)の偶奇は
 (dis(d,a) - dis(d,b)) % 2 = (dis(d,c) &#43; dis(c,a) &#43; dis(d,c) &#43; dis(c,b)) % 2 = (dis(d,c) * 2 &#43; dis(c,a) &#43; dis(c,b)) % 2 = (dis(c,a) &#43; dis(c,b)) % 2 でa，b間の距離の偶奇と一致するからである．"/>
 
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
     <meta property="og:title" content="ABC209の解説" />
 <meta property="og:description" content="四完速解きで青パフォ． コード
 A - Counting 基本的にはB-A-1だが，A&gt;Bの時に限り0となる. max(B-A-1, 0)とすれば多少は楽．

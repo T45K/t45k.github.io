@@ -34,6 +34,9 @@ E - Almost Everywhere Zero 桁DP
 0以外を選択する: dp[i][k] &#43;= dp[i - 1][k - 1] * 9 確定していない 桁iが0の時: Nより小さくすることはできないので何もしない
 桁iが0でない時: 1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができるので，桁i-1までに0以外の数字が出現した回数をjとするとdp[i][j &#43; 1] &#43;= (桁iの数字 - 1) 桁を上から見て行った時に，0でない数字がK回出た時点で，それ以降の数字の決め方はNより小さいことが確定することに注意．"/>
 
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
     <meta property="og:title" content="ABC154の解説" />
 <meta property="og:description" content="A~Dまで．コード
 A - Remaining Balls Uで分岐

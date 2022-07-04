@@ -22,6 +22,9 @@
 最長路検出 今回頂点数が1,000と比較的少ないので，BFSを用いた全探索が可能である． BFSを用いる場合は，閉路を含むことから，キューが空にならない可能性があるので，繰り返し回数を制限する必要がる． BFSであることから，n ^ 2 回繰り返せば十分である．
 閉路検出 解説ではbool型配列を用いてフラグ管理をしているが，そもそもフラグ管理をする必要はない． 各辺に対する経路長の更新を頂点の個数回繰り返し，結果が変わっていればinfを出力すれば良い．"/>
 
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+
     <meta property="og:title" content="ABC061#Dの別解" />
 <meta property="og:description" content="ABC061 D - Score Attackの別解．コード
 問題内容 正負の重みの辺で構成された，閉路を含む有向グラフの単一始点終点の最長経路を求める問題． 解説では，初めに辺の重みの正負を逆転してからベルマンフォード法で最短経路を求めている． また，経路に影響を与えうる閉路の存在を確認するために，フラグを使った方法を採用している．単純に負の閉路の存在が最短経路に影響を及ぼすわけではないことに注意．
