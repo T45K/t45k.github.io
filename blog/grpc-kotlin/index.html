@@ -7,37 +7,37 @@
     <meta http-equiv="Content-Language" content="ja">
 
     <meta name="author" content="Tasuku NAKAGAWA">
-    <meta name="description" content="こんにちは 中川 将（なかがわ たすく）。 大阪のウェブエンジニア。
-好き Java、Kotlin、IntelliJ、Jenkins バイク Kawasaki Ninja250SL 競プロ AtCoder 水色 酒 ビールだと一番搾りとヒューガルデン 日本酒 DJ Technorch と Masayoshi Minoshima 嫌い javascript クソコード コーディングポリシー イミュータブル 非 null メソッドチェーン 呟き ">
+    <meta name="description" content="マイクロサービスアーキテクチャに関する記事を漁っていると、gRPC というメッセージング方法があることを知ったので、チュートリアルをやってみた。
+gRPC とは まず RPC とは Remote Procedure Call の略で、読んで字の如く遠隔のプログラムの手続きを呼び出す手法らしい。 Google が策定した RPC なので gRPC。">
     <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="自己紹介"/>
-<meta name="twitter:description" content="こんにちは 中川 将（なかがわ たすく）。 大阪のウェブエンジニア。
-好き Java、Kotlin、IntelliJ、Jenkins バイク Kawasaki Ninja250SL 競プロ AtCoder 水色 酒 ビールだと一番搾りとヒューガルデン 日本酒 DJ Technorch と Masayoshi Minoshima 嫌い javascript クソコード コーディングポリシー イミュータブル 非 null メソッドチェーン 呟き "/>
+<meta name="twitter:title" content="gRPC-JavaのチュートリアルをKotlinでやってみる"/>
+<meta name="twitter:description" content="マイクロサービスアーキテクチャに関する記事を漁っていると、gRPC というメッセージング方法があることを知ったので、チュートリアルをやってみた。
+gRPC とは まず RPC とは Remote Procedure Call の略で、読んで字の如く遠隔のプログラムの手続きを呼び出す手法らしい。 Google が策定した RPC なので gRPC。"/>
 
     <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
     <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:title" content="自己紹介" />
-<meta property="og:description" content="こんにちは 中川 将（なかがわ たすく）。 大阪のウェブエンジニア。
-好き Java、Kotlin、IntelliJ、Jenkins バイク Kawasaki Ninja250SL 競プロ AtCoder 水色 酒 ビールだと一番搾りとヒューガルデン 日本酒 DJ Technorch と Masayoshi Minoshima 嫌い javascript クソコード コーディングポリシー イミュータブル 非 null メソッドチェーン 呟き " />
+    <meta property="og:title" content="gRPC-JavaのチュートリアルをKotlinでやってみる" />
+<meta property="og:description" content="マイクロサービスアーキテクチャに関する記事を漁っていると、gRPC というメッセージング方法があることを知ったので、チュートリアルをやってみた。
+gRPC とは まず RPC とは Remote Procedure Call の略で、読んで字の如く遠隔のプログラムの手続きを呼び出す手法らしい。 Google が策定した RPC なので gRPC。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/about/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2020-01-14T22:32:06+09:00" />
-<meta property="article:modified_time" content="2020-01-14T22:32:06+09:00" />
+<meta property="og:url" content="https://t45k.github.io/blog/grpc-kotlin/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-08-22T21:51:41+09:00" />
+<meta property="article:modified_time" content="2022-08-22T21:51:41+09:00" />
 
 
 
     
-      <base href="https://t45k.github.io/about/">
+      <base href="https://t45k.github.io/blog/grpc-kotlin/">
     
     <title>
-  自己紹介 · T45K
+  gRPC-JavaのチュートリアルをKotlinでやってみる · T45K
 </title>
 
     
-      <link rel="canonical" href="https://t45k.github.io/about/">
+      <link rel="canonical" href="https://t45k.github.io/blog/grpc-kotlin/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -114,60 +114,13 @@
   <section class="container page">
   <article>
     <header>
-      <h1>自己紹介</h1>
+      <h1>gRPC-JavaのチュートリアルをKotlinでやってみる</h1>
     </header>
 
-    <h1 id="こんにちは">こんにちは</h1>
-<p>中川 将（なかがわ たすく）。
-大阪のウェブエンジニア。</p>
-<img src="https://t45k.github.io/img/about.jpg" height="50%" width="50%" >
-<h1 id="好き">好き</h1>
-<ul>
-<li>Java、Kotlin、IntelliJ、Jenkins</li>
-<li>バイク
-<ul>
-<li>Kawasaki Ninja250SL</li>
-</ul>
-</li>
-<li>競プロ
-<ul>
-<li>AtCoder 水色</li>
-</ul>
-</li>
-<li>酒
-<ul>
-<li>ビールだと一番搾りとヒューガルデン</li>
-<li>日本酒</li>
-</ul>
-</li>
-<li>DJ Technorch と Masayoshi Minoshima</li>
-</ul>
-<h1 id="嫌い">嫌い</h1>
-<ul>
-<li>javascript</li>
-<li>クソコード</li>
-</ul>
-<h1 id="コーディングポリシー">コーディングポリシー</h1>
-<ul>
-<li>イミュータブル</li>
-<li>非 null</li>
-<li>メソッドチェーン</li>
-</ul>
-<h1 id="呟き">呟き</h1>
-<style type="text/css">
-    .box{
-		overflow:auto;
-		width:500px; height:1000px;
-		padding:1px;
-		color:#000000;
-		background-color:#000000;
-		line-height:1.5em;
-    }
-</style>
-<div class="box">
-<a class="twitter-timeline" href="https://twitter.com/getupmax?ref_src=twsrc%5Etfw"></a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+    <p>マイクロサービスアーキテクチャに関する記事を漁っていると、gRPC というメッセージング方法があることを知ったので、チュートリアルをやってみた。</p>
+<h2 id="grpc-とは">gRPC とは</h2>
+<p>まず RPC とは Remote Procedure Call の略で、読んで字の如く遠隔のプログラムの手続きを呼び出す手法らしい。
+Google が策定した RPC なので gRPC。</p>
 
   </article>
 </section>
