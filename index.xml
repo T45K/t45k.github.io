@@ -6,23 +6,10 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Aug 2022 21:51:41 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 04 Jul 2022 22:38:27 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>gRPC-JavaのチュートリアルをKotlinでやってみる</title>
-      <link>https://t45k.github.io/blog/grpc-kotlin/</link>
-      <pubDate>Mon, 22 Aug 2022 21:51:41 +0900</pubDate>
-      
-      <guid>https://t45k.github.io/blog/grpc-kotlin/</guid>
-      <description>&lt;p&gt;マイクロサービスアーキテクチャに関する記事を漁っていると、gRPC というメッセージング方法があることを知ったので、チュートリアルをやってみた。&lt;/p&gt;
-&lt;h2 id=&#34;grpc-とは&#34;&gt;gRPC とは&lt;/h2&gt;
-&lt;p&gt;まず RPC とは Remote Procedure Call の略で、読んで字の如く遠隔のプログラムの手続きを呼び出す手法らしい。
-Google が策定した RPC なので gRPC。&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>競プロでKotlinを使わない理由</title>
