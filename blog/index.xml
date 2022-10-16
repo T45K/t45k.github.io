@@ -6,10 +6,25 @@
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 04 Jul 2022 22:38:27 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Oct 2022 19:27:18 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>「達人が教えるWebパフォーマンスチューニング」読了</title>
+      <link>https://t45k.github.io/blog/web_perfomance_tuning/</link>
+      <pubDate>Sun, 16 Oct 2022 19:27:18 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/web_perfomance_tuning/</guid>
+      <description>&lt;p&gt;2022 年の ISUCON に備えて「達人が教える Web パフォーマンスチューニング」を読んだ。&lt;/p&gt;
+&lt;p&gt;内容としては、web サーバや DB の負荷計測からチューニングに関して、ISUCON で使えるテクから現場で活用できる技術まで紹介していた。
+パフォチュー経験がない状態で挑む ISUCON だったので、こういった本があってありがたかった。
+残念ながら十分な時間をとることができず、全ての内容を消化できなかったが、何となく何をしたら良いかわかるくらいには持っていけたのでよかった。
+なお、本番。&lt;/p&gt;
+&lt;p&gt;来年また読み直して、ISUCON に再挑戦したい。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>競プロでKotlinを使わない理由</title>
