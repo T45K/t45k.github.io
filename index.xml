@@ -1564,9 +1564,17 @@ GitHub Apps を用いて設計されていて，PR の作成ごとに勝手に�
 &lt;h2 id=&#34;contributorhttpsgithubcomt45kcontributor&#34;&gt;&lt;a href=&#34;https://github.com/T45K/Contributor&#34;&gt;Contributor&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;CLIONE をスタンドアロンとして設計しなおしたツール．
 手軽に PR を投げたい時に便利．&lt;/p&gt;
-&lt;h2 id=&#34;bitbucket-server-code-insights-pluginhttpsgithubcomt45kbitbucket-server-code-insights-plugin&#34;&gt;&lt;a href=&#34;https://github.com/T45K/Bitbucket-Server-Code-Insights-plugin&#34;&gt;BitBucket-Server-Code-Insights-plugin&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;bitbucket-server-code-insights-pluginhttpsgithubcomt45kbitbucket-server-code-insights-plugin&#34;&gt;&lt;a href=&#34;https://github.com/T45K/Bitbucket-Server-Code-Insights-plugin&#34;&gt;Bitbucket-Server-Code-Insights-plugin&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;BitBucket Server で、PR の diff 上にコメントのようなものを表示できる機能、Code Insights を利用するための Jenkins プラグイン。
 Checkstyle や SpotBugs といった静的解析ツールや、SonarQube と行ったシステムの実行結果を PR の diff 上に表示できる。&lt;/p&gt;
+&lt;h2 id=&#34;back-merge-pluginhttpsgithubcomt45kback-merge-plugin&#34;&gt;&lt;a href=&#34;https://github.com/T45K/Back-Merge-plugin&#34;&gt;Back-Merge-plugin&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;mainブランチが更新された時に、mainブランチから各派生ブランチ向けへのPRを作成するJenkinsプラグイン。&lt;/p&gt;
+&lt;h2 id=&#34;approve-lgtm-pluginhttpsgithubcomt45kapprove-lgtm-plugin&#34;&gt;&lt;a href=&#34;https://github.com/T45K/Approve-LGTM-plugin&#34;&gt;Approve-LGTM-plugin&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Bitbucket Server上でPRを承認した際に、LGTMな画像を投稿するJenkinsプラグイン。&lt;/p&gt;
+&lt;h2 id=&#34;coverage-uploader-for-bitbucket-serverhttpsgithubcomt45kintellij-bitbucket-server-coverage-upload-plugin&#34;&gt;&lt;a href=&#34;https://github.com/T45K/IntelliJ-Bitbucket-Server-Coverage-Upload-plugin&#34;&gt;Coverage Uploader for Bitbucket Server&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Bitbucket ServerのPRの画面上にカバレッジ情報を表示するために、
+IntelliJ IDEA上で計測したカバレッジ情報をBitbucket Serverに送信するIntteliJプラグイン。&lt;/p&gt;
+&lt;iframe width=&#34;384px&#34; height=&#34;319px&#34; src=&#34;https://plugins.jetbrains.com/embeddable/card/20589&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
@@ -4060,7 +4068,7 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
 &lt;/ul&gt;
 &lt;h1 id=&#34;嫌い&#34;&gt;嫌い&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;javascript&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
 &lt;li&gt;クソコード&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;コーディングポリシー&#34;&gt;コーディングポリシー&lt;/h1&gt;
