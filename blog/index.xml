@@ -6,10 +6,43 @@
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 31 Dec 2022 09:39:23 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 14 Jan 2023 17:56:18 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WF-1000XM4を修理に出した話</title>
+      <link>https://t45k.github.io/blog/wf-1000xm4_repair/</link>
+      <pubDate>Sat, 14 Jan 2023 17:56:18 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/wf-1000xm4_repair/</guid>
+      <description>&lt;h2 id=&#34;結論&#34;&gt;結論&lt;/h2&gt;
+&lt;p&gt;WF-1000XM4 の「片方（右側？）だけ異様に充電が減る」問題は、保証期限切れでも無料で新品に交換してもらえる。&lt;/p&gt;
+&lt;h2 id=&#34;購入した時期&#34;&gt;購入した時期&lt;/h2&gt;
+&lt;p&gt;MNG した写真の日付を見た限り 2021 年の 8 月末に購入。
+ヨドバシで買ったが、保証期間の延長等はしていなかった。&lt;/p&gt;
+&lt;h2 id=&#34;症状&#34;&gt;症状&lt;/h2&gt;
+&lt;p&gt;イヤホンの右側だけ異様に充電が切れるのが早い。
+具体的には、3、40 分程度で 100%から 0%になる。
+ちなみに、左側は 80%程度残っている。&lt;/p&gt;
+&lt;p&gt;くわえて、どれだけ充電しても 90%までしか充電されない問題も頻繁に起きた（左右問わず）。&lt;/p&gt;
+&lt;p&gt;大体 2022 年の秋ごろからこの問題が見られるようになってきた。
+症状が出始めた時点で保証期間は過ぎていたので、しばらく様子見をしていた。&lt;/p&gt;
+&lt;h2 id=&#34;対処法&#34;&gt;対処法&lt;/h2&gt;
+&lt;p&gt;同様の問題がないか検索してみたところ、わりかし多くのユーザも同じ症状を抱えていたため、修理を依頼することに決めた。
+SONY では、修理希望者向けのチャットボットを用意しているので、そこ経由から修理を依頼した。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sony.jp/support/inquiry.html&#34;&gt;https://www.sony.jp/support/inquiry.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本来であれば修理費は 1 万円程度だが、SONY 側もこの問題を認識しているらしく、
+一度 SONY が預かり、無料修理対象であれば無償で、そうでなければ修理費を依頼者に伝えた上で修理するかを決めるという流れらしい。&lt;/p&gt;
+&lt;p&gt;イヤホン回収は SONY が回収サービスを手配してくれるため、回収業者が来たらイヤホンをケース込みで渡すだけで良かった。&lt;/p&gt;
+&lt;h2 id=&#34;結果&#34;&gt;結果&lt;/h2&gt;
+&lt;p&gt;無事無料修理対象だったらしく、イヤホンが SONY に届いてから 2 日ほどで修理が完了し、本日返ってきた。
+回収に来てから 1 週間ほど。
+ありがとうございました。&lt;/p&gt;
+&lt;p&gt;ということで、同様の問題を抱えている方は一度修理に出してみればと思う。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>2022年の振り返り</title>
