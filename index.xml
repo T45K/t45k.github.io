@@ -6,10 +6,47 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 14 Jan 2023 17:56:18 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jan 2023 17:16:09 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>「Death Stranding」をプレイした話</title>
+      <link>https://t45k.github.io/blog/death_stranding/</link>
+      <pubDate>Sat, 28 Jan 2023 17:16:09 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/death_stranding/</guid>
+      <description>&lt;p&gt;Epic でセールになってた Death Stranding（以降、デススト）をクリアしたので感想を書きます。&lt;/p&gt;
+&lt;h2 id=&#34;デスストとは&#34;&gt;デスストとは&lt;/h2&gt;
+&lt;p&gt;デスストは 2019 年に PS4 向けに発売されたゲームです。
+現在では完全版であるディレクターズカット版が PS5、PC 向けにも出ています。&lt;/p&gt;
+&lt;p&gt;制作はメタルギアシリーズを作った小島監督率いるコジマプロダクションであり、
+小島監督が KONAMI から独立した後、初めて作ったゲームでもあります。&lt;/p&gt;
+&lt;p&gt;自分は MGS シリーズが好きで（1~5、PW、MPO 辺りはプレイした）、
+その小島監督が作った新作ということで発売当初からデスストに注目していましたが、
+PS4 を持っておらず遊ぶことができないままでした。
+しかし今回 Epic Store で無料セールをやっていたため、プレイするに至りました。&lt;/p&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;p&gt;最高でした。
+久々にストーリーがしっかりしたアクションゲームをやったのですが（2015 年の MGS5 以来？）、
+やはりストーリーがあるゲームは先に進みたいと思わせる強い中毒性があるなと再認識しました。
+夜更かしからの寝坊が増えました。&lt;/p&gt;
+&lt;p&gt;荷物を運ぶことがメインのゲームなので人によっては退屈に思うかもしれませんが、自分は最後まで楽しむことができました。
+広大なオープンワールドでルートを考えたり、アイテムを使って有利に進めたり、他の人の建設物を使うことで繋がりを感じたり、多くのことができます。&lt;/p&gt;
+&lt;p&gt;ストーリーを進めるにつれ、配達を楽にするアイテムが公開されていくので、できることの幅が広がっていくのを楽しめました。
+特に、アクティブスケルトンを初めて装着した時は、その快適さに感動しました。&lt;/p&gt;
+&lt;p&gt;荷物の配達がメインなのでそこまで多くの武器は出てこないだろうなと思っていましたが、想像以上にガンアクションが多かったです。
+ただし、狙うキーとトリガーキーが他のキーと重複しているので、設定は事前にいじっておいた方が良さそうです。&lt;/p&gt;
+&lt;p&gt;初見のうちはやることが多くて面食らいました。
+特に、BT の座礁地帯に入った時はしゃがみと歩きと息止めを同時にやっていたので指がこんがらがりました。&lt;/p&gt;
+&lt;p&gt;MGS5 と同じ Fox Engine が使われているため、ところどころ MGS5 で見たことがある表現が出てきました。
+時雨で荷物が劣化していくときのエフェクト、BT の座標地帯に乗り込んだときの時間停止等。
+また、ボス戦では MGS5 でのスカルズの白刃どりや、MGS4 の殴り合いみたいなアクションもあり、懐かしかったです。&lt;/p&gt;
+&lt;p&gt;ノーマンリーダスがカッコよかった。&lt;/p&gt;
+&lt;iframe src=&#34;https://store.steampowered.com/widget/1850570/665843/&#34; frameborder=&#34;0&#34; width=&#34;646&#34; height=&#34;190&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>WF-1000XM4を修理に出した話</title>
