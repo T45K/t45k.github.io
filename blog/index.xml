@@ -6,10 +6,26 @@
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Feb 2023 16:23:45 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Feb 2023 16:42:09 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>「ちょうぜつソフトウェア開発入門」読了</title>
+      <link>https://t45k.github.io/blog/chozetsu_software_design_introduction/</link>
+      <pubDate>Sun, 12 Feb 2023 16:42:09 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/chozetsu_software_design_introduction/</guid>
+      <description>&lt;p&gt;ひさてるさん著の「ちょうぜつソフトウェア開発入門」を読んだ。
+ひさてるさんは Twitter で「#ちょうぜつエンジニアめもりーちゃん」のハッシュタグで不定期に漫画を投稿している人で、そのシニカルな内容が個人的には気に入っている。&lt;/p&gt;
+&lt;p&gt;副題に「PHP で理解するオブジェクト指向の活用」とある通り、サンプルコードは PHP で書かれている。
+内容は、Clean Architecture と TDD に対するひさてるさんの解釈という感じがした。
+また、オブジェクト指向それ自体に意味はなく、それを活用した得られるもの（SOLID、CA、TDD）が大事なのだと述べている。&lt;/p&gt;
+&lt;p&gt;こういう著者の考えがダイレクトに出る本は、読み物としても楽しめるので良いなと感じた。
+また、最終章の「アジャイル開発」は必読。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>「読みやすいコードのガイドライン」読了</title>
