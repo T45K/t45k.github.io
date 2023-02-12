@@ -6,10 +6,28 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 28 Jan 2023 17:16:09 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Feb 2023 16:23:45 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>「読みやすいコードのガイドライン」読了</title>
+      <link>https://t45k.github.io/blog/readable_code_guideline/</link>
+      <pubDate>Sun, 12 Feb 2023 16:23:45 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/readable_code_guideline/</guid>
+      <description>&lt;p&gt;LINE に勤めている石川さんが書いた「読みやすいコードのガイドライン」を読んだ。
+副題の「持続可能なソフトウェア開発のために」に完全に同意。
+継続的なソフトウェア開発には読みやすいコードが必須。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://books.rakuten.co.jp/rb/17283015/?l-id=search-c-item-text-01&#34;&gt;https://books.rakuten.co.jp/rb/17283015/?l-id=search-c-item-text-01&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;「リーダブルコード」などと比べて、少し突っ込んだ内容が多いような印象。
+状態遷移や依存関係などの内容は、コードを書き始めたばかりの人には難しいかもしれないが、個人的にはとても勉強になった（特に 7 種類の結合度については初耳だった）。
+コードレビューの仕方やコメントの書き方といった、取り上げられている書籍がとても少ない（と思う）事柄についても触れられていて、一読の価値があると感じた。
+これらに関してはかなり現場に依存するので完全に同じことをするのは難しそうだが、こういう感じでやってて上手く回っているんだなぁと感じた。&lt;/p&gt;
+&lt;p&gt;内容自体もコンパクトにまとまっており、読みやすかった。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>「Death Stranding」をプレイした話</title>
