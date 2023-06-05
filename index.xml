@@ -6,10 +6,63 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 May 2023 16:19:38 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jun 2023 19:48:46 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JJUG CCC 2023 Springで登壇した話</title>
+      <link>https://t45k.github.io/blog/jjug_ccc_2023_spring/</link>
+      <pubDate>Mon, 05 Jun 2023 19:48:46 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/jjug_ccc_2023_spring/</guid>
+      <description>&lt;p&gt;2023年6月4日日曜日に開催された&lt;a href=&#34;https://sessionize.com/api/v2/y7inyq6y/view/GridSmart&#34;&gt;JJUG CCC 2023 Spring&lt;/a&gt;で人生初の登壇をしてきました！
+めっちゃ緊張した&amp;hellip;&lt;/p&gt;
+&lt;p&gt;写真はもらったノベルティの数々。&lt;/p&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/jjug_ccc_2023_spring.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
+&lt;h3 id=&#34;jjugとは&#34;&gt;JJUGとは&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/jjug_ccc_2022_fall/&#34;&gt;https://t45k.github.io/blog/jjug_ccc_2022_fall/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;登壇&#34;&gt;登壇&lt;/h3&gt;
+&lt;p&gt;業務改善のためにJenkinsとIntelliJのプラグインを作った話をしました。
+JenkinsとIntelliJは共にJavaで作られているので、JJUG CCCの目的に沿ったものだと考えます。&lt;/p&gt;
+&lt;p&gt;当日はミーティングルームABCという狭めの部屋で発表したのですが、その分聴講されている方との距離が近かったと感じました。
+発表中に笑いが起きたり、活発に質疑が行えたりして、初めての発表の環境として良かったなぁと思います。&lt;/p&gt;
+&lt;p&gt;登壇資料は、後日会社のSlideShareにアップロードされる予定です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.slideshare.net/rakutentech&#34;&gt;https://www.slideshare.net/rakutentech&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;余談ですが、僕の登壇は会社の方には知られていなかったようです。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;俺の登壇、会社に認知されてへんくて草&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1665175461436215297?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;弊社のブース&#34;&gt;弊社のブース&lt;/h3&gt;
+&lt;p&gt;他の方のセッションを聴講していたので、合間合間に弊社のブースに居座っていました。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;こんにちは、楽天採用情報部です。&lt;br&gt;JJUG CCC 2023 Springは本日開催です！&lt;br&gt;本日はブースを出しておりますので現地でお買いものパンダと共にお待ちしております。&lt;br&gt;現地にいらっしゃることができない方は、是非記事をご覧ください。&lt;br&gt; &lt;a href=&#34;https://t.co/HXrvahCBs0&#34;&gt;https://t.co/HXrvahCBs0&lt;/a&gt;&lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rakuten?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rakuten&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/java?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#java&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/engineer?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#engineer&lt;/a&gt;&lt;/p&gt;&amp;mdash; 楽天採用情報（C&amp;amp;Mカンパニー開発部門） (@rhack_commerce) &lt;a href=&#34;https://twitter.com/rhack_commerce/status/1665156452988882944?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;山本ユースケさんや岸田さんなど有名な方々にも立ち寄っていただけました。
+ありがとうございます。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;楽天お買い物パンダと握手できるのは &lt;a href=&#34;https://twitter.com/hashtag/jjug_ccc?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#jjug_ccc&lt;/a&gt; だけ！ &lt;a href=&#34;https://t.co/kvqyF3kblB&#34;&gt;pic.twitter.com/kvqyF3kblB&lt;/a&gt;&lt;/p&gt;&amp;mdash; 山本ユースケ (@yusuke) &lt;a href=&#34;https://twitter.com/yusuke/status/1665236778679250944?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;その他&#34;&gt;その他&lt;/h3&gt;
+&lt;p&gt;今回、オフラインのJJUGには初参加なのですが、いろんな企業さんがブーススポンサーとして参加されていました。&lt;/p&gt;
+&lt;p&gt;GMOさんはクイズを企画されていました。
+普段業務では意識しないような細かめの知識を問うような問題を出されており、大変賑わっていました。
+また、JAVAティーをいただきました。
+ありがとうございました。&lt;/p&gt;
+&lt;p&gt;サムライズムさんもいらっしゃいました。
+個人的にサムライズムさんが開発されたCIcloneにとても感銘を受けており、その話をできました。
+また、IntelliJ IDEAとKotlinのステッカーをいただきました。
+ありがとうございました。&lt;/p&gt;
+&lt;p&gt;他の方のセッションも聴講しました。
+印象に残ったのはEdson Yanagaさんの&amp;quot;Revisiting Design Patterns after 20&amp;quot;です。
+YanagaさんはGoogleに勤めているJava Championの方です。
+セッションは、シンプルなテーマながらも深い知識に裏付けされた説得力があり、終始驚きに満ちていました。
+また、英語での発表でしたが、ゆっくり喋っていただけたので、置いてけぼりになることはありませんでした。&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;マージでこのセッション良かったな&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1665283888728641537?ref_src=twsrc%5Etfw&#34;&gt;June 4, 2023&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;謝辞&#34;&gt;謝辞&lt;/h3&gt;
+&lt;p&gt;今回の登壇に際して様々な方のお世話になったので、この場をお借りして謝辞を述べたいと思います。&lt;/p&gt;
+&lt;p&gt;まずはJJUG CCCの運営の方々。おかげで楽しく有意義な時間を過ごせました。&lt;/p&gt;
+&lt;p&gt;弊社。行き帰りの交通費と宿代を負担していただきました。これがなければ現地参加は難しかったかもしれません。&lt;/p&gt;
+&lt;p&gt;チームメンバー。忙しい中、資料作成に時間を割くことを許してもらいました。迷惑をかけました。&lt;/p&gt;
+&lt;p&gt;そして、今回登壇してみようと思えたのも、&lt;a href=&#34;https://twitter.com/bufferings&#34;&gt;@bufferings&lt;/a&gt;さんと&lt;a href=&#34;https://twitter.com/takacyk&#34;&gt;@takacyk&lt;/a&gt;さんのおかげでした。
+ありがとうございました。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>東日本近似的一周旅行に行った話</title>
