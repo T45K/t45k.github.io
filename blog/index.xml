@@ -6,10 +6,41 @@
     <description>Recent content in Blogs on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 06 Aug 2023 13:47:19 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 30 Sep 2023 22:25:14 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>サーバーサイドKotlin LT大会 vol.10で登壇した話</title>
+      <link>https://t45k.github.io/blog/server_side_kotlin_meetup_10/</link>
+      <pubDate>Sat, 30 Sep 2023 22:25:14 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/server_side_kotlin_meetup_10/</guid>
+      <description>&lt;p&gt;3ヶ月ぶりに登壇しました。
+&lt;a href=&#34;https://server-side-kotlin-meetup.connpass.com/event/291686/&#34;&gt;https://server-side-kotlin-meetup.connpass.com/event/291686/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;server-side-kotlin-meetup&#34;&gt;Server-Side Kotlin Meetup&lt;/h2&gt;
+&lt;p&gt;Server-side Kotlin MeetupはサーバサイドKotlinユーザのコミュニティです。&lt;/p&gt;
+&lt;p&gt;前職ではそこまでガッツリKotlinをやっていたわけではなかったので知りませんでした。&lt;/p&gt;
+&lt;p&gt;現職では、上司が運営の一人をしており、LTの15分枠が埋まらなさそうなので応募して欲しい、と頼まれたことがきっかけでした。&lt;/p&gt;
+&lt;p&gt;僕自身も積極的に登壇活動をしたいと思っていたので、良い機会だと思い快諾しました。&lt;/p&gt;
+&lt;h2 id=&#34;発表内容&#34;&gt;発表内容&lt;/h2&gt;
+&lt;p&gt;「R2DBCを導入しようとした話」というタイトルでLTしました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/t45k/r2dbcwodao-ru-suruhua&#34;&gt;https://speakerdeck.com/t45k/r2dbcwodao-ru-suruhua&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;応募時はK2コンパイラをCIで試してみた話をしようとしていたのですが、
+タイトル回収締め切りまでにR2DBCへの移行に着手し始め、そっちの方が盛り上がりそうだったのでネタを変えることにしました。&lt;/p&gt;
+&lt;p&gt;様々な詰まりポイントがあるせいで締切までに完了の目処が立たず、タイトルを「しようとした（そしてうまくいかなかった）とした、という経緯がありました。&lt;/p&gt;
+&lt;h2 id=&#34;会場&#34;&gt;会場&lt;/h2&gt;
+&lt;p&gt;UZABASEさんのオフィスにお世話になりました。&lt;/p&gt;
+&lt;p&gt;UZABASEさんはNewsPicksなどの開発をしている会社です。&lt;/p&gt;
+&lt;p&gt;東京駅の真ん前にオフィスがあり、1階はイベントスペースになっているおしゃれなオフィスでした。&lt;/p&gt;
+&lt;h2 id=&#34;当日&#34;&gt;当日&lt;/h2&gt;
+&lt;p&gt;オフラインイベントで、だいたい30名くらいの方がいたと思います。&lt;/p&gt;
+&lt;p&gt;開始時に乾杯があり、発表前にお酒を飲むという、本当に気楽なイベントでした。&lt;/p&gt;
+&lt;p&gt;他の会社の方々や、同じ会社の違う拠点の方々と交流でき、とても良かったです。&lt;/p&gt;
+&lt;p&gt;ぜひ次回も参加したいと思いました。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>セミを食べた話</title>
