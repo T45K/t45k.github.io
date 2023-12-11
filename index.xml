@@ -6,10 +6,49 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Oct 2023 23:22:01 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 11 Dec 2023 22:59:05 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ノンアルコールビールを飲み比べた話</title>
+      <link>https://t45k.github.io/blog/non_alcohol_beer/</link>
+      <pubDate>Mon, 11 Dec 2023 22:59:05 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/non_alcohol_beer/</guid>
+      <description>&lt;p&gt;健康の問題で酒が飲めない期間が続いたので、良さげなノンアルコールビールを5本買って飲み比べてみた。
+備忘録。&lt;/p&gt;
+&lt;h2 id=&#34;飲み比べ対象&#34;&gt;飲み比べ対象&lt;/h2&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/non_alcohol_beer.jpg&#34; width=&#34;75%&#34;&gt;
+&lt;p&gt;左からバドワイザー、龍馬1865、ヒューガルデン、Bavaria、NINJA LAGER&lt;/p&gt;
+&lt;h3 id=&#34;バドワイザー&#34;&gt;バドワイザー&lt;/h3&gt;
+&lt;p&gt;言わずと知れた有名なビールのノンアルコール版。&lt;/p&gt;
+&lt;p&gt;オリジナルのバドワイザー自体が薄めの軽いビールなのも相まって、かなり味が軽く飲みやすい。&lt;/p&gt;
+&lt;p&gt;本家に近いっちゃ近かった。&lt;/p&gt;
+&lt;h3 id=&#34;龍馬1865&#34;&gt;龍馬1865&lt;/h3&gt;
+&lt;p&gt;麦芽とホップ（と炭酸）しか使っていないかなり本格派のノンアル。&lt;/p&gt;
+&lt;p&gt;味もかなりビールに近く、飲んでいて満足感があった。&lt;/p&gt;
+&lt;p&gt;プリン体ゼロを明記しているのも健康的に嬉しいところ。&lt;/p&gt;
+&lt;h3 id=&#34;ヒューガルデン&#34;&gt;ヒューガルデン&lt;/h3&gt;
+&lt;p&gt;柑橘系の香りなど、オリジナルに近い雰囲気を感じた。&lt;/p&gt;
+&lt;p&gt;原料に液糖が含まれているからかかなり甘く、ビールは苦手だけどジュースは好き、みたいな人も美味しく飲めるかもと思った。&lt;/p&gt;
+&lt;p&gt;ビールとは違う飲み物だなぁという印象。&lt;/p&gt;
+&lt;h3 id=&#34;bavaria&#34;&gt;Bavaria&lt;/h3&gt;
+&lt;p&gt;寡聞にして知らないメーカー。オランダ産らしい。&lt;/p&gt;
+&lt;p&gt;龍馬1865と同じく麦芽とホップがメインのビールの原料に近いノンアル。&lt;/p&gt;
+&lt;p&gt;味もビールに近かったが、ノンアルや発泡酒特有の謎の酸味があった。&lt;/p&gt;
+&lt;h3 id=&#34;ninja-lager&#34;&gt;NINJA LAGER&lt;/h3&gt;
+&lt;p&gt;こちらも麦芽とホップしか使っていない本格派ノンアル。&lt;/p&gt;
+&lt;p&gt;ハラールの認定を受けているのが売りらしい。&lt;/p&gt;
+&lt;p&gt;Bavariaに近い味か。&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;ビールに近い原料を使っているものは、ノンアルというか発泡酒というか特有の香りと謎の酸味があった。&lt;/p&gt;
+&lt;p&gt;普段飲んでいるビールはアルコールがあるからこれらを感じないだけなのかも知れないと思った。&lt;/p&gt;
+&lt;p&gt;やはりアルコールがない分飲みごたえは少ないが、満足感はあった。&lt;/p&gt;
+&lt;p&gt;ビールに近いものが飲みたければ龍馬1865、飲みやすく美味しいものが良ければヒューガルデンをおすすめする。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>「なっとく！関数型プログラミング」読了</title>
