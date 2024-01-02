@@ -6,10 +6,68 @@
     <description>Recent content in 人生 on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2024 23:25:57 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/tags/%E4%BA%BA%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2023年の振り返り</title>
+      <link>https://t45k.github.io/blog/retrospective_2023/</link>
+      <pubDate>Tue, 02 Jan 2024 23:25:57 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/retrospective_2023/</guid>
+      <description>&lt;p&gt;2023年を振り返る。&lt;/p&gt;
+&lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
+&lt;p&gt;楽天を辞めてマネーフォワードに転職した。&lt;/p&gt;
+&lt;p&gt;マネフォは技術力が高い人が多い環境で、楽しく仕事ができた。&lt;/p&gt;
+&lt;p&gt;チームメンバーとも仲良くできて良い1年間だった。&lt;/p&gt;
+&lt;h2 id=&#34;仕事&#34;&gt;仕事&lt;/h2&gt;
+&lt;h3 id=&#34;1月----3月&#34;&gt;1月 &amp;ndash; 3月&lt;/h3&gt;
+&lt;p&gt;1月に上の方から、エンジニアも楽天モバイルの契約をとることが必須になったとのお達しが来て、転職を決意する。
+ひとまず大阪でバックエンドでKotlinが書ける職種を探していたところ、マネフォが引っかかる。
+向こうからカジュ面のお誘いが来たのでやらせてもらい、そのまま面接に進んだ。
+ぬるっと内定をもらい、ボーナスの都合で7月からのジョインで着地。&lt;/p&gt;
+&lt;p&gt;一方前職では、内定者アルバイトの子がチームに加わったため、メンターとしても仕事していた。
+とても良い子で、すごく仲良くしてもらったこともあり、楽しく過ごす。&lt;/p&gt;
+&lt;h3 id=&#34;4月----6月&#34;&gt;4月 &amp;ndash; 6月&lt;/h3&gt;
+&lt;p&gt;上述の件もあり、仲良かった同期や後輩が次々と辞めていく。
+内定者アルバイトの子も入社し、6月から配属とのことだったので、面倒を見れるように5月中に有給を使い切る。
+お別れ会がめちゃくちゃ多かった期間。&lt;/p&gt;
+&lt;p&gt;JJUGで登壇する。
+初外部登壇。&lt;/p&gt;
+&lt;h3 id=&#34;7月----9月&#34;&gt;7月 &amp;ndash; 9月&lt;/h3&gt;
+&lt;p&gt;マネフォにジョイン。
+コードのレベルや社内の手続きの簡単さにびっくりする。&lt;/p&gt;
+&lt;p&gt;色々新しい技術を触る。キャッチアップの難しさを知る。
+ライブラリの都合で上げられていなかったKotlinのバージョンを上げたり、CIのコストを下げたりしていた。&lt;/p&gt;
+&lt;p&gt;9月にメンターの先輩が休職され一人で仕事をすることになったが、ドメインを理解しきれていなかったのでとても苦労した。&lt;/p&gt;
+&lt;p&gt;上司に唆され、サーバサイドKotlin勉強会で登壇する。&lt;/p&gt;
+&lt;h3 id=&#34;10月----12月&#34;&gt;10月 &amp;ndash; 12月&lt;/h3&gt;
+&lt;p&gt;ドメインやコード全体が分かってきたので、一人で仕事を進められるようになる。&lt;/p&gt;
+&lt;p&gt;人生初アドカレに参加する。&lt;/p&gt;
+&lt;h2 id=&#34;人間関係&#34;&gt;人間関係&lt;/h2&gt;
+&lt;p&gt;転職してしまったが、前職のメンバーとは定期的に飲み会する機会があり、なんだかんだ交流が続いている。&lt;/p&gt;
+&lt;p&gt;現職では、チームメンバーで出社する人が多いため、終業後飲みに行ったり、サウナに行ったりでチームに良い感じに溶け込めた気がする。&lt;/p&gt;
+&lt;h2 id=&#34;プログラミング&#34;&gt;プログラミング&lt;/h2&gt;
+&lt;p&gt;現職ではSpring WebFluxを使っているので、Kotlin Coroutinや非同期周りの造形が深まった。&lt;/p&gt;
+&lt;p&gt;また、Springのキャッチアップも積極的に行うようになり、バグ修正パッチを投げたりした。&lt;/p&gt;
+&lt;p&gt;Advent of code完走できなかったので、今年は頑張りたい。&lt;/p&gt;
+&lt;h2 id=&#34;飲酒&#34;&gt;飲酒&lt;/h2&gt;
+&lt;p&gt;クラフトビールをよく飲むようになり、クラフトビールバーの選択肢が増えた。&lt;/p&gt;
+&lt;p&gt;地酒も継続的に購入した。&lt;/p&gt;
+&lt;h2 id=&#34;健康&#34;&gt;健康&lt;/h2&gt;
+&lt;p&gt;ついに尿酸値が要検査に引っかかったので、家での晩酌をやめた。&lt;/p&gt;
+&lt;h2 id=&#34;バイク&#34;&gt;バイク&lt;/h2&gt;
+&lt;p&gt;5日かけて青森大間崎を往復した。&lt;/p&gt;
+&lt;h2 id=&#34;その他&#34;&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;後輩の影響でMCバトルを見始めた。11月はSPOTLIGHTにも行った&lt;/li&gt;
+&lt;li&gt;ブーツを履き始めた。最初は靴擦れがきつかったけど、今ではお気に入り。&lt;/li&gt;
+&lt;li&gt;デスクトップが逝った。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>2年勤めた楽天を退職した話</title>
