@@ -1919,13 +1919,13 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 以降，(aの先頭) ≦ (bの先頭) ≦ (cの先頭)の場合を考える．&lt;br&gt;
 まず，a中のどの箇所がbと被っているかを全探索して，配列か何かに記録する(O(n^2))．これをaとc，bとcに対してもやる．
 コードだとこんな感じ．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt;[] init(&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt; length, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String a, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String b) {&lt;span style=&#34;font-style:italic&#34;&gt;// 配列の初期化
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt;[] array = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt;[length]; &lt;span style=&#34;font-style:italic&#34;&gt;// lengthは十分大きい値
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;    Arrays.fill(array, &lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;);
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt;[] init(&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt; length, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String a, &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String b) {&lt;span style=&#34;font-style:italic&#34;&gt;// 配列の初期化&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt;[] array = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;&#34;&gt;boolean&lt;/span&gt;[length]; &lt;span style=&#34;font-style:italic&#34;&gt;// lengthは十分大きい値&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Arrays.fill(array, &lt;span style=&#34;font-weight:bold&#34;&gt;true&lt;/span&gt;);
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; i = 0; i &amp;lt; a.length(); i++) {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; j = 0; j &amp;lt; b.length() &amp;amp;&amp;amp; i + j &amp;lt; a.length(); j++) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;font-style:italic&#34;&gt;// 文字列aの位置i以降がbと被っているかの確認
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt; (!match(a.charAt(i + j), b.charAt(j))) { 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;font-style:italic&#34;&gt;// 文字列aの位置i以降がbと被っているかの確認&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt; (!match(a.charAt(i + j), b.charAt(j))) { 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                array[i] = &lt;span style=&#34;font-weight:bold&#34;&gt;false&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;font-weight:bold&#34;&gt;break&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            }
@@ -2043,10 +2043,10 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
 今回はクラスカル法を紹介します．&lt;br&gt;
 クラスカル法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります．
 ノード同士が連結であるかどうかは，Union-Find Treeを用いて確認します．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;// edges は Edge(int label1, int label2, long cost) のリスト
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;edges.sort(Comparator.comparingLong(o -&amp;gt; o.cost));
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; UnionFindTree unionFindTree = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt; UnionFindTree(n); &lt;span style=&#34;font-style:italic&#34;&gt;// 要素数nのUnion-Find Treeを構築
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;&#34;&gt;long&lt;/span&gt; sum = 0;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;// edges は Edge(int label1, int label2, long cost) のリスト&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;edges.sort(Comparator.comparingLong(o -&amp;gt; o.cost));
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; UnionFindTree unionFindTree = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt; UnionFindTree(n); &lt;span style=&#34;font-style:italic&#34;&gt;// 要素数nのUnion-Find Treeを構築&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;&#34;&gt;long&lt;/span&gt; sum = 0;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; Edge edge : edges) {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;if&lt;/span&gt; (!unionFindTree.isSame(edge.label1, edge.label2)) {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        unionFindTree.unit(edge.label1, edge.label2);
@@ -2074,20 +2074,20 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
 二次元配列を用いた例がこちら．&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;&#34;&gt;void&lt;/span&gt; main(&lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; String[] args) {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt;[][] graph = &lt;span style=&#34;font-weight:bold&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;&#34;&gt;int&lt;/span&gt;[n][n];
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-style:italic&#34;&gt;// 初めに無限大の値で各要素を初期化
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; i = 0; i &amp;lt; graph.length; i++) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Arrays.fill(graph[i], Integer.MAX_VALUE / 2); &lt;span style=&#34;font-style:italic&#34;&gt;// Integer.MAX_VALUEでないことに注意
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;        graph[i][i] = 0;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-style:italic&#34;&gt;// 初めに無限大の値で各要素を初期化&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; i = 0; i &amp;lt; graph.length; i++) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        Arrays.fill(graph[i], Integer.MAX_VALUE / 2); &lt;span style=&#34;font-style:italic&#34;&gt;// Integer.MAX_VALUEでないことに注意&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        graph[i][i] = 0;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-style:italic&#34;&gt;// グラフの各辺を与えられた値に変更
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-style:italic&#34;&gt;// ここからワーシャルフロイド
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; k = 0; k &amp;lt; graph.length; k++) { &lt;span style=&#34;font-style:italic&#34;&gt;// 中継する点
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; i = 0; i &amp;lt; graph.length; i++) { &lt;span style=&#34;font-style:italic&#34;&gt;// 出発する点
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; j = 0; j &amp;lt; graph.length; j++) { &lt;span style=&#34;font-style:italic&#34;&gt;// 到着する点
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;                graph[i][j] = Math.min(graph[i][j], graph[i][k] + graph[k][j]); &lt;span style=&#34;font-style:italic&#34;&gt;// 中継する点をとった方が短となるか判定
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;            }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-style:italic&#34;&gt;// グラフの各辺を与えられた値に変更&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-style:italic&#34;&gt;// ここからワーシャルフロイド&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; k = 0; k &amp;lt; graph.length; k++) { &lt;span style=&#34;font-style:italic&#34;&gt;// 中継する点&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; i = 0; i &amp;lt; graph.length; i++) { &lt;span style=&#34;font-style:italic&#34;&gt;// 出発する点&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;font-weight:bold&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;&#34;&gt;int&lt;/span&gt; j = 0; j &amp;lt; graph.length; j++) { &lt;span style=&#34;font-style:italic&#34;&gt;// 到着する点&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                graph[i][j] = Math.min(graph[i][j], graph[i][k] + graph[k][j]); &lt;span style=&#34;font-style:italic&#34;&gt;// 中継する点をとった方が短となるか判定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
@@ -2163,8 +2163,8 @@ Lower Boundは指定した値&lt;strong&gt;以上&lt;/strong&gt;の要素が初�
 一方，Upper Boundは指定した値&lt;strong&gt;より大きい要素&lt;/strong&gt;が初めて出現する場所を取得する．&lt;br&gt;
 C++ではこれらが標準ライブラリとして提供されているが，Javaにはない．
 Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数に以下の &lt;code&gt;Comparator&lt;/code&gt; オブジェクトを渡すことで実現できる．&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;// 例: List&amp;lt;Long&amp;gt; に対する Comparator
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; Comparator&amp;lt;Long&amp;gt; lowerBoundComparator = (x, y) -&amp;gt; x &amp;gt;= y ? 1 : -1;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;// 例: List&amp;lt;Long&amp;gt; に対する Comparator&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; Comparator&amp;lt;Long&amp;gt; lowerBoundComparator = (x, y) -&amp;gt; x &amp;gt;= y ? 1 : -1;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;font-weight:bold&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;font-weight:bold&#34;&gt;final&lt;/span&gt; Comparator&amp;lt;Long&amp;gt; upperBoundComparator = (x, y) -&amp;gt; x &amp;gt; y ? 1 : -1;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;ちなみに，これに限らずJavaの標準ライブラリの &lt;code&gt;binarySearch&lt;/code&gt; の結果として負の数が帰ってきた場合，bit反転( &lt;code&gt;~&lt;/code&gt; 演算子)を使うと良い感じになる．&lt;/p&gt;
 &lt;h3 id=&#34;負の数の大小比較&#34;&gt;負の数の大小比較&lt;/h3&gt;
@@ -2279,6 +2279,38 @@ Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数�
 LCMがmod計算してあるので，単純に各値で割るのではなく，modの逆元を計算した上で各値をLCMにかける必要がある．&lt;/p&gt;
 &lt;p&gt;ソースコード&lt;br&gt;
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC152&#34;&gt;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC152&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://t45k.github.io/kyopuro/doc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://t45k.github.io/kyopuro/doc/</guid>
+      <description>&lt;!DOCTYPE HTML&gt;
+&lt;!-- NewPage --&gt;
+&lt;html lang=&#34;ja&#34;&gt;
+&lt;head&gt;
+&lt;!-- Generated by javadoc (11.0.11) on Sun Nov 07 23:56:29 JST 2021 --&gt;
+&lt;title&gt;生成されたドキュメント(タイトルなし)&lt;/title&gt;
+&lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=utf-8&#34;&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;window.location.replace(&#39;library/package-summary.html&#39;)&lt;/script&gt;
+&lt;noscript&gt;
+&lt;meta http-equiv=&#34;Refresh&#34; content=&#34;0;library/package-summary.html&#34;&gt;
+&lt;/noscript&gt;
+&lt;link rel=&#34;canonical&#34; href=&#34;library/package-summary.html&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;stylesheet.css&#34; title=&#34;Style&#34;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;main role=&#34;main&#34;&gt;
+&lt;noscript&gt;
+&lt;p&gt;ブラウザのJavaScriptが無効になっています。&lt;/p&gt;
+&lt;/noscript&gt;
+&lt;p&gt;&lt;a href=&#34;library/package-summary.html&#34;&gt;library/package-summary.html&lt;/a&gt;&lt;/p&gt;
+&lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </description>
     </item>
     

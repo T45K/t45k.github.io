@@ -16,8 +16,7 @@ ABC065-Dがこの問題に該当します．
 // edges は Edge(int label1, int label2, long cost) のリスト edges.sort(Comparator.comparingLong(o -&gt; o.cost)); final UnionFindTree unionFindTree = new UnionFindTree(n); // 要素数nのUnion-Find Treeを構築 long sum = 0; for (final Edge edge : edges) { if (!unionFindTree.isSame(edge.label1, edge.label2)) { unionFindTree.unit(edge.label1, edge.label2); sum &#43;= edge.cost; } } 辺のソートに一番計算量を食われます．">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="最小全域木メモ"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="最小全域木メモ"/>
 <meta name="twitter:description" content="最小全域木という概念を知ったのでメモ．
 最小全域木とは 無向グラフが与えられた時に，その部分グラフで任意の2頂点を連結にする様な木を全域木(Spanning Tree)と言います．辺にコストがある場合に，使われる辺のコストの和を最小にする全域木を最小全域木(MST : Minimum Spanning Tree)と言います．（蟻本より）
 つまり，グラフが連結であることを保ったまま，コストの大きい辺を間引いてできたグラフを指します．連結であり，かつ辺のコストの和が最小なので，グラフは木となります．
@@ -41,6 +40,7 @@ ABC065-Dがこの問題に該当します．
 <meta property="og:url" content="https://t45k.github.io/kyopuro/min_spanning_tree/" /><meta property="article:section" content="kyopuro" />
 <meta property="article:published_time" content="2020-02-29T22:37:36+09:00" />
 <meta property="article:modified_time" content="2020-02-29T22:37:36+09:00" />
+
 
 
     
@@ -77,7 +77,7 @@ ABC065-Dがこの問題に該当します．
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.115.3">
+    <meta name="generator" content="Hugo 0.123.3">
   </head>
 
   
@@ -143,10 +143,10 @@ ABC065-Dがこの問題に該当します．
 今回はクラスカル法を紹介します．<br>
 クラスカル法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります．
 ノード同士が連結であるかどうかは，Union-Find Treeを用いて確認します．</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="font-style:italic">// edges は Edge(int label1, int label2, long cost) のリスト
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>edges.sort(Comparator.comparingLong(o -&gt; o.cost));
-</span></span><span style="display:flex;"><span><span style="font-weight:bold">final</span> UnionFindTree unionFindTree = <span style="font-weight:bold">new</span> UnionFindTree(n); <span style="font-style:italic">// 要素数nのUnion-Find Treeを構築
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span><span style="">long</span> sum = 0;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="font-style:italic">// edges は Edge(int label1, int label2, long cost) のリスト</span>
+</span></span><span style="display:flex;"><span>edges.sort(Comparator.comparingLong(o -&gt; o.cost));
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">final</span> UnionFindTree unionFindTree = <span style="font-weight:bold">new</span> UnionFindTree(n); <span style="font-style:italic">// 要素数nのUnion-Find Treeを構築</span>
+</span></span><span style="display:flex;"><span><span style="">long</span> sum = 0;
 </span></span><span style="display:flex;"><span><span style="font-weight:bold">for</span> (<span style="font-weight:bold">final</span> Edge edge : edges) {
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">if</span> (!unionFindTree.isSame(edge.label1, edge.label2)) {
 </span></span><span style="display:flex;"><span>        unionFindTree.unit(edge.label1, edge.label2);

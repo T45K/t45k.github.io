@@ -21,8 +21,7 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 private static boolean[] init(final int length, final String a, final String b) {// 配列の初期化 final boolean[] array = new boolean[length]; // lengthは十分大きい値 Arrays.">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="パナソニックプログラミングコンテスト2020の解説"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="パナソニックプログラミングコンテスト2020の解説"/>
 <meta name="twitter:description" content="4完．コード
 A - Kth Term 実装するだけ． Javaの場合は問題文をコピペしてfinal int[] array = {1, 1, ...};と宣言すると早い．
 B - Bishop ここに一番時間を吸われた．
@@ -56,6 +55,7 @@ private static boolean[] init(final int length, final String a, final String b) 
 <meta property="og:url" content="https://t45k.github.io/kyopuro/panasonic2020/" /><meta property="article:section" content="kyopuro" />
 <meta property="article:published_time" content="2020-03-14T22:56:44+09:00" />
 <meta property="article:modified_time" content="2020-03-14T22:56:44+09:00" />
+
 
 
     
@@ -92,7 +92,7 @@ private static boolean[] init(final int length, final String a, final String b) 
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.115.3">
+    <meta name="generator" content="Hugo 0.123.3">
   </head>
 
   
@@ -169,13 +169,13 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 以降，(aの先頭) ≦ (bの先頭) ≦ (cの先頭)の場合を考える．<br>
 まず，a中のどの箇所がbと被っているかを全探索して，配列か何かに記録する(O(n^2))．これをaとc，bとcに対してもやる．
 コードだとこんな感じ．</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="font-weight:bold">private</span> <span style="font-weight:bold">static</span> <span style="">boolean</span>[] init(<span style="font-weight:bold">final</span> <span style="">int</span> length, <span style="font-weight:bold">final</span> String a, <span style="font-weight:bold">final</span> String b) {<span style="font-style:italic">// 配列の初期化
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>    <span style="font-weight:bold">final</span> <span style="">boolean</span>[] array = <span style="font-weight:bold">new</span> <span style="">boolean</span>[length]; <span style="font-style:italic">// lengthは十分大きい値
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>    Arrays.fill(array, <span style="font-weight:bold">true</span>);
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="font-weight:bold">private</span> <span style="font-weight:bold">static</span> <span style="">boolean</span>[] init(<span style="font-weight:bold">final</span> <span style="">int</span> length, <span style="font-weight:bold">final</span> String a, <span style="font-weight:bold">final</span> String b) {<span style="font-style:italic">// 配列の初期化</span>
+</span></span><span style="display:flex;"><span>    <span style="font-weight:bold">final</span> <span style="">boolean</span>[] array = <span style="font-weight:bold">new</span> <span style="">boolean</span>[length]; <span style="font-style:italic">// lengthは十分大きい値</span>
+</span></span><span style="display:flex;"><span>    Arrays.fill(array, <span style="font-weight:bold">true</span>);
 </span></span><span style="display:flex;"><span>    <span style="font-weight:bold">for</span> (<span style="">int</span> i = 0; i &lt; a.length(); i++) {
 </span></span><span style="display:flex;"><span>        <span style="font-weight:bold">for</span> (<span style="">int</span> j = 0; j &lt; b.length() &amp;&amp; i + j &lt; a.length(); j++) {
-</span></span><span style="display:flex;"><span>            <span style="font-style:italic">// 文字列aの位置i以降がbと被っているかの確認
-</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>            <span style="font-weight:bold">if</span> (!match(a.charAt(i + j), b.charAt(j))) { 
+</span></span><span style="display:flex;"><span>            <span style="font-style:italic">// 文字列aの位置i以降がbと被っているかの確認</span>
+</span></span><span style="display:flex;"><span>            <span style="font-weight:bold">if</span> (!match(a.charAt(i + j), b.charAt(j))) { 
 </span></span><span style="display:flex;"><span>                array[i] = <span style="font-weight:bold">false</span>;
 </span></span><span style="display:flex;"><span>                <span style="font-weight:bold">break</span>;
 </span></span><span style="display:flex;"><span>            }
