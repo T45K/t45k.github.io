@@ -16,31 +16,33 @@ C - Folia 解けてる人多くてびっくりした． 厳密な証明はeditor
 この解き方だと，n=0がコーナーケースになることに注意(n=0, A0=1の時のみ答えが1で，それ以外は-1)">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="NOMURA プログラミングコンテスト2020の解説"/>
+    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="NOMURA プログラミングコンテスト2020の解説">
 <meta name="twitter:description" content="何とか3完． コード
 A - Study Scheduling 時間を分に直して引き算するだけ．
 B - Postdocs 例えば，?をPにした場合，その右側にDがある時だけ指数が1増えるのに対して，Dにすると確実に指数が1増えることから，全ての?をDに変換するのが最適になる．
 C - Folia 解けてる人多くてびっくりした． 厳密な証明はeditorial参照．
 初めに木を上から下の方へ見ていって，それぞれの深さでの葉でない頂点(以降，節)の最大値数を求めていく． 深さiの葉の数がAiの時，深さi-1での節の数がAi/2未満の時，Ai個の葉を生成できないので条件を満たす木は存在しない．
 次に，木を下から上へ見ていき，各深さでの節の数を最適化していく． 木の頂点数を最大にするためには，各深さiに対して節の数を最大化したい． 節の数は，深さi&#43;1の頂点数より大きくできない（全ての節は1つ以上の子を持つ），また，初めの操作により，深さiの節の個数から(深さi&#43;1の頂点)個の子を産めることが分かっている． したがって，深さiでの節の数の最大値はmin(深さiでの節の数，深さi&#43;1での頂点の数)となる． あとはこれを再帰的に計算して足し合わせるだけ．
-この解き方だと，n=0がコーナーケースになることに注意(n=0, A0=1の時のみ答えが1で，それ以外は-1)"/>
+この解き方だと，n=0がコーナーケースになることに注意(n=0, A0=1の時のみ答えが1で，それ以外は-1)">
 
     <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
     <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:title" content="NOMURA プログラミングコンテスト2020の解説" />
-<meta property="og:description" content="何とか3完． コード
+    <meta property="og:url" content="https://t45k.github.io/kyopuro/nomura2020/">
+  <meta property="og:site_name" content="T45K">
+  <meta property="og:title" content="NOMURA プログラミングコンテスト2020の解説">
+  <meta property="og:description" content="何とか3完． コード
 A - Study Scheduling 時間を分に直して引き算するだけ．
 B - Postdocs 例えば，?をPにした場合，その右側にDがある時だけ指数が1増えるのに対して，Dにすると確実に指数が1増えることから，全ての?をDに変換するのが最適になる．
 C - Folia 解けてる人多くてびっくりした． 厳密な証明はeditorial参照．
 初めに木を上から下の方へ見ていって，それぞれの深さでの葉でない頂点(以降，節)の最大値数を求めていく． 深さiの葉の数がAiの時，深さi-1での節の数がAi/2未満の時，Ai個の葉を生成できないので条件を満たす木は存在しない．
 次に，木を下から上へ見ていき，各深さでの節の数を最適化していく． 木の頂点数を最大にするためには，各深さiに対して節の数を最大化したい． 節の数は，深さi&#43;1の頂点数より大きくできない（全ての節は1つ以上の子を持つ），また，初めの操作により，深さiの節の個数から(深さi&#43;1の頂点)個の子を産めることが分かっている． したがって，深さiでの節の数の最大値はmin(深さiでの節の数，深さi&#43;1での頂点の数)となる． あとはこれを再帰的に計算して足し合わせるだけ．
-この解き方だと，n=0がコーナーケースになることに注意(n=0, A0=1の時のみ答えが1で，それ以外は-1)" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/nomura2020/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2020-05-31T15:57:56+09:00" />
-<meta property="article:modified_time" content="2020-05-31T15:57:56+09:00" />
-
+この解き方だと，n=0がコーナーケースになることに注意(n=0, A0=1の時のみ答えが1で，それ以外は-1)">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="kyopuro">
+    <meta property="article:published_time" content="2020-05-31T15:57:56+09:00">
+    <meta property="article:modified_time" content="2020-05-31T15:57:56+09:00">
 
 
     
@@ -77,7 +79,7 @@ C - Folia 解けてる人多くてびっくりした． 厳密な証明はeditor
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.123.3">
+    <meta name="generator" content="Hugo 0.125.3">
   </head>
 
   
@@ -194,6 +196,9 @@ C - Folia 解けてる人多くてびっくりした． 厳密な証明はeditor
     
 
     
+  
+
+
 
     
 

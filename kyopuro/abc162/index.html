@@ -16,31 +16,33 @@ E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的に
 ． 解答が詳しいのでそちらを参照． 繰り返し二乗法などを使うと速くなる．">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ABC162の解説"/>
+    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="ABC162の解説">
 <meta name="twitter:description" content="祝参加者1万人越え．無念の4完．コード
 A - Lucky 7 やるだけ．文字列で読み込んでString#containsを使うと早い．
 B - FizzBuzz Sum これもやるだけ．LongStreamできれいに書ける．
 LongStream.rangeClosed(1, scanner.nextInt()) .filter(i -&gt; i % 3 != 0 &amp;&amp; i % 5 != 0) .sum(); C - Sum of gcd of Tuples (Easy) 三重ループを回すだけ．
 D - RGB Triplets N &lt;= 4,000なので二重ループで回すことを考える． ある座標以降のそれぞれの色が何個あるかを記録する． これは後ろから累積和をとることで可能． こうすることで，例えばiが赤色，jが緑色のとき，j&#43;1以降の青色の個数をO(1)で得られる． また，k-j ≠ j-iの条件を満たすために，k-j = j-iとなるkに対して(j&#43;1以降の数) - (k以降の数) &#43; (k&#43;1以降の数)と計算すれば良い(累積和の性質から)．
 E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的にダメだと思っていて放置していたやつ
-． 解答が詳しいのでそちらを参照． 繰り返し二乗法などを使うと速くなる．"/>
+． 解答が詳しいのでそちらを参照． 繰り返し二乗法などを使うと速くなる．">
 
     <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
     <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:title" content="ABC162の解説" />
-<meta property="og:description" content="祝参加者1万人越え．無念の4完．コード
+    <meta property="og:url" content="https://t45k.github.io/kyopuro/abc162/">
+  <meta property="og:site_name" content="T45K">
+  <meta property="og:title" content="ABC162の解説">
+  <meta property="og:description" content="祝参加者1万人越え．無念の4完．コード
 A - Lucky 7 やるだけ．文字列で読み込んでString#containsを使うと早い．
 B - FizzBuzz Sum これもやるだけ．LongStreamできれいに書ける．
-LongStream.rangeClosed(1, scanner.nextInt()) .filter(i -&gt; i % 3 != 0 &amp;&amp; i % 5 != 0) .sum(); C - Sum of gcd of Tuples (Easy) 三重ループを回すだけ．
-D - RGB Triplets N &lt;= 4,000なので二重ループで回すことを考える． ある座標以降のそれぞれの色が何個あるかを記録する． これは後ろから累積和をとることで可能． こうすることで，例えばiが赤色，jが緑色のとき，j&#43;1以降の青色の個数をO(1)で得られる． また，k-j ≠ j-iの条件を満たすために，k-j = j-iとなるkに対して(j&#43;1以降の数) - (k以降の数) &#43; (k&#43;1以降の数)と計算すれば良い(累積和の性質から)．
+LongStream.rangeClosed(1, scanner.nextInt()) .filter(i -&amp;gt; i % 3 != 0 &amp;amp;&amp;amp; i % 5 != 0) .sum(); C - Sum of gcd of Tuples (Easy) 三重ループを回すだけ．
+D - RGB Triplets N &amp;lt;= 4,000なので二重ループで回すことを考える． ある座標以降のそれぞれの色が何個あるかを記録する． これは後ろから累積和をとることで可能． こうすることで，例えばiが赤色，jが緑色のとき，j&#43;1以降の青色の個数をO(1)で得られる． また，k-j ≠ j-iの条件を満たすために，k-j = j-iとなるkに対して(j&#43;1以降の数) - (k以降の数) &#43; (k&#43;1以降の数)と計算すれば良い(累積和の性質から)．
 E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的にダメだと思っていて放置していたやつ
-． 解答が詳しいのでそちらを参照． 繰り返し二乗法などを使うと速くなる．" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/abc162/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2020-04-13T16:57:30+09:00" />
-<meta property="article:modified_time" content="2020-04-13T16:57:30+09:00" />
-
+． 解答が詳しいのでそちらを参照． 繰り返し二乗法などを使うと速くなる．">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="kyopuro">
+    <meta property="article:published_time" content="2020-04-13T16:57:30+09:00">
+    <meta property="article:modified_time" content="2020-04-13T16:57:30+09:00">
 
 
     
@@ -77,7 +79,7 @@ E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的に
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.123.3">
+    <meta name="generator" content="Hugo 0.125.3">
   </head>
 
   
@@ -197,6 +199,9 @@ E - Sum of gcd of Tuples (Hard) 解法は思いついていたが計算量的に
     
 
     
+  
+
+
 
     
 

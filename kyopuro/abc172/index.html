@@ -19,7 +19,7 @@ D - Sum of Divisors 最近流行のエラトステネス的問題．
 長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． ">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ABC172の解説"/>
+    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="ABC172の解説">
 <meta name="twitter:description" content="C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回． 4完．
 コード
 A - Calc 計算するだけ
@@ -29,13 +29,15 @@ A，Bどちらの本も上限が10^5なので，全ての組み合わせを見�
 D - Sum of Divisors 最近流行のエラトステネス的問題．
 全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．
 実装としては，以下のようにする．
-長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． "/>
+長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． ">
 
     <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
     <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:title" content="ABC172の解説" />
-<meta property="og:description" content="C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回． 4完．
+    <meta property="og:url" content="https://t45k.github.io/kyopuro/abc172/">
+  <meta property="og:site_name" content="T45K">
+  <meta property="og:title" content="ABC172の解説">
+  <meta property="og:description" content="C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回． 4完．
 コード
 A - Calc 計算するだけ
 B - Minor Change 問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．
@@ -44,12 +46,12 @@ A，Bどちらの本も上限が10^5なので，全ての組み合わせを見�
 D - Sum of Divisors 最近流行のエラトステネス的問題．
 全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．
 実装としては，以下のようにする．
-長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． " />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/abc172/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2020-07-01T10:38:47+09:00" />
-<meta property="article:modified_time" content="2020-07-01T10:38:47+09:00" />
-
+長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &amp;lt;= i &amp;lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． ">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="kyopuro">
+    <meta property="article:published_time" content="2020-07-01T10:38:47+09:00">
+    <meta property="article:modified_time" content="2020-07-01T10:38:47+09:00">
 
 
     
@@ -86,7 +88,7 @@ D - Sum of Divisors 最近流行のエラトステネス的問題．
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.123.3">
+    <meta name="generator" content="Hugo 0.125.3">
   </head>
 
   
@@ -219,6 +221,9 @@ A，Bどちらの本も上限が10^5なので，全ての組み合わせを見�
     
 
     
+  
+
+
 
     
 

@@ -20,7 +20,7 @@ E - Almost Everywhere Zero 桁DP
 桁iが0でない時: 1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができるので，桁i-1までに0以外の数字が出現した回数をjとするとdp[i][j &#43; 1] &#43;= (桁iの数字 - 1) 桁を上から見て行った時に，0でない数字がK回出た時点で，それ以降の数字の決め方はNより小さいことが確定することに注意．">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ABC154の解説"/>
+    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="ABC154の解説">
 <meta name="twitter:description" content="A~Dまで．コード
 A - Remaining Balls Uで分岐
 B - I miss you&hellip; 入力の文字列の長さの回数&rsquo;x&rsquo;を出力
@@ -31,28 +31,30 @@ E - Almost Everywhere Zero 桁DP
 確定している場合をdp[|N|][K &#43; 1]と表現した時に，桁iでの状態遷移は以下のようになる
 桁i-1での状態 桁iでの状態 確定している 0を選択する: dp[i][k] &#43;= dp[i - 1][k]
 0以外を選択する: dp[i][k] &#43;= dp[i - 1][k - 1] * 9 確定していない 桁iが0の時: Nより小さくすることはできないので何もしない
-桁iが0でない時: 1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができるので，桁i-1までに0以外の数字が出現した回数をjとするとdp[i][j &#43; 1] &#43;= (桁iの数字 - 1) 桁を上から見て行った時に，0でない数字がK回出た時点で，それ以降の数字の決め方はNより小さいことが確定することに注意．"/>
+桁iが0でない時: 1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができるので，桁i-1までに0以外の数字が出現した回数をjとするとdp[i][j &#43; 1] &#43;= (桁iの数字 - 1) 桁を上から見て行った時に，0でない数字がK回出た時点で，それ以降の数字の決め方はNより小さいことが確定することに注意．">
 
     <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
     <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:title" content="ABC154の解説" />
-<meta property="og:description" content="A~Dまで．コード
+    <meta property="og:url" content="https://t45k.github.io/kyopuro/abc154/">
+  <meta property="og:site_name" content="T45K">
+  <meta property="og:title" content="ABC154の解説">
+  <meta property="og:description" content="A~Dまで．コード
 A - Remaining Balls Uで分岐
-B - I miss you&hellip; 入力の文字列の長さの回数&rsquo;x&rsquo;を出力
+B - I miss you&amp;hellip; 入力の文字列の長さの回数&amp;rsquo;x&amp;rsquo;を出力
 C - Distinct or Not 連想配列を使って数字が出現したかを確認
-D - Dice in Line 毎回期待値計算をすると遅いので，1000(&gt;= pi)までの累積和を計算しておく． あとは連続したKの要素の期待値の合計をそれぞれ求めるだけ．
+D - Dice in Line 毎回期待値計算をすると遅いので，1000(&amp;gt;= pi)までの累積和を計算しておく． あとは連続したKの要素の期待値の合計をそれぞれ求めるだけ．
 E - Almost Everywhere Zero 桁DP
 0でない(= 1 ~ 9)の数字がK回出る回数を数える． 桁を上から決定していき数え上げる． 桁の決定の仕方は，その桁を決める前の時点でNより小さいことが確定しているかどうかで変わる．
 確定している場合をdp[|N|][K &#43; 1]と表現した時に，桁iでの状態遷移は以下のようになる
 桁i-1での状態 桁iでの状態 確定している 0を選択する: dp[i][k] &#43;= dp[i - 1][k]
 0以外を選択する: dp[i][k] &#43;= dp[i - 1][k - 1] * 9 確定していない 桁iが0の時: Nより小さくすることはできないので何もしない
-桁iが0でない時: 1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができるので，桁i-1までに0以外の数字が出現した回数をjとするとdp[i][j &#43; 1] &#43;= (桁iの数字 - 1) 桁を上から見て行った時に，0でない数字がK回出た時点で，それ以降の数字の決め方はNより小さいことが確定することに注意．" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/abc154/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2020-02-09T22:40:15+09:00" />
-<meta property="article:modified_time" content="2020-02-09T22:40:15+09:00" />
-
+桁iが0でない時: 1 ~ (桁iの数字 - 1)までを選択することで確定している状態に持っていくことができるので，桁i-1までに0以外の数字が出現した回数をjとするとdp[i][j &#43; 1] &#43;= (桁iの数字 - 1) 桁を上から見て行った時に，0でない数字がK回出た時点で，それ以降の数字の決め方はNより小さいことが確定することに注意．">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="kyopuro">
+    <meta property="article:published_time" content="2020-02-09T22:40:15+09:00">
+    <meta property="article:modified_time" content="2020-02-09T22:40:15+09:00">
 
 
     
@@ -89,7 +91,7 @@ E - Almost Everywhere Zero 桁DP
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.123.3">
+    <meta name="generator" content="Hugo 0.125.3">
   </head>
 
   
@@ -225,6 +227,9 @@ E - Almost Everywhere Zero 桁DP
     
 
     
+  
+
+
 
     
 

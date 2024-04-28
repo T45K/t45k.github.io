@@ -18,7 +18,7 @@ E - Active Infants 原始的なDP（ほんまか？）．
 活発度が高い順に左か右に移動させる． 活発度を降順にソートした時，dp[i][j]を，(i&#43;j)番目の園児を移動させた結果左側にi人，右側にj人の時の嬉しさという風に考える． そうすると，dp[i][j]は左側にi-1人，右側にj人いるときに(i&#43;j)番目の園児を左側に移動させるか左側にi人，右側にj-1人いるときに(i&#43;j)番目の園児を右側に移動させるの嬉しさが大きい方になる．">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ABC163の解説"/>
+    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="ABC163の解説">
 <meta name="twitter:description" content="3完． unratedで良かった&hellip; コード
 A - Circle Pond やるだけ．
 円周は2 * r * 円周率． Javaだと円周率はjava.lang.Math.PIが使える．
@@ -27,26 +27,28 @@ C - management 問題文が若干ややこしい． やることは特定の数�
 D - Sum of Large Numbers 時間内に解けなかった． 組み合わせの問題だと思ってライブラリを引っ張ってきたけど使わなかった&hellip;
 各数字が10^100以上と十分大きいので，足し合わせる個数が違うとき同じ値になることはない． あるiに対してfront_sumを0からi-1までの和，back_sumをn-i&#43;1からnまでの和とすると， i個選択する時の組み合わせによって得られる和はi * 10^100 &#43; front_sumからi * 10^100 &#43; back_sumまでの間に収まる． つまり，back_sum - front_sum &#43; 1通りになる． front_sumとback_sumは累積和で取れるので，iをKからNまで動かして足し合わせれば良い．
 E - Active Infants 原始的なDP（ほんまか？）．
-活発度が高い順に左か右に移動させる． 活発度を降順にソートした時，dp[i][j]を，(i&#43;j)番目の園児を移動させた結果左側にi人，右側にj人の時の嬉しさという風に考える． そうすると，dp[i][j]は左側にi-1人，右側にj人いるときに(i&#43;j)番目の園児を左側に移動させるか左側にi人，右側にj-1人いるときに(i&#43;j)番目の園児を右側に移動させるの嬉しさが大きい方になる．"/>
+活発度が高い順に左か右に移動させる． 活発度を降順にソートした時，dp[i][j]を，(i&#43;j)番目の園児を移動させた結果左側にi人，右側にj人の時の嬉しさという風に考える． そうすると，dp[i][j]は左側にi-1人，右側にj人いるときに(i&#43;j)番目の園児を左側に移動させるか左側にi人，右側にj-1人いるときに(i&#43;j)番目の園児を右側に移動させるの嬉しさが大きい方になる．">
 
     <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
     <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:title" content="ABC163の解説" />
-<meta property="og:description" content="3完． unratedで良かった&hellip; コード
+    <meta property="og:url" content="https://t45k.github.io/kyopuro/abc163/">
+  <meta property="og:site_name" content="T45K">
+  <meta property="og:title" content="ABC163の解説">
+  <meta property="og:description" content="3完． unratedで良かった&amp;hellip; コード
 A - Circle Pond やるだけ．
 円周は2 * r * 円周率． Javaだと円周率はjava.lang.Math.PIが使える．
 B - Homework 全ての宿題をやるにはΣ Ai日かかるので，それをMと比較する．
 C - management 問題文が若干ややこしい． やることは特定の数字が何回出てくるかを数えるだけ． はじめに配列array[N &#43; 1]を用意して，各Aiに対してarray[Ai]&#43;&#43;する．
-D - Sum of Large Numbers 時間内に解けなかった． 組み合わせの問題だと思ってライブラリを引っ張ってきたけど使わなかった&hellip;
+D - Sum of Large Numbers 時間内に解けなかった． 組み合わせの問題だと思ってライブラリを引っ張ってきたけど使わなかった&amp;hellip;
 各数字が10^100以上と十分大きいので，足し合わせる個数が違うとき同じ値になることはない． あるiに対してfront_sumを0からi-1までの和，back_sumをn-i&#43;1からnまでの和とすると， i個選択する時の組み合わせによって得られる和はi * 10^100 &#43; front_sumからi * 10^100 &#43; back_sumまでの間に収まる． つまり，back_sum - front_sum &#43; 1通りになる． front_sumとback_sumは累積和で取れるので，iをKからNまで動かして足し合わせれば良い．
 E - Active Infants 原始的なDP（ほんまか？）．
-活発度が高い順に左か右に移動させる． 活発度を降順にソートした時，dp[i][j]を，(i&#43;j)番目の園児を移動させた結果左側にi人，右側にj人の時の嬉しさという風に考える． そうすると，dp[i][j]は左側にi-1人，右側にj人いるときに(i&#43;j)番目の園児を左側に移動させるか左側にi人，右側にj-1人いるときに(i&#43;j)番目の園児を右側に移動させるの嬉しさが大きい方になる．" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/abc163/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2020-04-21T16:22:58+09:00" />
-<meta property="article:modified_time" content="2020-04-21T16:22:58+09:00" />
-
+活発度が高い順に左か右に移動させる． 活発度を降順にソートした時，dp[i][j]を，(i&#43;j)番目の園児を移動させた結果左側にi人，右側にj人の時の嬉しさという風に考える． そうすると，dp[i][j]は左側にi-1人，右側にj人いるときに(i&#43;j)番目の園児を左側に移動させるか左側にi人，右側にj-1人いるときに(i&#43;j)番目の園児を右側に移動させるの嬉しさが大きい方になる．">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="kyopuro">
+    <meta property="article:published_time" content="2020-04-21T16:22:58+09:00">
+    <meta property="article:modified_time" content="2020-04-21T16:22:58+09:00">
 
 
     
@@ -83,7 +85,7 @@ E - Active Infants 原始的なDP（ほんまか？）．
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.123.3">
+    <meta name="generator" content="Hugo 0.125.3">
   </head>
 
   
@@ -209,6 +211,9 @@ i個選択する時の組み合わせによって得られる和は<code>i * 10^
     
 
     
+  
+
+
 
     
 

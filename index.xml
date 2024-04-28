@@ -6,10 +6,99 @@
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 Mar 2024 22:00:13 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 28 Apr 2024 17:27:26 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ベトナムに出張に行った話</title>
+      <link>https://t45k.github.io/blog/vietnam/</link>
+      <pubDate>Sun, 28 Apr 2024 17:27:26 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/vietnam/</guid>
+      <description>&lt;p&gt;現在勤めている会社のグループ会社がベトナムにあり、
+10日ほど出張で行かせてもらったので、感想を書き留めておく。&lt;/p&gt;
+&lt;h2 id=&#34;気候&#34;&gt;気候&lt;/h2&gt;
+&lt;p&gt;4月の時点で30℃越えで暑かった。
+今回行ったのが、ベトナム北部のハノイなので気温はまだマシ（冬場は10℃台になる）らしいが、
+南部のホーチミンは常に暑いらしい。&lt;/p&gt;
+&lt;p&gt;一方で常に曇り（もしくは大気汚染の影響）で、直射日光に当たることはあまりなかった。&lt;/p&gt;
+&lt;h2 id=&#34;交通&#34;&gt;交通&lt;/h2&gt;
+&lt;p&gt;公共交通機関があまり発達していないので、移動は主にGrab（東南アジアのUber）を利用した。&lt;/p&gt;
+&lt;p&gt;噂に聞いていた通り、交通量、特にバイクの数がすごく多く、
+さらに交通ルールを守らない（信号無視、逆走、歩行者通行中の走行）車両が多かったため、
+普通に歩くのも一苦労だった。&lt;/p&gt;
+&lt;p&gt;到着した時は「命がいくつあっても足りないな」と思った。&lt;/p&gt;
+&lt;h2 id=&#34;食事&#34;&gt;食事&lt;/h2&gt;
+&lt;p&gt;全体的にあっさりした味付けのものが多かったと思う。&lt;/p&gt;
+&lt;p&gt;米食中心の食文化であり、特に米粉から作られた麺料理を多く食べた。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/pho.jpg&#34;
+    alt=&#34;言わずと知れたフォー&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;言わずと知れたフォー&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/bun_cha.jpg&#34;
+    alt=&#34;つけ麺のブンチャー&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;つけ麺のブンチャー&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/bun_cha_like.jpg&#34;
+    alt=&#34;ブンチャーに似た何か&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;ブンチャーに似た何か&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/banh_mi.jpg&#34;
+    alt=&#34;サンドイッチのバインミー&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;サンドイッチのバインミー&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/kayu.jpg&#34;
+    alt=&#34;謎のホルモン入りお粥&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;謎のホルモン入りお粥&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;どれも美味しい上に安い（50K VND ≒ 300円ほど）。&lt;/p&gt;
+&lt;h3 id=&#34;酒&#34;&gt;酒&lt;/h3&gt;
+&lt;p&gt;ビールも種類が多い上に安かった（1缶12K VND ≒ 70円ほど）&lt;/p&gt;
+&lt;p&gt;味としては薄いものが多く、暑い日にごくごく飲むのが良さそうという感想だった。&lt;/p&gt;
+&lt;p&gt;氷を入れて飲むことも多いのも特徴的だった。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/bia_hoi_ha_noi.jpg&#34;
+    alt=&#34;ローカルなレストランで飲めるビール。60円くらい。世界で一番安いらしい&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;ローカルなレストランで飲めるビール。60円くらい。世界で一番安いらしい&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;その他、ハウスワインを作っている人も多い。&lt;/p&gt;
+&lt;p&gt;ハウスワインはワインの名を関しているがワインではなく、米焼酎に果物を漬け込んで作る、
+梅酒などに近い飲み物。&lt;/p&gt;
+&lt;h3 id=&#34;コーヒー&#34;&gt;コーヒー&lt;/h3&gt;
+&lt;p&gt;ベトナムでもコーヒー文化が根付いていて、食後に飲んでいる人が多かった印象。&lt;/p&gt;
+&lt;p&gt;ベトナムのコーヒーは苦めなので、牛乳と砂糖が入った甘くて飲みやすいものが人気があった。&lt;/p&gt;
+&lt;p&gt;また、エッグコーヒーというのもあり、こちらは新体験だった（本当に卵が入っている）。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/egg_coffee.jpg&#34;
+    alt=&#34;エッグコーヒー&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;エッグコーヒー&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;人々&#34;&gt;人々&lt;/h2&gt;
+&lt;p&gt;観測範囲で&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;朝早くから働く人が多い。暑いからかな&lt;/li&gt;
+&lt;li&gt;ちゃんと帰宅時間は守る&lt;/li&gt;
+&lt;li&gt;ビリヤードが好きでオフィスにあった&lt;/li&gt;
+&lt;li&gt;昼食をとったあとのんびり過ごす人が多い&lt;/li&gt;
+&lt;li&gt;ホスピタリティが高い。食事代は全て出してもらったし、休みの日にも観光案内してもらった&lt;/li&gt;
+&lt;li&gt;酒が好きな人が多い。良い話だ&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>佐賀までツーリングした話</title>
@@ -24,7 +113,7 @@
 &lt;p&gt;3/17（日）&lt;/p&gt;
 &lt;p&gt;ひとまず山口の湯田温泉に向かって出発&lt;/p&gt;
 &lt;p&gt;岡山で途中下車し笠岡ラーメンを食べようとするも、お目当ての店は休みだったため、近所にあった「いではら」に行った。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/kasaoka_ramen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/kasaoka_ramen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;当初そのまま下道で海沿いを通って山口に向かう予定だったが、途中で雨が降ってきたため、予定を変更して高速で移動。&lt;/p&gt;
@@ -35,20 +124,20 @@
 &lt;p&gt;3/18（月）&lt;/p&gt;
 &lt;p&gt;佐賀に向かう。&lt;/p&gt;
 &lt;p&gt;途中、本州最北端の毘沙ノ鼻に寄る。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/bisha_no_hana.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/bisha_no_hana.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;これで本州は西南北の最端を制覇。&lt;/p&gt;
 &lt;p&gt;そのまま高速で佐賀に移動。&lt;/p&gt;
 &lt;p&gt;お昼ご飯は河太郎で呼子のイカを食べる。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/yobuko_squid.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/yobuko_squid.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;このイカ、新鮮で臭みもネチャネチャした食感もなく、肉厚で弾力を甘味を楽しめた。
 満足。&lt;/p&gt;
 &lt;p&gt;そのまま嬉野温泉に移動。&lt;/p&gt;
 &lt;p&gt;晩飯は温泉湯豆腐を食べに行く。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/onsen_yudofu.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/onsen_yudofu.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;この湯豆腐、美味しんぼで紹介されていて昔から気になっていた。&lt;/p&gt;
@@ -57,14 +146,14 @@
 &lt;p&gt;3/19（火）&lt;/p&gt;
 &lt;p&gt;久留米が近かったので、大砲ラーメンを食べに行く。&lt;/p&gt;
 &lt;p&gt;有名店なので開店凸してもしばらく待つかな、と思ったが、開店が10:30と早いこともありすんなり入れる。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/kurume_ramen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/kurume_ramen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;しっかり美味しいとんこつラーメンだった。&lt;/p&gt;
 &lt;p&gt;そのまま、関門トンネルを通り山口の長門湯本温泉へ。&lt;/p&gt;
 &lt;p&gt;当初は広島の宮浜温泉に行く予定だったのだが、祝日前ということもあり予約を取り損ねた。&lt;/p&gt;
 &lt;p&gt;温泉地自体は川沿いで風情があり良かった。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/nagato_yumoto_onsen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/nagato_yumoto_onsen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;晩飯はいつものごとく。&lt;/p&gt;
@@ -537,11 +626,11 @@ YanagaさんはGoogleに勤めているJava Championの方です。
 &lt;h2 id=&#34;一日目&#34;&gt;一日目&lt;/h2&gt;
 &lt;p&gt;出発。とりあえず行きは日本海側から向かうことにした。&lt;/p&gt;
 &lt;p&gt;昼は金沢の金沢まいもん寿司で高いセットを食べた。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/kanazawa_sushi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/kanazawa_sushi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;石浦神社に安全を祈願しに行った。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ishiura_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ishiura_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま高速で北上して富山の宇奈月温泉へ。
@@ -550,13 +639,13 @@ YanagaさんはGoogleに勤めているJava Championの方です。
 &lt;p&gt;朝ご飯もホテルのビュッフェ。&lt;/p&gt;
 &lt;p&gt;お昼は新潟で燕三条ラーメン。
 背脂チャッチャ系で旨い。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/tsubame_sanjo_ramen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/tsubame_sanjo_ramen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;その足で弥彦神社に行った。
 ここは二礼四拍手一礼で参拝するという結構珍しい神社だった。
 こういう大きめの神社は、鳥居から社までの道も神聖な感じがして良かった。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/yahiko_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/yahiko_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま下道で山形を通り越して秋田の田沢湖温泉へ。
@@ -568,31 +657,31 @@ YanagaさんはGoogleに勤めているJava Championの方です。
 &lt;p&gt;秋田の山を越えて青森に入る。
 秋田の山はまだ雪が残っていて辛かった。&lt;/p&gt;
 &lt;p&gt;青森に入ってすぐにスウェットパーカーを買った。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/akita_mountain.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/akita_mountain.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;青森では煮干しラーメンを食す。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/niboshi_ramen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/niboshi_ramen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;廣田神社に参拝した。
 ここは疫病の神様を祀ってあるとかなんとか。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/hirota_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/hirota_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま浅虫温泉で一泊。&lt;/p&gt;
 &lt;h2 id=&#34;四日目&#34;&gt;四日目&lt;/h2&gt;
 &lt;p&gt;予定通り大間崎へ向かう。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/omazaki.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/omazaki.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;大間はマグロの漁獲量が日本一なので、昼飯にマグロ丼を食べる。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/magurodon.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/magurodon.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま下道を走って岩手へ。
 岩手では盛岡冷麺を頂く。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/morioka_remen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/morioka_remen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま瀬美温泉へ。&lt;/p&gt;
@@ -602,7 +691,7 @@ YanagaさんはGoogleに勤めているJava Championの方です。
 &lt;p&gt;朝5:45に出発。
 途中のSAで朝飯を取ったり、休憩したりしながら南下する。&lt;/p&gt;
 &lt;p&gt;静岡で一旦高速を降りて、さわやかでハンバーグを食べる。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/sawayaka.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/sawayaka.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま再び高速に乗って大阪へ。
@@ -2846,14 +2935,14 @@ ERAのacc. rateが高いのでレベルは推して知るべしという感じ�
 走行距離は500kmほどです．&lt;/p&gt;
 &lt;p&gt;まずはUFOラインを通って高知まで行きました．
 UFOラインは愛媛と高知を結ぶ山道です．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ufo_line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ufo_line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 UFOラインは天空の道とも呼ばれるほど，道の標高が高いです（1,700mくらい）．
 なので，周りの山々を一望でき，とても景色を楽しめました．
 道自体は非常に狭いので，車で行く際には注意してください．&lt;/p&gt;
 &lt;p&gt;高知では，ひろめ市場でカツオのたたきをいただきました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/katsuo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/katsuo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 カツオのハランボ（お腹の部分．マグロで言うトロ）が脂が乗っておりとても美味しかったです．&lt;/p&gt;
@@ -2876,10 +2965,10 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
       <description>&lt;p&gt;四日目は指宿からフェリーを使って道後まで行きました．
 走行距離は500kmくらいでした．&lt;/p&gt;
 &lt;p&gt;まずはじめに宮崎県にある青島神社に行きました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine1.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine1.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine2.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine2.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 青島神社は島全体が神社になっています．
@@ -2889,14 +2978,14 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 バイクでフェリーに乗るのは初めてだったので，ワクワクしました．&lt;/p&gt;
 &lt;p&gt;愛媛に着いてからは道後温泉を目指しました．
 途中で海に近い駅として有名な下灘駅があったので立ち寄ってきました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/shimonada_station.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/shimonada_station.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 綺麗な夕焼けをバックにエモい写真を取りたかったのですが，曇っていたためうまく映えませんでした．
 また，この駅は海のすぐ隣にあると思っていたのですが，実は道路を一本挟んでいます．&lt;/p&gt;
 &lt;p&gt;夜は道後温泉の近くに止まりました．
 お風呂は道後温泉本館に行きました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/dougo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/dougo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 道後温泉本館はおそらく現存する最古の大衆浴場で，お風呂や扉の作りから古くからあるのが見て取れました．
@@ -2925,20 +3014,20 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 バイクで雨の中を移動したため，体がとても冷えた上に
 バイクを傾けたら滑りそうになったこともあって死ぬかと思いました．&lt;/p&gt;
 &lt;p&gt;熊本県では研究室の先生おすすめの天外天さんのラーメンを食べました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/tengaiten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/tengaiten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 かかっているニンニクパウダーの香りが良く，美味しかったです．&lt;/p&gt;
 &lt;p&gt;その後ひたすら南下し指宿温泉まで行きました．
 また，指宿温泉の近所の龍宮神社に行きました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ryugu_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ryugu_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 龍宮神社はその名の通り，浦島太郎の物語の発祥となった神社です．&lt;/p&gt;
 &lt;p&gt;晩御飯は近所のイオンで買った鶏のたたきと芋焼酎にしました．
 イオンで普通に生食用の鶏肉が売ってたり，焼酎の品揃えが異様に良かったりしたところに鹿児島を感じました．
 イオンから桜島が見えました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/sakurajima.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/sakurajima.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;../tour_day1/&#34;&gt;一日目&lt;/a&gt;
@@ -2958,19 +3047,19 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
       <description>&lt;p&gt;2日目は広島県を経由して大分まで行きました．
 1日で500km以上移動したので結構疲れました．&lt;/p&gt;
 &lt;p&gt;厳島神社（修理中の姿）
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/itsukushima_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/itsukushima_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 大鳥居が見れなくて残念でした．&lt;/p&gt;
 &lt;p&gt;お昼ご飯の「あなごめし うえの」さんの穴子めし
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/anagomeshi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/anagomeshi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 今まで，穴子は鰻の下位互換と考えていましたが，ここの穴子めしは本当に美味しくて，
 その考えが覆されました．
 穴子が肉厚で弾力があり，それが炭火で焼かれていて香ばしかったです．&lt;/p&gt;
 &lt;p&gt;次に，山口にある錦帯橋に行きました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/kintai_bridge.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/kintai_bridge.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 本来予定にはなかったのですが，どうやら広島，山口ツーリングではそこに行くのが鉄板らしかったので．&lt;/p&gt;
@@ -2979,10 +3068,10 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 高速道路で道を間違えて次のICでUターンする経験もしました．
 晩御飯は近くの居酒屋で取りました．
 大分名物のとり天や豊後アジ，豊後サバを楽しみました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/toriten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/toriten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;../tour_day1/&#34;&gt;一日目&lt;/a&gt;
@@ -3003,24 +3092,24 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 1日で400km近くバイクで移動しましたが，高速がメインだったのでそこまで疲れませんでした．
 高速を降りてからヘルメットを確認してみると，移動中にぶつかったであろう小さい虫の死骸がたくさんへばりついていました&amp;hellip;&lt;/p&gt;
 &lt;p&gt;出雲大社
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/izumo_taisha.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/izumo_taisha.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;お昼ご飯の出雲そば．
 出雲そばはそばを3つの器に分けて提供するのが特徴的です．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/izumo_soba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/izumo_soba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;チェックインまで時間があったので松江城にも行きました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/matsue_castle.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/matsue_castle.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;宿に着いた途端に立ちゴケしてブレーキレバーを壊しました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/brake_broken.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/brake_broken.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;夕飯は，松江のイオンで買った地酒とお寿司でした．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/shimane_zizake.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/shimane_zizake.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;一日目
@@ -4384,7 +4473,7 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 &lt;/ul&gt;
 &lt;p&gt;に対して&lt;code&gt;ac[i + j] == true&lt;/code&gt;となれば，その配置は矛盾がないことになる．
 図だとこんな感じ&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/kyopuro/pana2020_e.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/kyopuro/pana2020_e.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;iの探索範囲は0からaの長さ，jの探索範囲はbの長さかiからaの終端までの長さの長い方になる．&lt;br&gt;
@@ -4914,7 +5003,7 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
       
       <guid>https://t45k.github.io/blog/devday/</guid>
       <description>&lt;p&gt;11/20，21に開催されたLINE DEV DAYに参加してきました．&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/devday.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/devday.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;dev-dayとは&#34;&gt;DEV DAYとは&lt;/h2&gt;
@@ -4991,7 +5080,7 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
       <pubDate>Fri, 13 Sep 2019 18:21:32 +0900</pubDate>
       
       <guid>https://t45k.github.io/blog/rakuten/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_morning.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_morning.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;9/9~13の間，大阪で開催された楽天様のインターンに参加してきました．
@@ -5030,7 +5119,7 @@ AWSの時はまったく理解できなくて着いていけなくなった経�
       <pubDate>Fri, 30 Aug 2019 18:13:39 +0900</pubDate>
       
       <guid>https://t45k.github.io/blog/line/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;8/26~30の間，京都で開催されたLINE KYOTOのインターンに参加してきました．&lt;/p&gt;

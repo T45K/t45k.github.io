@@ -18,7 +18,7 @@ E - Rotation Matching 同じ組み合わせを避けていく問題．
 例えば，組み合わせ(1,N)は(1,2)と同じ組み合わせになる． したがって，(組み合わせの方の大きい方)-(小さい方)を組み合わせの距離と定義すると，距離N-iと距離iは同じ組み合わせである． これを念頭に入れてN-1からN-mまでの組み合わせを考えていく． (1,N)(2,N-1)&hellip;と作っていくと距離N-1,N-3&hellip;と1飛ばしに組み合わせを作れる． 途中で折り返しをうまく調整して距離N-2,N-4&hellip;の組み合わせを作る．">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ABC165の解説"/>
+    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="ABC165の解説">
 <meta name="twitter:description" content="二日連続ABCの一日目． 3完． コード
 A - We Love Golf きちんと数学して解くこともできるが，制約が小さいので全探索しても間に合う． AからBまでの閉区間内にKの倍数があるか確認する．
 B - 1% これもきちんと数学して解けるけど全探索で解ける系． 入力例から分かるように，10^18が与えられても出力は3760になるので，1~3760までの区間を探索するだけで良い．
@@ -27,13 +27,15 @@ C - Many Requirements 解けませんでした
 全列挙に必要な計算量が10^10だと思っていたので試さなかったが，実際にはボールとしきりの要領で組み合わせを考えると計算量は*O(N * C(N&#43;M-1,N))*なので，全列挙しても十分間に合う．
 D - Floor Function 数学．editorialが分かりやすいです．
 E - Rotation Matching 同じ組み合わせを避けていく問題．
-例えば，組み合わせ(1,N)は(1,2)と同じ組み合わせになる． したがって，(組み合わせの方の大きい方)-(小さい方)を組み合わせの距離と定義すると，距離N-iと距離iは同じ組み合わせである． これを念頭に入れてN-1からN-mまでの組み合わせを考えていく． (1,N)(2,N-1)&hellip;と作っていくと距離N-1,N-3&hellip;と1飛ばしに組み合わせを作れる． 途中で折り返しをうまく調整して距離N-2,N-4&hellip;の組み合わせを作る．"/>
+例えば，組み合わせ(1,N)は(1,2)と同じ組み合わせになる． したがって，(組み合わせの方の大きい方)-(小さい方)を組み合わせの距離と定義すると，距離N-iと距離iは同じ組み合わせである． これを念頭に入れてN-1からN-mまでの組み合わせを考えていく． (1,N)(2,N-1)&hellip;と作っていくと距離N-1,N-3&hellip;と1飛ばしに組み合わせを作れる． 途中で折り返しをうまく調整して距離N-2,N-4&hellip;の組み合わせを作る．">
 
     <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
     <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:title" content="ABC165の解説" />
-<meta property="og:description" content="二日連続ABCの一日目． 3完． コード
+    <meta property="og:url" content="https://t45k.github.io/kyopuro/abc165/">
+  <meta property="og:site_name" content="T45K">
+  <meta property="og:title" content="ABC165の解説">
+  <meta property="og:description" content="二日連続ABCの一日目． 3完． コード
 A - We Love Golf きちんと数学して解くこともできるが，制約が小さいので全探索しても間に合う． AからBまでの閉区間内にKの倍数があるか確認する．
 B - 1% これもきちんと数学して解けるけど全探索で解ける系． 入力例から分かるように，10^18が与えられても出力は3760になるので，1~3760までの区間を探索するだけで良い．
 C - Many Requirements 解けませんでした
@@ -41,12 +43,12 @@ C - Many Requirements 解けませんでした
 全列挙に必要な計算量が10^10だと思っていたので試さなかったが，実際にはボールとしきりの要領で組み合わせを考えると計算量は*O(N * C(N&#43;M-1,N))*なので，全列挙しても十分間に合う．
 D - Floor Function 数学．editorialが分かりやすいです．
 E - Rotation Matching 同じ組み合わせを避けていく問題．
-例えば，組み合わせ(1,N)は(1,2)と同じ組み合わせになる． したがって，(組み合わせの方の大きい方)-(小さい方)を組み合わせの距離と定義すると，距離N-iと距離iは同じ組み合わせである． これを念頭に入れてN-1からN-mまでの組み合わせを考えていく． (1,N)(2,N-1)&hellip;と作っていくと距離N-1,N-3&hellip;と1飛ばしに組み合わせを作れる． 途中で折り返しをうまく調整して距離N-2,N-4&hellip;の組み合わせを作る．" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/abc165/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2020-05-04T22:58:03+09:00" />
-<meta property="article:modified_time" content="2020-05-04T22:58:03+09:00" />
-
+例えば，組み合わせ(1,N)は(1,2)と同じ組み合わせになる． したがって，(組み合わせの方の大きい方)-(小さい方)を組み合わせの距離と定義すると，距離N-iと距離iは同じ組み合わせである． これを念頭に入れてN-1からN-mまでの組み合わせを考えていく． (1,N)(2,N-1)&amp;hellip;と作っていくと距離N-1,N-3&amp;hellip;と1飛ばしに組み合わせを作れる． 途中で折り返しをうまく調整して距離N-2,N-4&amp;hellip;の組み合わせを作る．">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="kyopuro">
+    <meta property="article:published_time" content="2020-05-04T22:58:03+09:00">
+    <meta property="article:modified_time" content="2020-05-04T22:58:03+09:00">
 
 
     
@@ -83,7 +85,7 @@ E - Rotation Matching 同じ組み合わせを避けていく問題．
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.123.3">
+    <meta name="generator" content="Hugo 0.125.3">
   </head>
 
   
@@ -206,6 +208,9 @@ AからBまでの閉区間内にKの倍数があるか確認する．</p>
     
 
     
+  
+
+
 
     
 

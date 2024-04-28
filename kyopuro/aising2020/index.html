@@ -17,7 +17,7 @@ D - Anything Goes to Zero 意外と難しかったらしい問題
 条件から，各Xiを最初に割るのは，popcount(X)±1となる． また桁iが0の時，Xi = X &#43; 2^i，1の時，Xi = X - 2^1となることから， Xの値と各2^iの値を最初に求めておけば，最初の余を求めるところ以降は愚直にやっても間に合う． Xの値と各2^iの値は非常に大きくなる可能性があるので，何らかの値で割った余りを利用したい． ここで，条件から，各Xiを最初に割るのは，popcount(X)±1となるので，popcount(X)±1で割った余りを記録して， 桁iの値で使い分ければ良い.">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="エイシングプログラミングコンテスト2020の解説"/>
+    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="エイシングプログラミングコンテスト2020の解説">
 <meta name="twitter:description" content="4完． コード 実装が重かった印象．
 A - Number of Multiples for文で回すだけ
 B - An Odd Problem for文で回すだけ
@@ -25,25 +25,27 @@ C - XYZ Triplets ゴリ押し全探索
 N&lt;=10^4から，x,y,zそれぞれの最大値は10^2になることが分かる． なので，x，yを1から10^2まで全探索しても計算量は全体で10^8に抑えられる．
 計算方法だが，xとyが決まればあとはzの二次方程式となるため，解の公式を使えば条件を満たすzが存在するかがO(1)で分かる．
 D - Anything Goes to Zero 意外と難しかったらしい問題
-条件から，各Xiを最初に割るのは，popcount(X)±1となる． また桁iが0の時，Xi = X &#43; 2^i，1の時，Xi = X - 2^1となることから， Xの値と各2^iの値を最初に求めておけば，最初の余を求めるところ以降は愚直にやっても間に合う． Xの値と各2^iの値は非常に大きくなる可能性があるので，何らかの値で割った余りを利用したい． ここで，条件から，各Xiを最初に割るのは，popcount(X)±1となるので，popcount(X)±1で割った余りを記録して， 桁iの値で使い分ければ良い."/>
+条件から，各Xiを最初に割るのは，popcount(X)±1となる． また桁iが0の時，Xi = X &#43; 2^i，1の時，Xi = X - 2^1となることから， Xの値と各2^iの値を最初に求めておけば，最初の余を求めるところ以降は愚直にやっても間に合う． Xの値と各2^iの値は非常に大きくなる可能性があるので，何らかの値で割った余りを利用したい． ここで，条件から，各Xiを最初に割るのは，popcount(X)±1となるので，popcount(X)±1で割った余りを記録して， 桁iの値で使い分ければ良い.">
 
     <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
     <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:title" content="エイシングプログラミングコンテスト2020の解説" />
-<meta property="og:description" content="4完． コード 実装が重かった印象．
+    <meta property="og:url" content="https://t45k.github.io/kyopuro/aising2020/">
+  <meta property="og:site_name" content="T45K">
+  <meta property="og:title" content="エイシングプログラミングコンテスト2020の解説">
+  <meta property="og:description" content="4完． コード 実装が重かった印象．
 A - Number of Multiples for文で回すだけ
 B - An Odd Problem for文で回すだけ
 C - XYZ Triplets ゴリ押し全探索
-N&lt;=10^4から，x,y,zそれぞれの最大値は10^2になることが分かる． なので，x，yを1から10^2まで全探索しても計算量は全体で10^8に抑えられる．
+N&amp;lt;=10^4から，x,y,zそれぞれの最大値は10^2になることが分かる． なので，x，yを1から10^2まで全探索しても計算量は全体で10^8に抑えられる．
 計算方法だが，xとyが決まればあとはzの二次方程式となるため，解の公式を使えば条件を満たすzが存在するかがO(1)で分かる．
 D - Anything Goes to Zero 意外と難しかったらしい問題
-条件から，各Xiを最初に割るのは，popcount(X)±1となる． また桁iが0の時，Xi = X &#43; 2^i，1の時，Xi = X - 2^1となることから， Xの値と各2^iの値を最初に求めておけば，最初の余を求めるところ以降は愚直にやっても間に合う． Xの値と各2^iの値は非常に大きくなる可能性があるので，何らかの値で割った余りを利用したい． ここで，条件から，各Xiを最初に割るのは，popcount(X)±1となるので，popcount(X)±1で割った余りを記録して， 桁iの値で使い分ければ良い." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/aising2020/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2020-07-13T18:19:23+09:00" />
-<meta property="article:modified_time" content="2020-07-13T18:19:23+09:00" />
-
+条件から，各Xiを最初に割るのは，popcount(X)±1となる． また桁iが0の時，Xi = X &#43; 2^i，1の時，Xi = X - 2^1となることから， Xの値と各2^iの値を最初に求めておけば，最初の余を求めるところ以降は愚直にやっても間に合う． Xの値と各2^iの値は非常に大きくなる可能性があるので，何らかの値で割った余りを利用したい． ここで，条件から，各Xiを最初に割るのは，popcount(X)±1となるので，popcount(X)±1で割った余りを記録して， 桁iの値で使い分ければ良い.">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="kyopuro">
+    <meta property="article:published_time" content="2020-07-13T18:19:23+09:00">
+    <meta property="article:modified_time" content="2020-07-13T18:19:23+09:00">
 
 
     
@@ -80,7 +82,7 @@ D - Anything Goes to Zero 意外と難しかったらしい問題
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.123.3">
+    <meta name="generator" content="Hugo 0.125.3">
   </head>
 
   
@@ -200,6 +202,9 @@ Xの値と各2^iの値は非常に大きくなる可能性があるので，何�
     
 
     
+  
+
+
 
     
 

@@ -18,7 +18,7 @@ E - Unique Color 木を深さ優先探索する。 今までに出現した色�
 頂点xに到達した時、xの色に対応する配列の値がfalseだった場合、 xと頂点1からのパスにxの色が存在しないので、xはよい頂点になる。 逆に配列がtrueだった場合、よい頂点ではない。 xの色に対応する配列の値をtrueにする。 xの子に対して再帰的に上の手順を当てる。 xから登っていく（再帰関数を抜ける）時、xがよい頂点だったら、配列の値をfalseにしておく。 ">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ABC198の解説"/>
+    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="ABC198の解説">
 <meta name="twitter:description" content="ABCEの4完。 その後Dを通した。 惜しかった。 コード
 A - Div A君1個B君N-1個~A君N-1個B君1個までのN-1通り
 B - Palindrome with leading zeros 意外と面倒臭い
@@ -27,13 +27,15 @@ C - Compass Walking 点(X,Y)までの距離がRの倍数だったらそのまま
 点(X,Y)がR未満の時答えが2になることに注意。
 D - Send More Money 覆面算の条件から、使えるアルファベットは10種類以内になる（逆に、アルファベットが11種類以上の時、鳩の巣原理から数字が被ってしまう）。 あとは0~9までの順列をアルファベットに対応させて検証すれば良い。
 E - Unique Color 木を深さ優先探索する。 今までに出現した色を記録する配列をboolean[10^5&#43;1]とすると、以下のようなdfsで答えが求まる。
-頂点xに到達した時、xの色に対応する配列の値がfalseだった場合、 xと頂点1からのパスにxの色が存在しないので、xはよい頂点になる。 逆に配列がtrueだった場合、よい頂点ではない。 xの色に対応する配列の値をtrueにする。 xの子に対して再帰的に上の手順を当てる。 xから登っていく（再帰関数を抜ける）時、xがよい頂点だったら、配列の値をfalseにしておく。 "/>
+頂点xに到達した時、xの色に対応する配列の値がfalseだった場合、 xと頂点1からのパスにxの色が存在しないので、xはよい頂点になる。 逆に配列がtrueだった場合、よい頂点ではない。 xの色に対応する配列の値をtrueにする。 xの子に対して再帰的に上の手順を当てる。 xから登っていく（再帰関数を抜ける）時、xがよい頂点だったら、配列の値をfalseにしておく。 ">
 
     <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
     <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:title" content="ABC198の解説" />
-<meta property="og:description" content="ABCEの4完。 その後Dを通した。 惜しかった。 コード
+    <meta property="og:url" content="https://t45k.github.io/kyopuro/abc198/">
+  <meta property="og:site_name" content="T45K">
+  <meta property="og:title" content="ABC198の解説">
+  <meta property="og:description" content="ABCEの4完。 その後Dを通した。 惜しかった。 コード
 A - Div A君1個B君N-1個~A君N-1個B君1個までのN-1通り
 B - Palindrome with leading zeros 意外と面倒臭い
 後ろの0を全て削ってから回文確認をする
@@ -41,12 +43,12 @@ C - Compass Walking 点(X,Y)までの距離がRの倍数だったらそのまま
 点(X,Y)がR未満の時答えが2になることに注意。
 D - Send More Money 覆面算の条件から、使えるアルファベットは10種類以内になる（逆に、アルファベットが11種類以上の時、鳩の巣原理から数字が被ってしまう）。 あとは0~9までの順列をアルファベットに対応させて検証すれば良い。
 E - Unique Color 木を深さ優先探索する。 今までに出現した色を記録する配列をboolean[10^5&#43;1]とすると、以下のようなdfsで答えが求まる。
-頂点xに到達した時、xの色に対応する配列の値がfalseだった場合、 xと頂点1からのパスにxの色が存在しないので、xはよい頂点になる。 逆に配列がtrueだった場合、よい頂点ではない。 xの色に対応する配列の値をtrueにする。 xの子に対して再帰的に上の手順を当てる。 xから登っていく（再帰関数を抜ける）時、xがよい頂点だったら、配列の値をfalseにしておく。 " />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://t45k.github.io/kyopuro/abc198/" /><meta property="article:section" content="kyopuro" />
-<meta property="article:published_time" content="2021-04-18T17:47:27+09:00" />
-<meta property="article:modified_time" content="2021-04-18T17:47:27+09:00" />
-
+頂点xに到達した時、xの色に対応する配列の値がfalseだった場合、 xと頂点1からのパスにxの色が存在しないので、xはよい頂点になる。 逆に配列がtrueだった場合、よい頂点ではない。 xの色に対応する配列の値をtrueにする。 xの子に対して再帰的に上の手順を当てる。 xから登っていく（再帰関数を抜ける）時、xがよい頂点だったら、配列の値をfalseにしておく。 ">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="kyopuro">
+    <meta property="article:published_time" content="2021-04-18T17:47:27+09:00">
+    <meta property="article:modified_time" content="2021-04-18T17:47:27+09:00">
 
 
     
@@ -83,7 +85,7 @@ E - Unique Color 木を深さ優先探索する。 今までに出現した色�
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.123.3">
+    <meta name="generator" content="Hugo 0.125.3">
   </head>
 
   
@@ -210,6 +212,9 @@ E - Unique Color 木を深さ優先探索する。 今までに出現した色�
     
 
     
+  
+
+
 
     
 
