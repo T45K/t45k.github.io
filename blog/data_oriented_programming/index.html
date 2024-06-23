@@ -25,15 +25,17 @@ OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い 
 データ指向プログラミング [ Yehonathan Sharvit ]">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="「データ指向プログラミング」読了">
-<meta name="twitter:description" content="データ指向プログラミングを読んだ。
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="「データ指向プログラミング」読了">
+  <meta name="twitter:description" content="データ指向プログラミングを読んだ。
 本書では、データ指向プログラミングと名付けられた、イミュータブルかつ汎用的なデータ構造で表現されたデータと 参照透過かつジェネリックな関数を使ったプログラミング方法を紹介している。
 イミュータブルなデータと参照透過なメソッドを使ったプログラミングは普段から実践しており、 それらを使って柔軟なシステムを構築する方法を紹介している本書にはとても興味があった。 が、内容としてはかなりがっかりした。
 本書では、データを表現するためにクラスではなくマップを使うことを前提において話が進んでいく。 つまり
 data class Hoge(fuga: Int, piyo: String) val hoge = Hoge(0, &#34;&#34;) を
 val hoge = mapOf( &#34;fuga&#34; to 0, &#34;piyo&#34; to &#34;&#34;, ) で書こうという内容だった。 この方法は確かに柔軟になるかもしれないが、静的型付けによる安全性を完全に無視しており、かなりがっかりした。
 書籍内でもこのことについて触れられていて、以下のように紹介されていた。
-OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い これは各要素を&quot;高い&quot;、&ldquo;低い&quot;のboolで表現しているDOPが良さそうに見えるだけで、 点数を付けるとDOPの安全性が-5000億くらいでトータだとOOPの方が良さそうだなと感じた （また、表では触れられていないが、フィールドアクセス時に保管が効かないので、コーディング中のストレスがとんでもないことになりそう）。
+OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い これは各要素を&#34;高い&#34;、“低い&#34;のboolで表現しているDOPが良さそうに見えるだけで、 点数を付けるとDOPの安全性が-5000億くらいでトータだとOOPの方が良さそうだなと感じた （また、表では触れられていないが、フィールドアクセス時に保管が効かないので、コーディング中のストレスがとんでもないことになりそう）。
 その他の感想:
 &#43; JSON Schema便利そう
 &#43; データの（デ）シリアライズが簡単なので、REPLが使いやすいのは良い
@@ -53,10 +55,10 @@ OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い 
 本書では、データ指向プログラミングと名付けられた、イミュータブルかつ汎用的なデータ構造で表現されたデータと 参照透過かつジェネリックな関数を使ったプログラミング方法を紹介している。
 イミュータブルなデータと参照透過なメソッドを使ったプログラミングは普段から実践しており、 それらを使って柔軟なシステムを構築する方法を紹介している本書にはとても興味があった。 が、内容としてはかなりがっかりした。
 本書では、データを表現するためにクラスではなくマップを使うことを前提において話が進んでいく。 つまり
-data class Hoge(fuga: Int, piyo: String) val hoge = Hoge(0, &amp;#34;&amp;#34;) を
-val hoge = mapOf( &amp;#34;fuga&amp;#34; to 0, &amp;#34;piyo&amp;#34; to &amp;#34;&amp;#34;, ) で書こうという内容だった。 この方法は確かに柔軟になるかもしれないが、静的型付けによる安全性を完全に無視しており、かなりがっかりした。
+data class Hoge(fuga: Int, piyo: String) val hoge = Hoge(0, &#34;&#34;) を
+val hoge = mapOf( &#34;fuga&#34; to 0, &#34;piyo&#34; to &#34;&#34;, ) で書こうという内容だった。 この方法は確かに柔軟になるかもしれないが、静的型付けによる安全性を完全に無視しており、かなりがっかりした。
 書籍内でもこのことについて触れられていて、以下のように紹介されていた。
-OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い これは各要素を&amp;quot;高い&amp;quot;、&amp;ldquo;低い&amp;quot;のboolで表現しているDOPが良さそうに見えるだけで、 点数を付けるとDOPの安全性が-5000億くらいでトータだとOOPの方が良さそうだなと感じた （また、表では触れられていないが、フィールドアクセス時に保管が効かないので、コーディング中のストレスがとんでもないことになりそう）。
+OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い これは各要素を&#34;高い&#34;、“低い&#34;のboolで表現しているDOPが良さそうに見えるだけで、 点数を付けるとDOPの安全性が-5000億くらいでトータだとOOPの方が良さそうだなと感じた （また、表では触れられていないが、フィールドアクセス時に保管が効かないので、コーディング中のストレスがとんでもないことになりそう）。
 その他の感想:
 &#43; JSON Schema便利そう
 &#43; データの（デ）シリアライズが簡単なので、REPLが使いやすいのは良い
@@ -67,7 +69,7 @@ OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い 
 データ指向プログラミング [ Yehonathan Sharvit ]">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
-  <meta property="article:section" content="blog">
+    <meta property="article:section" content="blog">
     <meta property="article:published_time" content="2023-07-01T19:17:51+09:00">
     <meta property="article:modified_time" content="2023-07-01T19:17:51+09:00">
     <meta property="article:tag" content="技術書">
@@ -107,7 +109,7 @@ OOP DOP 安全性 高い 低い 柔軟性 低い 高い 汎用性 低い 高い 
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.125.3">
+    <meta name="generator" content="Hugo 0.127.0">
   </head>
 
   

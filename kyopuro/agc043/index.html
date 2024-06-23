@@ -15,12 +15,14 @@ B - 123 Triangle 誰がこんな解法思いつくんでしょうね&hellip;(解
 今回は偶奇が欲しいので，各組み合わせの2で割った余りだけで十分である． そこでLucasの定理を用いる(リンク参照)． 定理に従うと手順はこう．">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="AGC043の解説">
-<meta name="twitter:description" content="1完．コード
-A - Range Flip Find Route 全探索の計算量をいかに減らせるかがポイント．DPは思いつかんかった&hellip;
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AGC043の解説">
+  <meta name="twitter:description" content="1完．コード
+A - Range Flip Find Route 全探索の計算量をいかに減らせるかがポイント．DPは思いつかんかった…
 右か下にしか移動できない時，黒ゾーンに入ってから出るまでの経路を一回の操作で白にできる（公式参照）． なので，白から黒に入る経路のコストを1，それ以外を0とみなした最短経路問題に落とし込むことができる． ダイクストラ法を使うと計算量は頂点数Vと辺数Eに対してO(V * log(E))となる． 今回の頂点数VはV &lt;= H * W = 10 ^ 4となる． また，一つの頂点に対して辺の数はたかだか2(右に移動するか下に移動するかの2通り)なので，十分間に合う．
-B - 123 Triangle 誰がこんな解法思いつくんでしょうね&hellip;(解説AC)
-答えは0，1，2のいずれかになるので，初めに答えの偶奇を判定する． 各aは先に1引いといても問題ない． 偶奇判定なので，abs(a - b)ではなくa xor bで良い． そうすると， x n,1 = ( C 0 n-1 ⁢ x 1,1 ^ C 1 n-1 ⁢ x 1,2 ^ &hellip; ^ C n-1 n-1 ⁢ x 1,n ) % 2 となる． そのため，各組み合わせを計算すれば良い．
+B - 123 Triangle 誰がこんな解法思いつくんでしょうね…(解説AC)
+答えは0，1，2のいずれかになるので，初めに答えの偶奇を判定する． 各aは先に1引いといても問題ない． 偶奇判定なので，abs(a - b)ではなくa xor bで良い． そうすると， x n,1 = ( C 0 n-1 ⁢ x 1,1 ^ C 1 n-1 ⁢ x 1,2 ^ … ^ C n-1 n-1 ⁢ x 1,n ) % 2 となる． そのため，各組み合わせを計算すれば良い．
 今回は偶奇が欲しいので，各組み合わせの2で割った余りだけで十分である． そこでLucasの定理を用いる(リンク参照)． 定理に従うと手順はこう．">
 
     <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
@@ -30,14 +32,14 @@ B - 123 Triangle 誰がこんな解法思いつくんでしょうね&hellip;(解
   <meta property="og:site_name" content="T45K">
   <meta property="og:title" content="AGC043の解説">
   <meta property="og:description" content="1完．コード
-A - Range Flip Find Route 全探索の計算量をいかに減らせるかがポイント．DPは思いつかんかった&amp;hellip;
-右か下にしか移動できない時，黒ゾーンに入ってから出るまでの経路を一回の操作で白にできる（公式参照）． なので，白から黒に入る経路のコストを1，それ以外を0とみなした最短経路問題に落とし込むことができる． ダイクストラ法を使うと計算量は頂点数Vと辺数Eに対してO(V * log(E))となる． 今回の頂点数VはV &amp;lt;= H * W = 10 ^ 4となる． また，一つの頂点に対して辺の数はたかだか2(右に移動するか下に移動するかの2通り)なので，十分間に合う．
-B - 123 Triangle 誰がこんな解法思いつくんでしょうね&amp;hellip;(解説AC)
-答えは0，1，2のいずれかになるので，初めに答えの偶奇を判定する． 各aは先に1引いといても問題ない． 偶奇判定なので，abs(a - b)ではなくa xor bで良い． そうすると， x n,1 = ( C 0 n-1 ⁢ x 1,1 ^ C 1 n-1 ⁢ x 1,2 ^ &amp;hellip; ^ C n-1 n-1 ⁢ x 1,n ) % 2 となる． そのため，各組み合わせを計算すれば良い．
+A - Range Flip Find Route 全探索の計算量をいかに減らせるかがポイント．DPは思いつかんかった…
+右か下にしか移動できない時，黒ゾーンに入ってから出るまでの経路を一回の操作で白にできる（公式参照）． なので，白から黒に入る経路のコストを1，それ以外を0とみなした最短経路問題に落とし込むことができる． ダイクストラ法を使うと計算量は頂点数Vと辺数Eに対してO(V * log(E))となる． 今回の頂点数VはV &lt;= H * W = 10 ^ 4となる． また，一つの頂点に対して辺の数はたかだか2(右に移動するか下に移動するかの2通り)なので，十分間に合う．
+B - 123 Triangle 誰がこんな解法思いつくんでしょうね…(解説AC)
+答えは0，1，2のいずれかになるので，初めに答えの偶奇を判定する． 各aは先に1引いといても問題ない． 偶奇判定なので，abs(a - b)ではなくa xor bで良い． そうすると， x n,1 = ( C 0 n-1 ⁢ x 1,1 ^ C 1 n-1 ⁢ x 1,2 ^ … ^ C n-1 n-1 ⁢ x 1,n ) % 2 となる． そのため，各組み合わせを計算すれば良い．
 今回は偶奇が欲しいので，各組み合わせの2で割った余りだけで十分である． そこでLucasの定理を用いる(リンク参照)． 定理に従うと手順はこう．">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
-  <meta property="article:section" content="kyopuro">
+    <meta property="article:section" content="kyopuro">
     <meta property="article:published_time" content="2020-03-21T23:37:35+09:00">
     <meta property="article:modified_time" content="2020-03-21T23:37:35+09:00">
 
@@ -76,7 +78,7 @@ B - 123 Triangle 誰がこんな解法思いつくんでしょうね&amp;hellip;
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.125.3">
+    <meta name="generator" content="Hugo 0.127.0">
   </head>
 
   

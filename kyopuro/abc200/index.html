@@ -19,11 +19,13 @@ a&#43;b&#43;cの小さい順に何通りあるかを確認していく(3 &lt;= s
 a &gt;= sum-n-1 の時，b = sum-a-1 a &lt;= sum-n-1 の時，b = 2n&#43;a-s&#43;1 となる そこで，aの最小値と最大値から累積和の公式を用いてsumの時の選び方を求められる ">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="ABC200の解説">
-<meta name="twitter:description" content="祝200回． 4完．
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ABC200の解説">
+  <meta name="twitter:description" content="祝200回． 4完．
 A - Century やるだけ． X00年はX世紀であることに注意．
 B - 200th ABC-200 やるだけ．十分間に合う．
-C - Ringo&rsquo;s Favorite Numbers 2 Ai-Aj=200ということはAi≡Aj(mod 200)であることなので， 各Aを，200で割ったあまりでグルーピングして組み合わせを計算すればよい．
+C - Ringo’s Favorite Numbers 2 Ai-Aj=200ということはAi≡Aj(mod 200)であることなので， 各Aを，200で割ったあまりでグルーピングして組み合わせを計算すればよい．
 D - Happy Birthday! 2 解説が賢い．
 先頭8個のAを見ると，2^8-1&gt;200から鳩の巣原理から必ずmod200が被る和の組み合わせが存在する． bit全探索するだけ．
 E - Patisserie ABC 2 きれいさ，おいしさ，人気度をそれぞれa,b,cとする．
@@ -40,16 +42,16 @@ a &gt;= sum-n-1 の時，b = sum-a-1 a &lt;= sum-n-1 の時，b = 2n&#43;a-s&#43
   <meta property="og:description" content="祝200回． 4完．
 A - Century やるだけ． X00年はX世紀であることに注意．
 B - 200th ABC-200 やるだけ．十分間に合う．
-C - Ringo&amp;rsquo;s Favorite Numbers 2 Ai-Aj=200ということはAi≡Aj(mod 200)であることなので， 各Aを，200で割ったあまりでグルーピングして組み合わせを計算すればよい．
+C - Ringo’s Favorite Numbers 2 Ai-Aj=200ということはAi≡Aj(mod 200)であることなので， 各Aを，200で割ったあまりでグルーピングして組み合わせを計算すればよい．
 D - Happy Birthday! 2 解説が賢い．
-先頭8個のAを見ると，2^8-1&amp;gt;200から鳩の巣原理から必ずmod200が被る和の組み合わせが存在する． bit全探索するだけ．
+先頭8個のAを見ると，2^8-1&gt;200から鳩の巣原理から必ずmod200が被る和の組み合わせが存在する． bit全探索するだけ．
 E - Patisserie ABC 2 きれいさ，おいしさ，人気度をそれぞれa,b,cとする．
-a&#43;b&#43;cの小さい順に何通りあるかを確認していく(3 &amp;lt;= sum &amp;lt;= 3*N)． b,cが1以上N以下でないといけないことから，aの範囲は max(1,sum-2n) &amp;lt;= a &amp;lt;= min(n,sum-2)． このとき，bの範囲は max(1,sum-a-n) &amp;lt;= b &amp;lt;= min(n,sum-a-1)． a,bが決まればcは一意に定まる． このことから，a&#43;b&#43;cの和がsumの時， Σ(a=max(1,sum-2n)~min(n,sum-2))(min(n,sum-a-1)-max(1,sum-a-n)&#43;1) 通りの選び方がある． これをO(1)で求める．
+a&#43;b&#43;cの小さい順に何通りあるかを確認していく(3 &lt;= sum &lt;= 3*N)． b,cが1以上N以下でないといけないことから，aの範囲は max(1,sum-2n) &lt;= a &lt;= min(n,sum-2)． このとき，bの範囲は max(1,sum-a-n) &lt;= b &lt;= min(n,sum-a-1)． a,bが決まればcは一意に定まる． このことから，a&#43;b&#43;cの和がsumの時， Σ(a=max(1,sum-2n)~min(n,sum-2))(min(n,sum-a-1)-max(1,sum-a-n)&#43;1) 通りの選び方がある． これをO(1)で求める．
 まず，bの値をaで場合分けする（min，maxを固定する）と
-a &amp;gt;= sum-n-1 の時，b = sum-a-1 a &amp;lt;= sum-n-1 の時，b = 2n&#43;a-s&#43;1 となる そこで，aの最小値と最大値から累積和の公式を用いてsumの時の選び方を求められる ">
+a &gt;= sum-n-1 の時，b = sum-a-1 a &lt;= sum-n-1 の時，b = 2n&#43;a-s&#43;1 となる そこで，aの最小値と最大値から累積和の公式を用いてsumの時の選び方を求められる ">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
-  <meta property="article:section" content="kyopuro">
+    <meta property="article:section" content="kyopuro">
     <meta property="article:published_time" content="2021-05-16T11:57:55+09:00">
     <meta property="article:modified_time" content="2021-05-16T11:57:55+09:00">
 
@@ -88,7 +90,7 @@ a &amp;gt;= sum-n-1 の時，b = sum-a-1 a &amp;lt;= sum-n-1 の時，b = 2n&#43
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.125.3">
+    <meta name="generator" content="Hugo 0.127.0">
   </head>
 
   

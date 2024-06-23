@@ -15,8 +15,10 @@ C - String Invasion あるアルファベットαが二回連続で並んでい�
 後ろからアルファベットを見ていく．この時，アルファベットの種類毎の個数を記録する． 二回連続しているアルファベットαがあれば，これまで記録してきたαではないアルファベットの個数回操作を行える． 操作を行うと，今見ている以降の全てのアルファベットがαになるので，そのように個数を記録し直す． ">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="ARC113の解説">
-<meta name="twitter:description" content="ABCの3完で緑パフォ．コード
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ARC113の解説">
+  <meta name="twitter:description" content="ABCの3完で緑パフォ．コード
 A - ABC 実は一番時間がかかった問題． Aを固定した時に，BとCの組み合わせはO(K)で求まる （BがNの時，Cは1~K/Nの値を取りうるので，組み合わせの個数はK/Nになる）． よって，Aを1からKまで動かしつつ，B*C&lt;=K/Aを満たすB*Cの組み合わせを求めることになる． Aを動かしてもK/Aが変わらないときは，B，Cの組み合わせの個数も変わらない． なので，B，Cの組み合わせの個数をメモしておく．
 個人的には計算量の見積もりが厳しい． 入力を考えるのは簡単なので，とりあえず実装してみて一番時間がかかりそうな入力（2*10^5）を突っ込んで時間計ってみるのが良さそう．
 B - A^B^C A^B^Cの1の位は10で割った余りなので，(A%10)^B^Cと答えは同じ． 次にA%10の累乗の1の位がループする回数を求める． 例えば，2の場合，2の累乗の1の位は2 -&gt; 4 -&gt; 8 -&gt; 6 -&gt; 2と4回毎にループすることが分かる． これから，ループする回数をNとすると，B^CをNで割った余りを求めれば良い． 繰り返し二乗法を使えばO(log(C))でB^C % Nを求められるので十分間に合う．
@@ -30,14 +32,14 @@ C - String Invasion あるアルファベットαが二回連続で並んでい�
   <meta property="og:site_name" content="T45K">
   <meta property="og:title" content="ARC113の解説">
   <meta property="og:description" content="ABCの3完で緑パフォ．コード
-A - ABC 実は一番時間がかかった問題． Aを固定した時に，BとCの組み合わせはO(K)で求まる （BがNの時，Cは1~K/Nの値を取りうるので，組み合わせの個数はK/Nになる）． よって，Aを1からKまで動かしつつ，B*C&amp;lt;=K/Aを満たすB*Cの組み合わせを求めることになる． Aを動かしてもK/Aが変わらないときは，B，Cの組み合わせの個数も変わらない． なので，B，Cの組み合わせの個数をメモしておく．
+A - ABC 実は一番時間がかかった問題． Aを固定した時に，BとCの組み合わせはO(K)で求まる （BがNの時，Cは1~K/Nの値を取りうるので，組み合わせの個数はK/Nになる）． よって，Aを1からKまで動かしつつ，B*C&lt;=K/Aを満たすB*Cの組み合わせを求めることになる． Aを動かしてもK/Aが変わらないときは，B，Cの組み合わせの個数も変わらない． なので，B，Cの組み合わせの個数をメモしておく．
 個人的には計算量の見積もりが厳しい． 入力を考えるのは簡単なので，とりあえず実装してみて一番時間がかかりそうな入力（2*10^5）を突っ込んで時間計ってみるのが良さそう．
-B - A^B^C A^B^Cの1の位は10で割った余りなので，(A%10)^B^Cと答えは同じ． 次にA%10の累乗の1の位がループする回数を求める． 例えば，2の場合，2の累乗の1の位は2 -&amp;gt; 4 -&amp;gt; 8 -&amp;gt; 6 -&amp;gt; 2と4回毎にループすることが分かる． これから，ループする回数をNとすると，B^CをNで割った余りを求めれば良い． 繰り返し二乗法を使えばO(log(C))でB^C % Nを求められるので十分間に合う．
+B - A^B^C A^B^Cの1の位は10で割った余りなので，(A%10)^B^Cと答えは同じ． 次にA%10の累乗の1の位がループする回数を求める． 例えば，2の場合，2の累乗の1の位は2 -&gt; 4 -&gt; 8 -&gt; 6 -&gt; 2と4回毎にループすることが分かる． これから，ループする回数をNとすると，B^CをNで割った余りを求めれば良い． 繰り返し二乗法を使えばO(log(C))でB^C % Nを求められるので十分間に合う．
 C - String Invasion あるアルファベットαが二回連続で並んでいるときに，その後ろにあるアルファベットを全てαに置換できると考えると楽． このとき，αの後ろにある全てのアルファベットの内，αではないアルファベットの個数回操作を行える． この操作はなるべく後ろからしていくのが最適なので，以下の手順で解けばよい．
 後ろからアルファベットを見ていく．この時，アルファベットの種類毎の個数を記録する． 二回連続しているアルファベットαがあれば，これまで記録してきたαではないアルファベットの個数回操作を行える． 操作を行うと，今見ている以降の全てのアルファベットがαになるので，そのように個数を記録し直す． ">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
-  <meta property="article:section" content="kyopuro">
+    <meta property="article:section" content="kyopuro">
     <meta property="article:published_time" content="2021-02-22T15:03:58+09:00">
     <meta property="article:modified_time" content="2021-02-22T15:03:58+09:00">
 
@@ -76,7 +78,7 @@ C - String Invasion あるアルファベットαが二回連続で並んでい�
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.125.3">
+    <meta name="generator" content="Hugo 0.127.0">
   </head>
 
   

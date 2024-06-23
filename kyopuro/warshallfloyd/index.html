@@ -13,8 +13,10 @@
 public static void main(final String[] args) { final int[][] graph = new int[n][n]; // 初めに無限大の値で各要素を初期化 for (int i = 0; i &lt; graph.length; i&#43;&#43;) { Arrays.fill(graph[i], Integer.MAX_VALUE / 2); // Integer.MAX_VALUEでないことに注意 graph[i][i] = 0; } // グラフの各辺を与えられた値に変更 // ここからワーシャルフロイド for (int k = 0; k &lt; graph.length; k&#43;&#43;) { // 中継する点 for (int i = 0; i &lt; graph.length; i&#43;&#43;) { // 出発する点 for (int j = 0; j &lt; graph.">
     <meta name="keywords" content="">
 
-    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="ワーシャルフロイド法メモ">
-<meta name="twitter:description" content="ワーシャルフロイド法というアルゴリズムを知ったのでメモ．
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ワーシャルフロイド法メモ">
+  <meta name="twitter:description" content="ワーシャルフロイド法というアルゴリズムを知ったのでメモ．
 ワーシャルフロイド法とは グラフのある一点から任意の点への最短距離を求めるアルゴリズム． 計算量は点の個数nに対してO(n^3)． 似たようなアルゴリズムにダイクストラ法があるが，あちらはある2点の最短距離をO(n^2)で求めるアルゴリズムである． 計算量が重ためなので，使う場面はかなり限られるが，知っておくと便利だと思った．
 実装 このアルゴリズムは，動的計画法を用いて最短距離を計算するというアイデアに基づいており，実装がとても簡単． 二次元配列を用いた例がこちら．
 public static void main(final String[] args) { final int[][] graph = new int[n][n]; // 初めに無限大の値で各要素を初期化 for (int i = 0; i &lt; graph.length; i&#43;&#43;) { Arrays.fill(graph[i], Integer.MAX_VALUE / 2); // Integer.MAX_VALUEでないことに注意 graph[i][i] = 0; } // グラフの各辺を与えられた値に変更 // ここからワーシャルフロイド for (int k = 0; k &lt; graph.length; k&#43;&#43;) { // 中継する点 for (int i = 0; i &lt; graph.length; i&#43;&#43;) { // 出発する点 for (int j = 0; j &lt; graph.">
@@ -28,10 +30,10 @@ public static void main(final String[] args) { final int[][] graph = new int[n][
   <meta property="og:description" content="ワーシャルフロイド法というアルゴリズムを知ったのでメモ．
 ワーシャルフロイド法とは グラフのある一点から任意の点への最短距離を求めるアルゴリズム． 計算量は点の個数nに対してO(n^3)． 似たようなアルゴリズムにダイクストラ法があるが，あちらはある2点の最短距離をO(n^2)で求めるアルゴリズムである． 計算量が重ためなので，使う場面はかなり限られるが，知っておくと便利だと思った．
 実装 このアルゴリズムは，動的計画法を用いて最短距離を計算するというアイデアに基づいており，実装がとても簡単． 二次元配列を用いた例がこちら．
-public static void main(final String[] args) { final int[][] graph = new int[n][n]; // 初めに無限大の値で各要素を初期化 for (int i = 0; i &amp;lt; graph.length; i&#43;&#43;) { Arrays.fill(graph[i], Integer.MAX_VALUE / 2); // Integer.MAX_VALUEでないことに注意 graph[i][i] = 0; } // グラフの各辺を与えられた値に変更 // ここからワーシャルフロイド for (int k = 0; k &amp;lt; graph.length; k&#43;&#43;) { // 中継する点 for (int i = 0; i &amp;lt; graph.length; i&#43;&#43;) { // 出発する点 for (int j = 0; j &amp;lt; graph.">
+public static void main(final String[] args) { final int[][] graph = new int[n][n]; // 初めに無限大の値で各要素を初期化 for (int i = 0; i &lt; graph.length; i&#43;&#43;) { Arrays.fill(graph[i], Integer.MAX_VALUE / 2); // Integer.MAX_VALUEでないことに注意 graph[i][i] = 0; } // グラフの各辺を与えられた値に変更 // ここからワーシャルフロイド for (int k = 0; k &lt; graph.length; k&#43;&#43;) { // 中継する点 for (int i = 0; i &lt; graph.length; i&#43;&#43;) { // 出発する点 for (int j = 0; j &lt; graph.">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
-  <meta property="article:section" content="kyopuro">
+    <meta property="article:section" content="kyopuro">
     <meta property="article:published_time" content="2020-02-23T01:54:16+09:00">
     <meta property="article:modified_time" content="2020-02-23T01:54:16+09:00">
 
@@ -70,7 +72,7 @@ public static void main(final String[] args) { final int[][] graph = new int[n][
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.125.3">
+    <meta name="generator" content="Hugo 0.127.0">
   </head>
 
   
