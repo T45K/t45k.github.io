@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>人生 on T45K</title>
-    <link>https://t45k.github.io/tags/%E4%BA%BA%E7%94%9F/</link>
+    <link>http://localhost:1313/tags/%E4%BA%BA%E7%94%9F/</link>
     <description>Recent content in 人生 on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 02 Jan 2024 23:25:57 +0900</lastBuildDate>
     
-	<atom:link href="https://t45k.github.io/tags/%E4%BA%BA%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/%E4%BA%BA%E7%94%9F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2023年の振り返り</title>
-      <link>https://t45k.github.io/blog/retrospective_2023/</link>
+      <link>http://localhost:1313/blog/retrospective_2023/</link>
       <pubDate>Tue, 02 Jan 2024 23:25:57 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/retrospective_2023/</guid>
+      <guid>http://localhost:1313/blog/retrospective_2023/</guid>
       <description>&lt;p&gt;2023年を振り返る。&lt;/p&gt;
 &lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
 &lt;p&gt;楽天を辞めてマネーフォワードに転職した。&lt;/p&gt;
@@ -71,15 +71,15 @@
     
     <item>
       <title>2年勤めた楽天を退職した話</title>
-      <link>https://t45k.github.io/blog/farewell_rakuten/</link>
+      <link>http://localhost:1313/blog/farewell_rakuten/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/farewell_rakuten/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_osaka_office.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/blog/farewell_rakuten/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/rakuten_osaka_office.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;2023年6月末をもって楽天グループ株式会社（大阪支社）を退職する運びとなりました。
 2021年4月に新卒として入社したので、2年3ヶ月在籍したことになります。&lt;/p&gt;
 &lt;h2 id=&#34;なぜ入社したか&#34;&gt;なぜ入社したか&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/rakuten/&#34;&gt;学生の時に参加したインターン&lt;/a&gt;が楽しかったというのが最大の理由です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/rakuten/&#34;&gt;学生の時に参加したインターン&lt;/a&gt;が楽しかったというのが最大の理由です。&lt;/p&gt;
 &lt;p&gt;また、日本最大級のサービスを提供している、英語で仕事できるという点に面白みを感じましたし、
 カフェテリアが無料というのも魅力的でした。&lt;/p&gt;
 &lt;h2 id=&#34;どんな会社だったか&#34;&gt;どんな会社だったか&lt;/h2&gt;
@@ -103,7 +103,7 @@
 &lt;p&gt;&lt;a href=&#34;https://car.rakuten.co.jp/&#34;&gt;楽天Car&lt;/a&gt;というサービスを担当していました。&lt;/p&gt;
 &lt;p&gt;新機能の実装だけでなく、CIの導入、オンプレからk8sへの移行など幅広くやっていました。&lt;/p&gt;
 &lt;p&gt;その他、&lt;a href=&#34;https://commerce-engineer.rakuten.careers/entry/workstyle/0025&#34;&gt;短期インターンのメンター&lt;/a&gt;をしたり、
-社内LTに参加したり、&lt;a href=&#34;https://t45k.github.io/blog/jjug_ccc_2023_spring/&#34;&gt;登壇&lt;/a&gt;したりもできました。&lt;/p&gt;
+社内LTに参加したり、&lt;a href=&#34;http://localhost:1313/blog/jjug_ccc_2023_spring/&#34;&gt;登壇&lt;/a&gt;したりもできました。&lt;/p&gt;
 &lt;p&gt;また、この職場でSpock&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;を知ることができたのはとても良かったです。&lt;/p&gt;
 &lt;h2 id=&#34;むすび&#34;&gt;むすび&lt;/h2&gt;
 &lt;p&gt;楽天では良い上司、先輩、同期、後輩に恵まれました。この場を借りてお礼申し上げます。
@@ -128,10 +128,10 @@
     
     <item>
       <title>2022年の振り返り</title>
-      <link>https://t45k.github.io/blog/retrospective_2022/</link>
+      <link>http://localhost:1313/blog/retrospective_2022/</link>
       <pubDate>Sat, 31 Dec 2022 09:39:23 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/retrospective_2022/</guid>
+      <guid>http://localhost:1313/blog/retrospective_2022/</guid>
       <description>&lt;p&gt;2022年を振り返る。&lt;/p&gt;
 &lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
 &lt;p&gt;楽しく仕事ができた。
@@ -286,7 +286,7 @@
 &lt;li&gt;今年読んでて一番ためになったのは「現場で役立つシステム設計の原則」かなぁ。
 &lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=18637464&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0877%2F9784774190877.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;現場で役立つシステム設計の原則 変更を楽で安全にするオブジェクト指向の実践技法 [ 増田亨 ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3234円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2022/12/31時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/li&gt;
-&lt;li&gt;その他書評は&lt;a href=&#34;https://t45k.github.io/blog/&#34;&gt;ブログ&lt;/a&gt;に書いてます。&lt;/li&gt;
+&lt;li&gt;その他書評は&lt;a href=&#34;http://localhost:1313/blog/&#34;&gt;ブログ&lt;/a&gt;に書いてます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;音楽&#34;&gt;音楽&lt;/h2&gt;
 &lt;ul&gt;
@@ -317,10 +317,10 @@
     
     <item>
       <title>2021年の振り返り</title>
-      <link>https://t45k.github.io/blog/retrospective_2021/</link>
+      <link>http://localhost:1313/blog/retrospective_2021/</link>
       <pubDate>Fri, 31 Dec 2021 19:46:45 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/retrospective_2021/</guid>
+      <guid>http://localhost:1313/blog/retrospective_2021/</guid>
       <description>&lt;p&gt;2021 年を振り返っていく．&lt;/p&gt;
 &lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
 &lt;p&gt;20 年間続いた学生生活をようやく終えて，社会人になった節目の年だった．&lt;/p&gt;
@@ -408,10 +408,10 @@
     
     <item>
       <title>大阪大学大学院情報科学研究科修士課程を修了した話</title>
-      <link>https://t45k.github.io/blog/graduation/</link>
+      <link>http://localhost:1313/blog/graduation/</link>
       <pubDate>Wed, 24 Mar 2021 21:17:20 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/graduation/</guid>
+      <guid>http://localhost:1313/blog/graduation/</guid>
       <description>&lt;p&gt;2021年3月24日をもって修士課程を修了しました．&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;3年間の戦績は&lt;br&gt;&lt;br&gt;論文誌採録*1&lt;br&gt;論文誌条件付き採録*1&lt;br&gt;国際会議採録*2&lt;br&gt;国際会議査読中*1&lt;br&gt;研究会原稿*3&lt;br&gt;で現状不採録0です&lt;br&gt;&lt;br&gt;対ありでした&lt;/p&gt;&amp;mdash; task@減塩 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1374691521174282242?ref_src=twsrc%5Etfw&#34;&gt;March 24, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;

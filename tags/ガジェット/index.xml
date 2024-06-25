@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ガジェット on T45K</title>
-    <link>https://t45k.github.io/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</link>
+    <link>http://localhost:1313/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/</link>
     <description>Recent content in ガジェット on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 14 Jan 2023 17:56:18 +0900</lastBuildDate>
     
-	<atom:link href="https://t45k.github.io/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/%E3%82%AC%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>WF-1000XM4を修理に出した話</title>
-      <link>https://t45k.github.io/blog/wf-1000xm4_repair/</link>
+      <link>http://localhost:1313/blog/wf-1000xm4_repair/</link>
       <pubDate>Sat, 14 Jan 2023 17:56:18 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/wf-1000xm4_repair/</guid>
+      <guid>http://localhost:1313/blog/wf-1000xm4_repair/</guid>
       <description>&lt;h2 id=&#34;結論&#34;&gt;結論&lt;/h2&gt;
 &lt;p&gt;WF-1000XM4 の「片方（右側？）だけ異様に充電が減る」問題は、保証期限切れでも無料で新品に交換してもらえる。&lt;/p&gt;
 &lt;h2 id=&#34;購入した時期&#34;&gt;購入した時期&lt;/h2&gt;
@@ -46,16 +46,16 @@ SONY では、修理希望者向けのチャットボットを用意している
     
     <item>
       <title>デュアルキーボードを試してみた話</title>
-      <link>https://t45k.github.io/blog/dual_keyboard/</link>
+      <link>http://localhost:1313/blog/dual_keyboard/</link>
       <pubDate>Thu, 05 May 2022 21:47:26 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/dual_keyboard/</guid>
+      <guid>http://localhost:1313/blog/dual_keyboard/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;入社して 1 年、肩こりに悩まされるようになったのでデュアルキーボードを試してみた。&lt;/p&gt;
 &lt;h2 id=&#34;肩こり&#34;&gt;肩こり&lt;/h2&gt;
 &lt;p&gt;肩こりには様々な原因があるが、長時間を肩をすぼめたままの姿勢でいることがその一つである。&lt;/p&gt;
 &lt;p&gt;一般的なキーボードは肩幅より狭いため、タイピングのために肩をすぼめた姿勢を取らざるを得なくなる。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/single_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/single_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;また、肩をすぼめると背中が前に曲がるため、腰に負担がかかる可能性が高まる。
 そのうえ、頭がディスプレイに近くなるため、眼精疲労も溜まりやすくなる。&lt;/p&gt;
 &lt;p&gt;以上の観点から、キーボードをそのまま利用するのは健康上のリスクが大きいと考えられる。&lt;/p&gt;
@@ -92,7 +92,7 @@ SONY では、修理希望者向けのチャットボットを用意している
 モニタの上端が目線よりも高い場合、まぶたを大きく開く必要があるため、ドライアイや眼精疲労に繋がることが指摘されている。
 ラップトップの画面の上にモニタを配置した場合、よほど座高が高い人間でない限り、モニタの上端が目線よりも高くなってしまう。&lt;/p&gt;
 &lt;p&gt;以上の理由から、以下が現時点での個人的な結論構成に落ち着いた。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/dual_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/dual_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;肩が死ぬほど開いて気持ち良い。&lt;/p&gt;
 &lt;p&gt;ちなみに、トラックパッドは中央に置いている。&lt;/p&gt;
 &lt;p&gt;トラックパッドはなるべく使わないで良いように、ブラウザ操作は&lt;a href=&#34;https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=ja&#34;&gt;Vimium&lt;/a&gt;、
@@ -102,13 +102,13 @@ SONY では、修理希望者向けのチャットボットを用意している
     
     <item>
       <title>Keychron K3を購入した話</title>
-      <link>https://t45k.github.io/blog/keychron/</link>
+      <link>http://localhost:1313/blog/keychron/</link>
       <pubDate>Fri, 11 Jun 2021 22:35:53 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/keychron/</guid>
+      <guid>http://localhost:1313/blog/keychron/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.keychron.com/products/keychron-k3-wireless-mechanical-keyboard&#34;&gt;Keychron K3&lt;/a&gt;を購入しました．&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/keychron_box.JPG&#34; alt=&#34;keychron_box&#34;&gt;
-&lt;img src=&#34;https://t45k.github.io/img/blog/keychron.JPG&#34; alt=&#34;keychron_box&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/keychron_box.JPG&#34; alt=&#34;keychron_box&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/img/blog/keychron.JPG&#34; alt=&#34;keychron_box&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;経緯&#34;&gt;経緯&lt;/h2&gt;
 &lt;p&gt;研究室ではRealforceを使っていたのですが，会社からはキーボードが支給されないと聞いたので，仕事用のキーボードを購入する必要が発生しました．
 家では青軸のメカニカルキーボードを使っているので，その経験を踏まえて以下の要件を満たすキーボードを探しました．&lt;/p&gt;
@@ -152,12 +152,12 @@ paypalで支払いしたところ2021年6月現在で10,802円でした．&lt;/p
     
     <item>
       <title>MacBook Airを購入した話</title>
-      <link>https://t45k.github.io/blog/macbook_air/</link>
+      <link>http://localhost:1313/blog/macbook_air/</link>
       <pubDate>Mon, 13 Apr 2020 17:21:02 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/macbook_air/</guid>
+      <guid>http://localhost:1313/blog/macbook_air/</guid>
       <description>&lt;h3 id=&#34;念願のmacbook-airを購入しました&#34;&gt;念願のMacBook Airを購入しました!&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/mba.JPG&#34; alt=&#34;mba&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/mba.JPG&#34; alt=&#34;mba&#34;&gt;&lt;/p&gt;
 &lt;p&gt;構成は&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;CPU: 1.1GHzクアッド&lt;/li&gt;
@@ -180,7 +180,7 @@ mbpはこんなものじゃすまないと思います．&lt;/p&gt;
 これは去年の12月のツイート&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;はよmacbook air，13インチ，cpu4コア，RAM16GB，SSD256GB，ファンクションキー，シザーキーボードで10万くらいのやつ出てくれや&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1203581420871905280?ref_src=twsrc%5Etfw&#34;&gt;December 8, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;h2 id=&#34;使い心地&#34;&gt;使い心地&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/fix_mac_fault&#34;&gt;ある一点&lt;/a&gt;を除いたら最高です（その一点も結局解決しました）．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/fix_mac_fault&#34;&gt;ある一点&lt;/a&gt;を除いたら最高です（その一点も結局解決しました）．&lt;/p&gt;
 &lt;p&gt;主にmbpとの比較になるのですが，&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;軽い&lt;/li&gt;
@@ -190,16 +190,16 @@ mbpはこんなものじゃすまないと思います．&lt;/p&gt;
 &lt;p&gt;みたいなところです．&lt;/p&gt;
 &lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
 &lt;p&gt;こうなりました．
-&lt;img src=&#34;https://t45k.github.io/img/blog/stecker.JPG&#34; alt=&#34;stecker&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/img/blog/stecker.JPG&#34; alt=&#34;stecker&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>研究室のパソコンがmacbook proになった話</title>
-      <link>https://t45k.github.io/blog/mbp/</link>
+      <link>http://localhost:1313/blog/mbp/</link>
       <pubDate>Tue, 21 Jan 2020 18:11:41 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/mbp/</guid>
+      <guid>http://localhost:1313/blog/mbp/</guid>
       <description>&lt;p&gt;組織特有の，年末に予算を使い切る目的で，新しいmacbook proを貸してもらえることになった．
 モデルはMid2019の13インチモデル．
 研究室内で大した業績を上げていない自分にしてはとても良いものを貸してもらえたと思う．&lt;/p&gt;

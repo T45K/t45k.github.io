@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="ja">
@@ -27,10 +27,10 @@ ABC065-Dがこの問題に該当します．
 クラスカル法は至って単純で，各辺をコスト順にソートし，その辺が繋ぐノードが連結でなければその辺を採用，そうでなければ不採用としMSTを作ります． ノード同士が連結であるかどうかは，Union-Find Treeを用いて確認します．
 // edges は Edge(int label1, int label2, long cost) のリスト edges.sort(Comparator.comparingLong(o -&gt; o.cost)); final UnionFindTree unionFindTree = new UnionFindTree(n); // 要素数nのUnion-Find Treeを構築 long sum = 0; for (final Edge edge : edges) { if (!unionFindTree.isSame(edge.label1, edge.label2)) { unionFindTree.unit(edge.label1, edge.label2); sum &#43;= edge.cost; } } 辺のソートに一番計算量を食われます．">
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image" content="http://localhost:1313/img/original.png">
+    <meta property="twitter:image:url" content="http://localhost:1313/img/original.png">
 
-    <meta property="og:url" content="https://t45k.github.io/kyopuro/min_spanning_tree/">
+    <meta property="og:url" content="http://localhost:1313/kyopuro/min_spanning_tree/">
   <meta property="og:site_name" content="T45K">
   <meta property="og:title" content="最小全域木メモ">
   <meta property="og:description" content="最小全域木という概念を知ったのでメモ．
@@ -48,14 +48,14 @@ ABC065-Dがこの問題に該当します．
 
 
     
-      <base href="https://t45k.github.io/kyopuro/min_spanning_tree/">
+      <base href="http://localhost:1313/kyopuro/min_spanning_tree/">
     
     <title>
   最小全域木メモ · T45K
 </title>
 
     
-      <link rel="canonical" href="https://t45k.github.io/kyopuro/min_spanning_tree/">
+      <link rel="canonical" href="http://localhost:1313/kyopuro/min_spanning_tree/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -65,7 +65,7 @@ ABC065-Dがこの問題に該当します．
     
       
       
-      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
     
 
     
@@ -73,13 +73,13 @@ ABC065-Dがこの問題に該当します．
     
 
     
-      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+      <link rel="stylesheet" href="http://localhost:1313/css/custom.css" />
     
 
     
 
-    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="http://localhost:1313/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://localhost:1313/img/original.png" sizes="16x16">
 
     <meta name="generator" content="Hugo 0.127.0">
   </head>
@@ -90,7 +90,7 @@ ABC065-Dがこの問題に該当します．
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="https://t45k.github.io/">
+    <a class="navigation-title" href="http://localhost:1313/">
       T45K
     </a>
     
@@ -100,19 +100,19 @@ ABC065-Dがこの問題に該当します．
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+            <a class="navigation-link" href="http://localhost:1313/about">about</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+            <a class="navigation-link" href="http://localhost:1313/blog_index">blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+            <a class="navigation-link" href="http://localhost:1313/kyopuro_index">kyopuro</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+            <a class="navigation-link" href="http://localhost:1313/product">product</a>
           </li>
         
           <li class="navigation-item">

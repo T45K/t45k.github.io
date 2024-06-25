@@ -2,21 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技術書 on T45K</title>
-    <link>https://t45k.github.io/tags/%E6%8A%80%E8%A1%93%E6%9B%B8/</link>
+    <link>http://localhost:1313/tags/%E6%8A%80%E8%A1%93%E6%9B%B8/</link>
     <description>Recent content in 技術書 on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 23 May 2024 00:48:17 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jun 2024 21:16:17 +0900</lastBuildDate>
     
-	<atom:link href="https://t45k.github.io/tags/%E6%8A%80%E8%A1%93%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/%E6%8A%80%E8%A1%93%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>「継続的デリバリーのソフトウェア工学」読了</title>
+      <link>http://localhost:1313/blog/modern_software_engineering/</link>
+      <pubDate>Tue, 25 Jun 2024 21:16:17 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/modern_software_engineering/</guid>
+      <description>&lt;p&gt;継続的デリバリーのソフトウェア工学（英題: Modern Software Engineering）を読んだ。&lt;/p&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17370467%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=20843481&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0367%2F9784296070367_1_3.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;display: block;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17370467%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;継続的デリバリーのソフトウェア工学　もっと早く、もっと良いソフトウェアを作るための秘訣 [ David Farley ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3,190円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2024/6/25時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17370467%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34; &gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17370467%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt; 楽天で購入 &lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&#34;ソフトウェア開発&#34;&gt;ソフトウェア開発&lt;/h2&gt;
+&lt;p&gt;本書ではソフトウェア開発の効果的かつ効率的な方法を探求していく。&lt;/p&gt;
+&lt;p&gt;より良いソフトウェア開発を行うために、開発者は「学びのエキスパート」かつ
+「複雑さ管理のエキスパート」になるべき、と述べている。&lt;/p&gt;
+&lt;p&gt;学びのエキスパートになるためには、実験 → フィードバック → 実験 → &amp;hellip; のループを
+高速で回すことが重要になる。&lt;/p&gt;
+&lt;p&gt;複雑さ管理のエキスパートになるためには&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;モジュラー性&lt;/li&gt;
+&lt;li&gt;抽象化&lt;/li&gt;
+&lt;li&gt;疎結合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の実現が不可欠になる。&lt;/p&gt;
+&lt;p&gt;そして、上記の要素を達成するために&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;テスト可能性&lt;/li&gt;
+&lt;li&gt;デプロイ可能性&lt;/li&gt;
+&lt;li&gt;スピード&lt;/li&gt;
+&lt;li&gt;変数の管理&lt;/li&gt;
+&lt;li&gt;継続的デリバリー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が重要になる。&lt;/p&gt;
+&lt;h2 id=&#34;ソフトウェア工学&#34;&gt;ソフトウェア工学&lt;/h2&gt;
+&lt;p&gt;本書では、ソフトウェア開発は工学的に行われるべきだと述べられている。&lt;/p&gt;
+&lt;p&gt;これは、いわゆる工芸品のような、職人の一品物ではないということである。&lt;br&gt;
+また、科学のように厳密性を追求するのではなく、
+あくまで開発に役立つプラクティスを追い求めるべき、ということでもある。&lt;/p&gt;
+&lt;p&gt;一方で、建築物のような製造工学に近い物ではなく、設計工学になるべきとも述べられている。&lt;/p&gt;
+&lt;p&gt;ソフトウェア開発が製造工学と違う点は、ソフトウェア開発は繰り返し作り直すことが容易である点である。&lt;/p&gt;
+&lt;p&gt;建築物は一度作ると作り直しが効かないため、事前の設計を念入りにやったうえで開発に入る。&lt;/p&gt;
+&lt;p&gt;一方で、ソフトウェアにおいてコードの書き直しは容易であるため、
+設計 → 実装 → デプロイのループを早め、知見を得ることが重要になる。&lt;/p&gt;
+&lt;p&gt;上記のループがどの程度うまく行っているかを計る指標がFour Keysである。&lt;/p&gt;
+&lt;h2 id=&#34;学びの最適化&#34;&gt;学びの最適化&lt;/h2&gt;
+&lt;p&gt;フィードバックを早く得られるようにする。&lt;/p&gt;
+&lt;p&gt;設計に対するフィードバック、実装に対するフィードバック、&amp;hellip;&lt;/p&gt;
+&lt;p&gt;小さく作って頻繁にマージ。&lt;/p&gt;
+&lt;h2 id=&#34;複雑さ管理の最適化&#34;&gt;複雑さ管理の最適化&lt;/h2&gt;
+&lt;p&gt;TDDでテスト可能性を確保し、モジュラー性を進める。&lt;/p&gt;
+&lt;p&gt;関心の分離。本質的な複雑さと付随的な複雑さ（ドメインの複雑さと技術的な複雑さ）を分離する。&lt;/p&gt;
+&lt;p&gt;運用に関わる変数の数を少なくして、デプロイを安定的にする。&lt;/p&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;p&gt;「ソフトウェア工学」とあったので多少学術的な内容を期待していたが、良い意味で裏切られた。&lt;/p&gt;
+&lt;p&gt;内容は「素早いフィードバックサイクルで効率的に学びましょう」と
+「ソフトウェアの複雑さを管理しましょう」で、前者にスポットライトが当たっているのが斬新な気がする。&lt;/p&gt;
+&lt;p&gt;複雑さ管理には疎結合高凝集、それを達成するためのTDDと割と古典的な内容だったが、
+デプロイ可能性を常に保ち、それを持って継続的デリバリーを実践していく的な部分は面白かった。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>「データモデリングでドメインを駆動する」読了</title>
-      <link>https://t45k.github.io/blog/drive_domain_by_data_modeling/</link>
+      <link>http://localhost:1313/blog/drive_domain_by_data_modeling/</link>
       <pubDate>Thu, 23 May 2024 00:48:17 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/drive_domain_by_data_modeling/</guid>
+      <guid>http://localhost:1313/blog/drive_domain_by_data_modeling/</guid>
       <description>&lt;p&gt;杉本さん著の「データモデリングでドメインを駆動する」を読んだ。&lt;/p&gt;
 &lt;p&gt;サブタイトルとして「基幹系システム」が含まれているが、
 そもそも基幹系システムが何か分からない状態で読み始めたので、
@@ -33,10 +91,10 @@
     
     <item>
       <title>「なっとく！関数型プログラミング」読了</title>
-      <link>https://t45k.github.io/blog/grokking_functional_programming/</link>
+      <link>http://localhost:1313/blog/grokking_functional_programming/</link>
       <pubDate>Mon, 09 Oct 2023 23:22:01 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/grokking_functional_programming/</guid>
+      <guid>http://localhost:1313/blog/grokking_functional_programming/</guid>
       <description>&lt;p&gt;「なっとく！関数型プログラミング」を読んだ。&lt;/p&gt;
 &lt;p&gt;「純粋関数のシグネチャは嘘をつかない」が再三説明されていて良かった。
 純粋関数を取り扱ううえで話題になりがちなIO処理なども丁寧に説明されていた。&lt;/p&gt;
@@ -48,10 +106,10 @@
     
     <item>
       <title>「データ指向プログラミング」読了</title>
-      <link>https://t45k.github.io/blog/data_oriented_programming/</link>
+      <link>http://localhost:1313/blog/data_oriented_programming/</link>
       <pubDate>Sat, 01 Jul 2023 19:17:51 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/data_oriented_programming/</guid>
+      <guid>http://localhost:1313/blog/data_oriented_programming/</guid>
       <description>&lt;p&gt;データ指向プログラミングを読んだ。&lt;/p&gt;
 &lt;p&gt;本書では、データ指向プログラミングと名付けられた、イミュータブルかつ汎用的なデータ構造で表現されたデータと
 参照透過かつジェネリックな関数を使ったプログラミング方法を紹介している。&lt;/p&gt;
@@ -113,10 +171,10 @@
     
     <item>
       <title>「ソフトウェア見積もり」読了</title>
-      <link>https://t45k.github.io/blog/software_estimation/</link>
+      <link>http://localhost:1313/blog/software_estimation/</link>
       <pubDate>Mon, 27 Mar 2023 22:28:20 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/software_estimation/</guid>
+      <guid>http://localhost:1313/blog/software_estimation/</guid>
       <description>&lt;p&gt;Steve McConnellの「ソフトウェア見積もり」を読んだ。&lt;/p&gt;
 &lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=11917813&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F8910%2F89100522.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;ソフトウェア見積り 人月の暗黙知を解き明かす [ スティーヴ・マコネル ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3,740円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2023/3/27時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;p&gt;普段の業務では特に締め切りが存在せず、スケジュールを意識してプロジェクトをやることがあまりないので、
@@ -138,10 +196,10 @@
     
     <item>
       <title>「ちょうぜつソフトウェア開発入門」読了</title>
-      <link>https://t45k.github.io/blog/chozetsu_software_design_introduction/</link>
+      <link>http://localhost:1313/blog/chozetsu_software_design_introduction/</link>
       <pubDate>Sun, 12 Feb 2023 16:42:09 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/chozetsu_software_design_introduction/</guid>
+      <guid>http://localhost:1313/blog/chozetsu_software_design_introduction/</guid>
       <description>&lt;p&gt;ひさてるさん著の「ちょうぜつソフトウェア開発入門」を読んだ。
 ひさてるさんは Twitter で「#ちょうぜつエンジニアめもりーちゃん」のハッシュタグで不定期に漫画を投稿している人で、そのシニカルな内容が個人的には気に入っている。&lt;/p&gt;
 &lt;p&gt;副題に「PHP で理解するオブジェクト指向の活用」とある通り、サンプルコードは PHP で書かれている。
@@ -154,10 +212,10 @@
     
     <item>
       <title>「読みやすいコードのガイドライン」読了</title>
-      <link>https://t45k.github.io/blog/readable_code_guideline/</link>
+      <link>http://localhost:1313/blog/readable_code_guideline/</link>
       <pubDate>Sun, 12 Feb 2023 16:23:45 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/readable_code_guideline/</guid>
+      <guid>http://localhost:1313/blog/readable_code_guideline/</guid>
       <description>&lt;p&gt;LINE に勤めている石川さんが書いた「読みやすいコードのガイドライン」を読んだ。
 副題の「持続可能なソフトウェア開発のために」に完全に同意。
 継続的なソフトウェア開発には読みやすいコードが必須。&lt;/p&gt;
@@ -172,10 +230,10 @@
     
     <item>
       <title>「現場で役立つシステム設計の原則」読了</title>
-      <link>https://t45k.github.io/blog/system_design_principle/</link>
+      <link>http://localhost:1313/blog/system_design_principle/</link>
       <pubDate>Sun, 16 Oct 2022 19:33:26 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/system_design_principle/</guid>
+      <guid>http://localhost:1313/blog/system_design_principle/</guid>
       <description>&lt;p&gt;現場で役立つシステム設計の原則を読んだ。&lt;/p&gt;
 &lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=18637464&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0877%2F9784774190877.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;現場で役立つシステム設計の原則 変更を楽で安全にするオブジェクト指向の実践技法 [ 増田亨 ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3234円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2022/10/16時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;p&gt;「ドメインモデルを設計して、それを中心にプログラミングしよう」という内容だった。&lt;/p&gt;
@@ -187,10 +245,10 @@
     
     <item>
       <title>「達人が教えるWebパフォーマンスチューニング」読了</title>
-      <link>https://t45k.github.io/blog/web_perfomance_tuning/</link>
+      <link>http://localhost:1313/blog/web_perfomance_tuning/</link>
       <pubDate>Sun, 16 Oct 2022 19:27:18 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/web_perfomance_tuning/</guid>
+      <guid>http://localhost:1313/blog/web_perfomance_tuning/</guid>
       <description>&lt;p&gt;2022 年の ISUCON に備えて「達人が教える Web パフォーマンスチューニング」を読んだ。&lt;/p&gt;
 &lt;p&gt;内容としては、web サーバや DB の負荷計測からチューニングに関して、ISUCON で使えるテクから現場で活用できる技術まで紹介していた。
 パフォチュー経験がない状態で挑む ISUCON だったので、こういった本があってありがたかった。
@@ -202,10 +260,10 @@
     
     <item>
       <title>「Java言語で学ぶデザインパターン入門」読了</title>
-      <link>https://t45k.github.io/blog/design_pattern/</link>
+      <link>http://localhost:1313/blog/design_pattern/</link>
       <pubDate>Sat, 26 Feb 2022 11:53:22 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/design_pattern/</guid>
+      <guid>http://localhost:1313/blog/design_pattern/</guid>
       <description>&lt;p&gt;「Java 言語で学ぶデザインパターン入門」を読み終えました。
 今回は内容を Kotlin で実装してみるということをやっていました。
 &lt;a href=&#34;https://github.com/t45k/designPatternlearning&#34;&gt;リポジトリ&lt;/a&gt;&lt;/p&gt;
@@ -221,10 +279,10 @@
     
     <item>
       <title>「オブジェクト指向でなぜつくるのか」読了</title>
-      <link>https://t45k.github.io/blog/how_objects_work/</link>
+      <link>http://localhost:1313/blog/how_objects_work/</link>
       <pubDate>Sun, 28 Nov 2021 19:12:57 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/how_objects_work/</guid>
+      <guid>http://localhost:1313/blog/how_objects_work/</guid>
       <description>&lt;p&gt;オブジェクト指向でなぜつくるのかを読みました．&lt;/p&gt;
 &lt;p&gt;久々に技術書を買った気がします．
 社会人になって自由に使えるお金が増えるのは良いなと思いました．&lt;/p&gt;

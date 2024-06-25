@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="ja">
@@ -29,10 +29,10 @@ D - Friends Union-Findで殴る．
 問題文から，Union-Findを使うと友達グループは簡単に求まる． 全ての人について「同じグループの中に友達がいない」という状況を達成するためには， 一番大きい友達グループと同じサイズのグループに分割すれば良い．
 E - Coprime まず全てのAiに対してGCDをとって，与えられた数字列がnot coprimeか否かを判定する． not coprime出ない場合，次にpairwise coprimeかどうかを判定する． ここで，「全ての組が互いに素である」とは，与えられた数字列の数字を素因数分解した際に，素数が約数となるのは高々1回までと同意である． Ai&lt;=10^6から，素数の最大値は1000以下，あるいは1000以下の素数で割り切った後に残る数字（1以外）となる． なので，先に1000以下の素数をエラトステネスの篩などで用意しておき， 各Aiに対して各素数で割れるかどうかを判定する． 割れる場合，その素数を記録する． すでに記録した素数で割り切れた場合，互いに素でない数字の組が存在することになる．">
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image" content="http://localhost:1313/img/original.png">
+    <meta property="twitter:image:url" content="http://localhost:1313/img/original.png">
 
-    <meta property="og:url" content="https://t45k.github.io/kyopuro/abc177/">
+    <meta property="og:url" content="http://localhost:1313/kyopuro/abc177/">
   <meta property="og:site_name" content="T45K">
   <meta property="og:title" content="ABC177の解説">
   <meta property="og:description" content="5完． コード
@@ -51,14 +51,14 @@ E - Coprime まず全てのAiに対してGCDをとって，与えられた数字
 
 
     
-      <base href="https://t45k.github.io/kyopuro/abc177/">
+      <base href="http://localhost:1313/kyopuro/abc177/">
     
     <title>
   ABC177の解説 · T45K
 </title>
 
     
-      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc177/">
+      <link rel="canonical" href="http://localhost:1313/kyopuro/abc177/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -68,7 +68,7 @@ E - Coprime まず全てのAiに対してGCDをとって，与えられた数字
     
       
       
-      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
     
 
     
@@ -76,13 +76,13 @@ E - Coprime まず全てのAiに対してGCDをとって，与えられた数字
     
 
     
-      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
+      <link rel="stylesheet" href="http://localhost:1313/css/custom.css" />
     
 
     
 
-    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="http://localhost:1313/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://localhost:1313/img/original.png" sizes="16x16">
 
     <meta name="generator" content="Hugo 0.127.0">
   </head>
@@ -93,7 +93,7 @@ E - Coprime まず全てのAiに対してGCDをとって，与えられた数字
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="https://t45k.github.io/">
+    <a class="navigation-title" href="http://localhost:1313/">
       T45K
     </a>
     
@@ -103,19 +103,19 @@ E - Coprime まず全てのAiに対してGCDをとって，与えられた数字
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
+            <a class="navigation-link" href="http://localhost:1313/about">about</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
+            <a class="navigation-link" href="http://localhost:1313/blog_index">blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+            <a class="navigation-link" href="http://localhost:1313/kyopuro_index">kyopuro</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
+            <a class="navigation-link" href="http://localhost:1313/product">product</a>
           </li>
         
           <li class="navigation-item">

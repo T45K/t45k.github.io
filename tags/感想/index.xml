@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>感想 on T45K</title>
-    <link>https://t45k.github.io/tags/%E6%84%9F%E6%83%B3/</link>
+    <link>http://localhost:1313/tags/%E6%84%9F%E6%83%B3/</link>
     <description>Recent content in 感想 on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 19 Mar 2023 15:45:40 +0900</lastBuildDate>
     
-	<atom:link href="https://t45k.github.io/tags/%E6%84%9F%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/%E6%84%9F%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>シン・仮面ライダーを見た話</title>
-      <link>https://t45k.github.io/blog/shin-kamen-rider/</link>
+      <link>http://localhost:1313/blog/shin-kamen-rider/</link>
       <pubDate>Sun, 19 Mar 2023 15:45:40 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/shin-kamen-rider/</guid>
+      <guid>http://localhost:1313/blog/shin-kamen-rider/</guid>
       <description>&lt;p&gt;シン・仮面ライダーを見たので感想。&lt;/p&gt;
 &lt;p&gt;本当に半年以上待った作品だったが、かなりの怪作だったので結構呆気に取られている。&lt;/p&gt;
 &lt;h2 id=&#34;良かった点&#34;&gt;良かった点&lt;/h2&gt;
@@ -70,10 +70,10 @@
     
     <item>
       <title>「Death Stranding」をプレイした話</title>
-      <link>https://t45k.github.io/blog/death_stranding/</link>
+      <link>http://localhost:1313/blog/death_stranding/</link>
       <pubDate>Sat, 28 Jan 2023 17:16:09 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/death_stranding/</guid>
+      <guid>http://localhost:1313/blog/death_stranding/</guid>
       <description>&lt;p&gt;Epic でセールになってた Death Stranding（以降、デススト）をクリアしたので感想を書きます。&lt;/p&gt;
 &lt;h2 id=&#34;デスストとは&#34;&gt;デスストとは&lt;/h2&gt;
 &lt;p&gt;デスストは 2019 年に PS4 向けに発売されたゲームです。
@@ -107,10 +107,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>シン・ウルトラマンを見た話</title>
-      <link>https://t45k.github.io/blog/shin-ultraman/</link>
+      <link>http://localhost:1313/blog/shin-ultraman/</link>
       <pubDate>Sun, 12 Jun 2022 15:48:22 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/shin-ultraman/</guid>
+      <guid>http://localhost:1313/blog/shin-ultraman/</guid>
       <description>&lt;p&gt;シン・ウルトラマンを 3 回も観てしまったので、感想を書き連ねておく。&lt;/p&gt;
 &lt;p&gt;全体的な感想としては、作り手（主に監修）が本当に自分が好きなものを詰め込んでいて、それがオタクに刺さりまくる感じ。&lt;/p&gt;
 &lt;p&gt;無印へのリスペクトがすごく、&lt;/p&gt;
@@ -177,10 +177,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「Code Clone Analysis」読了</title>
-      <link>https://t45k.github.io/blog/code_clone_analysis/</link>
+      <link>http://localhost:1313/blog/code_clone_analysis/</link>
       <pubDate>Sat, 26 Feb 2022 12:00:56 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/code_clone_analysis/</guid>
+      <guid>http://localhost:1313/blog/code_clone_analysis/</guid>
       <description>&lt;p&gt;Code Clone Analysis を読みました。&lt;/p&gt;
 &lt;p&gt;コードクローンとはソースコード中の類似したコード片を指し、修正漏れの原因になることからこれまで多くの研究が行われてきました。
 この本は、これまでの研究を総括した学術書です。
@@ -193,10 +193,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「叙述トリック短編集」読了</title>
-      <link>https://t45k.github.io/blog/descriptive_trick/</link>
+      <link>http://localhost:1313/blog/descriptive_trick/</link>
       <pubDate>Mon, 10 Jan 2022 11:35:22 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/descriptive_trick/</guid>
+      <guid>http://localhost:1313/blog/descriptive_trick/</guid>
       <description>&lt;p&gt;昨年の 12 月には読み終えていたけど感想書くのサボってた&amp;hellip;&lt;/p&gt;
 &lt;p&gt;似鳥鶏の「叙述トリック短編集」を読みました。&lt;/p&gt;
 &lt;p&gt;叙述トリックとは、語り手（作者）が（意図的に）情報を隠すことで読者を騙すトリックを指します。
@@ -214,10 +214,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「カーニバル・デイ 新人類の記念日」読了</title>
-      <link>https://t45k.github.io/blog/carnival_day/</link>
+      <link>http://localhost:1313/blog/carnival_day/</link>
       <pubDate>Sun, 24 Oct 2021 13:35:14 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/carnival_day/</guid>
+      <guid>http://localhost:1313/blog/carnival_day/</guid>
       <description>&lt;p&gt;2 ヶ月近くかけて，清涼院流水の「カーニバル・デイ」を読みました．&lt;/p&gt;
 &lt;p&gt;本作は JDC シリーズのカーニバル三部作の三作目で，何とこの巻だけで 1000 ページ超あります．
 一応 JDC シリーズの年表としては一番最後にあたる話で，とりあえず一区切り付いたかなぁという気持ちです．&lt;/p&gt;
@@ -235,10 +235,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>ドキドキ文芸部をプレイした話</title>
-      <link>https://t45k.github.io/blog/ddlc/</link>
+      <link>http://localhost:1313/blog/ddlc/</link>
       <pubDate>Mon, 18 Oct 2021 19:54:12 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/ddlc/</guid>
+      <guid>http://localhost:1313/blog/ddlc/</guid>
       <description>&lt;p&gt;ドキドキ文芸部をプレイしました．&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;以降，ネタバレ含みます．&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;プレイ中の感想としては，&lt;/p&gt;
@@ -264,10 +264,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「カーニバル 人類最後の事件」読了</title>
-      <link>https://t45k.github.io/blog/carnival/</link>
+      <link>http://localhost:1313/blog/carnival/</link>
       <pubDate>Wed, 01 Sep 2021 22:47:07 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/carnival/</guid>
+      <guid>http://localhost:1313/blog/carnival/</guid>
       <description>&lt;p&gt;重い腰を上げて，清涼院流水の「カーニバル」を読みました．&lt;/p&gt;
 &lt;p&gt;本作では，JDC爆破事件を皮切りに，1週ずつ繰り広げられる大規模犯罪のお話が展開されます．
 また，各事件は作者が定めた順番に並べられており，「ページ通り読む（読者式）」と「時系列順に読む（作者式）」の2通りの方法で楽しむことができます．
@@ -280,10 +280,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「世界は密室でできている」読了</title>
-      <link>https://t45k.github.io/blog/the_world_is_made_out_of_closed_rooms/</link>
+      <link>http://localhost:1313/blog/the_world_is_made_out_of_closed_rooms/</link>
       <pubDate>Thu, 05 Aug 2021 17:05:34 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/the_world_is_made_out_of_closed_rooms/</guid>
+      <guid>http://localhost:1313/blog/the_world_is_made_out_of_closed_rooms/</guid>
       <description>&lt;p&gt;近所の図書館の図書カードをようやく作ったので，
 舞城王太郎の「世界は密室でできている」を借りて読みました．&lt;/p&gt;
 &lt;p&gt;思ったこと&lt;/p&gt;
@@ -298,10 +298,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「九十九十九」読了</title>
-      <link>https://t45k.github.io/blog/999/</link>
+      <link>http://localhost:1313/blog/999/</link>
       <pubDate>Thu, 26 Nov 2020 16:19:02 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/999/</guid>
+      <guid>http://localhost:1313/blog/999/</guid>
       <description>&lt;p&gt;&lt;strong&gt;苦しさを感じるなら、僕なんて愛さなくていいんだ&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;舞城王太郎の「九十九十九」を読みました．
 この本はJDCトリビュートの一冊となっており，
@@ -320,10 +320,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「きまぐれロボット」読了</title>
-      <link>https://t45k.github.io/blog/kimagure_robot/</link>
+      <link>http://localhost:1313/blog/kimagure_robot/</link>
       <pubDate>Sat, 25 Jul 2020 20:46:40 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/kimagure_robot/</guid>
+      <guid>http://localhost:1313/blog/kimagure_robot/</guid>
       <description>&lt;p&gt;星新一のきまぐれロボットを読みました．&lt;/p&gt;
 &lt;p&gt;この本を読んだ経緯ですが，楽天で買い物をしたときにもらった
 電子書籍の割引券の使い道に困っていたところ，
@@ -342,10 +342,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「ジョーカー 旧約探偵神話」読了</title>
-      <link>https://t45k.github.io/blog/joker/</link>
+      <link>http://localhost:1313/blog/joker/</link>
       <pubDate>Sat, 18 Jul 2020 00:30:49 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/joker/</guid>
+      <guid>http://localhost:1313/blog/joker/</guid>
       <description>&lt;p&gt;清涼院流水の「ジョーカー 旧約探偵神話」を読みました．&lt;/p&gt;
 &lt;p&gt;全編を通して「メタミステリ」「過去のミステリに対する挑発」がひしひしと伝わってくる内容でした．
 特にミステリ四大奇書である「ドグラマグラ」「匣の中の失楽」「虚無への供物」「黒死館殺人事件」は文中で何度も言及されており，
@@ -363,10 +363,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「コズミック 世紀末探偵神話」読了</title>
-      <link>https://t45k.github.io/blog/cosmic/</link>
+      <link>http://localhost:1313/blog/cosmic/</link>
       <pubDate>Wed, 01 Jul 2020 11:05:57 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/cosmic/</guid>
+      <guid>http://localhost:1313/blog/cosmic/</guid>
       <description>&lt;p&gt;清涼院流水の「コズミック 世紀末探偵神話」を読みました．&lt;/p&gt;
 &lt;p&gt;清涼院流水は，僕が敬愛する作家である西尾維新や舞城王太郎が影響を受けたと公言している作家なので，どんな本を書いているのか昔から非常に興味がありました．&lt;/p&gt;
 &lt;p&gt;読んだ感想ですが，久しぶりにページを捲る手が止まらない本を読んだ気がします．
@@ -380,10 +380,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「阿修羅ガール」読了</title>
-      <link>https://t45k.github.io/blog/ashura-girl/</link>
+      <link>http://localhost:1313/blog/ashura-girl/</link>
       <pubDate>Thu, 28 May 2020 00:23:42 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/ashura-girl/</guid>
+      <guid>http://localhost:1313/blog/ashura-girl/</guid>
       <description>&lt;p&gt;舞城王太郎の阿修羅ガールを読みました．&lt;/p&gt;
 &lt;p&gt;一人称視点で進んでいくのですが，主人公の心の声の喋り方がとても真に迫った感じだったのが印象的でした．
 特に，第二部の後半の進め方がすごく理解しやすく，場面をイメージしやすかったです．
@@ -397,10 +397,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「クビシメロマンチスト 人間失格・零崎人識」読了</title>
-      <link>https://t45k.github.io/blog/easy_love_easy_no/</link>
+      <link>http://localhost:1313/blog/easy_love_easy_no/</link>
       <pubDate>Wed, 06 May 2020 20:45:52 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/easy_love_easy_no/</guid>
+      <guid>http://localhost:1313/blog/easy_love_easy_no/</guid>
       <description>&lt;p&gt;西尾維新の戯言シリーズ2作目であるクビシメロマンチストを読みました．
 &lt;a href=&#34;https://www.amazon.co.jp/%E3%82%AF%E3%83%93%E3%82%B7%E3%83%A1%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B9%E3%83%88-%E4%BA%BA%E9%96%93%E5%A4%B1%E6%A0%BC%E3%83%BB%E9%9B%B6%E5%B4%8E%E4%BA%BA%E8%AD%98-%E8%AC%9B%E8%AB%87%E7%A4%BE%E6%96%87%E5%BA%AB-%E8%A5%BF%E5%B0%BE%E7%B6%AD%E6%96%B0-ebook/dp/B01EV0NMIG/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=2WNUAO24W551I&amp;amp;dchild=1&amp;amp;keywords=%E3%82%AF%E3%83%93%E3%82%B7%E3%83%A1%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B9%E3%83%88&amp;amp;qid=1588765443&amp;amp;sprefix=%E3%81%8F%E3%81%B3%E3%81%97%E3%82%81%2Caps%2C293&amp;amp;sr=8-1&#34;&gt;amazon&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;高校生くらいの時に一度読んだのですが，面白かったのを覚えていたため古本で購入しました．
@@ -414,10 +414,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「ディスコ探偵水曜日」読了</title>
-      <link>https://t45k.github.io/blog/disco_detective_wednesdayyy/</link>
+      <link>http://localhost:1313/blog/disco_detective_wednesdayyy/</link>
       <pubDate>Fri, 24 Apr 2020 19:01:51 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/disco_detective_wednesdayyy/</guid>
+      <guid>http://localhost:1313/blog/disco_detective_wednesdayyy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;この世の出来事は全部運命と意志の相互作用で生まれるんだって、知ってる？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;舞城王太郎の「ディスコ探偵水曜日」を読みました．
 10年以上前の本なのでおそらく新品ではもう手に入りません．
@@ -434,10 +434,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「みんな元気。」読了</title>
-      <link>https://t45k.github.io/blog/all_fine/</link>
+      <link>http://localhost:1313/blog/all_fine/</link>
       <pubDate>Fri, 20 Mar 2020 12:00:53 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/all_fine/</guid>
+      <guid>http://localhost:1313/blog/all_fine/</guid>
       <description>&lt;p&gt;&lt;strong&gt;みんな大丈夫。みんな元気。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;舞城王太郎の「みんな元気。」を読みました．&lt;a href=&#34;https://www.amazon.co.jp/%E3%81%BF%E3%82%93%E3%81%AA%E5%85%83%E6%B0%97%E3%80%82-%E8%88%9E%E5%9F%8E%E7%8E%8B%E5%A4%AA%E9%83%8E-ebook/dp/B00CL6N332/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;dchild=1&amp;amp;keywords=%E3%81%BF%E3%82%93%E3%81%AA%E5%85%83%E6%B0%97&amp;amp;qid=1584673351&amp;amp;sr=8-5&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;この本は，表題である「みんな元気。(副題: Cuckoos &amp;amp; The Invisible Devil)」と短編4編で構成されています．
@@ -457,10 +457,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>「好き好き大好き超愛してる。」読了</title>
-      <link>https://t45k.github.io/blog/love_love_love_you_i_love_you/</link>
+      <link>http://localhost:1313/blog/love_love_love_you_i_love_you/</link>
       <pubDate>Tue, 03 Mar 2020 16:20:18 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/love_love_love_you_i_love_you/</guid>
+      <guid>http://localhost:1313/blog/love_love_love_you_i_love_you/</guid>
       <description>&lt;p&gt;&lt;strong&gt;愛は祈りだ。僕は祈る。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;舞城王太郎の「好き好き大好き超愛してる。」を読みました．&lt;a href=&#34;https://www.amazon.co.jp/%E5%A5%BD%E3%81%8D%E5%A5%BD%E3%81%8D%E5%A4%A7%E5%A5%BD%E3%81%8D%E8%B6%85%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%80%82-%E8%AC%9B%E8%AB%87%E7%A4%BE%E6%96%87%E5%BA%AB-%E8%88%9E%E5%9F%8E-%E7%8E%8B%E5%A4%AA%E9%83%8E/dp/4062760819/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;keywords=%E5%A5%BD%E3%81%8D%E5%A5%BD%E3%81%8D%E5%A4%A7%E5%A5%BD%E3%81%8D%E8%B6%85%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B&amp;amp;qid=1583220082&amp;amp;sr=8-1&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;きっかけはDJ Technorchの楽曲「Love Love Love You I Love You」．&lt;br&gt;

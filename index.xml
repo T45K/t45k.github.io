@@ -2,21 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>T45K</title>
-    <link>https://t45k.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 23 Jun 2024 22:54:46 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Jun 2024 21:16:17 +0900</lastBuildDate>
     
-	<atom:link href="https://t45k.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>「継続的デリバリーのソフトウェア工学」読了</title>
+      <link>http://localhost:1313/blog/modern_software_engineering/</link>
+      <pubDate>Tue, 25 Jun 2024 21:16:17 +0900</pubDate>
+      
+      <guid>http://localhost:1313/blog/modern_software_engineering/</guid>
+      <description>&lt;p&gt;継続的デリバリーのソフトウェア工学（英題: Modern Software Engineering）を読んだ。&lt;/p&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17370467%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=20843481&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0367%2F9784296070367_1_3.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;display: block;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17370467%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;継続的デリバリーのソフトウェア工学　もっと早く、もっと良いソフトウェアを作るための秘訣 [ David Farley ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3,190円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2024/6/25時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17370467%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34; &gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17370467%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt; 楽天で購入 &lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&#34;ソフトウェア開発&#34;&gt;ソフトウェア開発&lt;/h2&gt;
+&lt;p&gt;本書ではソフトウェア開発の効果的かつ効率的な方法を探求していく。&lt;/p&gt;
+&lt;p&gt;より良いソフトウェア開発を行うために、開発者は「学びのエキスパート」かつ
+「複雑さ管理のエキスパート」になるべき、と述べている。&lt;/p&gt;
+&lt;p&gt;学びのエキスパートになるためには、実験 → フィードバック → 実験 → &amp;hellip; のループを
+高速で回すことが重要になる。&lt;/p&gt;
+&lt;p&gt;複雑さ管理のエキスパートになるためには&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;モジュラー性&lt;/li&gt;
+&lt;li&gt;抽象化&lt;/li&gt;
+&lt;li&gt;疎結合&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の実現が不可欠になる。&lt;/p&gt;
+&lt;p&gt;そして、上記の要素を達成するために&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;テスト可能性&lt;/li&gt;
+&lt;li&gt;デプロイ可能性&lt;/li&gt;
+&lt;li&gt;スピード&lt;/li&gt;
+&lt;li&gt;変数の管理&lt;/li&gt;
+&lt;li&gt;継続的デリバリー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;が重要になる。&lt;/p&gt;
+&lt;h2 id=&#34;ソフトウェア工学&#34;&gt;ソフトウェア工学&lt;/h2&gt;
+&lt;p&gt;本書では、ソフトウェア開発は工学的に行われるべきだと述べられている。&lt;/p&gt;
+&lt;p&gt;これは、いわゆる工芸品のような、職人の一品物ではないということである。&lt;br&gt;
+また、科学のように厳密性を追求するのではなく、
+あくまで開発に役立つプラクティスを追い求めるべき、ということでもある。&lt;/p&gt;
+&lt;p&gt;一方で、建築物のような製造工学に近い物ではなく、設計工学になるべきとも述べられている。&lt;/p&gt;
+&lt;p&gt;ソフトウェア開発が製造工学と違う点は、ソフトウェア開発は繰り返し作り直すことが容易である点である。&lt;/p&gt;
+&lt;p&gt;建築物は一度作ると作り直しが効かないため、事前の設計を念入りにやったうえで開発に入る。&lt;/p&gt;
+&lt;p&gt;一方で、ソフトウェアにおいてコードの書き直しは容易であるため、
+設計 → 実装 → デプロイのループを早め、知見を得ることが重要になる。&lt;/p&gt;
+&lt;p&gt;上記のループがどの程度うまく行っているかを計る指標がFour Keysである。&lt;/p&gt;
+&lt;h2 id=&#34;学びの最適化&#34;&gt;学びの最適化&lt;/h2&gt;
+&lt;p&gt;フィードバックを早く得られるようにする。&lt;/p&gt;
+&lt;p&gt;設計に対するフィードバック、実装に対するフィードバック、&amp;hellip;&lt;/p&gt;
+&lt;p&gt;小さく作って頻繁にマージ。&lt;/p&gt;
+&lt;h2 id=&#34;複雑さ管理の最適化&#34;&gt;複雑さ管理の最適化&lt;/h2&gt;
+&lt;p&gt;TDDでテスト可能性を確保し、モジュラー性を進める。&lt;/p&gt;
+&lt;p&gt;関心の分離。本質的な複雑さと付随的な複雑さ（ドメインの複雑さと技術的な複雑さ）を分離する。&lt;/p&gt;
+&lt;p&gt;運用に関わる変数の数を少なくして、デプロイを安定的にする。&lt;/p&gt;
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+&lt;p&gt;「ソフトウェア工学」とあったので多少学術的な内容を期待していたが、良い意味で裏切られた。&lt;/p&gt;
+&lt;p&gt;内容は「素早いフィードバックサイクルで効率的に学びましょう」と
+「ソフトウェアの複雑さを管理しましょう」で、前者にスポットライトが当たっているのが斬新な気がする。&lt;/p&gt;
+&lt;p&gt;複雑さ管理には疎結合高凝集、それを達成するためのTDDと割と古典的な内容だったが、
+デプロイ可能性を常に保ち、それを持って継続的デリバリーを実践していく的な部分は面白かった。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Kotlin Fest 2024に参加・登壇した話</title>
-      <link>https://t45k.github.io/blog/kotlin_fest_2024/</link>
+      <link>http://localhost:1313/blog/kotlin_fest_2024/</link>
       <pubDate>Sun, 23 Jun 2024 22:54:46 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/kotlin_fest_2024/</guid>
+      <guid>http://localhost:1313/blog/kotlin_fest_2024/</guid>
       <description>&lt;p&gt;2024年6月22日に開催されたKotlin Fest 2024に参加・登壇してきました。&lt;/p&gt;
 &lt;h2 id=&#34;kotlin-fest&#34;&gt;Kotlin Fest&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.kotlinfest.dev/&#34;&gt;https://www.kotlinfest.dev/&lt;/a&gt;&lt;/p&gt;
@@ -106,10 +164,10 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>「データモデリングでドメインを駆動する」読了</title>
-      <link>https://t45k.github.io/blog/drive_domain_by_data_modeling/</link>
+      <link>http://localhost:1313/blog/drive_domain_by_data_modeling/</link>
       <pubDate>Thu, 23 May 2024 00:48:17 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/drive_domain_by_data_modeling/</guid>
+      <guid>http://localhost:1313/blog/drive_domain_by_data_modeling/</guid>
       <description>&lt;p&gt;杉本さん著の「データモデリングでドメインを駆動する」を読んだ。&lt;/p&gt;
 &lt;p&gt;サブタイトルとして「基幹系システム」が含まれているが、
 そもそも基幹系システムが何か分からない状態で読み始めたので、
@@ -126,10 +184,10 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>ベトナムに出張に行った話</title>
-      <link>https://t45k.github.io/blog/vietnam/</link>
+      <link>http://localhost:1313/blog/vietnam/</link>
       <pubDate>Sun, 28 Apr 2024 17:27:26 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/vietnam/</guid>
+      <guid>http://localhost:1313/blog/vietnam/</guid>
       <description>&lt;p&gt;現在勤めている会社のグループ会社がベトナムにあり、
 10日ほど出張で行かせてもらったので、感想を書き留めておく。&lt;/p&gt;
 &lt;h2 id=&#34;気候&#34;&gt;気候&lt;/h2&gt;
@@ -146,31 +204,31 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
 &lt;h2 id=&#34;食事&#34;&gt;食事&lt;/h2&gt;
 &lt;p&gt;全体的にあっさりした味付けのものが多かったと思う。&lt;/p&gt;
 &lt;p&gt;米食中心の食文化であり、特に米粉から作られた麺料理を多く食べた。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/pho.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/vietnam/pho.jpg&#34;
     alt=&#34;言わずと知れたフォー&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;言わずと知れたフォー&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/bun_cha.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/vietnam/bun_cha.jpg&#34;
     alt=&#34;つけ麺のブンチャー&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;つけ麺のブンチャー&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/bun_cha_like.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/vietnam/bun_cha_like.jpg&#34;
     alt=&#34;ブンチャーに似た何か&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;ブンチャーに似た何か&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/banh_mi.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/vietnam/banh_mi.jpg&#34;
     alt=&#34;サンドイッチのバインミー&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;サンドイッチのバインミー&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/kayu.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/vietnam/kayu.jpg&#34;
     alt=&#34;謎のホルモン入りお粥&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;謎のホルモン入りお粥&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -181,7 +239,7 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
 &lt;p&gt;ビールも種類が多い上に安かった（1缶12K VND ≒ 70円ほど）&lt;/p&gt;
 &lt;p&gt;味としては薄いものが多く、暑い日にごくごく飲むのが良さそうという感想だった。&lt;/p&gt;
 &lt;p&gt;氷を入れて飲むことも多いのも特徴的だった。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/bia_hoi_ha_noi.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/vietnam/bia_hoi_ha_noi.jpg&#34;
     alt=&#34;ローカルなレストランで飲めるビール。60円くらい。世界で一番安いらしい&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;ローカルなレストランで飲めるビール。60円くらい。世界で一番安いらしい&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -194,7 +252,7 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
 &lt;p&gt;ベトナムでもコーヒー文化が根付いていて、食後に飲んでいる人が多かった印象。&lt;/p&gt;
 &lt;p&gt;ベトナムのコーヒーは苦めなので、牛乳と砂糖が入った甘くて飲みやすいものが人気があった。&lt;/p&gt;
 &lt;p&gt;また、エッグコーヒーというのもあり、こちらは新体験だった（本当に卵が入っている）。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/vietnam/egg_coffee.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/vietnam/egg_coffee.jpg&#34;
     alt=&#34;エッグコーヒー&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;エッグコーヒー&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -215,18 +273,18 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>佐賀までツーリングした話</title>
-      <link>https://t45k.github.io/blog/saga_touring/</link>
+      <link>http://localhost:1313/blog/saga_touring/</link>
       <pubDate>Sat, 23 Mar 2024 22:00:13 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/saga_touring/</guid>
-      <description>&lt;p&gt;西日本編は&lt;a href=&#34;https://t45k.github.io/blog/tour_day1/&#34;&gt;こちら&lt;/a&gt;&lt;br&gt;
-東日本編は&lt;a href=&#34;https://t45k.github.io/blog/east_japan_touring/&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/blog/saga_touring/</guid>
+      <description>&lt;p&gt;西日本編は&lt;a href=&#34;http://localhost:1313/blog/tour_day1/&#34;&gt;こちら&lt;/a&gt;&lt;br&gt;
+東日本編は&lt;a href=&#34;http://localhost:1313/blog/east_japan_touring/&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;3/20（水）が祝日だったので、月火で有給を取って佐賀までバイクで行って帰ってきた。&lt;/p&gt;
 &lt;h2 id=&#34;一日目&#34;&gt;一日目&lt;/h2&gt;
 &lt;p&gt;3/17（日）&lt;/p&gt;
 &lt;p&gt;ひとまず山口の湯田温泉に向かって出発&lt;/p&gt;
 &lt;p&gt;岡山で途中下車し笠岡ラーメンを食べようとするも、お目当ての店は休みだったため、近所にあった「いではら」に行った。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/kasaoka_ramen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/saga_touring/kasaoka_ramen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;当初そのまま下道で海沿いを通って山口に向かう予定だったが、途中で雨が降ってきたため、予定を変更して高速で移動。&lt;/p&gt;
@@ -237,20 +295,20 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
 &lt;p&gt;3/18（月）&lt;/p&gt;
 &lt;p&gt;佐賀に向かう。&lt;/p&gt;
 &lt;p&gt;途中、本州最北端の毘沙ノ鼻に寄る。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/bisha_no_hana.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/saga_touring/bisha_no_hana.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;これで本州は西南北の最端を制覇。&lt;/p&gt;
 &lt;p&gt;そのまま高速で佐賀に移動。&lt;/p&gt;
 &lt;p&gt;お昼ご飯は河太郎で呼子のイカを食べる。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/yobuko_squid.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/saga_touring/yobuko_squid.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;このイカ、新鮮で臭みもネチャネチャした食感もなく、肉厚で弾力を甘味を楽しめた。
 満足。&lt;/p&gt;
 &lt;p&gt;そのまま嬉野温泉に移動。&lt;/p&gt;
 &lt;p&gt;晩飯は温泉湯豆腐を食べに行く。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/onsen_yudofu.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/saga_touring/onsen_yudofu.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;この湯豆腐、美味しんぼで紹介されていて昔から気になっていた。&lt;/p&gt;
@@ -259,14 +317,14 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
 &lt;p&gt;3/19（火）&lt;/p&gt;
 &lt;p&gt;久留米が近かったので、大砲ラーメンを食べに行く。&lt;/p&gt;
 &lt;p&gt;有名店なので開店凸してもしばらく待つかな、と思ったが、開店が10:30と早いこともありすんなり入れる。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/kurume_ramen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/saga_touring/kurume_ramen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;しっかり美味しいとんこつラーメンだった。&lt;/p&gt;
 &lt;p&gt;そのまま、関門トンネルを通り山口の長門湯本温泉へ。&lt;/p&gt;
 &lt;p&gt;当初は広島の宮浜温泉に行く予定だったのだが、祝日前ということもあり予約を取り損ねた。&lt;/p&gt;
 &lt;p&gt;温泉地自体は川沿いで風情があり良かった。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saga_touring/nagato_yumoto_onsen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/saga_touring/nagato_yumoto_onsen.jpg&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;晩飯はいつものごとく。&lt;/p&gt;
@@ -298,10 +356,10 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>「仮面ライダー555 パラダイス・リゲインド」を観た話</title>
-      <link>https://t45k.github.io/blog/555_movie/</link>
+      <link>http://localhost:1313/blog/555_movie/</link>
       <pubDate>Sun, 25 Feb 2024 00:29:15 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/555_movie/</guid>
+      <guid>http://localhost:1313/blog/555_movie/</guid>
       <description>&lt;p&gt;仮面ライダー555の20周年記念劇場版を観た。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.toei-video.co.jp/55520th/&#34;&gt;https://www.toei-video.co.jp/55520th/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;以下ネタバレあり感想&lt;/p&gt;
@@ -336,10 +394,10 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>2023年の振り返り</title>
-      <link>https://t45k.github.io/blog/retrospective_2023/</link>
+      <link>http://localhost:1313/blog/retrospective_2023/</link>
       <pubDate>Tue, 02 Jan 2024 23:25:57 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/retrospective_2023/</guid>
+      <guid>http://localhost:1313/blog/retrospective_2023/</guid>
       <description>&lt;p&gt;2023年を振り返る。&lt;/p&gt;
 &lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
 &lt;p&gt;楽天を辞めてマネーフォワードに転職した。&lt;/p&gt;
@@ -394,14 +452,14 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>ノンアルコールビールを飲み比べた話</title>
-      <link>https://t45k.github.io/blog/non_alcohol_beer/</link>
+      <link>http://localhost:1313/blog/non_alcohol_beer/</link>
       <pubDate>Mon, 11 Dec 2023 22:59:05 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/non_alcohol_beer/</guid>
+      <guid>http://localhost:1313/blog/non_alcohol_beer/</guid>
       <description>&lt;p&gt;健康の問題で酒が飲めない期間が続いたので、良さげなノンアルコールビールを5本買って飲み比べてみた。
 備忘録。&lt;/p&gt;
 &lt;h2 id=&#34;飲み比べ対象&#34;&gt;飲み比べ対象&lt;/h2&gt;
-&lt;img src=&#34;https://t45k.github.io/img/blog/non_alcohol_beer.jpg&#34; width=&#34;75%&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/img/blog/non_alcohol_beer.jpg&#34; width=&#34;75%&#34;&gt;
 &lt;p&gt;左からバドワイザー、龍馬1865、ヒューガルデン、Bavaria、NINJA LAGER&lt;/p&gt;
 &lt;h3 id=&#34;バドワイザー&#34;&gt;バドワイザー&lt;/h3&gt;
 &lt;p&gt;言わずと知れた有名なビールのノンアルコール版。&lt;/p&gt;
@@ -433,10 +491,10 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>「なっとく！関数型プログラミング」読了</title>
-      <link>https://t45k.github.io/blog/grokking_functional_programming/</link>
+      <link>http://localhost:1313/blog/grokking_functional_programming/</link>
       <pubDate>Mon, 09 Oct 2023 23:22:01 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/grokking_functional_programming/</guid>
+      <guid>http://localhost:1313/blog/grokking_functional_programming/</guid>
       <description>&lt;p&gt;「なっとく！関数型プログラミング」を読んだ。&lt;/p&gt;
 &lt;p&gt;「純粋関数のシグネチャは嘘をつかない」が再三説明されていて良かった。
 純粋関数を取り扱ううえで話題になりがちなIO処理なども丁寧に説明されていた。&lt;/p&gt;
@@ -448,10 +506,10 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>マネーフォワードに入社した話</title>
-      <link>https://t45k.github.io/blog/welcome_monery_forward/</link>
+      <link>http://localhost:1313/blog/welcome_monery_forward/</link>
       <pubDate>Sun, 01 Oct 2023 00:26:09 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/welcome_monery_forward/</guid>
+      <guid>http://localhost:1313/blog/welcome_monery_forward/</guid>
       <description>&lt;p&gt;2023年7月付で株式会社マネーフォワードに入社しました。&lt;/p&gt;
 &lt;p&gt;試用期間も終わったので色々書きます。&lt;/p&gt;
 &lt;h2 id=&#34;マネフォ&#34;&gt;マネフォ&lt;/h2&gt;
@@ -467,7 +525,7 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
 &lt;h2 id=&#34;何してるの&#34;&gt;何してるの&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://biz.moneyforward.com/consolidated-accounting/&#34;&gt;クラウド連結会計&lt;/a&gt;の開発、運用をしています。&lt;/p&gt;
 &lt;p&gt;連結会計という複雑なドメインを理解してコードに書き下していくのが楽しいです。&lt;/p&gt;
-&lt;p&gt;その他、この3ヶ月でCIのコストカット、R2DBCへの移行、および&lt;a href=&#34;https://t45k.github.io/blog/server_side_kotlin_meetup_10/&#34;&gt;登壇&lt;/a&gt;をしました。&lt;/p&gt;
+&lt;p&gt;その他、この3ヶ月でCIのコストカット、R2DBCへの移行、および&lt;a href=&#34;http://localhost:1313/blog/server_side_kotlin_meetup_10/&#34;&gt;登壇&lt;/a&gt;をしました。&lt;/p&gt;
 &lt;h2 id=&#34;マネフォの良いところ悪いところ&#34;&gt;マネフォの良いところ・悪いところ&lt;/h2&gt;
 &lt;p&gt;は、カジュアル面談とかで喋れたらな、と思います。&lt;/p&gt;
 </description>
@@ -475,10 +533,10 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>サーバーサイドKotlin LT大会 vol.10で登壇した話</title>
-      <link>https://t45k.github.io/blog/server_side_kotlin_meetup_10/</link>
+      <link>http://localhost:1313/blog/server_side_kotlin_meetup_10/</link>
       <pubDate>Sat, 30 Sep 2023 22:25:14 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/server_side_kotlin_meetup_10/</guid>
+      <guid>http://localhost:1313/blog/server_side_kotlin_meetup_10/</guid>
       <description>&lt;p&gt;3ヶ月ぶりに登壇しました。
 &lt;a href=&#34;https://server-side-kotlin-meetup.connpass.com/event/291686/&#34;&gt;https://server-side-kotlin-meetup.connpass.com/event/291686/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;server-side-kotlin-meetup&#34;&gt;Server-Side Kotlin Meetup&lt;/h2&gt;
@@ -506,10 +564,10 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>セミを食べた話</title>
-      <link>https://t45k.github.io/blog/cicada/</link>
+      <link>http://localhost:1313/blog/cicada/</link>
       <pubDate>Sun, 06 Aug 2023 13:47:19 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/cicada/</guid>
+      <guid>http://localhost:1313/blog/cicada/</guid>
       <description>&lt;div style=&#34;color:red&#34;&gt;虫の画像注意&lt;/div&gt;
 &lt;p&gt;セミを食べたのでレポ。&lt;/p&gt;
 &lt;h2 id=&#34;きっかけ&#34;&gt;きっかけ&lt;/h2&gt;
@@ -536,10 +594,10 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
 &lt;p&gt;今回は羽化した瞬間のセミを食べることが目的だったので、捕まえた幼虫は全てカーテンに引っ付けておいた。&lt;/p&gt;
 &lt;p&gt;しかし、2時間経っても、片方は羽化途中で完全に停止し、もう片方は羽化すらしていないという状態だった。&lt;/p&gt;
 &lt;p&gt;終電の都合があったので、今回はその状態で調理に入った。&lt;/p&gt;
-&lt;img src=&#34;https://t45k.github.io/img/blog/cicada/curtain.jpg&#34; width=&#34;50%&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/img/blog/cicada/curtain.jpg&#34; width=&#34;50%&#34;&gt;
 &lt;h2 id=&#34;調理&#34;&gt;調理&lt;/h2&gt;
 &lt;p&gt;市販の唐揚げ粉を使って唐揚げにした（セミだけでは足りないのが分かっていたので、ついでに鶏の唐揚げを作っていた）。&lt;/p&gt;
-&lt;img src=&#34;https://t45k.github.io/img/blog/cicada/flied.jpg&#34; width=&#34;50%&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/img/blog/cicada/flied.jpg&#34; width=&#34;50%&#34;&gt;
 &lt;p&gt;ただ、残念なことに、エビなどと同じく、セミもかなり淡白な味なのか、濃い味付けの唐揚げ粉に負けてしまっている感じがした。&lt;/p&gt;
 &lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
 &lt;p&gt;「セミを食べる」という貴重な経験をすることはできたが、決して満足がいく内容ではなかった。
@@ -554,10 +612,10 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>「データ指向プログラミング」読了</title>
-      <link>https://t45k.github.io/blog/data_oriented_programming/</link>
+      <link>http://localhost:1313/blog/data_oriented_programming/</link>
       <pubDate>Sat, 01 Jul 2023 19:17:51 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/data_oriented_programming/</guid>
+      <guid>http://localhost:1313/blog/data_oriented_programming/</guid>
       <description>&lt;p&gt;データ指向プログラミングを読んだ。&lt;/p&gt;
 &lt;p&gt;本書では、データ指向プログラミングと名付けられた、イミュータブルかつ汎用的なデータ構造で表現されたデータと
 参照透過かつジェネリックな関数を使ったプログラミング方法を紹介している。&lt;/p&gt;
@@ -619,15 +677,15 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>2年勤めた楽天を退職した話</title>
-      <link>https://t45k.github.io/blog/farewell_rakuten/</link>
+      <link>http://localhost:1313/blog/farewell_rakuten/</link>
       <pubDate>Fri, 30 Jun 2023 00:00:00 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/farewell_rakuten/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_osaka_office.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/blog/farewell_rakuten/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/rakuten_osaka_office.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;2023年6月末をもって楽天グループ株式会社（大阪支社）を退職する運びとなりました。
 2021年4月に新卒として入社したので、2年3ヶ月在籍したことになります。&lt;/p&gt;
 &lt;h2 id=&#34;なぜ入社したか&#34;&gt;なぜ入社したか&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/rakuten/&#34;&gt;学生の時に参加したインターン&lt;/a&gt;が楽しかったというのが最大の理由です。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/rakuten/&#34;&gt;学生の時に参加したインターン&lt;/a&gt;が楽しかったというのが最大の理由です。&lt;/p&gt;
 &lt;p&gt;また、日本最大級のサービスを提供している、英語で仕事できるという点に面白みを感じましたし、
 カフェテリアが無料というのも魅力的でした。&lt;/p&gt;
 &lt;h2 id=&#34;どんな会社だったか&#34;&gt;どんな会社だったか&lt;/h2&gt;
@@ -651,7 +709,7 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
 &lt;p&gt;&lt;a href=&#34;https://car.rakuten.co.jp/&#34;&gt;楽天Car&lt;/a&gt;というサービスを担当していました。&lt;/p&gt;
 &lt;p&gt;新機能の実装だけでなく、CIの導入、オンプレからk8sへの移行など幅広くやっていました。&lt;/p&gt;
 &lt;p&gt;その他、&lt;a href=&#34;https://commerce-engineer.rakuten.careers/entry/workstyle/0025&#34;&gt;短期インターンのメンター&lt;/a&gt;をしたり、
-社内LTに参加したり、&lt;a href=&#34;https://t45k.github.io/blog/jjug_ccc_2023_spring/&#34;&gt;登壇&lt;/a&gt;したりもできました。&lt;/p&gt;
+社内LTに参加したり、&lt;a href=&#34;http://localhost:1313/blog/jjug_ccc_2023_spring/&#34;&gt;登壇&lt;/a&gt;したりもできました。&lt;/p&gt;
 &lt;p&gt;また、この職場でSpock&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;を知ることができたのはとても良かったです。&lt;/p&gt;
 &lt;h2 id=&#34;むすび&#34;&gt;むすび&lt;/h2&gt;
 &lt;p&gt;楽天では良い上司、先輩、同期、後輩に恵まれました。この場を借りてお礼申し上げます。
@@ -676,14 +734,14 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>JJUG CCC 2023 Springで登壇した話</title>
-      <link>https://t45k.github.io/blog/jjug_ccc_2023_spring/</link>
+      <link>http://localhost:1313/blog/jjug_ccc_2023_spring/</link>
       <pubDate>Mon, 05 Jun 2023 19:48:46 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/jjug_ccc_2023_spring/</guid>
+      <guid>http://localhost:1313/blog/jjug_ccc_2023_spring/</guid>
       <description>&lt;p&gt;2023年6月4日日曜日に開催された&lt;a href=&#34;https://sessionize.com/api/v2/y7inyq6y/view/GridSmart&#34;&gt;JJUG CCC 2023 Spring&lt;/a&gt;で人生初の登壇をしてきました！
 めっちゃ緊張した&amp;hellip;&lt;/p&gt;
 &lt;p&gt;写真はもらったノベルティの数々。&lt;/p&gt;
-&lt;img src=&#34;https://t45k.github.io/img/blog/jjug_ccc_2023_spring.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/img/blog/jjug_ccc_2023_spring.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
 &lt;h3 id=&#34;jjugとは&#34;&gt;JJUGとは&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/jjug_ccc_2022_fall/&#34;&gt;https://t45k.github.io/blog/jjug_ccc_2022_fall/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;登壇&#34;&gt;登壇&lt;/h3&gt;
@@ -729,21 +787,21 @@ YanagaさんはGoogleに勤めているJava Championの方です。
     
     <item>
       <title>東日本近似的一周旅行に行った話</title>
-      <link>https://t45k.github.io/blog/east_japan_touring/</link>
+      <link>http://localhost:1313/blog/east_japan_touring/</link>
       <pubDate>Tue, 16 May 2023 16:19:38 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/east_japan_touring/</guid>
-      <description>&lt;p&gt;西日本編は&lt;a href=&#34;https://t45k.github.io/blog/tour_day1/&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/blog/east_japan_touring/</guid>
+      <description>&lt;p&gt;西日本編は&lt;a href=&#34;http://localhost:1313/blog/tour_day1/&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;まとまった休みを取ったので、一週間半くらいかけ本州最北端である大間崎までバイクで行って帰ってた。
 最終的に五日間で2,600km走った。&lt;/p&gt;
 &lt;h2 id=&#34;一日目&#34;&gt;一日目&lt;/h2&gt;
 &lt;p&gt;出発。とりあえず行きは日本海側から向かうことにした。&lt;/p&gt;
 &lt;p&gt;昼は金沢の金沢まいもん寿司で高いセットを食べた。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/kanazawa_sushi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/kanazawa_sushi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;石浦神社に安全を祈願しに行った。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ishiura_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/ishiura_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま高速で北上して富山の宇奈月温泉へ。
@@ -752,13 +810,13 @@ YanagaさんはGoogleに勤めているJava Championの方です。
 &lt;p&gt;朝ご飯もホテルのビュッフェ。&lt;/p&gt;
 &lt;p&gt;お昼は新潟で燕三条ラーメン。
 背脂チャッチャ系で旨い。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/tsubame_sanjo_ramen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/tsubame_sanjo_ramen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;その足で弥彦神社に行った。
 ここは二礼四拍手一礼で参拝するという結構珍しい神社だった。
 こういう大きめの神社は、鳥居から社までの道も神聖な感じがして良かった。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/yahiko_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/yahiko_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま下道で山形を通り越して秋田の田沢湖温泉へ。
@@ -770,31 +828,31 @@ YanagaさんはGoogleに勤めているJava Championの方です。
 &lt;p&gt;秋田の山を越えて青森に入る。
 秋田の山はまだ雪が残っていて辛かった。&lt;/p&gt;
 &lt;p&gt;青森に入ってすぐにスウェットパーカーを買った。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/akita_mountain.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/akita_mountain.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;青森では煮干しラーメンを食す。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/niboshi_ramen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/niboshi_ramen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;廣田神社に参拝した。
 ここは疫病の神様を祀ってあるとかなんとか。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/hirota_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/hirota_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま浅虫温泉で一泊。&lt;/p&gt;
 &lt;h2 id=&#34;四日目&#34;&gt;四日目&lt;/h2&gt;
 &lt;p&gt;予定通り大間崎へ向かう。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/omazaki.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/omazaki.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;大間はマグロの漁獲量が日本一なので、昼飯にマグロ丼を食べる。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/magurodon.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/magurodon.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま下道を走って岩手へ。
 岩手では盛岡冷麺を頂く。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/morioka_remen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/morioka_remen.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま瀬美温泉へ。&lt;/p&gt;
@@ -804,7 +862,7 @@ YanagaさんはGoogleに勤めているJava Championの方です。
 &lt;p&gt;朝5:45に出発。
 途中のSAで朝飯を取ったり、休憩したりしながら南下する。&lt;/p&gt;
 &lt;p&gt;静岡で一旦高速を降りて、さわやかでハンバーグを食べる。&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/sawayaka.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/sawayaka.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;そのまま再び高速に乗って大阪へ。
@@ -821,10 +879,10 @@ YanagaさんはGoogleに勤めているJava Championの方です。
     
     <item>
       <title>「ソフトウェア見積もり」読了</title>
-      <link>https://t45k.github.io/blog/software_estimation/</link>
+      <link>http://localhost:1313/blog/software_estimation/</link>
       <pubDate>Mon, 27 Mar 2023 22:28:20 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/software_estimation/</guid>
+      <guid>http://localhost:1313/blog/software_estimation/</guid>
       <description>&lt;p&gt;Steve McConnellの「ソフトウェア見積もり」を読んだ。&lt;/p&gt;
 &lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=11917813&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F8910%2F89100522.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;ソフトウェア見積り 人月の暗黙知を解き明かす [ スティーヴ・マコネル ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3,740円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2023/3/27時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F4149660%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;p&gt;普段の業務では特に締め切りが存在せず、スケジュールを意識してプロジェクトをやることがあまりないので、
@@ -846,10 +904,10 @@ YanagaさんはGoogleに勤めているJava Championの方です。
     
     <item>
       <title>シン・仮面ライダーを見た話</title>
-      <link>https://t45k.github.io/blog/shin-kamen-rider/</link>
+      <link>http://localhost:1313/blog/shin-kamen-rider/</link>
       <pubDate>Sun, 19 Mar 2023 15:45:40 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/shin-kamen-rider/</guid>
+      <guid>http://localhost:1313/blog/shin-kamen-rider/</guid>
       <description>&lt;p&gt;シン・仮面ライダーを見たので感想。&lt;/p&gt;
 &lt;p&gt;本当に半年以上待った作品だったが、かなりの怪作だったので結構呆気に取られている。&lt;/p&gt;
 &lt;h2 id=&#34;良かった点&#34;&gt;良かった点&lt;/h2&gt;
@@ -903,10 +961,10 @@ YanagaさんはGoogleに勤めているJava Championの方です。
     
     <item>
       <title>「ちょうぜつソフトウェア開発入門」読了</title>
-      <link>https://t45k.github.io/blog/chozetsu_software_design_introduction/</link>
+      <link>http://localhost:1313/blog/chozetsu_software_design_introduction/</link>
       <pubDate>Sun, 12 Feb 2023 16:42:09 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/chozetsu_software_design_introduction/</guid>
+      <guid>http://localhost:1313/blog/chozetsu_software_design_introduction/</guid>
       <description>&lt;p&gt;ひさてるさん著の「ちょうぜつソフトウェア開発入門」を読んだ。
 ひさてるさんは Twitter で「#ちょうぜつエンジニアめもりーちゃん」のハッシュタグで不定期に漫画を投稿している人で、そのシニカルな内容が個人的には気に入っている。&lt;/p&gt;
 &lt;p&gt;副題に「PHP で理解するオブジェクト指向の活用」とある通り、サンプルコードは PHP で書かれている。
@@ -919,10 +977,10 @@ YanagaさんはGoogleに勤めているJava Championの方です。
     
     <item>
       <title>「読みやすいコードのガイドライン」読了</title>
-      <link>https://t45k.github.io/blog/readable_code_guideline/</link>
+      <link>http://localhost:1313/blog/readable_code_guideline/</link>
       <pubDate>Sun, 12 Feb 2023 16:23:45 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/readable_code_guideline/</guid>
+      <guid>http://localhost:1313/blog/readable_code_guideline/</guid>
       <description>&lt;p&gt;LINE に勤めている石川さんが書いた「読みやすいコードのガイドライン」を読んだ。
 副題の「持続可能なソフトウェア開発のために」に完全に同意。
 継続的なソフトウェア開発には読みやすいコードが必須。&lt;/p&gt;
@@ -937,10 +995,10 @@ YanagaさんはGoogleに勤めているJava Championの方です。
     
     <item>
       <title>「Death Stranding」をプレイした話</title>
-      <link>https://t45k.github.io/blog/death_stranding/</link>
+      <link>http://localhost:1313/blog/death_stranding/</link>
       <pubDate>Sat, 28 Jan 2023 17:16:09 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/death_stranding/</guid>
+      <guid>http://localhost:1313/blog/death_stranding/</guid>
       <description>&lt;p&gt;Epic でセールになってた Death Stranding（以降、デススト）をクリアしたので感想を書きます。&lt;/p&gt;
 &lt;h2 id=&#34;デスストとは&#34;&gt;デスストとは&lt;/h2&gt;
 &lt;p&gt;デスストは 2019 年に PS4 向けに発売されたゲームです。
@@ -974,10 +1032,10 @@ PS4 を持っておらず遊ぶことができないままでした。
     
     <item>
       <title>WF-1000XM4を修理に出した話</title>
-      <link>https://t45k.github.io/blog/wf-1000xm4_repair/</link>
+      <link>http://localhost:1313/blog/wf-1000xm4_repair/</link>
       <pubDate>Sat, 14 Jan 2023 17:56:18 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/wf-1000xm4_repair/</guid>
+      <guid>http://localhost:1313/blog/wf-1000xm4_repair/</guid>
       <description>&lt;h2 id=&#34;結論&#34;&gt;結論&lt;/h2&gt;
 &lt;p&gt;WF-1000XM4 の「片方（右側？）だけ異様に充電が減る」問題は、保証期限切れでも無料で新品に交換してもらえる。&lt;/p&gt;
 &lt;h2 id=&#34;購入した時期&#34;&gt;購入した時期&lt;/h2&gt;
@@ -1007,10 +1065,10 @@ SONY では、修理希望者向けのチャットボットを用意している
     
     <item>
       <title>2022年の振り返り</title>
-      <link>https://t45k.github.io/blog/retrospective_2022/</link>
+      <link>http://localhost:1313/blog/retrospective_2022/</link>
       <pubDate>Sat, 31 Dec 2022 09:39:23 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/retrospective_2022/</guid>
+      <guid>http://localhost:1313/blog/retrospective_2022/</guid>
       <description>&lt;p&gt;2022年を振り返る。&lt;/p&gt;
 &lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
 &lt;p&gt;楽しく仕事ができた。
@@ -1165,7 +1223,7 @@ SONY では、修理希望者向けのチャットボットを用意している
 &lt;li&gt;今年読んでて一番ためになったのは「現場で役立つシステム設計の原則」かなぁ。
 &lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=18637464&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0877%2F9784774190877.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;現場で役立つシステム設計の原則 変更を楽で安全にするオブジェクト指向の実践技法 [ 増田亨 ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3234円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2022/12/31時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/li&gt;
-&lt;li&gt;その他書評は&lt;a href=&#34;https://t45k.github.io/blog/&#34;&gt;ブログ&lt;/a&gt;に書いてます。&lt;/li&gt;
+&lt;li&gt;その他書評は&lt;a href=&#34;http://localhost:1313/blog/&#34;&gt;ブログ&lt;/a&gt;に書いてます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;音楽&#34;&gt;音楽&lt;/h2&gt;
 &lt;ul&gt;
@@ -1196,10 +1254,10 @@ SONY では、修理希望者向けのチャットボットを用意している
     
     <item>
       <title>JJUG CCC 2022 Fallに参加した話</title>
-      <link>https://t45k.github.io/blog/jjug_ccc_2022_fall/</link>
+      <link>http://localhost:1313/blog/jjug_ccc_2022_fall/</link>
       <pubDate>Sat, 03 Dec 2022 17:36:13 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/jjug_ccc_2022_fall/</guid>
+      <guid>http://localhost:1313/blog/jjug_ccc_2022_fall/</guid>
       <description>&lt;p&gt;2022 年 11 月 27 日日曜日に開催された JJUG CCC 2022 Fall に参加しました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://jjug.doorkeeper.jp/events/143914&#34;&gt;リンク&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;jjug&#34;&gt;JJUG&lt;/h2&gt;
@@ -1308,10 +1366,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>「現場で役立つシステム設計の原則」読了</title>
-      <link>https://t45k.github.io/blog/system_design_principle/</link>
+      <link>http://localhost:1313/blog/system_design_principle/</link>
       <pubDate>Sun, 16 Oct 2022 19:33:26 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/system_design_principle/</guid>
+      <guid>http://localhost:1313/blog/system_design_principle/</guid>
       <description>&lt;p&gt;現場で役立つシステム設計の原則を読んだ。&lt;/p&gt;
 &lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=18637464&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F0877%2F9784774190877.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;現場で役立つシステム設計の原則 変更を楽で安全にするオブジェクト指向の実践技法 [ 増田亨 ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：3234円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2022/10/16時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F15017530%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;  &gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt;楽天で購入&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;p&gt;「ドメインモデルを設計して、それを中心にプログラミングしよう」という内容だった。&lt;/p&gt;
@@ -1323,10 +1381,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>「達人が教えるWebパフォーマンスチューニング」読了</title>
-      <link>https://t45k.github.io/blog/web_perfomance_tuning/</link>
+      <link>http://localhost:1313/blog/web_perfomance_tuning/</link>
       <pubDate>Sun, 16 Oct 2022 19:27:18 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/web_perfomance_tuning/</guid>
+      <guid>http://localhost:1313/blog/web_perfomance_tuning/</guid>
       <description>&lt;p&gt;2022 年の ISUCON に備えて「達人が教える Web パフォーマンスチューニング」を読んだ。&lt;/p&gt;
 &lt;p&gt;内容としては、web サーバや DB の負荷計測からチューニングに関して、ISUCON で使えるテクから現場で活用できる技術まで紹介していた。
 パフォチュー経験がない状態で挑む ISUCON だったので、こういった本があってありがたかった。
@@ -1338,10 +1396,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>競プロでKotlinを使わない理由</title>
-      <link>https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/</link>
+      <link>http://localhost:1313/blog/why_not_kotlin_in_kyopuro/</link>
       <pubDate>Mon, 04 Jul 2022 22:38:27 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/</guid>
+      <guid>http://localhost:1313/blog/why_not_kotlin_in_kyopuro/</guid>
       <description>&lt;p&gt;仕事や趣味でソースコードを書く時は Kotlin を使っているが、競プロでは Java を使っている。&lt;/p&gt;
 &lt;p&gt;ちょくちょく Kotlin に移行することを考えるのだが、その度に色々な理由で断念するので、その理由を書き出してみる。&lt;/p&gt;
 &lt;h2 id=&#34;ビット演算子がない&#34;&gt;ビット演算子がない&lt;/h2&gt;
@@ -1366,10 +1424,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>シン・ウルトラマンを見た話</title>
-      <link>https://t45k.github.io/blog/shin-ultraman/</link>
+      <link>http://localhost:1313/blog/shin-ultraman/</link>
       <pubDate>Sun, 12 Jun 2022 15:48:22 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/shin-ultraman/</guid>
+      <guid>http://localhost:1313/blog/shin-ultraman/</guid>
       <description>&lt;p&gt;シン・ウルトラマンを 3 回も観てしまったので、感想を書き連ねておく。&lt;/p&gt;
 &lt;p&gt;全体的な感想としては、作り手（主に監修）が本当に自分が好きなものを詰め込んでいて、それがオタクに刺さりまくる感じ。&lt;/p&gt;
 &lt;p&gt;無印へのリスペクトがすごく、&lt;/p&gt;
@@ -1436,16 +1494,16 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>デュアルキーボードを試してみた話</title>
-      <link>https://t45k.github.io/blog/dual_keyboard/</link>
+      <link>http://localhost:1313/blog/dual_keyboard/</link>
       <pubDate>Thu, 05 May 2022 21:47:26 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/dual_keyboard/</guid>
+      <guid>http://localhost:1313/blog/dual_keyboard/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;入社して 1 年、肩こりに悩まされるようになったのでデュアルキーボードを試してみた。&lt;/p&gt;
 &lt;h2 id=&#34;肩こり&#34;&gt;肩こり&lt;/h2&gt;
 &lt;p&gt;肩こりには様々な原因があるが、長時間を肩をすぼめたままの姿勢でいることがその一つである。&lt;/p&gt;
 &lt;p&gt;一般的なキーボードは肩幅より狭いため、タイピングのために肩をすぼめた姿勢を取らざるを得なくなる。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/single_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/single_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;また、肩をすぼめると背中が前に曲がるため、腰に負担がかかる可能性が高まる。
 そのうえ、頭がディスプレイに近くなるため、眼精疲労も溜まりやすくなる。&lt;/p&gt;
 &lt;p&gt;以上の観点から、キーボードをそのまま利用するのは健康上のリスクが大きいと考えられる。&lt;/p&gt;
@@ -1482,7 +1540,7 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
 モニタの上端が目線よりも高い場合、まぶたを大きく開く必要があるため、ドライアイや眼精疲労に繋がることが指摘されている。
 ラップトップの画面の上にモニタを配置した場合、よほど座高が高い人間でない限り、モニタの上端が目線よりも高くなってしまう。&lt;/p&gt;
 &lt;p&gt;以上の理由から、以下が現時点での個人的な結論構成に落ち着いた。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/dual_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/dual_keyboard.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;肩が死ぬほど開いて気持ち良い。&lt;/p&gt;
 &lt;p&gt;ちなみに、トラックパッドは中央に置いている。&lt;/p&gt;
 &lt;p&gt;トラックパッドはなるべく使わないで良いように、ブラウザ操作は&lt;a href=&#34;https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=ja&#34;&gt;Vimium&lt;/a&gt;、
@@ -1492,10 +1550,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>「Code Clone Analysis」読了</title>
-      <link>https://t45k.github.io/blog/code_clone_analysis/</link>
+      <link>http://localhost:1313/blog/code_clone_analysis/</link>
       <pubDate>Sat, 26 Feb 2022 12:00:56 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/code_clone_analysis/</guid>
+      <guid>http://localhost:1313/blog/code_clone_analysis/</guid>
       <description>&lt;p&gt;Code Clone Analysis を読みました。&lt;/p&gt;
 &lt;p&gt;コードクローンとはソースコード中の類似したコード片を指し、修正漏れの原因になることからこれまで多くの研究が行われてきました。
 この本は、これまでの研究を総括した学術書です。
@@ -1508,10 +1566,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>「Java言語で学ぶデザインパターン入門」読了</title>
-      <link>https://t45k.github.io/blog/design_pattern/</link>
+      <link>http://localhost:1313/blog/design_pattern/</link>
       <pubDate>Sat, 26 Feb 2022 11:53:22 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/design_pattern/</guid>
+      <guid>http://localhost:1313/blog/design_pattern/</guid>
       <description>&lt;p&gt;「Java 言語で学ぶデザインパターン入門」を読み終えました。
 今回は内容を Kotlin で実装してみるということをやっていました。
 &lt;a href=&#34;https://github.com/t45k/designPatternlearning&#34;&gt;リポジトリ&lt;/a&gt;&lt;/p&gt;
@@ -1527,10 +1585,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>ABC239の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc239/</link>
+      <link>http://localhost:1313/kyopuro/abc239/</link>
       <pubDate>Sun, 20 Feb 2022 13:56:21 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc239/</guid>
+      <guid>http://localhost:1313/kyopuro/abc239/</guid>
       <description>&lt;p&gt;3 ヶ月ぶりのコンテスト参加。ただし Unrated。
 6 完&lt;/p&gt;
 &lt;h2 id=&#34;a---horizon&#34;&gt;A - Horizon&lt;/h2&gt;
@@ -1573,10 +1631,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>「叙述トリック短編集」読了</title>
-      <link>https://t45k.github.io/blog/descriptive_trick/</link>
+      <link>http://localhost:1313/blog/descriptive_trick/</link>
       <pubDate>Mon, 10 Jan 2022 11:35:22 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/descriptive_trick/</guid>
+      <guid>http://localhost:1313/blog/descriptive_trick/</guid>
       <description>&lt;p&gt;昨年の 12 月には読み終えていたけど感想書くのサボってた&amp;hellip;&lt;/p&gt;
 &lt;p&gt;似鳥鶏の「叙述トリック短編集」を読みました。&lt;/p&gt;
 &lt;p&gt;叙述トリックとは、語り手（作者）が（意図的に）情報を隠すことで読者を騙すトリックを指します。
@@ -1594,10 +1652,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>2021年の振り返り</title>
-      <link>https://t45k.github.io/blog/retrospective_2021/</link>
+      <link>http://localhost:1313/blog/retrospective_2021/</link>
       <pubDate>Fri, 31 Dec 2021 19:46:45 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/retrospective_2021/</guid>
+      <guid>http://localhost:1313/blog/retrospective_2021/</guid>
       <description>&lt;p&gt;2021 年を振り返っていく．&lt;/p&gt;
 &lt;h2 id=&#34;総評&#34;&gt;総評&lt;/h2&gt;
 &lt;p&gt;20 年間続いた学生生活をようやく終えて，社会人になった節目の年だった．&lt;/p&gt;
@@ -1685,10 +1743,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>「オブジェクト指向でなぜつくるのか」読了</title>
-      <link>https://t45k.github.io/blog/how_objects_work/</link>
+      <link>http://localhost:1313/blog/how_objects_work/</link>
       <pubDate>Sun, 28 Nov 2021 19:12:57 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/how_objects_work/</guid>
+      <guid>http://localhost:1313/blog/how_objects_work/</guid>
       <description>&lt;p&gt;オブジェクト指向でなぜつくるのかを読みました．&lt;/p&gt;
 &lt;p&gt;久々に技術書を買った気がします．
 社会人になって自由に使えるお金が増えるのは良いなと思いました．&lt;/p&gt;
@@ -1704,10 +1762,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>「カーニバル・デイ 新人類の記念日」読了</title>
-      <link>https://t45k.github.io/blog/carnival_day/</link>
+      <link>http://localhost:1313/blog/carnival_day/</link>
       <pubDate>Sun, 24 Oct 2021 13:35:14 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/carnival_day/</guid>
+      <guid>http://localhost:1313/blog/carnival_day/</guid>
       <description>&lt;p&gt;2 ヶ月近くかけて，清涼院流水の「カーニバル・デイ」を読みました．&lt;/p&gt;
 &lt;p&gt;本作は JDC シリーズのカーニバル三部作の三作目で，何とこの巻だけで 1000 ページ超あります．
 一応 JDC シリーズの年表としては一番最後にあたる話で，とりあえず一区切り付いたかなぁという気持ちです．&lt;/p&gt;
@@ -1725,10 +1783,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>ABC223の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc223/</link>
+      <link>http://localhost:1313/kyopuro/abc223/</link>
       <pubDate>Sat, 23 Oct 2021 20:31:42 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc223/</guid>
+      <guid>http://localhost:1313/kyopuro/abc223/</guid>
       <description>&lt;p&gt;ギリギリ 4 完．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC223&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---exact-price&#34;&gt;A - Exact Price&lt;/h2&gt;
@@ -1749,10 +1807,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>ABC222の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc222/</link>
+      <link>http://localhost:1313/kyopuro/abc222/</link>
       <pubDate>Sat, 23 Oct 2021 18:07:27 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc222/</guid>
+      <guid>http://localhost:1313/kyopuro/abc222/</guid>
       <description>&lt;p&gt;四完．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC222&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---four-digits&#34;&gt;A - Four Digits&lt;/h2&gt;
@@ -1795,10 +1853,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>ドキドキ文芸部をプレイした話</title>
-      <link>https://t45k.github.io/blog/ddlc/</link>
+      <link>http://localhost:1313/blog/ddlc/</link>
       <pubDate>Mon, 18 Oct 2021 19:54:12 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/ddlc/</guid>
+      <guid>http://localhost:1313/blog/ddlc/</guid>
       <description>&lt;p&gt;ドキドキ文芸部をプレイしました．&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;以降，ネタバレ含みます．&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;プレイ中の感想としては，&lt;/p&gt;
@@ -1824,10 +1882,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>ABC220の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc220/</link>
+      <link>http://localhost:1313/kyopuro/abc220/</link>
       <pubDate>Wed, 06 Oct 2021 22:54:53 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc220/</guid>
+      <guid>http://localhost:1313/kyopuro/abc220/</guid>
       <description>&lt;p&gt;5 完．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC220/&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---find-multiple&#34;&gt;A - Find Multiple&lt;/h2&gt;
 &lt;p&gt;ゴリゴリに計算して答えを出しても良いが，この手の問題は全探索しても間に合う．&lt;/p&gt;
@@ -1863,10 +1921,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>ABC219の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc219/</link>
+      <link>http://localhost:1313/kyopuro/abc219/</link>
       <pubDate>Wed, 06 Oct 2021 22:26:04 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc219/</guid>
+      <guid>http://localhost:1313/kyopuro/abc219/</guid>
       <description>&lt;p&gt;5 完 600 位で青パフォ．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC219/&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---atcoder-quiz-2&#34;&gt;A - AtCoder Quiz 2&lt;/h2&gt;
@@ -1922,10 +1980,10 @@ S1~S3 を配列に入れて，T の各数字を int 型に変換してからそ�
     
     <item>
       <title>ABC218の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc218/</link>
+      <link>http://localhost:1313/kyopuro/abc218/</link>
       <pubDate>Mon, 13 Sep 2021 16:37:09 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc218/</guid>
+      <guid>http://localhost:1313/kyopuro/abc218/</guid>
       <description>&lt;p&gt;初の 6 完で久々に盛れた．
 &lt;a href=&#34;https://github.com/T45K/Kyopuro/tree/master/AtCoder/ABC/ABC218&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---weather-forecast&#34;&gt;A - Weather Forecast&lt;/h2&gt;
@@ -1966,10 +2024,10 @@ C_i が負の辺は問答無用で加えてよい．&lt;/p&gt;
     
     <item>
       <title>ABC217の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc217/</link>
+      <link>http://localhost:1313/kyopuro/abc217/</link>
       <pubDate>Wed, 08 Sep 2021 18:47:29 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc217/</guid>
+      <guid>http://localhost:1313/kyopuro/abc217/</guid>
       <description>&lt;p&gt;ぎりぎり5完．
 難しく考えてセグ木で殴りにいくことが多かった．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC217/&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -2012,10 +2070,10 @@ Javaだと&lt;code&gt;TreeSet&lt;/code&gt;でOK（&lt;code&gt;lower&lt;/code&gt;
     
     <item>
       <title>ABC216の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc216/</link>
+      <link>http://localhost:1313/kyopuro/abc216/</link>
       <pubDate>Sat, 04 Sep 2021 20:29:59 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc216/</guid>
+      <guid>http://localhost:1313/kyopuro/abc216/</guid>
       <description>&lt;p&gt;カス4完．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC216/&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---signed-difficulty&#34;&gt;A - Signed Difficulty&lt;/h2&gt;
@@ -2051,10 +2109,10 @@ Javaだと&lt;code&gt;TreeSet&lt;/code&gt;でOK（&lt;code&gt;lower&lt;/code&gt;
     
     <item>
       <title>「カーニバル 人類最後の事件」読了</title>
-      <link>https://t45k.github.io/blog/carnival/</link>
+      <link>http://localhost:1313/blog/carnival/</link>
       <pubDate>Wed, 01 Sep 2021 22:47:07 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/carnival/</guid>
+      <guid>http://localhost:1313/blog/carnival/</guid>
       <description>&lt;p&gt;重い腰を上げて，清涼院流水の「カーニバル」を読みました．&lt;/p&gt;
 &lt;p&gt;本作では，JDC爆破事件を皮切りに，1週ずつ繰り広げられる大規模犯罪のお話が展開されます．
 また，各事件は作者が定めた順番に並べられており，「ページ通り読む（読者式）」と「時系列順に読む（作者式）」の2通りの方法で楽しむことができます．
@@ -2067,10 +2125,10 @@ Javaだと&lt;code&gt;TreeSet&lt;/code&gt;でOK（&lt;code&gt;lower&lt;/code&gt;
     
     <item>
       <title>ABC215の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc215/</link>
+      <link>http://localhost:1313/kyopuro/abc215/</link>
       <pubDate>Mon, 23 Aug 2021 20:59:23 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc215/</guid>
+      <guid>http://localhost:1313/kyopuro/abc215/</guid>
       <description>&lt;p&gt;Dで沼って緑パフォ4完．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC215&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---your-first-judge&#34;&gt;A - Your First Judge&lt;/h2&gt;
@@ -2119,10 +2177,10 @@ C++だとpermutationを使えば良いが，Javaだと自分で実装する必�
     
     <item>
       <title>ABC214の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc214/</link>
+      <link>http://localhost:1313/kyopuro/abc214/</link>
       <pubDate>Sun, 15 Aug 2021 13:45:18 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc214/</guid>
+      <guid>http://localhost:1313/kyopuro/abc214/</guid>
       <description>&lt;p&gt;ABCDの四完．久々にD問題解けた．&lt;br&gt;
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC214&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---new-generation-abc&#34;&gt;A - New Generation ABC&lt;/h2&gt;
@@ -2161,10 +2219,10 @@ i(&amp;gt;=2)番目のすぬけ君が初めて宝石をもらうのは
     
     <item>
       <title>「世界は密室でできている」読了</title>
-      <link>https://t45k.github.io/blog/the_world_is_made_out_of_closed_rooms/</link>
+      <link>http://localhost:1313/blog/the_world_is_made_out_of_closed_rooms/</link>
       <pubDate>Thu, 05 Aug 2021 17:05:34 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/the_world_is_made_out_of_closed_rooms/</guid>
+      <guid>http://localhost:1313/blog/the_world_is_made_out_of_closed_rooms/</guid>
       <description>&lt;p&gt;近所の図書館の図書カードをようやく作ったので，
 舞城王太郎の「世界は密室でできている」を借りて読みました．&lt;/p&gt;
 &lt;p&gt;思ったこと&lt;/p&gt;
@@ -2179,10 +2237,10 @@ i(&amp;gt;=2)番目のすぬけ君が初めて宝石をもらうのは
     
     <item>
       <title>ABC211の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc211/</link>
+      <link>http://localhost:1313/kyopuro/abc211/</link>
       <pubDate>Mon, 26 Jul 2021 22:41:46 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc211/</guid>
+      <guid>http://localhost:1313/kyopuro/abc211/</guid>
       <description>&lt;p&gt;4完速解き失敗でレートが微減．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC211&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---blood-pressure&#34;&gt;A - Blood Pressure&lt;/h2&gt;
 &lt;p&gt;けつあつそくてい．&lt;code&gt;double&lt;/code&gt;で計算する．&lt;/p&gt;
@@ -2206,10 +2264,10 @@ i(&amp;gt;=2)番目のすぬけ君が初めて宝石をもらうのは
     
     <item>
       <title>ABC210の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc210/</link>
+      <link>http://localhost:1313/kyopuro/abc210/</link>
       <pubDate>Sun, 18 Jul 2021 14:18:29 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc210/</guid>
+      <guid>http://localhost:1313/kyopuro/abc210/</guid>
       <description>&lt;p&gt;四完青パフォ。
 今回は D 速解きがそこそこ上手くいった一方で、E に歯が立たなかったので精進したい。
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC210&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -2261,10 +2319,10 @@ i(&amp;gt;=2)番目のすぬけ君が初めて宝石をもらうのは
     
     <item>
       <title>ABC209の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc209/</link>
+      <link>http://localhost:1313/kyopuro/abc209/</link>
       <pubDate>Sat, 10 Jul 2021 23:14:52 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc209/</guid>
+      <guid>http://localhost:1313/kyopuro/abc209/</guid>
       <description>&lt;p&gt;四完速解きで青パフォ．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC209&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---counting&#34;&gt;A - Counting&lt;/h2&gt;
@@ -2294,10 +2352,10 @@ i(&amp;gt;=2)番目のすぬけ君が初めて宝石をもらうのは
     
     <item>
       <title>ABC208の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc208/</link>
+      <link>http://localhost:1313/kyopuro/abc208/</link>
       <pubDate>Sun, 04 Jul 2021 23:45:41 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc208/</guid>
+      <guid>http://localhost:1313/kyopuro/abc208/</guid>
       <description>&lt;p&gt;5完．初の黄パフォ．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC208&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---rolling-dice&#34;&gt;A - Rolling Dice&lt;/h2&gt;
 &lt;p&gt;Bの平均値について考えればよい．
@@ -2323,13 +2381,13 @@ i(&amp;gt;=2)番目のすぬけ君が初めて宝石をもらうのは
     
     <item>
       <title>Keychron K3を購入した話</title>
-      <link>https://t45k.github.io/blog/keychron/</link>
+      <link>http://localhost:1313/blog/keychron/</link>
       <pubDate>Fri, 11 Jun 2021 22:35:53 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/keychron/</guid>
+      <guid>http://localhost:1313/blog/keychron/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.keychron.com/products/keychron-k3-wireless-mechanical-keyboard&#34;&gt;Keychron K3&lt;/a&gt;を購入しました．&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/keychron_box.JPG&#34; alt=&#34;keychron_box&#34;&gt;
-&lt;img src=&#34;https://t45k.github.io/img/blog/keychron.JPG&#34; alt=&#34;keychron_box&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/keychron_box.JPG&#34; alt=&#34;keychron_box&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/img/blog/keychron.JPG&#34; alt=&#34;keychron_box&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;経緯&#34;&gt;経緯&lt;/h2&gt;
 &lt;p&gt;研究室ではRealforceを使っていたのですが，会社からはキーボードが支給されないと聞いたので，仕事用のキーボードを購入する必要が発生しました．
 家では青軸のメカニカルキーボードを使っているので，その経験を踏まえて以下の要件を満たすキーボードを探しました．&lt;/p&gt;
@@ -2373,10 +2431,10 @@ paypalで支払いしたところ2021年6月現在で10,802円でした．&lt;/p
     
     <item>
       <title>ABC200の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc200/</link>
+      <link>http://localhost:1313/kyopuro/abc200/</link>
       <pubDate>Sun, 16 May 2021 11:57:55 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc200/</guid>
+      <guid>http://localhost:1313/kyopuro/abc200/</guid>
       <description>&lt;p&gt;祝200回．
 4完．&lt;/p&gt;
 &lt;h2 id=&#34;a---century&#34;&gt;A - Century&lt;/h2&gt;
@@ -2411,10 +2469,10 @@ a,bが決まればcは一意に定まる．
     
     <item>
       <title>ZONeエナジー プログラミングコンテスト “HELLO SPACE” の解説</title>
-      <link>https://t45k.github.io/kyopuro/zone2021/</link>
+      <link>http://localhost:1313/kyopuro/zone2021/</link>
       <pubDate>Sat, 15 May 2021 20:51:42 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/zone2021/</guid>
+      <guid>http://localhost:1313/kyopuro/zone2021/</guid>
       <description>&lt;p&gt;奇跡的に5完．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/other/zone2021&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---ufo襲来&#34;&gt;A - UFO襲来&lt;/h2&gt;
@@ -2438,10 +2496,10 @@ a,bが決まればcは一意に定まる．
     
     <item>
       <title>第二回日本最強プログラマー学生選手権の解説</title>
-      <link>https://t45k.github.io/kyopuro/jsc2021/</link>
+      <link>http://localhost:1313/kyopuro/jsc2021/</link>
       <pubDate>Sun, 02 May 2021 17:02:14 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/jsc2021/</guid>
+      <guid>http://localhost:1313/kyopuro/jsc2021/</guid>
       <description>&lt;p&gt;5完393位でパフォーマンス爆盛りした回。
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/other/jsc2021&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---competition&#34;&gt;A - Competition&lt;/h2&gt;
@@ -2476,10 +2534,10 @@ B以下の最大のiの倍数は&lt;code&gt;B/i*i&lt;/code&gt;で求まるので
     
     <item>
       <title>JavaでN個の入力を良い感じにリストにする方法</title>
-      <link>https://t45k.github.io/kyopuro/stream/</link>
+      <link>http://localhost:1313/kyopuro/stream/</link>
       <pubDate>Sun, 18 Apr 2021 18:05:46 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/stream/</guid>
+      <guid>http://localhost:1313/kyopuro/stream/</guid>
       <description>&lt;p&gt;これが多分ベスト&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Stream.generate(scanner::nextInt)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  .limit(N)
@@ -2494,10 +2552,10 @@ B以下の最大のiの倍数は&lt;code&gt;B/i*i&lt;/code&gt;で求まるので
     
     <item>
       <title>ABC198の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc198/</link>
+      <link>http://localhost:1313/kyopuro/abc198/</link>
       <pubDate>Sun, 18 Apr 2021 17:47:27 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc198/</guid>
+      <guid>http://localhost:1313/kyopuro/abc198/</guid>
       <description>&lt;p&gt;ABCEの4完。
 その後Dを通した。
 惜しかった。
@@ -2530,10 +2588,10 @@ B以下の最大のiの倍数は&lt;code&gt;B/i*i&lt;/code&gt;で求まるので
     
     <item>
       <title>作ったもの</title>
-      <link>https://t45k.github.io/product/</link>
+      <link>http://localhost:1313/product/</link>
       <pubDate>Thu, 25 Mar 2021 11:07:17 +0900</pubDate>
       
-      <guid>https://t45k.github.io/product/</guid>
+      <guid>http://localhost:1313/product/</guid>
       <description>&lt;h2 id=&#34;githubcontributionbothttpsgithubcomt45kghcbotforlambda&#34;&gt;&lt;a href=&#34;https://github.com/T45K/GHCBotForLambda&#34;&gt;GitHubContributionBot&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;GitHub のコントリビューション（草の生え具合）について Twitter で報告してくれるボット．
 0 時になると&lt;/p&gt;
@@ -2546,7 +2604,7 @@ B以下の最大のiの倍数は&lt;code&gt;B/i*i&lt;/code&gt;で求まるので
 &lt;p&gt;何か&lt;a href=&#34;https://contributter.potato4d.me/&#34;&gt;似たようなサービス&lt;/a&gt;が出てきて草が生えた．
 サービスとして公開しておくべきだった 🤔&lt;/p&gt;
 &lt;h2 id=&#34;clionehttpsgithubcomt45kclione&#34;&gt;&lt;a href=&#34;https://github.com/T45K/CLIONE&#34;&gt;CLIONE&lt;/a&gt;&lt;/h2&gt;
-&lt;img src=&#34;https://t45k.github.io/img/logo.png&#34; width=&#34;20%&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/img/logo.png&#34; width=&#34;20%&#34;&gt;
 &lt;p&gt;類似コードの修正漏れを教えてくれるボット．
 GitHub Apps を用いて設計されていて，PR の作成ごとに勝手に通知を飛ばしてくれる．&lt;/p&gt;
 &lt;p&gt;論文は&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=675&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
@@ -2571,10 +2629,10 @@ IntelliJ IDEA 上で計測したカバレッジ情報を Bitbucket Server に送
     
     <item>
       <title>大阪大学大学院情報科学研究科修士課程を修了した話</title>
-      <link>https://t45k.github.io/blog/graduation/</link>
+      <link>http://localhost:1313/blog/graduation/</link>
       <pubDate>Wed, 24 Mar 2021 21:17:20 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/graduation/</guid>
+      <guid>http://localhost:1313/blog/graduation/</guid>
       <description>&lt;p&gt;2021年3月24日をもって修士課程を修了しました．&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;3年間の戦績は&lt;br&gt;&lt;br&gt;論文誌採録*1&lt;br&gt;論文誌条件付き採録*1&lt;br&gt;国際会議採録*2&lt;br&gt;国際会議査読中*1&lt;br&gt;研究会原稿*3&lt;br&gt;で現状不採録0です&lt;br&gt;&lt;br&gt;対ありでした&lt;/p&gt;&amp;mdash; task@減塩 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1374691521174282242?ref_src=twsrc%5Etfw&#34;&gt;March 24, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
@@ -2745,10 +2803,10 @@ AtCoderをやり始める．&lt;/p&gt;
     
     <item>
       <title>ABC196の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc196/</link>
+      <link>http://localhost:1313/kyopuro/abc196/</link>
       <pubDate>Sat, 20 Mar 2021 23:48:43 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc196/</guid>
+      <guid>http://localhost:1313/kyopuro/abc196/</guid>
       <description>&lt;p&gt;惜しくも4完．
 E問題で一ヵ所凡ミスがあって1WAだった．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC196&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -2794,10 +2852,10 @@ E問題で一ヵ所凡ミスがあって1WAだった．
     
     <item>
       <title>ARC113の解説</title>
-      <link>https://t45k.github.io/kyopuro/arc113/</link>
+      <link>http://localhost:1313/kyopuro/arc113/</link>
       <pubDate>Mon, 22 Feb 2021 15:03:58 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/arc113/</guid>
+      <guid>http://localhost:1313/kyopuro/arc113/</guid>
       <description>&lt;p&gt;ABCの3完で緑パフォ．&lt;a href=&#34;https://github.com/T45k/kyopuro/tree/master/AtCoder/ARC/ARC113&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---abc&#34;&gt;A - A&lt;em&gt;B&lt;/em&gt;C&lt;/h2&gt;
 &lt;p&gt;実は一番時間がかかった問題．
@@ -2828,12 +2886,12 @@ Aを動かしてもK/Aが変わらないときは，B，Cの組み合わせの�
     
     <item>
       <title>鶏白湯ラーメンの作り方</title>
-      <link>https://t45k.github.io/blog/toripaitan/</link>
+      <link>http://localhost:1313/blog/toripaitan/</link>
       <pubDate>Mon, 22 Feb 2021 14:28:05 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/toripaitan/</guid>
+      <guid>http://localhost:1313/blog/toripaitan/</guid>
       <description>&lt;p&gt;ラーメンが好きなので，鶏ガラを使って鶏白湯ラーメンを作りました．&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ramen.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/ramen.JPG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;材料1人前&#34;&gt;材料（1人前）&lt;/h2&gt;
 &lt;h3 id=&#34;スープ&#34;&gt;スープ&lt;/h3&gt;
 &lt;ul&gt;
@@ -2881,10 +2939,10 @@ Aを動かしてもK/Aが変わらないときは，B，Cの組み合わせの�
     
     <item>
       <title>ABC192の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc192/</link>
+      <link>http://localhost:1313/kyopuro/abc192/</link>
       <pubDate>Sun, 21 Feb 2021 17:56:33 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc192/</guid>
+      <guid>http://localhost:1313/kyopuro/abc192/</guid>
       <description>&lt;p&gt;研究も一段落付いたので競プロに復帰します．&lt;/p&gt;
 &lt;p&gt;今回はABCDの4完．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC192&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -2920,10 +2978,10 @@ XをN進数表記にしたときにMを超過しない最大のNを求める．
     
     <item>
       <title>情報処理学会論文誌に論文が採録された話</title>
-      <link>https://t45k.github.io/blog/ipsj_journal/</link>
+      <link>http://localhost:1313/blog/ipsj_journal/</link>
       <pubDate>Sun, 17 Jan 2021 17:38:48 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/ipsj_journal/</guid>
+      <guid>http://localhost:1313/blog/ipsj_journal/</guid>
       <description>&lt;p&gt;情報処理学会論文誌に卒論でやっていた研究が採録されました．情報は&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=677&#34;&gt;こちら&lt;/a&gt;．&lt;/p&gt;
 &lt;h2 id=&#34;論文誌とは&#34;&gt;論文誌とは&lt;/h2&gt;
 &lt;p&gt;研究をしている以上，その成果を論文としてまとめる必要があります．
@@ -2994,10 +3052,10 @@ XをN進数表記にしたときにMを超過しない最大のNを求める．
     
     <item>
       <title>APSEC2020に参加した話</title>
-      <link>https://t45k.github.io/blog/apsec_2020/</link>
+      <link>http://localhost:1313/blog/apsec_2020/</link>
       <pubDate>Sat, 05 Dec 2020 00:12:03 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/apsec_2020/</guid>
+      <guid>http://localhost:1313/blog/apsec_2020/</guid>
       <description>&lt;p&gt;12/2~4にオンラインで開催されたAPSECに参加してきました．&lt;/p&gt;
 &lt;h2 id=&#34;apsecとは&#34;&gt;APSECとは&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;../apsec_2019&#34;&gt;APSEC2019に参加した話&lt;/a&gt;参照．&lt;/p&gt;
@@ -3018,10 +3076,10 @@ ERAのacc. rateが高いのでレベルは推して知るべしという感じ�
     
     <item>
       <title>「九十九十九」読了</title>
-      <link>https://t45k.github.io/blog/999/</link>
+      <link>http://localhost:1313/blog/999/</link>
       <pubDate>Thu, 26 Nov 2020 16:19:02 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/999/</guid>
+      <guid>http://localhost:1313/blog/999/</guid>
       <description>&lt;p&gt;&lt;strong&gt;苦しさを感じるなら、僕なんて愛さなくていいんだ&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;舞城王太郎の「九十九十九」を読みました．
 この本はJDCトリビュートの一冊となっており，
@@ -3040,22 +3098,22 @@ ERAのacc. rateが高いのでレベルは推して知るべしという感じ�
     
     <item>
       <title>西日本近似的一周旅行五日目</title>
-      <link>https://t45k.github.io/blog/tour_day5/</link>
+      <link>http://localhost:1313/blog/tour_day5/</link>
       <pubDate>Sat, 05 Sep 2020 18:49:05 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/tour_day5/</guid>
+      <guid>http://localhost:1313/blog/tour_day5/</guid>
       <description>&lt;p&gt;五日目は帰宅の日でした．
 走行距離は500kmほどです．&lt;/p&gt;
 &lt;p&gt;まずはUFOラインを通って高知まで行きました．
 UFOラインは愛媛と高知を結ぶ山道です．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ufo_line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/ufo_line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 UFOラインは天空の道とも呼ばれるほど，道の標高が高いです（1,700mくらい）．
 なので，周りの山々を一望でき，とても景色を楽しめました．
 道自体は非常に狭いので，車で行く際には注意してください．&lt;/p&gt;
 &lt;p&gt;高知では，ひろめ市場でカツオのたたきをいただきました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/katsuo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/katsuo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 カツオのハランボ（お腹の部分．マグロで言うトロ）が脂が乗っておりとても美味しかったです．&lt;/p&gt;
@@ -3071,17 +3129,17 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
     
     <item>
       <title>西日本近似的一周旅行四日目</title>
-      <link>https://t45k.github.io/blog/tour_day4/</link>
+      <link>http://localhost:1313/blog/tour_day4/</link>
       <pubDate>Fri, 04 Sep 2020 18:48:58 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/tour_day4/</guid>
+      <guid>http://localhost:1313/blog/tour_day4/</guid>
       <description>&lt;p&gt;四日目は指宿からフェリーを使って道後まで行きました．
 走行距離は500kmくらいでした．&lt;/p&gt;
 &lt;p&gt;まずはじめに宮崎県にある青島神社に行きました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine1.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/aoshima_shrine1.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/aoshima_shrine2.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/aoshima_shrine2.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 青島神社は島全体が神社になっています．
@@ -3091,14 +3149,14 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 バイクでフェリーに乗るのは初めてだったので，ワクワクしました．&lt;/p&gt;
 &lt;p&gt;愛媛に着いてからは道後温泉を目指しました．
 途中で海に近い駅として有名な下灘駅があったので立ち寄ってきました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/shimonada_station.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/shimonada_station.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 綺麗な夕焼けをバックにエモい写真を取りたかったのですが，曇っていたためうまく映えませんでした．
 また，この駅は海のすぐ隣にあると思っていたのですが，実は道路を一本挟んでいます．&lt;/p&gt;
 &lt;p&gt;夜は道後温泉の近くに止まりました．
 お風呂は道後温泉本館に行きました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/dougo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/dougo.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 道後温泉本館はおそらく現存する最古の大衆浴場で，お風呂や扉の作りから古くからあるのが見て取れました．
@@ -3115,10 +3173,10 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
     
     <item>
       <title>西日本近似的一周旅行三日目</title>
-      <link>https://t45k.github.io/blog/tour_day3/</link>
+      <link>http://localhost:1313/blog/tour_day3/</link>
       <pubDate>Thu, 03 Sep 2020 16:17:59 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/tour_day3/</guid>
+      <guid>http://localhost:1313/blog/tour_day3/</guid>
       <description>&lt;p&gt;三日目は熊本を経由して鹿児島の指宿に行きました．
 走行距離は400kmくらいです．&lt;/p&gt;
 &lt;p&gt;大分から熊本へは，やまなみハイウェイを使いました．
@@ -3127,20 +3185,20 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 バイクで雨の中を移動したため，体がとても冷えた上に
 バイクを傾けたら滑りそうになったこともあって死ぬかと思いました．&lt;/p&gt;
 &lt;p&gt;熊本県では研究室の先生おすすめの天外天さんのラーメンを食べました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/tengaiten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/tengaiten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 かかっているニンニクパウダーの香りが良く，美味しかったです．&lt;/p&gt;
 &lt;p&gt;その後ひたすら南下し指宿温泉まで行きました．
 また，指宿温泉の近所の龍宮神社に行きました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/ryugu_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/ryugu_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 龍宮神社はその名の通り，浦島太郎の物語の発祥となった神社です．&lt;/p&gt;
 &lt;p&gt;晩御飯は近所のイオンで買った鶏のたたきと芋焼酎にしました．
 イオンで普通に生食用の鶏肉が売ってたり，焼酎の品揃えが異様に良かったりしたところに鹿児島を感じました．
 イオンから桜島が見えました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/sakurajima.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/sakurajima.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;../tour_day1/&#34;&gt;一日目&lt;/a&gt;
@@ -3153,26 +3211,26 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
     
     <item>
       <title>西日本近似的一周旅行二日目</title>
-      <link>https://t45k.github.io/blog/tour_day2/</link>
+      <link>http://localhost:1313/blog/tour_day2/</link>
       <pubDate>Wed, 02 Sep 2020 19:28:19 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/tour_day2/</guid>
+      <guid>http://localhost:1313/blog/tour_day2/</guid>
       <description>&lt;p&gt;2日目は広島県を経由して大分まで行きました．
 1日で500km以上移動したので結構疲れました．&lt;/p&gt;
 &lt;p&gt;厳島神社（修理中の姿）
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/itsukushima_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/itsukushima_shrine.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 大鳥居が見れなくて残念でした．&lt;/p&gt;
 &lt;p&gt;お昼ご飯の「あなごめし うえの」さんの穴子めし
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/anagomeshi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/anagomeshi.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 今まで，穴子は鰻の下位互換と考えていましたが，ここの穴子めしは本当に美味しくて，
 その考えが覆されました．
 穴子が肉厚で弾力があり，それが炭火で焼かれていて香ばしかったです．&lt;/p&gt;
 &lt;p&gt;次に，山口にある錦帯橋に行きました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/kintai_bridge.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/kintai_bridge.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 本来予定にはなかったのですが，どうやら広島，山口ツーリングではそこに行くのが鉄板らしかったので．&lt;/p&gt;
@@ -3181,10 +3239,10 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
 高速道路で道を間違えて次のICでUターンする経験もしました．
 晩御飯は近くの居酒屋で取りました．
 大分名物のとり天や豊後アジ，豊後サバを楽しみました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/toriten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/toriten.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/saba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/saba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;../tour_day1/&#34;&gt;一日目&lt;/a&gt;
@@ -3197,32 +3255,32 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
     
     <item>
       <title>西日本近似的一周旅行一日目</title>
-      <link>https://t45k.github.io/blog/tour_day1/</link>
+      <link>http://localhost:1313/blog/tour_day1/</link>
       <pubDate>Tue, 01 Sep 2020 19:28:19 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/tour_day1/</guid>
+      <guid>http://localhost:1313/blog/tour_day1/</guid>
       <description>&lt;p&gt;1日目は島根県に行きました．
 1日で400km近くバイクで移動しましたが，高速がメインだったのでそこまで疲れませんでした．
 高速を降りてからヘルメットを確認してみると，移動中にぶつかったであろう小さい虫の死骸がたくさんへばりついていました&amp;hellip;&lt;/p&gt;
 &lt;p&gt;出雲大社
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/izumo_taisha.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/izumo_taisha.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;お昼ご飯の出雲そば．
 出雲そばはそばを3つの器に分けて提供するのが特徴的です．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/izumo_soba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/izumo_soba.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;チェックインまで時間があったので松江城にも行きました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/matsue_castle.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/matsue_castle.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;宿に着いた途端に立ちゴケしてブレーキレバーを壊しました．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/brake_broken.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/brake_broken.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;夕飯は，松江のイオンで買った地酒とお寿司でした．
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/shimane_zizake.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/shimane_zizake.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;一日目
@@ -3235,10 +3293,10 @@ UFOラインは天空の道とも呼ばれるほど，道の標高が高いで�
     
     <item>
       <title>ABC177の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc177/</link>
+      <link>http://localhost:1313/kyopuro/abc177/</link>
       <pubDate>Sun, 30 Aug 2020 16:35:35 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc177/</guid>
+      <guid>http://localhost:1313/kyopuro/abc177/</guid>
       <description>&lt;p&gt;5完．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC177&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---dont-be-late&#34;&gt;A - Don&amp;rsquo;t be late&lt;/h2&gt;
@@ -3268,10 +3326,10 @@ Ai&amp;lt;=10^6から，素数の最大値は1000以下，あるいは1000以下
     
     <item>
       <title>ABC176の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc176/</link>
+      <link>http://localhost:1313/kyopuro/abc176/</link>
       <pubDate>Mon, 24 Aug 2020 17:05:57 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc176/</guid>
+      <guid>http://localhost:1313/kyopuro/abc176/</guid>
       <description>&lt;p&gt;気持ち良く5完．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC176&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---takoyaki&#34;&gt;A - Takoyaki&lt;/h2&gt;
@@ -3301,10 +3359,10 @@ Ai&amp;lt;=10^6から，素数の最大値は1000以下，あるいは1000以下
     
     <item>
       <title>ABC175の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc175/</link>
+      <link>http://localhost:1313/kyopuro/abc175/</link>
       <pubDate>Sun, 16 Aug 2020 19:58:10 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc175/</guid>
+      <guid>http://localhost:1313/kyopuro/abc175/</guid>
       <description>&lt;p&gt;オンタイム参加せず．
 バチャやると3完だったので参加しなくてよかった&amp;hellip;&lt;br&gt;
 &lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC175&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -3357,10 +3415,10 @@ Xは最初から絶対値として扱って良い．
     
     <item>
       <title>ABC174の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc174/</link>
+      <link>http://localhost:1313/kyopuro/abc174/</link>
       <pubDate>Tue, 04 Aug 2020 13:48:43 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc174/</guid>
+      <guid>http://localhost:1313/kyopuro/abc174/</guid>
       <description>&lt;p&gt;5完．
 Fが水diffだったのに解けなくて厳しい．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC174&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -3405,10 +3463,10 @@ i/jの天井関数の降順に並べるようにした
     
     <item>
       <title>「きまぐれロボット」読了</title>
-      <link>https://t45k.github.io/blog/kimagure_robot/</link>
+      <link>http://localhost:1313/blog/kimagure_robot/</link>
       <pubDate>Sat, 25 Jul 2020 20:46:40 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/kimagure_robot/</guid>
+      <guid>http://localhost:1313/blog/kimagure_robot/</guid>
       <description>&lt;p&gt;星新一のきまぐれロボットを読みました．&lt;/p&gt;
 &lt;p&gt;この本を読んだ経緯ですが，楽天で買い物をしたときにもらった
 電子書籍の割引券の使い道に困っていたところ，
@@ -3427,10 +3485,10 @@ i/jの天井関数の降順に並べるようにした
     
     <item>
       <title>「ジョーカー 旧約探偵神話」読了</title>
-      <link>https://t45k.github.io/blog/joker/</link>
+      <link>http://localhost:1313/blog/joker/</link>
       <pubDate>Sat, 18 Jul 2020 00:30:49 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/joker/</guid>
+      <guid>http://localhost:1313/blog/joker/</guid>
       <description>&lt;p&gt;清涼院流水の「ジョーカー 旧約探偵神話」を読みました．&lt;/p&gt;
 &lt;p&gt;全編を通して「メタミステリ」「過去のミステリに対する挑発」がひしひしと伝わってくる内容でした．
 特にミステリ四大奇書である「ドグラマグラ」「匣の中の失楽」「虚無への供物」「黒死館殺人事件」は文中で何度も言及されており，
@@ -3448,10 +3506,10 @@ i/jの天井関数の降順に並べるようにした
     
     <item>
       <title>エイシングプログラミングコンテスト2020の解説</title>
-      <link>https://t45k.github.io/kyopuro/aising2020/</link>
+      <link>http://localhost:1313/kyopuro/aising2020/</link>
       <pubDate>Mon, 13 Jul 2020 18:19:23 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/aising2020/</guid>
+      <guid>http://localhost:1313/kyopuro/aising2020/</guid>
       <description>&lt;p&gt;4完．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/other/aising2020&#34;&gt;コード&lt;/a&gt;
 実装が重かった印象．&lt;/p&gt;
@@ -3477,10 +3535,10 @@ Xの値と各2^iの値は非常に大きくなる可能性があるので，何�
     
     <item>
       <title>ABC173の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc173/</link>
+      <link>http://localhost:1313/kyopuro/abc173/</link>
       <pubDate>Mon, 13 Jul 2020 17:52:00 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc173/</guid>
+      <guid>http://localhost:1313/kyopuro/abc173/</guid>
       <description>&lt;p&gt;4完．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC173&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---payment&#34;&gt;A - Payment&lt;/h2&gt;
@@ -3506,10 +3564,10 @@ Xの値と各2^iの値は非常に大きくなる可能性があるので，何�
     
     <item>
       <title>「コズミック 世紀末探偵神話」読了</title>
-      <link>https://t45k.github.io/blog/cosmic/</link>
+      <link>http://localhost:1313/blog/cosmic/</link>
       <pubDate>Wed, 01 Jul 2020 11:05:57 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/cosmic/</guid>
+      <guid>http://localhost:1313/blog/cosmic/</guid>
       <description>&lt;p&gt;清涼院流水の「コズミック 世紀末探偵神話」を読みました．&lt;/p&gt;
 &lt;p&gt;清涼院流水は，僕が敬愛する作家である西尾維新や舞城王太郎が影響を受けたと公言している作家なので，どんな本を書いているのか昔から非常に興味がありました．&lt;/p&gt;
 &lt;p&gt;読んだ感想ですが，久しぶりにページを捲る手が止まらない本を読んだ気がします．
@@ -3523,10 +3581,10 @@ Xの値と各2^iの値は非常に大きくなる可能性があるので，何�
     
     <item>
       <title>ABC172の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc172/</link>
+      <link>http://localhost:1313/kyopuro/abc172/</link>
       <pubDate>Wed, 01 Jul 2020 10:38:47 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc172/</guid>
+      <guid>http://localhost:1313/kyopuro/abc172/</guid>
       <description>&lt;p&gt;C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回．
 4完．&lt;br&gt;
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC172&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -3565,10 +3623,10 @@ A，Bどちらの本も上限が10^5なので，全ての組み合わせを見�
     
     <item>
       <title>ABC171の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc171/</link>
+      <link>http://localhost:1313/kyopuro/abc171/</link>
       <pubDate>Tue, 30 Jun 2020 22:33:15 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc171/</guid>
+      <guid>http://localhost:1313/kyopuro/abc171/</guid>
       <description>&lt;p&gt;難易度が暴落した回．&lt;br&gt;
 5完．&lt;br&gt;
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC171&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -3618,10 +3676,10 @@ Javaなら&lt;code&gt;Character#isUpperCase&lt;/code&gt;とかが使える．&lt
     
     <item>
       <title>ABC170の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc170/</link>
+      <link>http://localhost:1313/kyopuro/abc170/</link>
       <pubDate>Sat, 20 Jun 2020 11:52:18 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc170/</guid>
+      <guid>http://localhost:1313/kyopuro/abc170/</guid>
       <description>&lt;p&gt;無念の3完．
 &lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC170&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---five-variables&#34;&gt;A - 	Five Variables&lt;/h2&gt;
@@ -3656,10 +3714,10 @@ Javaの標準ライブラリにMultiSetはないので少し考える必要が�
     
     <item>
       <title>東京海上日動プログラミングコンテスト2020の解説</title>
-      <link>https://t45k.github.io/kyopuro/tokiomarine2020/</link>
+      <link>http://localhost:1313/kyopuro/tokiomarine2020/</link>
       <pubDate>Sun, 14 Jun 2020 18:55:26 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/tokiomarine2020/</guid>
+      <guid>http://localhost:1313/kyopuro/tokiomarine2020/</guid>
       <description>&lt;p&gt;3完．
 &lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/other/tokiomarine2020&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---nickname&#34;&gt;A - Nickname&lt;/h2&gt;
@@ -3687,10 +3745,10 @@ O(NK)なので，最大で4*10^10程度の計算量となってしまいそう�
     
     <item>
       <title>ABC169の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc169/</link>
+      <link>http://localhost:1313/kyopuro/abc169/</link>
       <pubDate>Mon, 01 Jun 2020 13:25:09 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc169/</guid>
+      <guid>http://localhost:1313/kyopuro/abc169/</guid>
       <description>&lt;p&gt;久々のABC水パフォ．
 &lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC169&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---multiplication-1&#34;&gt;A - Multiplication 1&lt;/h2&gt;
@@ -3738,10 +3796,10 @@ p^kまで作るには，出現回数は&lt;code&gt;1+2+3+...k=k(k+1)/2&lt;/code&
     
     <item>
       <title>NOMURA プログラミングコンテスト2020の解説</title>
-      <link>https://t45k.github.io/kyopuro/nomura2020/</link>
+      <link>http://localhost:1313/kyopuro/nomura2020/</link>
       <pubDate>Sun, 31 May 2020 15:57:56 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/nomura2020/</guid>
+      <guid>http://localhost:1313/kyopuro/nomura2020/</guid>
       <description>&lt;p&gt;何とか3完．
 &lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/others/nomura2020&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---study-scheduling&#34;&gt;A - Study Scheduling&lt;/h2&gt;
@@ -3764,10 +3822,10 @@ p^kまで作るには，出現回数は&lt;code&gt;1+2+3+...k=k(k+1)/2&lt;/code&
     
     <item>
       <title>「阿修羅ガール」読了</title>
-      <link>https://t45k.github.io/blog/ashura-girl/</link>
+      <link>http://localhost:1313/blog/ashura-girl/</link>
       <pubDate>Thu, 28 May 2020 00:23:42 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/ashura-girl/</guid>
+      <guid>http://localhost:1313/blog/ashura-girl/</guid>
       <description>&lt;p&gt;舞城王太郎の阿修羅ガールを読みました．&lt;/p&gt;
 &lt;p&gt;一人称視点で進んでいくのですが，主人公の心の声の喋り方がとても真に迫った感じだったのが印象的でした．
 特に，第二部の後半の進め方がすごく理解しやすく，場面をイメージしやすかったです．
@@ -3781,10 +3839,10 @@ p^kまで作るには，出現回数は&lt;code&gt;1+2+3+...k=k(k+1)/2&lt;/code&
     
     <item>
       <title>AGC044の解説</title>
-      <link>https://t45k.github.io/kyopuro/agc044/</link>
+      <link>http://localhost:1313/kyopuro/agc044/</link>
       <pubDate>Wed, 27 May 2020 23:41:26 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/agc044/</guid>
+      <guid>http://localhost:1313/kyopuro/agc044/</guid>
       <description>&lt;p&gt;太陽でしたがNoSubなのでレートは変わらなかったです(NoSubというシステムをよく理解していなかったので，入力するのではないかとドキドキしてました)．
 A，Bの解説．
 &lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/AGC/AGC044&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -3830,10 +3888,10 @@ N&amp;lt;=500に対して，与えられる座標の数はN^2なので，座標�
     
     <item>
       <title>ABC168の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc168/</link>
+      <link>http://localhost:1313/kyopuro/abc168/</link>
       <pubDate>Tue, 19 May 2020 19:54:50 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc168/</guid>
+      <guid>http://localhost:1313/kyopuro/abc168/</guid>
       <description>&lt;p&gt;速解き回だったけど速解き失敗．
 4完．
 &lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC168&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -3893,10 +3951,10 @@ Sの長さがKを上回っているとき，&lt;code&gt;S.substring(0, K.length)
     
     <item>
       <title>ABC167の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc167/</link>
+      <link>http://localhost:1313/kyopuro/abc167/</link>
       <pubDate>Mon, 11 May 2020 11:43:31 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc167/</guid>
+      <guid>http://localhost:1313/kyopuro/abc167/</guid>
       <description>&lt;p&gt;4完．
 &lt;a href=&#34;https://github.com/t45k/tree/master/AtCoder/ABC/ABC167&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---registration&#34;&gt;A - Registration&lt;/h2&gt;
@@ -3930,10 +3988,10 @@ N&amp;lt;=12なので，全て試しても2^12≒4000通りなので十分間に
     
     <item>
       <title>「クビシメロマンチスト 人間失格・零崎人識」読了</title>
-      <link>https://t45k.github.io/blog/easy_love_easy_no/</link>
+      <link>http://localhost:1313/blog/easy_love_easy_no/</link>
       <pubDate>Wed, 06 May 2020 20:45:52 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/easy_love_easy_no/</guid>
+      <guid>http://localhost:1313/blog/easy_love_easy_no/</guid>
       <description>&lt;p&gt;西尾維新の戯言シリーズ2作目であるクビシメロマンチストを読みました．
 &lt;a href=&#34;https://www.amazon.co.jp/%E3%82%AF%E3%83%93%E3%82%B7%E3%83%A1%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B9%E3%83%88-%E4%BA%BA%E9%96%93%E5%A4%B1%E6%A0%BC%E3%83%BB%E9%9B%B6%E5%B4%8E%E4%BA%BA%E8%AD%98-%E8%AC%9B%E8%AB%87%E7%A4%BE%E6%96%87%E5%BA%AB-%E8%A5%BF%E5%B0%BE%E7%B6%AD%E6%96%B0-ebook/dp/B01EV0NMIG/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=2WNUAO24W551I&amp;amp;dchild=1&amp;amp;keywords=%E3%82%AF%E3%83%93%E3%82%B7%E3%83%A1%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B9%E3%83%88&amp;amp;qid=1588765443&amp;amp;sprefix=%E3%81%8F%E3%81%B3%E3%81%97%E3%82%81%2Caps%2C293&amp;amp;sr=8-1&#34;&gt;amazon&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;高校生くらいの時に一度読んだのですが，面白かったのを覚えていたため古本で購入しました．
@@ -3947,10 +4005,10 @@ N&amp;lt;=12なので，全て試しても2^12≒4000通りなので十分間に
     
     <item>
       <title>競プロ</title>
-      <link>https://t45k.github.io/kyopuro_index/</link>
+      <link>http://localhost:1313/kyopuro_index/</link>
       <pubDate>Wed, 06 May 2020 18:26:46 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro_index/</guid>
+      <guid>http://localhost:1313/kyopuro_index/</guid>
       <description>&lt;p&gt;競プロの解説とか．
 Java でやっているのでコード例は Java になります．&lt;br&gt;
 リポジトリは&lt;a href=&#34;https://github.com/t45k/kyopuro&#34;&gt;こちら&lt;/a&gt;．&lt;br&gt;
@@ -3967,10 +4025,10 @@ Java でやっているのでコード例は Java になります．&lt;br&gt;
     
     <item>
       <title>ブログ</title>
-      <link>https://t45k.github.io/blog_index/</link>
+      <link>http://localhost:1313/blog_index/</link>
       <pubDate>Wed, 06 May 2020 18:26:39 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog_index/</guid>
+      <guid>http://localhost:1313/blog_index/</guid>
       <description>&lt;p&gt;近況や今まで読んできた本の感想などを書いていきます．&lt;/p&gt;
 &lt;script src=&#34;https://code.jquery.com/jquery-2.1.3.min.js&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -3984,10 +4042,10 @@ Java でやっているのでコード例は Java になります．&lt;br&gt;
     
     <item>
       <title>ABC166の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc166/</link>
+      <link>http://localhost:1313/kyopuro/abc166/</link>
       <pubDate>Mon, 04 May 2020 22:58:09 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc166/</guid>
+      <guid>http://localhost:1313/kyopuro/abc166/</guid>
       <description>&lt;p&gt;二日連続ABCの二日目．
 ABCEの4完．
 &lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC166&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -4014,10 +4072,10 @@ ABCEの4完．
     
     <item>
       <title>ABC165の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc165/</link>
+      <link>http://localhost:1313/kyopuro/abc165/</link>
       <pubDate>Mon, 04 May 2020 22:58:03 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc165/</guid>
+      <guid>http://localhost:1313/kyopuro/abc165/</guid>
       <description>&lt;p&gt;二日連続ABCの一日目．
 3完．
 &lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/ABC165&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -4046,10 +4104,10 @@ AからBまでの閉区間内にKの倍数があるか確認する．&lt;/p&gt;
     
     <item>
       <title>ABC164の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc164/</link>
+      <link>http://localhost:1313/kyopuro/abc164/</link>
       <pubDate>Mon, 27 Apr 2020 23:38:04 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc164/</guid>
+      <guid>http://localhost:1313/kyopuro/abc164/</guid>
       <description>&lt;p&gt;4完．&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/atcoder/abc/abc164&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---sheep-and-wolves&#34;&gt;A - Sheep and Wolves&lt;/h2&gt;
 &lt;p&gt;if文で分岐するだけ&lt;/p&gt;
@@ -4068,10 +4126,10 @@ AからBまでの閉区間内にKの倍数があるか確認する．&lt;/p&gt;
     
     <item>
       <title>K-Shoot MANIAが正しく動かなくなった原因とその対策</title>
-      <link>https://t45k.github.io/blog/k-shoot_mania/</link>
+      <link>http://localhost:1313/blog/k-shoot_mania/</link>
       <pubDate>Sat, 25 Apr 2020 17:05:30 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/k-shoot_mania/</guid>
+      <guid>http://localhost:1313/blog/k-shoot_mania/</guid>
       <description>&lt;p&gt;K-Shoot MANIAの挙動がおかしい原因が分かったのでメモ&lt;/p&gt;
 &lt;h2 id=&#34;症状&#34;&gt;症状&lt;/h2&gt;
 &lt;p&gt;キーボードの入力が異様に遅くなる．
@@ -4090,10 +4148,10 @@ Windowsのpreview版を使っていたのでそれが原因かなと思ってい
     
     <item>
       <title>「ディスコ探偵水曜日」読了</title>
-      <link>https://t45k.github.io/blog/disco_detective_wednesdayyy/</link>
+      <link>http://localhost:1313/blog/disco_detective_wednesdayyy/</link>
       <pubDate>Fri, 24 Apr 2020 19:01:51 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/disco_detective_wednesdayyy/</guid>
+      <guid>http://localhost:1313/blog/disco_detective_wednesdayyy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;この世の出来事は全部運命と意志の相互作用で生まれるんだって、知ってる？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;舞城王太郎の「ディスコ探偵水曜日」を読みました．
 10年以上前の本なのでおそらく新品ではもう手に入りません．
@@ -4110,10 +4168,10 @@ Windowsのpreview版を使っていたのでそれが原因かなと思ってい
     
     <item>
       <title>ABC163の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc163/</link>
+      <link>http://localhost:1313/kyopuro/abc163/</link>
       <pubDate>Tue, 21 Apr 2020 16:22:58 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc163/</guid>
+      <guid>http://localhost:1313/kyopuro/abc163/</guid>
       <description>&lt;p&gt;3完．
 unratedで良かった&amp;hellip;
 &lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/ABC/ABC163&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -4145,15 +4203,15 @@ i個選択する時の組み合わせによって得られる和は&lt;code&gt;i
     
     <item>
       <title>MacでIntelliJを使っているとクラッシュする問題と解決法</title>
-      <link>https://t45k.github.io/blog/fix_mac_fault/</link>
+      <link>http://localhost:1313/blog/fix_mac_fault/</link>
       <pubDate>Mon, 13 Apr 2020 17:38:19 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/fix_mac_fault/</guid>
-      <description>&lt;p&gt;MacBook Air 2020を買いました．詳しくは&lt;a href=&#34;https://t45k.github.io/blog/macbook_air&#34;&gt;ここ&lt;/a&gt;．&lt;/p&gt;
+      <guid>http://localhost:1313/blog/fix_mac_fault/</guid>
+      <description>&lt;p&gt;MacBook Air 2020を買いました．詳しくは&lt;a href=&#34;http://localhost:1313/blog/macbook_air&#34;&gt;ここ&lt;/a&gt;．&lt;/p&gt;
 &lt;p&gt;普段はJavaやKotlinを書いているので迷いなくIntelliJ IDEAをインストールしたのですが，どうも挙動がおかしい．&lt;br&gt;
 というのも，結構な頻度でIntelliJがクラッシュするし，場合によってはOSがクラッシュ強制的に再起動がかかります．
 ひどい時にはOSがクラッシュして再起動がかかり，それが開けた2分後に再びクラッシュしたこともあります．&lt;/p&gt;
-&lt;p&gt;実は&lt;a href=&#34;https://t45k.github.io/blog/line&#34;&gt;LINEのインターン&lt;/a&gt;で借りていたMacBook Pro 15inchでも似たような問題が起こっていたので，2度目の経験でした．&lt;br&gt;
+&lt;p&gt;実は&lt;a href=&#34;http://localhost:1313/blog/line&#34;&gt;LINEのインターン&lt;/a&gt;で借りていたMacBook Pro 15inchでも似たような問題が起こっていたので，2度目の経験でした．&lt;br&gt;
 インターンで借りていたパソコンは5日間で返すので我慢して使っていましたが，今回は長らく使っていく予定なので流石に直す必要がありました．&lt;/p&gt;
 &lt;p&gt;修理も視野に入れながら解決法を探しました．&lt;/p&gt;
 &lt;h2 id=&#34;解決法&#34;&gt;解決法&lt;/h2&gt;
@@ -4164,12 +4222,12 @@ i個選択する時の組み合わせによって得られる和は&lt;code&gt;i
     
     <item>
       <title>MacBook Airを購入した話</title>
-      <link>https://t45k.github.io/blog/macbook_air/</link>
+      <link>http://localhost:1313/blog/macbook_air/</link>
       <pubDate>Mon, 13 Apr 2020 17:21:02 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/macbook_air/</guid>
+      <guid>http://localhost:1313/blog/macbook_air/</guid>
       <description>&lt;h3 id=&#34;念願のmacbook-airを購入しました&#34;&gt;念願のMacBook Airを購入しました!&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/mba.JPG&#34; alt=&#34;mba&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/blog/mba.JPG&#34; alt=&#34;mba&#34;&gt;&lt;/p&gt;
 &lt;p&gt;構成は&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;CPU: 1.1GHzクアッド&lt;/li&gt;
@@ -4192,7 +4250,7 @@ mbpはこんなものじゃすまないと思います．&lt;/p&gt;
 これは去年の12月のツイート&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;はよmacbook air，13インチ，cpu4コア，RAM16GB，SSD256GB，ファンクションキー，シザーキーボードで10万くらいのやつ出てくれや&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1203581420871905280?ref_src=twsrc%5Etfw&#34;&gt;December 8, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;h2 id=&#34;使い心地&#34;&gt;使い心地&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/fix_mac_fault&#34;&gt;ある一点&lt;/a&gt;を除いたら最高です（その一点も結局解決しました）．&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/fix_mac_fault&#34;&gt;ある一点&lt;/a&gt;を除いたら最高です（その一点も結局解決しました）．&lt;/p&gt;
 &lt;p&gt;主にmbpとの比較になるのですが，&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;軽い&lt;/li&gt;
@@ -4202,16 +4260,16 @@ mbpはこんなものじゃすまないと思います．&lt;/p&gt;
 &lt;p&gt;みたいなところです．&lt;/p&gt;
 &lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
 &lt;p&gt;こうなりました．
-&lt;img src=&#34;https://t45k.github.io/img/blog/stecker.JPG&#34; alt=&#34;stecker&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/img/blog/stecker.JPG&#34; alt=&#34;stecker&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>ABC162の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc162/</link>
+      <link>http://localhost:1313/kyopuro/abc162/</link>
       <pubDate>Mon, 13 Apr 2020 16:57:30 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc162/</guid>
+      <guid>http://localhost:1313/kyopuro/abc162/</guid>
       <description>&lt;p&gt;祝参加者1万人越え．無念の4完．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC162&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---lucky-7&#34;&gt;A - Lucky 7&lt;/h2&gt;
 &lt;p&gt;やるだけ．文字列で読み込んで&lt;code&gt;String#contains&lt;/code&gt;を使うと早い．&lt;/p&gt;
@@ -4237,10 +4295,10 @@ mbpはこんなものじゃすまないと思います．&lt;/p&gt;
     
     <item>
       <title>ABC161の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc161/</link>
+      <link>http://localhost:1313/kyopuro/abc161/</link>
       <pubDate>Sat, 04 Apr 2020 22:53:03 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc161/</guid>
+      <guid>http://localhost:1313/kyopuro/abc161/</guid>
       <description>&lt;p&gt;100-200-300-400-600の5完．
 人生初のオンサイト600点問題AC．
 &lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC161&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
@@ -4283,12 +4341,12 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
     
     <item>
       <title>AtCoderで水色になりました</title>
-      <link>https://t45k.github.io/blog/nyusui/</link>
+      <link>http://localhost:1313/blog/nyusui/</link>
       <pubDate>Sun, 29 Mar 2020 00:16:31 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/nyusui/</guid>
+      <guid>http://localhost:1313/blog/nyusui/</guid>
       <description>&lt;p&gt;先日行われた&lt;a href=&#34;https://atcoder.jp/contests/abc160&#34;&gt;ABC160&lt;/a&gt;にて無事に入水を果たしたのでポエムを書きます．
-&lt;img src=&#34;https://t45k.github.io/img/blog/nyusui.png&#34; height=&#34;75%&#34; width=&#34;75%&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/img/blog/nyusui.png&#34; height=&#34;75%&#34; width=&#34;75%&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;感じたこと&#34;&gt;感じたこと&lt;/h2&gt;
 &lt;p&gt;一つの目標だった水色に到達してほっとしています．
 人によっては10回かそこらでなる人もいる中，53回目でようやくなれた自分の才能とセンスのなさには本当に辟易しています．
@@ -4304,10 +4362,10 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
     
     <item>
       <title>ABC160の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc160/</link>
+      <link>http://localhost:1313/kyopuro/abc160/</link>
       <pubDate>Sat, 28 Mar 2020 23:27:57 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc160/</guid>
+      <guid>http://localhost:1313/kyopuro/abc160/</guid>
       <description>&lt;p&gt;5完．&lt;a href=&#34;https://github.com/T45K/tree/master/AtCoder/ABC/ABC160&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---coffee&#34;&gt;A - Coffee&lt;/h2&gt;
 &lt;p&gt;書かれてることをするだけ．&lt;code&gt;String#charAt&lt;/code&gt;を使う&lt;/p&gt;
@@ -4333,10 +4391,10 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
     
     <item>
       <title>ABC159の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc159/</link>
+      <link>http://localhost:1313/kyopuro/abc159/</link>
       <pubDate>Sun, 22 Mar 2020 22:48:22 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc159/</guid>
+      <guid>http://localhost:1313/kyopuro/abc159/</guid>
       <description>&lt;p&gt;奇跡的に5完．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC159&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---the-number-of-even-pairs&#34;&gt;A - The Number of Even Pairs&lt;/h2&gt;
 &lt;p&gt;和が正になるのは&lt;code&gt;even + even&lt;/code&gt;か&lt;code&gt;odd + odd&lt;/code&gt;の時なので，偶奇それぞれに対して組み合わせ(&lt;code&gt;n * (n - 1) / 2&lt;/code&gt;)を計算して足し合わせる．&lt;/p&gt;
@@ -4393,10 +4451,10 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
     
     <item>
       <title>AGC043の解説</title>
-      <link>https://t45k.github.io/kyopuro/agc043/</link>
+      <link>http://localhost:1313/kyopuro/agc043/</link>
       <pubDate>Sat, 21 Mar 2020 23:37:35 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/agc043/</guid>
+      <guid>http://localhost:1313/kyopuro/agc043/</guid>
       <description>&lt;script async src=&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML&#34;&gt;&lt;/script&gt;
 &lt;p&gt;1完．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/AGC/AGC043&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---range-flip-find-route&#34;&gt;A - Range Flip Find Route&lt;/h2&gt;
@@ -4513,10 +4571,10 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
     
     <item>
       <title>「みんな元気。」読了</title>
-      <link>https://t45k.github.io/blog/all_fine/</link>
+      <link>http://localhost:1313/blog/all_fine/</link>
       <pubDate>Fri, 20 Mar 2020 12:00:53 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/all_fine/</guid>
+      <guid>http://localhost:1313/blog/all_fine/</guid>
       <description>&lt;p&gt;&lt;strong&gt;みんな大丈夫。みんな元気。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;舞城王太郎の「みんな元気。」を読みました．&lt;a href=&#34;https://www.amazon.co.jp/%E3%81%BF%E3%82%93%E3%81%AA%E5%85%83%E6%B0%97%E3%80%82-%E8%88%9E%E5%9F%8E%E7%8E%8B%E5%A4%AA%E9%83%8E-ebook/dp/B00CL6N332/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;dchild=1&amp;amp;keywords=%E3%81%BF%E3%82%93%E3%81%AA%E5%85%83%E6%B0%97&amp;amp;qid=1584673351&amp;amp;sr=8-5&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;この本は，表題である「みんな元気。(副題: Cuckoos &amp;amp; The Invisible Devil)」と短編4編で構成されています．
@@ -4536,10 +4594,10 @@ i番目の数字に対して，i + 1番目の数字を次のように決める�
     
     <item>
       <title>パナソニックプログラミングコンテスト2020の解説</title>
-      <link>https://t45k.github.io/kyopuro/panasonic2020/</link>
+      <link>http://localhost:1313/kyopuro/panasonic2020/</link>
       <pubDate>Sat, 14 Mar 2020 22:56:44 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/panasonic2020/</guid>
+      <guid>http://localhost:1313/kyopuro/panasonic2020/</guid>
       <description>&lt;p&gt;4完．&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/others/pana20&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---kth-term&#34;&gt;A - Kth Term&lt;/h2&gt;
 &lt;p&gt;実装するだけ．
@@ -4586,7 +4644,7 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 &lt;/ul&gt;
 &lt;p&gt;に対して&lt;code&gt;ac[i + j] == true&lt;/code&gt;となれば，その配置は矛盾がないことになる．
 図だとこんな感じ&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/kyopuro/pana2020_e.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/kyopuro/pana2020_e.png&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;iの探索範囲は0からaの長さ，jの探索範囲はbの長さかiからaの終端までの長さの長い方になる．&lt;br&gt;
@@ -4596,10 +4654,10 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
     
     <item>
       <title>ABC061#Dの別解</title>
-      <link>https://t45k.github.io/kyopuro/abc061_d/</link>
+      <link>http://localhost:1313/kyopuro/abc061_d/</link>
       <pubDate>Sun, 08 Mar 2020 20:39:29 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc061_d/</guid>
+      <guid>http://localhost:1313/kyopuro/abc061_d/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://atcoder.jp/contests/abc061/tasks/abc061_d&#34;&gt;ABC061 D - Score Attack&lt;/a&gt;の別解．&lt;a href=&#34;https://github.com/T45K/kyopuro/blob/master/ABC061/D/MainAlt.java&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;問題内容&#34;&gt;問題内容&lt;/h2&gt;
 &lt;p&gt;正負の重みの辺で構成された，閉路を含む有向グラフの単一始点終点の最長経路を求める問題．
@@ -4619,10 +4677,10 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
     
     <item>
       <title>ABC158の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc158/</link>
+      <link>http://localhost:1313/kyopuro/abc158/</link>
       <pubDate>Sat, 07 Mar 2020 22:42:19 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc158/</guid>
+      <guid>http://localhost:1313/kyopuro/abc158/</guid>
       <description>&lt;p&gt;四完．&lt;a href=&#34;https://github.com/t45k/kyopuro/master/tree/abc158&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---station-and-bus&#34;&gt;A - Station and Bus&lt;/h2&gt;
 &lt;p&gt;連想配列にぶちこむ．&lt;/p&gt;
@@ -4645,10 +4703,10 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
     
     <item>
       <title>「好き好き大好き超愛してる。」読了</title>
-      <link>https://t45k.github.io/blog/love_love_love_you_i_love_you/</link>
+      <link>http://localhost:1313/blog/love_love_love_you_i_love_you/</link>
       <pubDate>Tue, 03 Mar 2020 16:20:18 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/love_love_love_you_i_love_you/</guid>
+      <guid>http://localhost:1313/blog/love_love_love_you_i_love_you/</guid>
       <description>&lt;p&gt;&lt;strong&gt;愛は祈りだ。僕は祈る。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;舞城王太郎の「好き好き大好き超愛してる。」を読みました．&lt;a href=&#34;https://www.amazon.co.jp/%E5%A5%BD%E3%81%8D%E5%A5%BD%E3%81%8D%E5%A4%A7%E5%A5%BD%E3%81%8D%E8%B6%85%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B%E3%80%82-%E8%AC%9B%E8%AB%87%E7%A4%BE%E6%96%87%E5%BA%AB-%E8%88%9E%E5%9F%8E-%E7%8E%8B%E5%A4%AA%E9%83%8E/dp/4062760819/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;keywords=%E5%A5%BD%E3%81%8D%E5%A5%BD%E3%81%8D%E5%A4%A7%E5%A5%BD%E3%81%8D%E8%B6%85%E6%84%9B%E3%81%97%E3%81%A6%E3%82%8B&amp;amp;qid=1583220082&amp;amp;sr=8-1&#34;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;きっかけはDJ Technorchの楽曲「Love Love Love You I Love You」．&lt;br&gt;
@@ -4664,10 +4722,10 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
     
     <item>
       <title>ABC157の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc157/</link>
+      <link>http://localhost:1313/kyopuro/abc157/</link>
       <pubDate>Sun, 01 Mar 2020 22:53:59 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc157/</guid>
+      <guid>http://localhost:1313/kyopuro/abc157/</guid>
       <description>&lt;p&gt;なんとか四完．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC157&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---duplex-printing&#34;&gt;A - Duplex Printing&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;n&lt;/code&gt;に1足して2で割るだけ&lt;/p&gt;
@@ -4690,10 +4748,10 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
     
     <item>
       <title>最小全域木メモ</title>
-      <link>https://t45k.github.io/kyopuro/min_spanning_tree/</link>
+      <link>http://localhost:1313/kyopuro/min_spanning_tree/</link>
       <pubDate>Sat, 29 Feb 2020 22:37:36 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/min_spanning_tree/</guid>
+      <guid>http://localhost:1313/kyopuro/min_spanning_tree/</guid>
       <description>&lt;p&gt;最小全域木という概念を知ったのでメモ．&lt;/p&gt;
 &lt;h2 id=&#34;最小全域木とは&#34;&gt;最小全域木とは&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;無向グラフが与えられた時に，その部分グラフで任意の2頂点を連結にする様な木を全域木(Spanning Tree)と言います．辺にコストがある場合に，使われる辺のコストの和を最小にする全域木を最小全域木(MST : Minimum Spanning Tree)と言います．&lt;/em&gt;（蟻本より）&lt;br&gt;
@@ -4720,10 +4778,10 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
     
     <item>
       <title>ワーシャルフロイド法メモ</title>
-      <link>https://t45k.github.io/kyopuro/warshallfloyd/</link>
+      <link>http://localhost:1313/kyopuro/warshallfloyd/</link>
       <pubDate>Sun, 23 Feb 2020 01:54:16 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/warshallfloyd/</guid>
+      <guid>http://localhost:1313/kyopuro/warshallfloyd/</guid>
       <description>&lt;p&gt;ワーシャルフロイド法というアルゴリズムを知ったのでメモ．&lt;/p&gt;
 &lt;h2 id=&#34;ワーシャルフロイド法とは&#34;&gt;ワーシャルフロイド法とは&lt;/h2&gt;
 &lt;p&gt;グラフのある一点から任意の点への最短距離を求めるアルゴリズム．
@@ -4760,10 +4818,10 @@ BFSであることから，n ^ 2 回繰り返せば十分である．&lt;/p&gt;
     
     <item>
       <title>ABC156の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc156/</link>
+      <link>http://localhost:1313/kyopuro/abc156/</link>
       <pubDate>Sat, 22 Feb 2020 22:17:59 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc156/</guid>
+      <guid>http://localhost:1313/kyopuro/abc156/</guid>
       <description>&lt;p&gt;4完．&lt;a href=&#34;https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC156&#34;&gt;解答&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---beginner&#34;&gt;A - Beginner&lt;/h2&gt;
 &lt;p&gt;算数&lt;/p&gt;
@@ -4782,10 +4840,10 @@ a，bの組み合わせ計算の際には，modを考慮する必要があるた
     
     <item>
       <title>ABC155の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc155/</link>
+      <link>http://localhost:1313/kyopuro/abc155/</link>
       <pubDate>Sun, 16 Feb 2020 22:48:43 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc155/</guid>
+      <guid>http://localhost:1313/kyopuro/abc155/</guid>
       <description>&lt;p&gt;無念の三冠．&lt;/p&gt;
 &lt;h2 id=&#34;a---poor&#34;&gt;A - Poor&lt;/h2&gt;
 &lt;p&gt;重複を調べる問題．&lt;br&gt;
@@ -4850,10 +4908,10 @@ Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数�
     
     <item>
       <title>ABC154の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc154/</link>
+      <link>http://localhost:1313/kyopuro/abc154/</link>
       <pubDate>Sun, 09 Feb 2020 22:40:15 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc154/</guid>
+      <guid>http://localhost:1313/kyopuro/abc154/</guid>
       <description>&lt;p&gt;A~Dまで．&lt;a href=&#34;https://github.com/t45k/kyopuro/tree/master/AtCoder/ABC/abc154&#34;&gt;コード&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;a---remaining-balls&#34;&gt;A - Remaining Balls&lt;/h2&gt;
 &lt;p&gt;Uで分岐&lt;/p&gt;
@@ -4895,10 +4953,10 @@ Javaでは，&lt;code&gt;Collections#binarySearch&lt;/code&gt; の第三引数�
     
     <item>
       <title>ICSE2020の面白そうな論文をピックアップしてみた</title>
-      <link>https://t45k.github.io/blog/icse2020_abst/</link>
+      <link>http://localhost:1313/blog/icse2020_abst/</link>
       <pubDate>Sat, 01 Feb 2020 18:59:35 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/icse2020_abst/</guid>
+      <guid>http://localhost:1313/blog/icse2020_abst/</guid>
       <description>&lt;p&gt;ICSEはInternational Conference of Software Engineeringの略です．
 ソフトウェア工学の国際学会の中で一番ランクが高い会議です．
 会議自体は5月に行われるのですが，再録された論文一覧とアブストが公開されているので，
@@ -4934,10 +4992,10 @@ CIのコストはビルドを回している時間だけかかってしまい，
     
     <item>
       <title>ABC153の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc153/</link>
+      <link>http://localhost:1313/kyopuro/abc153/</link>
       <pubDate>Sun, 26 Jan 2020 22:32:42 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc153/</guid>
+      <guid>http://localhost:1313/kyopuro/abc153/</guid>
       <description>&lt;p&gt;けもフレチックでした．&lt;/p&gt;
 &lt;p&gt;A~Eまで&lt;/p&gt;
 &lt;h2 id=&#34;a---serval-vs-monster&#34;&gt;A - Serval vs Monster&lt;/h2&gt;
@@ -4957,10 +5015,10 @@ CIのコストはビルドを回している時間だけかかってしまい，
     
     <item>
       <title>研究室のパソコンがmacbook proになった話</title>
-      <link>https://t45k.github.io/blog/mbp/</link>
+      <link>http://localhost:1313/blog/mbp/</link>
       <pubDate>Tue, 21 Jan 2020 18:11:41 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/mbp/</guid>
+      <guid>http://localhost:1313/blog/mbp/</guid>
       <description>&lt;p&gt;組織特有の，年末に予算を使い切る目的で，新しいmacbook proを貸してもらえることになった．
 モデルはMid2019の13インチモデル．
 研究室内で大した業績を上げていない自分にしてはとても良いものを貸してもらえたと思う．&lt;/p&gt;
@@ -5001,10 +5059,10 @@ mbpと比べるとマシンパワーが段違いであり，作業にかかる�
     
     <item>
       <title>ABC152の解説</title>
-      <link>https://t45k.github.io/kyopuro/abc152/</link>
+      <link>http://localhost:1313/kyopuro/abc152/</link>
       <pubDate>Mon, 20 Jan 2020 00:27:48 +0900</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/abc152/</guid>
+      <guid>http://localhost:1313/kyopuro/abc152/</guid>
       <description>&lt;p&gt;A~E問題まで．&lt;/p&gt;
 &lt;h2 id=&#34;a---ac-or-wa&#34;&gt;A - AC or WA&lt;/h2&gt;
 &lt;p&gt;if文で分岐するだけ&lt;/p&gt;
@@ -5028,14 +5086,14 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
     
     <item>
       <title>自己紹介</title>
-      <link>https://t45k.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 14 Jan 2020 22:32:06 +0900</pubDate>
       
-      <guid>https://t45k.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;h1 id=&#34;こんにちは&#34;&gt;こんにちは&lt;/h1&gt;
 &lt;p&gt;中川 将（なかがわ たすく）。
 大阪のウェブエンジニア。&lt;/p&gt;
-&lt;img src=&#34;https://t45k.github.io/img/about.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34; &gt;
+&lt;img src=&#34;http://localhost:1313/img/about.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34; &gt;
 &lt;h1 id=&#34;好き&#34;&gt;好き&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Java、Kotlin、IntelliJ、Jenkins&lt;/li&gt;
@@ -5089,10 +5147,10 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
     
     <item>
       <title>APSEC2019に参加した話</title>
-      <link>https://t45k.github.io/blog/apsec_2019/</link>
+      <link>http://localhost:1313/blog/apsec_2019/</link>
       <pubDate>Thu, 05 Dec 2019 20:19:32 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/apsec_2019/</guid>
+      <guid>http://localhost:1313/blog/apsec_2019/</guid>
       <description>&lt;p&gt;12/3~5にマレーシアで開催されたAPSECに参加してきました．&lt;/p&gt;
 &lt;h2 id=&#34;apsecとは&#34;&gt;APSECとは&lt;/h2&gt;
 &lt;p&gt;Asia-Pacific Software Engineering Conferenceの略です．
@@ -5103,7 +5161,7 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
 &lt;p&gt;こんな国です．&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;マレーシア&lt;br&gt;+ 物価が安い&lt;br&gt;+ 時差が1時間&lt;br&gt;+ 英語が通じる&lt;br&gt;&lt;br&gt;+- 暑い&lt;br&gt;&lt;br&gt;- 酒を飲める場所がかなり限られる&lt;br&gt;- 用を足した後に紙を使わない文化&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1202822137611862017?ref_src=twsrc%5Etfw&#34;&gt;December 6, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
-&lt;img src=&#34;https://t45k.github.io/img/blog/apsec.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/img/blog/apsec.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
 &lt;p&gt;投稿前はあまり気乗りしなかったし，正直通るとも思ってませんでしたが，結果的には国際学会で発表できて良かったなと感じました．
 質疑対応がかなりグダッてしまったので英語力（特にリスニング）を鍛えるのが重要だと思いました．&lt;/p&gt;
 </description>
@@ -5111,12 +5169,12 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
     
     <item>
       <title>LINE DEVELOPER DAY2019に参加した話</title>
-      <link>https://t45k.github.io/blog/devday/</link>
+      <link>http://localhost:1313/blog/devday/</link>
       <pubDate>Thu, 21 Nov 2019 20:16:05 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/devday/</guid>
+      <guid>http://localhost:1313/blog/devday/</guid>
       <description>&lt;p&gt;11/20，21に開催されたLINE DEV DAYに参加してきました．&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/devday.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/devday.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;dev-dayとは&#34;&gt;DEV DAYとは&lt;/h2&gt;
@@ -5137,10 +5195,10 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
     
     <item>
       <title>インターン総括</title>
-      <link>https://t45k.github.io/blog/intern/</link>
+      <link>http://localhost:1313/blog/intern/</link>
       <pubDate>Sat, 14 Sep 2019 18:26:04 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/intern/</guid>
+      <guid>http://localhost:1313/blog/intern/</guid>
       <description>&lt;p&gt;2019年，M1の夏休みに行ってきたインターンの所感を書きます．&lt;/p&gt;
 &lt;h2 id=&#34;参加したインターン&#34;&gt;参加したインターン&lt;/h2&gt;
 &lt;ul&gt;
@@ -5189,11 +5247,11 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
     
     <item>
       <title>楽天のインターンに参加した話</title>
-      <link>https://t45k.github.io/blog/rakuten/</link>
+      <link>http://localhost:1313/blog/rakuten/</link>
       <pubDate>Fri, 13 Sep 2019 18:21:32 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/rakuten/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/rakuten_morning.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+      <guid>http://localhost:1313/blog/rakuten/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/rakuten_morning.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;9/9~13の間，大阪で開催された楽天様のインターンに参加してきました．
@@ -5228,11 +5286,11 @@ AWSの時はまったく理解できなくて着いていけなくなった経�
     
     <item>
       <title>LINE KYOTOのインターンに参加した話</title>
-      <link>https://t45k.github.io/blog/line/</link>
+      <link>http://localhost:1313/blog/line/</link>
       <pubDate>Fri, 30 Aug 2019 18:13:39 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/line/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+      <guid>http://localhost:1313/blog/line/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/line.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;8/26~30の間，京都で開催されたLINE KYOTOのインターンに参加してきました．&lt;/p&gt;
@@ -5267,10 +5325,10 @@ LINE KYOTOは開発部しか持っていない，純粋な開発拠点である�
     
     <item>
       <title>AWSのインターンに参加した話</title>
-      <link>https://t45k.github.io/blog/aws/</link>
+      <link>http://localhost:1313/blog/aws/</link>
       <pubDate>Tue, 20 Aug 2019 18:07:41 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/aws/</guid>
+      <guid>http://localhost:1313/blog/aws/</guid>
       <description>&lt;p&gt;8/19~13の間，東京で開催されたAmazon Web Serviceのインターンに参加してきました．&lt;/p&gt;
 &lt;h2 id=&#34;awsとは&#34;&gt;AWSとは&lt;/h2&gt;
 &lt;p&gt;AWSとは，Amazon Web Serviceの略です．
@@ -5296,10 +5354,10 @@ Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのク�
     
     <item>
       <title>cookpadのインターンに参加できなかった話</title>
-      <link>https://t45k.github.io/blog/cookpad/</link>
+      <link>http://localhost:1313/blog/cookpad/</link>
       <pubDate>Thu, 01 Aug 2019 18:32:27 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/cookpad/</guid>
+      <guid>http://localhost:1313/blog/cookpad/</guid>
       <description>&lt;p&gt;cookpadのインターンに参加できませんでした．&lt;/p&gt;
 &lt;h2 id=&#34;cookpadとは&#34;&gt;cookpadとは&lt;/h2&gt;
 &lt;p&gt;料理のレシピを提供するサービスで有名な会社です．
@@ -5316,10 +5374,10 @@ Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのク�
     
     <item>
       <title>NSSOLのインターンに参加できなかった話</title>
-      <link>https://t45k.github.io/blog/nssol/</link>
+      <link>http://localhost:1313/blog/nssol/</link>
       <pubDate>Thu, 01 Aug 2019 18:32:21 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/nssol/</guid>
+      <guid>http://localhost:1313/blog/nssol/</guid>
       <description>&lt;p&gt;NSSOL様のインターンに参加できませんでした．&lt;/p&gt;
 &lt;p&gt;NSSOLに行った研究室の先輩方は多く，結構興味を持っていました．
 東京までの旅費や宿泊費を出してくれる上に，毎日飲み会があると聞いていたので参加できることを楽しみにしていました．&lt;/p&gt;
@@ -5337,10 +5395,10 @@ Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのク�
     
     <item>
       <title>NTT DATAのインターンに参加しなかった話</title>
-      <link>https://t45k.github.io/blog/ntt/</link>
+      <link>http://localhost:1313/blog/ntt/</link>
       <pubDate>Thu, 01 Aug 2019 18:32:15 +0900</pubDate>
       
-      <guid>https://t45k.github.io/blog/ntt/</guid>
+      <guid>http://localhost:1313/blog/ntt/</guid>
       <description>&lt;p&gt;NTT DATAのインターンに参加しませんでした．&lt;/p&gt;
 &lt;h2 id=&#34;ntt-dataとは&#34;&gt;NTT DATAとは&lt;/h2&gt;
 &lt;p&gt;国内情報系最大手のNTTのSI部門会社です．
@@ -5356,10 +5414,10 @@ Amazonのマーケットプレイスを筆頭に，様々な会社がAWSのク�
     
     <item>
       <title></title>
-      <link>https://t45k.github.io/kyopuro/doc/</link>
+      <link>http://localhost:1313/kyopuro/doc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://t45k.github.io/kyopuro/doc/</guid>
+      <guid>http://localhost:1313/kyopuro/doc/</guid>
       <description>&lt;!DOCTYPE HTML&gt;
 &lt;!-- NewPage --&gt;
 &lt;html lang=&#34;ja&#34;&gt;
