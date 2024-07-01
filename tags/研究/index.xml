@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>研究 on T45K</title>
-    <link>http://localhost:1313/tags/%E7%A0%94%E7%A9%B6/</link>
+    <link>https://t45k.github.io/tags/%E7%A0%94%E7%A9%B6/</link>
     <description>Recent content in 研究 on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 24 Mar 2021 21:17:20 +0900</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://t45k.github.io/tags/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>大阪大学大学院情報科学研究科修士課程を修了した話</title>
-      <link>http://localhost:1313/blog/graduation/</link>
+      <link>https://t45k.github.io/blog/graduation/</link>
       <pubDate>Wed, 24 Mar 2021 21:17:20 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/graduation/</guid>
+      <guid>https://t45k.github.io/blog/graduation/</guid>
       <description>&lt;p&gt;2021年3月24日をもって修士課程を修了しました．&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;3年間の戦績は&lt;br&gt;&lt;br&gt;論文誌採録*1&lt;br&gt;論文誌条件付き採録*1&lt;br&gt;国際会議採録*2&lt;br&gt;国際会議査読中*1&lt;br&gt;研究会原稿*3&lt;br&gt;で現状不採録0です&lt;br&gt;&lt;br&gt;対ありでした&lt;/p&gt;&amp;mdash; task@減塩 (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1374691521174282242?ref_src=twsrc%5Etfw&#34;&gt;March 24, 2021&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
@@ -187,10 +187,10 @@ AtCoderをやり始める．&lt;/p&gt;
     
     <item>
       <title>情報処理学会論文誌に論文が採録された話</title>
-      <link>http://localhost:1313/blog/ipsj_journal/</link>
+      <link>https://t45k.github.io/blog/ipsj_journal/</link>
       <pubDate>Sun, 17 Jan 2021 17:38:48 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/ipsj_journal/</guid>
+      <guid>https://t45k.github.io/blog/ipsj_journal/</guid>
       <description>&lt;p&gt;情報処理学会論文誌に卒論でやっていた研究が採録されました．情報は&lt;a href=&#34;https://sdl.ist.osaka-u.ac.jp/pman/pman3.cgi?D=677&#34;&gt;こちら&lt;/a&gt;．&lt;/p&gt;
 &lt;h2 id=&#34;論文誌とは&#34;&gt;論文誌とは&lt;/h2&gt;
 &lt;p&gt;研究をしている以上，その成果を論文としてまとめる必要があります．
@@ -261,10 +261,10 @@ AtCoderをやり始める．&lt;/p&gt;
     
     <item>
       <title>APSEC2020に参加した話</title>
-      <link>http://localhost:1313/blog/apsec_2020/</link>
+      <link>https://t45k.github.io/blog/apsec_2020/</link>
       <pubDate>Sat, 05 Dec 2020 00:12:03 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/apsec_2020/</guid>
+      <guid>https://t45k.github.io/blog/apsec_2020/</guid>
       <description>&lt;p&gt;12/2~4にオンラインで開催されたAPSECに参加してきました．&lt;/p&gt;
 &lt;h2 id=&#34;apsecとは&#34;&gt;APSECとは&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;../apsec_2019&#34;&gt;APSEC2019に参加した話&lt;/a&gt;参照．&lt;/p&gt;
@@ -285,10 +285,10 @@ ERAのacc. rateが高いのでレベルは推して知るべしという感じ�
     
     <item>
       <title>ICSE2020の面白そうな論文をピックアップしてみた</title>
-      <link>http://localhost:1313/blog/icse2020_abst/</link>
+      <link>https://t45k.github.io/blog/icse2020_abst/</link>
       <pubDate>Sat, 01 Feb 2020 18:59:35 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/icse2020_abst/</guid>
+      <guid>https://t45k.github.io/blog/icse2020_abst/</guid>
       <description>&lt;p&gt;ICSEはInternational Conference of Software Engineeringの略です．
 ソフトウェア工学の国際学会の中で一番ランクが高い会議です．
 会議自体は5月に行われるのですが，再録された論文一覧とアブストが公開されているので，
@@ -324,10 +324,10 @@ CIのコストはビルドを回している時間だけかかってしまい，
     
     <item>
       <title>APSEC2019に参加した話</title>
-      <link>http://localhost:1313/blog/apsec_2019/</link>
+      <link>https://t45k.github.io/blog/apsec_2019/</link>
       <pubDate>Thu, 05 Dec 2019 20:19:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/apsec_2019/</guid>
+      <guid>https://t45k.github.io/blog/apsec_2019/</guid>
       <description>&lt;p&gt;12/3~5にマレーシアで開催されたAPSECに参加してきました．&lt;/p&gt;
 &lt;h2 id=&#34;apsecとは&#34;&gt;APSECとは&lt;/h2&gt;
 &lt;p&gt;Asia-Pacific Software Engineering Conferenceの略です．
@@ -338,7 +338,7 @@ CIのコストはビルドを回している時間だけかかってしまい，
 &lt;p&gt;こんな国です．&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;マレーシア&lt;br&gt;+ 物価が安い&lt;br&gt;+ 時差が1時間&lt;br&gt;+ 英語が通じる&lt;br&gt;&lt;br&gt;+- 暑い&lt;br&gt;&lt;br&gt;- 酒を飲める場所がかなり限られる&lt;br&gt;- 用を足した後に紙を使わない文化&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1202822137611862017?ref_src=twsrc%5Etfw&#34;&gt;December 6, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
-&lt;img src=&#34;http://localhost:1313/img/blog/apsec.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/apsec.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
 &lt;p&gt;投稿前はあまり気乗りしなかったし，正直通るとも思ってませんでしたが，結果的には国際学会で発表できて良かったなと感じました．
 質疑対応がかなりグダッてしまったので英語力（特にリスニング）を鍛えるのが重要だと思いました．&lt;/p&gt;
 </description>

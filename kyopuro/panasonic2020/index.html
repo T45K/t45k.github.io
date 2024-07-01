@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="ja">
@@ -37,10 +37,10 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 まず，a中のどの箇所がbと被っているかを全探索して，配列か何かに記録する(O(n^2))．これをaとc，bとcに対してもやる． コードだとこんな感じ．
 private static boolean[] init(final int length, final String a, final String b) {// 配列の初期化 final boolean[] array = new boolean[length]; // lengthは十分大きい値 Arrays.">
 
-    <meta property="twitter:image" content="http://localhost:1313/img/original.png">
-    <meta property="twitter:image:url" content="http://localhost:1313/img/original.png">
+    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:url" content="http://localhost:1313/kyopuro/panasonic2020/">
+    <meta property="og:url" content="https://t45k.github.io/kyopuro/panasonic2020/">
   <meta property="og:site_name" content="T45K">
   <meta property="og:title" content="パナソニックプログラミングコンテスト2020の解説">
   <meta property="og:description" content="4完．コード
@@ -63,14 +63,14 @@ private static boolean[] init(final int length, final String a, final String b) 
 
 
     
-      <base href="http://localhost:1313/kyopuro/panasonic2020/">
+      <base href="https://t45k.github.io/kyopuro/panasonic2020/">
     
     <title>
   パナソニックプログラミングコンテスト2020の解説 · T45K
 </title>
 
     
-      <link rel="canonical" href="http://localhost:1313/kyopuro/panasonic2020/">
+      <link rel="canonical" href="https://t45k.github.io/kyopuro/panasonic2020/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -80,7 +80,7 @@ private static boolean[] init(final int length, final String a, final String b) 
     
       
       
-      <link rel="stylesheet" href="http://localhost:1313/css/coder.css" media="screen">
+      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -88,13 +88,13 @@ private static boolean[] init(final int length, final String a, final String b) 
     
 
     
-      <link rel="stylesheet" href="http://localhost:1313/css/custom.css" />
+      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
     
 
     
 
-    <link rel="icon" type="image/png" href="http://localhost:1313/img/original.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="http://localhost:1313/img/original.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
 
     <meta name="generator" content="Hugo 0.127.0">
   </head>
@@ -105,7 +105,7 @@ private static boolean[] init(final int length, final String a, final String b) 
     <main class="wrapper">
       <nav class="navigation">
   <section class="container">
-    <a class="navigation-title" href="http://localhost:1313/">
+    <a class="navigation-title" href="https://t45k.github.io/">
       T45K
     </a>
     
@@ -115,19 +115,19 @@ private static boolean[] init(final int length, final String a, final String b) 
       
         
           <li class="navigation-item">
-            <a class="navigation-link" href="http://localhost:1313/about">about</a>
+            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="http://localhost:1313/blog_index">blog</a>
+            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="http://localhost:1313/kyopuro_index">kyopuro</a>
+            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
           </li>
         
           <li class="navigation-item">
-            <a class="navigation-link" href="http://localhost:1313/product">product</a>
+            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
           </li>
         
           <li class="navigation-item">
@@ -198,7 +198,7 @@ Editorialではa，b，cの順番を考慮せずにやる方法を紹介して�
 </ul>
 <p>に対して<code>ac[i + j] == true</code>となれば，その配置は矛盾がないことになる．
 図だとこんな感じ</p>
-<figure><img src="http://localhost:1313/img/kyopuro/pana2020_e.png" width="50%" height="50%">
+<figure><img src="https://t45k.github.io/img/kyopuro/pana2020_e.png" width="50%" height="50%">
 </figure>
 
 <p>iの探索範囲は0からaの長さ，jの探索範囲はbの長さかiからaの終端までの長さの長い方になる．<br>

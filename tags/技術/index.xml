@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技術 on T45K</title>
-    <link>http://localhost:1313/tags/%E6%8A%80%E8%A1%93/</link>
+    <link>https://t45k.github.io/tags/%E6%8A%80%E8%A1%93/</link>
     <description>Recent content in 技術 on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 23 Jun 2024 22:54:46 +0900</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://t45k.github.io/tags/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kotlin Fest 2024に参加・登壇した話</title>
-      <link>http://localhost:1313/blog/kotlin_fest_2024/</link>
+      <link>https://t45k.github.io/blog/kotlin_fest_2024/</link>
       <pubDate>Sun, 23 Jun 2024 22:54:46 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/kotlin_fest_2024/</guid>
+      <guid>https://t45k.github.io/blog/kotlin_fest_2024/</guid>
       <description>&lt;p&gt;2024年6月22日に開催されたKotlin Fest 2024に参加・登壇してきました。&lt;/p&gt;
 &lt;h2 id=&#34;kotlin-fest&#34;&gt;Kotlin Fest&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.kotlinfest.dev/&#34;&gt;https://www.kotlinfest.dev/&lt;/a&gt;&lt;/p&gt;
@@ -106,14 +106,14 @@ K2モードで大きな改善が入ったんだなぁ&amp;hellip;という感想
     
     <item>
       <title>JJUG CCC 2023 Springで登壇した話</title>
-      <link>http://localhost:1313/blog/jjug_ccc_2023_spring/</link>
+      <link>https://t45k.github.io/blog/jjug_ccc_2023_spring/</link>
       <pubDate>Mon, 05 Jun 2023 19:48:46 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/jjug_ccc_2023_spring/</guid>
+      <guid>https://t45k.github.io/blog/jjug_ccc_2023_spring/</guid>
       <description>&lt;p&gt;2023年6月4日日曜日に開催された&lt;a href=&#34;https://sessionize.com/api/v2/y7inyq6y/view/GridSmart&#34;&gt;JJUG CCC 2023 Spring&lt;/a&gt;で人生初の登壇をしてきました！
 めっちゃ緊張した&amp;hellip;&lt;/p&gt;
 &lt;p&gt;写真はもらったノベルティの数々。&lt;/p&gt;
-&lt;img src=&#34;http://localhost:1313/img/blog/jjug_ccc_2023_spring.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/jjug_ccc_2023_spring.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34;&gt;
 &lt;h3 id=&#34;jjugとは&#34;&gt;JJUGとは&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://t45k.github.io/blog/jjug_ccc_2022_fall/&#34;&gt;https://t45k.github.io/blog/jjug_ccc_2022_fall/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;登壇&#34;&gt;登壇&lt;/h3&gt;
@@ -159,10 +159,10 @@ YanagaさんはGoogleに勤めているJava Championの方です。
     
     <item>
       <title>JJUG CCC 2022 Fallに参加した話</title>
-      <link>http://localhost:1313/blog/jjug_ccc_2022_fall/</link>
+      <link>https://t45k.github.io/blog/jjug_ccc_2022_fall/</link>
       <pubDate>Sat, 03 Dec 2022 17:36:13 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/jjug_ccc_2022_fall/</guid>
+      <guid>https://t45k.github.io/blog/jjug_ccc_2022_fall/</guid>
       <description>&lt;p&gt;2022 年 11 月 27 日日曜日に開催された JJUG CCC 2022 Fall に参加しました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://jjug.doorkeeper.jp/events/143914&#34;&gt;リンク&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;jjug&#34;&gt;JJUG&lt;/h2&gt;
@@ -271,10 +271,10 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>競プロでKotlinを使わない理由</title>
-      <link>http://localhost:1313/blog/why_not_kotlin_in_kyopuro/</link>
+      <link>https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/</link>
       <pubDate>Mon, 04 Jul 2022 22:38:27 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/why_not_kotlin_in_kyopuro/</guid>
+      <guid>https://t45k.github.io/blog/why_not_kotlin_in_kyopuro/</guid>
       <description>&lt;p&gt;仕事や趣味でソースコードを書く時は Kotlin を使っているが、競プロでは Java を使っている。&lt;/p&gt;
 &lt;p&gt;ちょくちょく Kotlin に移行することを考えるのだが、その度に色々な理由で断念するので、その理由を書き出してみる。&lt;/p&gt;
 &lt;h2 id=&#34;ビット演算子がない&#34;&gt;ビット演算子がない&lt;/h2&gt;
@@ -299,12 +299,12 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>AtCoderで水色になりました</title>
-      <link>http://localhost:1313/blog/nyusui/</link>
+      <link>https://t45k.github.io/blog/nyusui/</link>
       <pubDate>Sun, 29 Mar 2020 00:16:31 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/nyusui/</guid>
+      <guid>https://t45k.github.io/blog/nyusui/</guid>
       <description>&lt;p&gt;先日行われた&lt;a href=&#34;https://atcoder.jp/contests/abc160&#34;&gt;ABC160&lt;/a&gt;にて無事に入水を果たしたのでポエムを書きます．
-&lt;img src=&#34;http://localhost:1313/img/blog/nyusui.png&#34; height=&#34;75%&#34; width=&#34;75%&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://t45k.github.io/img/blog/nyusui.png&#34; height=&#34;75%&#34; width=&#34;75%&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;感じたこと&#34;&gt;感じたこと&lt;/h2&gt;
 &lt;p&gt;一つの目標だった水色に到達してほっとしています．
 人によっては10回かそこらでなる人もいる中，53回目でようやくなれた自分の才能とセンスのなさには本当に辟易しています．
@@ -320,12 +320,12 @@ Red Hat 製品にも Java EE にも疎いのであまり理解できなかった
     
     <item>
       <title>LINE DEVELOPER DAY2019に参加した話</title>
-      <link>http://localhost:1313/blog/devday/</link>
+      <link>https://t45k.github.io/blog/devday/</link>
       <pubDate>Thu, 21 Nov 2019 20:16:05 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/devday/</guid>
+      <guid>https://t45k.github.io/blog/devday/</guid>
       <description>&lt;p&gt;11/20，21に開催されたLINE DEV DAYに参加してきました．&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/blog/devday.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
+&lt;figure&gt;&lt;img src=&#34;https://t45k.github.io/img/blog/devday.JPG&#34; width=&#34;50%&#34; height=&#34;50%&#34;&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;dev-dayとは&#34;&gt;DEV DAYとは&lt;/h2&gt;
