@@ -5182,7 +5182,7 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
       <guid>https://t45k.github.io/about/</guid>
       <description>&lt;h1 id=&#34;こんにちは&#34;&gt;こんにちは&lt;/h1&gt;
 &lt;p&gt;中川 将（なかがわ たすく）。
-大阪のウェブエンジニア。&lt;/p&gt;
+大阪のバックエンドエンジニア。&lt;/p&gt;
 &lt;img src=&#34;https://t45k.github.io/img/about.jpg&#34; height=&#34;50%&#34; width=&#34;50%&#34; &gt;
 &lt;h1 id=&#34;好き&#34;&gt;好き&lt;/h1&gt;
 &lt;ul&gt;
@@ -5196,6 +5196,7 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
 &lt;li&gt;競プロ
 &lt;ul&gt;
 &lt;li&gt;AtCoder 水色&lt;/li&gt;
+&lt;li&gt;（ほぼ引退）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;酒
@@ -5216,6 +5217,17 @@ LCMがmod計算してあるので，単純に各値で割るのではなく，mo
 &lt;li&gt;イミュータブル&lt;/li&gt;
 &lt;li&gt;非 null&lt;/li&gt;
 &lt;li&gt;メソッドチェーン&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;登壇&#34;&gt;登壇&lt;/h2&gt;
+&lt;h3 id=&#34;カンファレンス&#34;&gt;カンファレンス&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://eventregist.com/e/luIcqEmpqPI2&#34;&gt;JJUG CCC 2023 Spring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fortee.jp/kotlin-fest-2024/proposal/accepted&#34;&gt;Kotlin Fest 2024&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;勉強会&#34;&gt;勉強会&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://server-side-kotlin-meetup.connpass.com/event/291686/&#34;&gt;Server-Side Kotlin Meetup vol.10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hatena.connpass.com/event/314401/&#34;&gt;Kyoto Tech Talk #4&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;呟き&#34;&gt;呟き&lt;/h1&gt;
 &lt;style type=&#34;text/css&#34;&gt;
