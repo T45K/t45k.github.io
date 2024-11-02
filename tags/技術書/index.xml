@@ -6,10 +6,28 @@
     <description>Recent content in 技術書 on T45K</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 06 Aug 2024 22:44:20 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2024 16:51:20 +0900</lastBuildDate>
     
 	<atom:link href="https://t45k.github.io/tags/%E6%8A%80%E8%A1%93%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>「ソフトウェア開発現場の「失敗」集めてみた」読了</title>
+      <link>https://t45k.github.io/blog/collect_failures_in_software_development/</link>
+      <pubDate>Sat, 02 Nov 2024 16:51:20 +0900</pubDate>
+      
+      <guid>https://t45k.github.io/blog/collect_failures_in_software_development/</guid>
+      <description>&lt;p&gt;「ソフトウェア開発現場の「失敗」集めてみた」を読んだ。&lt;/p&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div style=&#34;border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;width:240px&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17852417%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;img src=&#34;https://hbb.afl.rakuten.co.jp/hgb/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?me_id=1213310&amp;item_id=21248375&amp;pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Fbook%2Fcabinet%2F5187%2F9784798185187_1_138.jpg%3F_ex%3D240x240&amp;s=240x240&amp;t=picttext&#34; border=&#34;0&#34; style=&#34;margin:2px&#34; alt=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34; title=&#34;[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:top;width:248px;display: block;&#34;&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17852417%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;ソフトウェア開発現場の「失敗」集めてみた。 42の失敗事例で学ぶチーム開発のうまい進めかた [ 出石 聡史 ]&lt;/a&gt;&lt;br&gt;&lt;span &gt;価格：2,420円（税込、送料無料)&lt;/span&gt; &lt;span style=&#34;color:#BBB&#34;&gt;(2024/11/2時点)&lt;/span&gt;&lt;/p&gt;&lt;div style=&#34;margin:10px;&#34;&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17852417%2F&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;img src=&#34;https://static.affiliate.rakuten.co.jp/makelink/rl.svg&#34; style=&#34;float:left;max-height:27px;width:auto;margin-top:0&#34; &gt;&lt;/a&gt;&lt;a href=&#34;https://hb.afl.rakuten.co.jp/ichiba/2c4e7c40.9ea290f6.2c4e7c41.04aec2a1/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbook%2F17852417%2F%3Fscid%3Daf_pc_bbtn&amp;link_type=picttext&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==&#34; target=&#34;_blank&#34; rel=&#34;nofollow sponsored noopener&#34; style=&#34;word-wrap:break-word;&#34;&gt;&lt;div style=&#34;float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;&#34;&gt; 楽天で購入 &lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br&gt;&lt;p style=&#34;color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word&#34;&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;キャッチーなタイトルに惹かれて購入したが、
+中身は上流からリリース後までのよくある失敗を紹介している、
+割としっかりした内容だった。&lt;/p&gt;
+&lt;p&gt;普段は「設計・実装」をやっているので、それ以前の企画や、品質保証、リリース後対応などは
+「そんなことがあるのか&amp;hellip;」と驚きに満ちていた。&lt;/p&gt;
+&lt;p&gt;また、一貫して「リリース日に間に合わせるためスコープを削る・バグの優先度を下げる」について言及されており、
+これまでは全部やる・全て直すというスタンスに立つことが多かったため、参考になった。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>「単体テストの考え方/使い方」読了</title>
