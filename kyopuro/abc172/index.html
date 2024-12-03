@@ -1,54 +1,108 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Language" content="ja">
+<head>
+  <title>
+  ABC172の解説 · T45K
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-    <meta name="author" content="Tasuku NAKAGAWA">
-    <meta name="description" content="C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回． 4完．
+
+
+
+<meta name="author" content="Tasuku NAKAGAWA">
+<meta name="description" content="C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回．
+4完．
 コード
-A - Calc 計算するだけ
-B - Minor Change 問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．
-C - Tsundoku 貪欲だと解けない問題．
-A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる． ここで，本は上から見ていくというルールから，累積和をとっても問題ないことに気付ける． 累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．
-D - Sum of Divisors 最近流行のエラトステネス的問題．
+
+  A - Calc
+  
+    
+    見出しへのリンク
+  
+
+計算するだけ
+
+  B - Minor Change
+  
+    
+    見出しへのリンク
+  
+
+問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．
+
+  C - Tsundoku
+  
+    
+    見出しへのリンク
+  
+
+貪欲だと解けない問題．
+A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる．
+ここで，本は上から見ていくというルールから，累積和をとっても問題ないことに気付ける．
+累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．
+
+  D - Sum of Divisors
+  
+    
+    見出しへのリンク
+  
+
+最近流行のエラトステネス的問題．
 全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．
 実装としては，以下のようにする．
-長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． ">
-    <meta name="keywords" content="">
 
-    
+長さNの配列を2つ用意する．
+配列Aは1で，配列Bはその添字で初期化する．
+配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う．
+2 &lt;= i &lt;= √Nとして，配列を順番に見ていく．
+
+Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると
+
+Ak *= k &#43; 1
+Bk /= i ^ k
+と更新する
+
+Biが1の時，iは素数なので何もしない
+
+
+配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する．
+">
+<meta name="keywords" content="">
+
+
+
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="ABC172の解説">
   <meta name="twitter:description" content="C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回． 4完．
 コード
-A - Calc 計算するだけ
-B - Minor Change 問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．
-C - Tsundoku 貪欲だと解けない問題．
+A - Calc 見出しへのリンク 計算するだけ
+B - Minor Change 見出しへのリンク 問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．
+C - Tsundoku 見出しへのリンク 貪欲だと解けない問題．
 A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる． ここで，本は上から見ていくというルールから，累積和をとっても問題ないことに気付ける． 累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．
-D - Sum of Divisors 最近流行のエラトステネス的問題．
+D - Sum of Divisors 見出しへのリンク 最近流行のエラトステネス的問題．
 全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．
 実装としては，以下のようにする．
-長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． ">
+長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する．">
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+<meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+<meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:url" content="https://t45k.github.io/kyopuro/abc172/">
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc172/">
   <meta property="og:site_name" content="T45K">
   <meta property="og:title" content="ABC172の解説">
   <meta property="og:description" content="C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回． 4完．
 コード
-A - Calc 計算するだけ
-B - Minor Change 問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．
-C - Tsundoku 貪欲だと解けない問題．
+A - Calc 見出しへのリンク 計算するだけ
+B - Minor Change 見出しへのリンク 問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．
+C - Tsundoku 見出しへのリンク 貪欲だと解けない問題．
 A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる． ここで，本は上から見ていくというルールから，累積和をとっても問題ないことに気付ける． 累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．
-D - Sum of Divisors 最近流行のエラトステネス的問題．
+D - Sum of Divisors 見出しへのリンク 最近流行のエラトステネス的問題．
 全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．
 実装としては，以下のようにする．
-長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する． ">
+長さNの配列を2つ用意する． 配列Aは1で，配列Bはその添字で初期化する． 配列Aは約数の個数を，配列Bは素数かどうかを判定するのに使う． 2 &lt;= i &lt;= √Nとして，配列を順番に見ていく． Biが2以上の時，iは素数となる．なので，iの倍数jに対して，jがiでk回割れる(= log(i,j))とすると Ak *= k &#43; 1 Bk /= i ^ k と更新する Biが1の時，iは素数なので何もしない 配列Aに約数の個数が記録できたので，√N以上の素数に注意しながら欲しい値を計算する．">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="kyopuro">
@@ -56,105 +110,153 @@ D - Sum of Divisors 最近流行のエラトステネス的問題．
     <meta property="article:modified_time" content="2020-07-01T10:38:47+09:00">
 
 
-    
-      <base href="https://t45k.github.io/kyopuro/abc172/">
-    
-    <title>
-  ABC172の解説 · T45K
-</title>
 
-    
-      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc172/">
-    
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+<link rel="canonical" href="https://t45k.github.io/kyopuro/abc172/">
 
-    
-      
-      
-      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
-    
 
-    
+<link rel="preload" href="https://t45k.github.io/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://t45k.github.io/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://t45k.github.io/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 
-    
-
-    
-      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
-    
-
-    
-
-    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
-
-    <meta name="generator" content="Hugo 0.127.0">
-  </head>
 
   
   
-  <body class="colorscheme-light">
-    <main class="wrapper">
-      <nav class="navigation">
+  <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.ed30115a76cdaa62f2229e973d5b1c89b2d3dd4b1d9c07a729baad06aa3b0cbe.css" integrity="sha256-7TARWnbNqmLyIp6XPVscibLT3UsdnAenKbqtBqo7DL4=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="https://t45k.github.io/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="https://t45k.github.io/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://t45k.github.io/images/apple-touch-icon.png">
+
+<link rel="manifest" href="https://t45k.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://t45k.github.io/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
   <section class="container">
+    
     <a class="navigation-title" href="https://t45k.github.io/">
       T45K
     </a>
     
-    <input type="checkbox" id="menu-toggle" />
-    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
-    <ul class="navigation-list">
-      
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
-          </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://t45k.github.io/about">about</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://t45k.github.io/blog_index">blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://t45k.github.io/product">product</a>
+            </li>
+          
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
-          </li>
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
-          </li>
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
-          </li>
-        
-      
-      
-    </ul>
+      </ul>
     
   </section>
 </nav>
 
 
-      <div class="content">
-        
+    <div class="content">
+      
   <section class="container page">
   <article>
     <header>
-      <h1>ABC172の解説</h1>
-      <br>
-      
+      <h1 class="title">
+        <a class="title-link" href="https://t45k.github.io/kyopuro/abc172/">
+          ABC172の解説
+        </a>
+      </h1>
     </header>
 
     <p>C，D問題に緑diffが出て結構阿鼻叫喚な人が多かった回．
 4完．<br>
-<a href="https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC172">コード</a></p>
-<h2 id="a---calc">A - Calc</h2>
+<a href="https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC172"  class="external-link" target="_blank" rel="noopener">コード</a></p>
+<h2 id="a---calc">
+  A - Calc
+  <a class="heading-link" href="#a---calc">
+    <i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"></i>
+    <span class="sr-only">見出しへのリンク</span>
+  </a>
+</h2>
 <p>計算するだけ</p>
-<h2 id="b---minor-change">B - Minor Change</h2>
+<h2 id="b---minor-change">
+  B - Minor Change
+  <a class="heading-link" href="#b---minor-change">
+    <i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"></i>
+    <span class="sr-only">見出しへのリンク</span>
+  </a>
+</h2>
 <p>問題文から，SとTの同じ位置で文字が異なる回数を数え上げれば良いことが分かる．</p>
-<h2 id="c---tsundoku">C - Tsundoku</h2>
+<h2 id="c---tsundoku">
+  C - Tsundoku
+  <a class="heading-link" href="#c---tsundoku">
+    <i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"></i>
+    <span class="sr-only">見出しへのリンク</span>
+  </a>
+</h2>
 <p>貪欲だと解けない問題．<br>
 A，Bどちらの本も上限が10^5なので，全ての組み合わせを見ると時間が足りなくなる．
 ここで，<strong>本は上から見ていく</strong>というルールから，累積和をとっても問題ないことに気付ける．
 累積和が取れるので，Aは前から見ていき，Bは二分探索できることに気付けるので，あとは実装するだけ．</p>
-<h2 id="d---sum-of-divisors">D - Sum of Divisors</h2>
+<h2 id="d---sum-of-divisors">
+  D - Sum of Divisors
+  <a class="heading-link" href="#d---sum-of-divisors">
+    <i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"></i>
+    <span class="sr-only">見出しへのリンク</span>
+  </a>
+</h2>
 <p>最近流行のエラトステネス的問題．<br>
 全ての数字の約数の個数をそれぞれ求めていたら遅いので，前から素数を見て，その素数を約数として持つ値に約数として加えていく方針でやる．<br>
 実装としては，以下のようにする．</p>
@@ -182,49 +284,86 @@ A，Bどちらの本も上限が10^5なので，全ての組み合わせを見�
 
 </section>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'], ['\\(', '\\)']
-        ],
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
       }
-    };
-  </script>
+    );"></script>
 
-      </div>
+    </div>
 
-      
-  <footer class="footer">
-    <section class="container">
-      
-        <p>圧倒的多幸感</p>
-      
-      
-      
-      
-    </section>
-  </footer>
-
-    </main>
-
+    <footer class="footer">
+  <section class="container">
+    ©
     
-
+    2024
+     Tasuku NAKAGAWA 
+    ·
     
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="https://t45k.github.io/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
   
 
 
+  
 
-    
+  
 
-  </body>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
 
 </html>

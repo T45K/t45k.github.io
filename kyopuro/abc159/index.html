@@ -1,36 +1,75 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Language" content="ja">
+<head>
+  <title>
+  ABC159の解説 · T45K
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-    <meta name="author" content="Tasuku NAKAGAWA">
-    <meta name="description" content="奇跡的に5完．コード
-A - The Number of Even Pairs 和が正になるのはeven &#43; evenかodd &#43; oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．
-B - String Palindrome 書かれてることをするだけ． 回文系の問題は以下のようなメソッドを作っとくと便利かも．
-private static boolean isPalindrome(final int start, final int end, final String s) { for (int i = 0; ; i&#43;&#43;) { if (start &#43; i &gt;= end - i) { return true; } if (s.charAt(start &#43; i) != s.charAt(end - i)) { return false; } } } C - Maximum Volume Lの1/3の3乗">
-    <meta name="keywords" content="">
 
+
+
+<meta name="author" content="Tasuku NAKAGAWA">
+<meta name="description" content="奇跡的に5完．コード
+
+  A - The Number of Even Pairs
+  
     
+    見出しへのリンク
+  
+
+和が正になるのはeven &#43; evenかodd &#43; oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．
+
+  B - String Palindrome
+  
+    
+    見出しへのリンク
+  
+
+書かれてることをするだけ．
+回文系の問題は以下のようなメソッドを作っとくと便利かも．
+private static boolean isPalindrome(final int start, final int end, final String s) {
+    for (int i = 0; ; i&#43;&#43;) {
+        if (start &#43; i &gt;= end - i) {
+            return true;
+        }
+        if (s.charAt(start &#43; i) != s.charAt(end - i)) {
+            return false;
+        }
+    }
+}
+
+  C - Maximum Volume
+  
+    
+    見出しへのリンク
+  
+
+Lの1/3の3乗">
+<meta name="keywords" content="">
+
+
+
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="ABC159の解説">
   <meta name="twitter:description" content="奇跡的に5完．コード
-A - The Number of Even Pairs 和が正になるのはeven &#43; evenかodd &#43; oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．
-B - String Palindrome 書かれてることをするだけ． 回文系の問題は以下のようなメソッドを作っとくと便利かも．
-private static boolean isPalindrome(final int start, final int end, final String s) { for (int i = 0; ; i&#43;&#43;) { if (start &#43; i &gt;= end - i) { return true; } if (s.charAt(start &#43; i) != s.charAt(end - i)) { return false; } } } C - Maximum Volume Lの1/3の3乗">
+A - The Number of Even Pairs 見出しへのリンク 和が正になるのはeven &#43; evenかodd &#43; oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．
+B - String Palindrome 見出しへのリンク 書かれてることをするだけ． 回文系の問題は以下のようなメソッドを作っとくと便利かも．
+private static boolean isPalindrome(final int start, final int end, final String s) { for (int i = 0; ; i&#43;&#43;) { if (start &#43; i &gt;= end - i) { return true; } if (s.charAt(start &#43; i) != s.charAt(end - i)) { return false; } } } C - Maximum Volume 見出しへのリンク Lの1/3の3乗">
 
-    <meta property="twitter:image" content="https://t45k.github.io/img/original.png">
-    <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
+<meta property="twitter:image" content="https://t45k.github.io/img/original.png">
+<meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
-    <meta property="og:url" content="https://t45k.github.io/kyopuro/abc159/">
+<meta property="og:url" content="https://t45k.github.io/kyopuro/abc159/">
   <meta property="og:site_name" content="T45K">
   <meta property="og:title" content="ABC159の解説">
   <meta property="og:description" content="奇跡的に5完．コード
-A - The Number of Even Pairs 和が正になるのはeven &#43; evenかodd &#43; oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．
-B - String Palindrome 書かれてることをするだけ． 回文系の問題は以下のようなメソッドを作っとくと便利かも．
-private static boolean isPalindrome(final int start, final int end, final String s) { for (int i = 0; ; i&#43;&#43;) { if (start &#43; i &gt;= end - i) { return true; } if (s.charAt(start &#43; i) != s.charAt(end - i)) { return false; } } } C - Maximum Volume Lの1/3の3乗">
+A - The Number of Even Pairs 見出しへのリンク 和が正になるのはeven &#43; evenかodd &#43; oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．
+B - String Palindrome 見出しへのリンク 書かれてることをするだけ． 回文系の問題は以下のようなメソッドを作っとくと便利かも．
+private static boolean isPalindrome(final int start, final int end, final String s) { for (int i = 0; ; i&#43;&#43;) { if (start &#43; i &gt;= end - i) { return true; } if (s.charAt(start &#43; i) != s.charAt(end - i)) { return false; } } } C - Maximum Volume 見出しへのリンク Lの1/3の3乗">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="kyopuro">
@@ -38,96 +77,132 @@ private static boolean isPalindrome(final int start, final int end, final String
     <meta property="article:modified_time" content="2020-03-22T22:48:22+09:00">
 
 
-    
-      <base href="https://t45k.github.io/kyopuro/abc159/">
-    
-    <title>
-  ABC159の解説 · T45K
-</title>
 
-    
-      <link rel="canonical" href="https://t45k.github.io/kyopuro/abc159/">
-    
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+<link rel="canonical" href="https://t45k.github.io/kyopuro/abc159/">
 
-    
-      
-      
-      <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
-    
 
-    
+<link rel="preload" href="https://t45k.github.io/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://t45k.github.io/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://t45k.github.io/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 
-    
-
-    
-      <link rel="stylesheet" href="https://t45k.github.io/css/custom.css" />
-    
-
-    
-
-    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
-
-    <meta name="generator" content="Hugo 0.127.0">
-  </head>
 
   
   
-  <body class="colorscheme-light">
-    <main class="wrapper">
-      <nav class="navigation">
+  <link rel="stylesheet" href="https://t45k.github.io/css/coder.min.ed30115a76cdaa62f2229e973d5b1c89b2d3dd4b1d9c07a729baad06aa3b0cbe.css" integrity="sha256-7TARWnbNqmLyIp6XPVscibLT3UsdnAenKbqtBqo7DL4=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="https://t45k.github.io/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://t45k.github.io/img/original.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="https://t45k.github.io/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://t45k.github.io/images/apple-touch-icon.png">
+
+<link rel="manifest" href="https://t45k.github.io/site.webmanifest">
+<link rel="mask-icon" href="https://t45k.github.io/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
   <section class="container">
+    
     <a class="navigation-title" href="https://t45k.github.io/">
       T45K
     </a>
     
-    <input type="checkbox" id="menu-toggle" />
-    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
-    <ul class="navigation-list">
-      
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/about">about</a>
-          </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://t45k.github.io/about">about</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://t45k.github.io/blog_index">blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://t45k.github.io/kyopuro_index">kyopuro</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="https://t45k.github.io/product">product</a>
+            </li>
+          
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/blog_index">blog</a>
-          </li>
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/kyopuro_index">kyopuro</a>
-          </li>
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://t45k.github.io/product">product</a>
-          </li>
-        
-      
-      
-    </ul>
+      </ul>
     
   </section>
 </nav>
 
 
-      <div class="content">
-        
+    <div class="content">
+      
   <section class="container page">
   <article>
     <header>
-      <h1>ABC159の解説</h1>
-      <br>
-      
+      <h1 class="title">
+        <a class="title-link" href="https://t45k.github.io/kyopuro/abc159/">
+          ABC159の解説
+        </a>
+      </h1>
     </header>
 
-    <p>奇跡的に5完．<a href="https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC159">コード</a></p>
-<h2 id="a---the-number-of-even-pairs">A - The Number of Even Pairs</h2>
+    <p>奇跡的に5完．<a href="https://github.com/T45K/kyopuro/tree/master/AtCoder/ABC/ABC159"  class="external-link" target="_blank" rel="noopener">コード</a></p>
+<h2 id="a---the-number-of-even-pairs">
+  A - The Number of Even Pairs
+  <a class="heading-link" href="#a---the-number-of-even-pairs">
+    <i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"></i>
+    <span class="sr-only">見出しへのリンク</span>
+  </a>
+</h2>
 <p>和が正になるのは<code>even + even</code>か<code>odd + odd</code>の時なので，偶奇それぞれに対して組み合わせ(<code>n * (n - 1) / 2</code>)を計算して足し合わせる．</p>
-<h2 id="b---string-palindrome">B - String Palindrome</h2>
+<h2 id="b---string-palindrome">
+  B - String Palindrome
+  <a class="heading-link" href="#b---string-palindrome">
+    <i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"></i>
+    <span class="sr-only">見出しへのリンク</span>
+  </a>
+</h2>
 <p>書かれてることをするだけ．
 回文系の問題は以下のようなメソッドを作っとくと便利かも．</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="font-weight:bold">private</span> <span style="font-weight:bold">static</span> <span style="">boolean</span> isPalindrome(<span style="font-weight:bold">final</span> <span style="">int</span> start, <span style="font-weight:bold">final</span> <span style="">int</span> end, <span style="font-weight:bold">final</span> String s) {
@@ -140,40 +215,64 @@ private static boolean isPalindrome(final int start, final int end, final String
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="c---maximum-volume">C - Maximum Volume</h2>
+</span></span></code></pre></div><h2 id="c---maximum-volume">
+  C - Maximum Volume
+  <a class="heading-link" href="#c---maximum-volume">
+    <i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"></i>
+    <span class="sr-only">見出しへのリンク</span>
+  </a>
+</h2>
 <p>Lの1/3の3乗</p>
-<h2 id="d---banned-k">D - Banned K</h2>
+<h2 id="d---banned-k">
+  D - Banned K
+  <a class="heading-link" href="#d---banned-k">
+    <i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"></i>
+    <span class="sr-only">見出しへのリンク</span>
+  </a>
+</h2>
 <p>考えた方としては，初めに何も取り除かないときの組み合わせの総数を求めておいて，それを使って取り除いた数字の組み合わせを計算し直すという感じ．<br>
 初めに全ての組み合わせの和を計算する．
 これは連想配列を用いてどの数字が何回出てくるかを数え上げて，各回数に対して<code>n * (n - 1) / 2</code>を計算して足し合わせるだけ．
 次に，各数字を取り除いた場合を考える．
 取り除いた数字の組み合わせは<code>(n - 1) * (n - 2) / 2</code>になってしまうので，総和から<code>n * (n - 1) / 2</code>を引いて<code>(n - 1) * (n - 2) / 2</code>を足した数が求めたい数字になる．</p>
-<h2 id="e---dividing-chocolate">E - Dividing Chocolate</h2>
+<h2 id="e---dividing-chocolate">
+  E - Dividing Chocolate
+  <a class="heading-link" href="#e---dividing-chocolate">
+    <i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"></i>
+    <span class="sr-only">見出しへのリンク</span>
+  </a>
+</h2>
 <p><code>H &lt;= 10</code>が大きなヒント．<br>
 <code>H &lt;= 10</code>から，横方向に切る組み合わせは全探索を使える(<code>2 ^ 10 ≒ 10 ^ 3</code>)．
 横方向に切った結果から，Kを超えないように縦方向に切らないといけない回数を貪欲に算出できる．</p>
-<h2 id="f----knapsack-for-all-segments">F -  Knapsack for All Segments</h2>
-<p>解説AC．なぜか解説通りに実装するとTLEになったため別の方針を採用(<a href="https://atcoder.jp/contests/abc159/submissions/11164623">https://atcoder.jp/contests/abc159/submissions/11164623</a>)．<br>
+<h2 id="f----knapsack-for-all-segments">
+  F -  Knapsack for All Segments
+  <a class="heading-link" href="#f----knapsack-for-all-segments">
+    <i class="fa-solid fa-link" aria-hidden="true" title="見出しへのリンク"></i>
+    <span class="sr-only">見出しへのリンク</span>
+  </a>
+</h2>
+<p>解説AC．なぜか解説通りに実装するとTLEになったため別の方針を採用(<a href="https://atcoder.jp/contests/abc159/submissions/11164623"  class="external-link" target="_blank" rel="noopener">https://atcoder.jp/contests/abc159/submissions/11164623</a>)．<br>
 <code>Ax1 + Ax2 + ... Axn = S</code>を満たす時，<code>s = 1, 2, ..., x1</code>，<code>e = xn, xn + 1, ..., N</code>とすると，sからeまでの文字列は全て条件を満たす．
 そこで，始点と終点を決めるためのDPを行う．<br>
 答えを表す変数<code>ans</code>，dp[N][S]を用意し，次の場合分けを考える．j = 0 .. S - 1 に対して，</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center">場合分け</th>
-<th style="text-align:center">操作</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Ai を足さない</td>
-<td style="text-align:center">dp[N][j] = dp[N - 1][j]</td>
-</tr>
-<tr>
-<td style="text-align:center">Ai を足す</td>
-<td style="text-align:center">Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i<br>Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]<br>Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center">場合分け</th>
+          <th style="text-align: center">操作</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Ai を足さない</td>
+          <td style="text-align: center">dp[N][j] = dp[N - 1][j]</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Ai を足す</td>
+          <td style="text-align: center">Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i<br>Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]<br>Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)</td>
+      </tr>
+  </tbody>
 </table>
 
   </article>
@@ -182,49 +281,86 @@ private static boolean isPalindrome(final int start, final int end, final String
 
 </section>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'], ['\\(', '\\)']
-        ],
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
       }
-    };
-  </script>
+    );"></script>
 
-      </div>
+    </div>
 
-      
-  <footer class="footer">
-    <section class="container">
-      
-        <p>圧倒的多幸感</p>
-      
-      
-      
-      
-    </section>
-  </footer>
-
-    </main>
-
+    <footer class="footer">
+  <section class="container">
+    ©
     
-
+    2024
+     Tasuku NAKAGAWA 
+    ·
     
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="https://t45k.github.io/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
   
 
 
+  
 
-    
+  
 
-  </body>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
 
 </html>
