@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>カンファレンス on T45K</title>
-    <link>http://localhost:1313/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/</link>
+    <link>https://t45k.github.io/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/</link>
     <description>Recent content in カンファレンス on T45K</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 02 Aug 2025 22:36:24 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://t45k.github.io/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>スクラムフェス大阪2025に参加してきた</title>
-      <link>http://localhost:1313/blog/scrum_fest_osaka_2025/</link>
+      <link>https://t45k.github.io/blog/scrum_fest_osaka_2025/</link>
       <pubDate>Sat, 02 Aug 2025 22:36:24 +0900</pubDate>
-      <guid>http://localhost:1313/blog/scrum_fest_osaka_2025/</guid>
+      <guid>https://t45k.github.io/blog/scrum_fest_osaka_2025/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.scrumosaka.org/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;スクラムフェス大阪&lt;/a&gt;に初参加してきました。&lt;/p&gt;&#xA;&lt;p&gt;2日開催（7/18金、7/19土）だったのですが、出張の都合で金曜は参加できず（オープニングノート面白かったらしい）、&#xA;疲れの影響で土曜のクロージンノートと懇親会にも参加できませんでした。&lt;/p&gt;&#xA;&lt;p&gt;聴講した感想はこちら。&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;バックログから始めるカイゼン生活見ます&lt;a href=&#34;https://twitter.com/hashtag/scrumosaka?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#scrumosaka&lt;/a&gt;&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1946381720019931354?ref_src=twsrc%5Etfw&#34;&gt;July 19, 2025&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;Bliklから学ぶアジャイルソフトウェア開発の考え方&lt;br&gt;見る&lt;a href=&#34;https://twitter.com/hashtag/scrumosaka?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#scrumosaka&lt;/a&gt;&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1946389768360939825?ref_src=twsrc%5Etfw&#34;&gt;July 19, 2025&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;ja&#34; dir=&#34;ltr&#34;&gt;マネジメントは怖くない？&lt;br&gt;見る&lt;a href=&#34;https://twitter.com/hashtag/scrumosaka?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#scrumosaka&lt;/a&gt;&lt;/p&gt;&amp;mdash; task (@getupmax) &lt;a href=&#34;https://twitter.com/getupmax/status/1946427550588424240?ref_src=twsrc%5Etfw&#34;&gt;July 19, 2025&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xA;&lt;p&gt;「人はなぜ変われないのか？自分を変えるとは何か？どう在るべきなのか？」というセッションも聴講したのですが、眠気の限界でメモを取れていませんでした&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;どのセッションも非常に興味深く、また来年も参加したいなと思いました。&lt;/p&gt;&#xA;&lt;p&gt;会社のブログは&lt;a href=&#34;https://moneyforward-dev.jp/entry/2025/07/23/113127&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
