@@ -53,9 +53,9 @@ Lの1/3の3乗">
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="ABC159の解説">
-  <meta name="twitter:description" content="奇跡的に5完．コード
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="ABC159の解説">
+	<meta name="twitter:description" content="奇跡的に5完．コード
 A - The Number of Even Pairs 見出しへのリンク 和が正になるのはeven &#43; evenかodd &#43; oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．
 B - String Palindrome 見出しへのリンク 書かれてることをするだけ． 回文系の問題は以下のようなメソッドを作っとくと便利かも．
 private static boolean isPalindrome(final int start, final int end, final String s) { for (int i = 0; ; i&#43;&#43;) { if (start &#43; i &gt;= end - i) { return true; } if (s.charAt(start &#43; i) != s.charAt(end - i)) { return false; } } } C - Maximum Volume 見出しへのリンク Lの1/3の3乗">
@@ -64,17 +64,17 @@ private static boolean isPalindrome(final int start, final int end, final String
 <meta property="twitter:image:url" content="https://t45k.github.io/img/original.png">
 
 <meta property="og:url" content="https://t45k.github.io/kyopuro/abc159/">
-  <meta property="og:site_name" content="T45K">
-  <meta property="og:title" content="ABC159の解説">
-  <meta property="og:description" content="奇跡的に5完．コード
+	<meta property="og:site_name" content="T45K">
+	<meta property="og:title" content="ABC159の解説">
+	<meta property="og:description" content="奇跡的に5完．コード
 A - The Number of Even Pairs 見出しへのリンク 和が正になるのはeven &#43; evenかodd &#43; oddの時なので，偶奇それぞれに対して組み合わせ(n * (n - 1) / 2)を計算して足し合わせる．
 B - String Palindrome 見出しへのリンク 書かれてることをするだけ． 回文系の問題は以下のようなメソッドを作っとくと便利かも．
 private static boolean isPalindrome(final int start, final int end, final String s) { for (int i = 0; ; i&#43;&#43;) { if (start &#43; i &gt;= end - i) { return true; } if (s.charAt(start &#43; i) != s.charAt(end - i)) { return false; } } } C - Maximum Volume 見出しへのリンク Lの1/3の3乗">
-  <meta property="og:locale" content="ja">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="kyopuro">
-    <meta property="article:published_time" content="2020-03-22T22:48:22+09:00">
-    <meta property="article:modified_time" content="2020-03-22T22:48:22+09:00">
+	<meta property="og:locale" content="ja">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="kyopuro">
+		<meta property="article:published_time" content="2020-03-22T22:48:22+09:00">
+		<meta property="article:modified_time" content="2020-03-22T22:48:22+09:00">
 
 
 
@@ -99,7 +99,7 @@ private static boolean isPalindrome(final int start, final int end, final String
   
     
     
-    <link rel="stylesheet" href="https://t45k.github.io/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+    <link rel="stylesheet" href="https://t45k.github.io/css/coder-dark.min.ad48f476275974885bdc03d5251e3cdbe1678c54a63ff772376b0ed2adc468dd.css" integrity="sha256-rUj0didZdIhb3APVJR482&#43;FnjFSmP/dyN2sO0q3EaN0=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -271,22 +271,22 @@ private static boolean isPalindrome(final int start, final int end, final String
 そこで，始点と終点を決めるためのDPを行う．<br>
 答えを表す変数<code>ans</code>，dp[N][S]を用意し，次の場合分けを考える．j = 0 .. S - 1 に対して，</p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: center">場合分け</th>
-          <th style="text-align: center">操作</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">Ai を足さない</td>
-          <td style="text-align: center">dp[N][j] = dp[N - 1][j]</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">Ai を足す</td>
-          <td style="text-align: center">Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i<br>Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]<br>Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th style="text-align: center">場合分け</th>
+					<th style="text-align: center">操作</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center">Ai を足さない</td>
+					<td style="text-align: center">dp[N][j] = dp[N - 1][j]</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">Ai を足す</td>
+					<td style="text-align: center">Ai を始点にする場合 dp[N][j] += dp[N - 1][j] + i<br>Ai を始点にしない場合 dp[N][j + Ai] += dp[N - 1][j]<br>Ai を終点にする場合 answer += dp[N - 1][S - Ai] * (n - i)</td>
+			</tr>
+	</tbody>
 </table>
 
   </article>
